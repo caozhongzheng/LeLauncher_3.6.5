@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/weather_widget_square_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="left"
+        android:maxWidth="90dp"
+        android:shadowColor="#88000000"
+        android:shadowDx="0.0"
+        android:shadowDy="4.0"
+        android:shadowRadius="8.0"
+        android:singleLine="true"
+        android:textSize="16dp" >
+    </TextView>
+
+    <RelativeLayout
+        android:id="@+id/weather_widget_square_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/weather_widget_square_icon"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="3dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/weather_widget_square_icon"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/weather_widget_square_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:maxWidth="100dp"
+                android:shadowColor="#88000000"
+                android:shadowDx="0.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="6.0"
+                android:textSize="16dp" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/weather_widget_square_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="true"
+                android:ellipsize="marquee"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="left"
+                android:maxWidth="100dp"
+                android:shadowColor="#88000000"
+                android:shadowDx="0.0"
+                android:shadowDy="3.0"
+                android:shadowRadius="6.0"
+                android:singleLine="true"
+                android:textSize="16dp" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

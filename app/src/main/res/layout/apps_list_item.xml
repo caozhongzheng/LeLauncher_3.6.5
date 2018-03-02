@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="match_parent"  
+  android:layout_height="match_parent">  
+  
+    <TextView  
+        android:id="@+id/alpha"  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:paddingLeft="@dimen/apps_list_alpha_padding_left"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="@dimen/apps_list_alpha_padding_top"
+        android:paddingBottom="@dimen/apps_list_alpha_padding_bottom"  
+        android:textColor="@color/apps_list_alpha_text_color"
+        android:textSize="16sp"
+        android:background="@drawable/apps_list_alpha_bg"  
+        android:textAppearance="?android:textAppearanceMedium"
+        android:visibility="visible" />  
+   <!-- <GridView 
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|top"
+        android:layout_below="@id/alpha"
+        android:padding="10dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        /> --> 
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|top"
+        android:layout_below="@id/alpha"
+        android:useDefaultMargins="false"
+        android:alignmentMode="alignBounds"
+        android:rowOrderPreserved="false"
+        android:columnCount="4"
+        android:paddingLeft="@dimen/grid_layout_padding_left"
+        android:paddingRight="@dimen/grid_layout_padding_right"
+        android:paddingTop="@dimen/grid_layout_padding_top"
+        android:paddingBottom="@dimen/grid_layout_padding_bottom"
+        />          
+   <!--  <TextView  
+        android:id="@+id/number"  
+        android:textAppearance="?android:textAppearanceSmall"  
+        android:ellipsize="marquee" 
+        android:layout_marginLeft="2.0dip"  
+        android:layout_marginTop="6.0dip"  
+        android:layout_marginRight="5.0dip" 
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/name"
+        android:layout_alignTop="@id/image_view"/> -->
+</RelativeLayout>

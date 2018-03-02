@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2013-02-20 . S-->
+<lenovo-widgets>
+<!--     <lenovo-widget activity_name="TaskManagerWidgetProvider" Width="1" Height="1" 
+	    WidgetView="TaskManagerWidget"></lenovo-widget>
+	    -->
+<!--	
+	<lenovo-widget activity_name="WeatherWidgetAppWidgetProvider" Width="4" Height="2" 
+	    WidgetView="WeatherWidgetView"></lenovo-widget>
+	<lenovo-widget activity_name="WeatherWidgetSquareWidgetProvider" Width="2" Height="2" 
+	    WidgetView="WeatherWidgetSquareView"></lenovo-widget>
+	<lenovo-widget activity_name="ToggleWidgetAppWidgetProvider" Width="4" Height="1" 
+	    WidgetView="ToggleWidgetView"></lenovo-widget>
+	     
+	<lenovo-widget activity_name="WeatherWidgetMagicWidgetProvider" Width="4" Height="1" 
+	    WidgetView="WeatherWidgetMagicView"></lenovo-widget>
+   <lenovo-widget activity_name="LotusWidget" Width="4" Height="3" 
+	    WidgetView="LotusProviderHelper"></lenovo-widget>
+	 -->
+	 
+<!-- 	<lenovo-widget activity_name="ShortCutActivity" Width="1" Height="1" 
+	    WidgetView="ShortCutView"></lenovo-widget>
+	<lenovo-widget activity_name="LockWidgetProvider" Width="1" Height="1" 
+	    WidgetView="LockWidgetView"></lenovo-widget>-->
+	    <!-- 
+	<lenovo-widget activity_name="GameActivity" Width="1" Height="1" 
+	    WidgetView="GameView"></lenovo-widget> -->
+</lenovo-widgets>

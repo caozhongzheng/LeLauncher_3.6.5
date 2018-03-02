@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <!-- change by xingqx 2012.03.01 -->
+    <string name="application_name">Lenovo Launcher</string>
+    <!-- Name for all applications running as this uid. -->
+    <string name="uid_name">Android Core Apps</string>
+    <!-- Default folder name -->
+    <string name="folder_name">"Unnamed Folder"</string>
+    <!-- Title of dialog that appears after user selects Wallpaper from menu -->
+    <string name="chooser_wallpaper">Select wallpaper from</string>
+    <!-- Button label on Wallpaper Gallery screen; user selects this button to set a specific wallpaper -->
+    <string name="wallpaper_instructions">Wallpaper</string>
+    <!-- Option in "Select wallpaper from" dialog box -->
+    <string name="pick_wallpaper">Static Wallpaper</string>
+    <!-- Displayed when user selects a shortcut for an app that was uninstalled [CHAR_LIMIT=none]-->
+    <string name="activity_not_found">Application is not installed.</string>
+    <!--  Labels for the tabs in the customize drawer -->
+    <string name="widgets_tab_label">Widgets</string>
+    <!-- RK_ID: TASK_TAB.  AUT: zhaoxy . DATE: 2012-08-13 . START-->
+    <string name="apptask_tab_label">Recent</string>
+    <string name="apprunning_tab_label">running</string>
+    <!-- RK_ID: TASK_TAB.  AUT: zhaoxy . DATE: 2012-08-13 . END-->
+
+    <!-- AppsCustomize pane -->
+    <!-- Message to tell the user to press and hold on a widget to add it [CHAR_LIMIT=50] -->
+    <string name="long_press_widget_to_add">Touch &amp; hold to pick up a widget</string>
+    <!-- Market button text.  The market button text is removed in Launcher.java 
+         in the Phone UI. [CHAR LIMIT=32] -->
+    <string name="market">Shop</string>
+    <!-- The format string for the dimensions of a widget in the drawer -->
+   
+    <string name="external_drop_widget_error">Could not drop item onto this homescreen</string>
+    <!-- External-drop widget pick title.  This is shown as the title of the
+         dialog which allows you to pick which widgets to handle a particular
+         drop if there are multiple choices. [CHAR_LIMIT=35] -->
+    <string name="external_drop_widget_pick_title">Select widget to create</string>
+
+    <!-- Folders -->
+    <skip />
+    <!-- Label of Folder name field in Rename folder dialog box -->
+    <string name="rename_folder_label">Folder name</string>
+    <!-- Title of dialog box -->
+    <string name="rename_folder_title">Rename folder</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename folder dialog box -->
+    <string name="cancel_action">Cancel</string>
+
+    <!-- Shortcuts -->
+    <skip />
+    <!-- Title of dialog box -->
+    <string name="menu_item_add_item">Add to Home screen</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all apps -->
+    <string name="group_applications">Applications</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all shortcut
+s -->
+    <string name="group_shortcuts">Shortcuts</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of all widgets/gadgets -->
+    <string name="group_widgets">Widgets</string>
+    <!--XMUI-->
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper-->
+    <string name="thd_widgets">3D Widgets</string>
+    <!-- Options in "Add to Home" dialog box; Title of the group containing the list of apps that can set the wallpaper-->
+    <string name="group_wallpapers">Wallpapers</string>
+    <!-- Error message when user has filled a home screen, possibly not used -->
+    <string name="out_of_space">No more room on this Home screen.</string>
+    <!-- Error message when user tries to drop an invalid item on the hotseat -->
+    <string name="invalid_hotseat_item">This widget is too large for the hotseat.</string>
+    <!-- Message displayed when a shortcut is created by an external application -->
+    <string name="shortcut_installed">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" created.</string>
+    <!-- Message displayed when a shortcut is uninstalled by an external application -->
+    <string name="shortcut_uninstalled">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" was removed.</string>
+    <!-- Message displayed when an external application attemps to create a shortcut that already exists -->
+    <string name="shortcut_duplicate">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" already exists.</string>
+
+    <!-- Title of dialog when user is selecting shortcut to add to homescreen -->
+    <string name="title_select_shortcut">Select shortcut</string>
+    <!-- Title of dialog when user is selecting an application to add to homescreen -->
+    <string name="title_select_application">Select application</string>
+
+    <!-- All applications label -->
+    <string name="all_apps_button_label">Apps</string>
+    <!-- Label for button in all applications label to go back home (to the workspace / desktop)
+         for accessibilty (spoken when the button gets focus). -->
+    <string name="all_apps_home_button_label">Home</string>
+    <!-- Label for trash icon on workspace. Meant to communicate the idea of removing the
+         icon/widget from the home screen, but not permanently. [CHAR_LIMIT=30] -->
+    <string name="delete_zone_label_workspace">Remove</string>
+    <!-- Label for trash icon in All Apps. The icon/widget will become completely unavailable on the
+         device. [CHAR_LIMIT=30]-->
+    <string name="delete_zone_label_all_apps">Uninstall</string>
+
+    <!-- Label for delete drop target. [CHAR_LIMIT=30] -->
+    <string name="delete_target_label">Remove</string>
+    <!-- Label for uninstall drop target. [CHAR_LIMIT=30]-->
+    <string name="delete_target_uninstall_label">Uninstall</string>
+    <!-- Label for the info icon. [CHAR_LIMIT=30] -->
+    <string name="info_target_label">App info</string>
+
+    <!-- Accessibility: Search button -->
+    <string name="accessibility_search_button">Search</string>
+    <!-- Accessibility: Voice Search button -->
+    <string name="accessibility_voice_search_button">Voice Search</string>
+    <!-- Accessibility: AllApps button -->
+    <string name="accessibility_all_apps_button">Applications</string>
+    <!-- Accessibility: Delete button -->
+    <string name="accessibility_delete_button">Remove</string>
+
+    <!-- Label for trash icon in All Apps, when an updated system app is selected. The update will
+         be uninstalled. [CHAR_LIMIT=30] -->
+    <string name="delete_zone_label_all_apps_system_app">Uninstall update</string>
+
+    <!-- Menus items: -->
+    <skip />
+    <!-- Verb, menu item used to add an item on the desktop -->
+    <string name="menu_add">Add</string>
+    <!-- Menu item used to manage installed applications -->
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="menu_manage_apps">Apps</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <!-- Noun, menu item used to set the desktop's wallpaper -->
+    <string name="menu_wallpaper">Wallpaper</string>
+    <!-- Verb, menu item used to initiate global search -->
+    <string name="menu_search">Search</string>
+    <!-- Noun, menu item used to bring down the notifications shade -->
+    <string name="menu_notifications">Notifications</string>
+    <!-- Noun, menu item used to show the system settings -->
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="menu_settings">Settings</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 START -->
+    <!-- Noun, menu item used to show the desktop settings -->
+    <string name="menu_theme_settings">Theme</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="menu_sense_settings">Desktop backup and recovery</string>
+    <string name="menu_desktop_settings">Preferences</string>
+    <string name="menu_screen_setting">Preview</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 END -->
+    <!-- Noun, menu item used to show help. [CHAR_LIMIT=none] -->
+    <string name="menu_help">Help</string>
+
+      <!--  Strings for the contextual action bar (CAB) in All Apps -->
+    <skip />
+    <!-- Describes the button for uninstalling the currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none] -->
+    <string name="cab_menu_delete_app">Uninstall application</string>
+    <!-- Describes the button for getting details/info about currently selected application.
+         Text is not displayed, but provided for accessibility. [CHAR_LIMIT=none] -->
+    <string name="cab_menu_app_info">Application details</string>
+    <!-- Appears in the CAB when an app is selected in All Apps or Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_app_selection_text">1 application selected</string>
+    <!-- Appears in the CAB when a widget is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_widget_selection_text">1 widget selected</string>
+    <!-- Appears in the CAB when a folder is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_folder_selection_text">1 folder selected</string>
+    <!-- Appears in the CAB when a shortcut is selected in Customize mode. [CHAR_LIMIT=50] -->
+    <string name="cab_shortcut_selection_text">1 shortcut selected</string>
+
+    <!-- Permissions: -->
+    <skip />
+    <!-- Permission short label -->
+    <string name="permlab_install_shortcut">install shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_install_shortcut">Allows an application to add
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_uninstall_shortcut">Allows an application to remove
+        shortcuts without user intervention.</string>
+    <!-- Permission short label -->
+    <string name="permlab_read_settings">read Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_read_settings">Allows an application to read the settings and
+        shortcuts in Home.</string>
+    <!-- Permission short label -->
+    <string name="permlab_write_settings">write Home settings and shortcuts</string>
+    <!-- Permission description -->
+    <string name="permdesc_write_settings">Allows an application to change the settings and
+        shortcuts in Home.</string>
+
+    <!-- Widgets: -->
+    <skip />    
+
+    <!-- Text to show user in place of a gadget when we can't display it properly -->
+    <string name="gadget_error_text">Problem loading widget</string>
+
+    <!-- Text to inform the user that they can't uninstall a system application -->
+    <string name="uninstall_system_app_text">This is a system application and cannot be uninstalled.</string>
+
+    <!-- Default folder title -->
+    <string name="folder_hint_text">Unnamed Folder</string>
+
+    <!-- Accessibility -->
+    <skip />
+
+    <!-- Clings -->
+    <!-- The title text for the workspace cling [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_title">Make yourself at home</string>
+    <!-- The description of how to use the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_move_item">You can put your favorite apps here.</string>
+    <!-- The description of how to open all apps from the workspace [CHAR_LIMIT=none] -->
+    <string name="workspace_cling_open_all_apps">To see all your apps, touch the circle.</string>
+    <!-- The title text for the All Apps cling [CHAR_LIMIT=none] -->
+    <string name="all_apps_cling_title">Choose some apps</string>
+    <!-- The description of how to pick up and add an item to the workspace [CHAR_LIMIT=none] -->
+    <string name="all_apps_cling_add_item">To add an app to your home screen, touch &amp; hold it.</string>
+    <!-- The title text for the Folder cling [CHAR_LIMIT=none] -->
+    <string name="folder_cling_title">Organize your apps with folders</string>
+    <!-- The description of how to move an app [CHAR_LIMIT=none] -->
+    <string name="folder_cling_move_item">To move an app, touch &amp; hold it.</string>
+    <!-- The description of how to create a folder [CHAR_LIMIT=none] -->
+    <string name="folder_cling_create_folder">To make a new folder on your home screen, stack one app on top of another.</string>
+    <!-- The text on the button to dismiss a cling [CHAR_LIMIT=none] -->
+    <string name="cling_dismiss">OK</string>
+    <string name="cling_dismiss_new">Confirm</string>
+    <add-resource type="string" name="default_folder_name" />
+
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 START -->
+    <!-- add for menu for theme settings -->
+    <string name="header_category_personal">PERSONAL</string>
+    <string name="workspace_slide_settings_title">Desktop page-turning animation</string>
+    <string name="workspave_slide_settings_summary">"You can set slide effect of launcher's workspace."</string>
+    <string name="theme_settings_title">My Theme</string>
+    <string name="theme_settings_default_theme">Classic</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="add_folder">Folders</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <!-- AUT: xingqx xingqx@lenovo.com  DATE:  2012-02-27 s -->
+    <!-- <string name="Lenovo Launcher_help_title">Lenovo Launcher help</string> -->
+    <string name="about_lenovo_desktop_settings">About Lenovo Launcher</string>
+    <string name="about_desktop_version">About version</string>
+    <string name="lenovo_desktop_verion_title">Current Version</string>
+    <string name="lenovo_desktop_verion_summary">Lenovo Launcher Version </string>
+    <string name="lenovo_desktop_release_time_title">Release time</string>
+    <string name="lenovo_desktop_release_time_summary">2012.03.15</string>
+    <string name="lenovo_desktop_qq_title">Lenovo Launcher QQ Group</string>
+    <string name="lenovo_desktop_qq_summary">112119507</string>
+    <string name="lenovo_desktop_website_title">Official website</string>
+    <string name="lenovo_desktop_website_summary">http://launcher.lenovo.com</string>
+    <string name="contact_us">Contact us</string>
+    <string name="user_data_acquisition_title">User experience improvement plan</string>
+    <string name="user_data_acquisition_summary">Assist the user experience of ascension</string>
+    <string name="btn_agree">Agree</string>
+    <string name="push_text11">User experience improvement plan</string>
+    <string name="uepromotion_protocol">\tThank you for selecting lenovo mobile devices! Before using the "User experience improvement plan" function of lenovo mobile devices, you must read the following terms carefully:\n 
+    \tWe will provide the mobile communication network/Internet based online data center related services in accordance with this user experience improvement plan ("this plan"). In this plan, all the information, functions, contents, software, hardware or services provided directly by us are collectively referred to as "Services".The plan is signed by you and Beijing Legend Tiaopin Technology Co., Ltd. (hereinafter referred to as "we" or "our company"). Depending on the context, in this plan, "we" may sometimes include our suppliers, service providers, customers or employees. Any reference to "you" shall mean any entity or individual who agrees to join or use this service.\n 
+    
+1.	\tService definition and description\n
+ 
+"User experience improvement plan" is a service function we proposed for lenovo mobile devices, which is designed to enhance the products or services and improve the user experience. After enabling the "User experience improvement plan" function in your mobile device, you can have the priority to experience the new services of "User experience improvement plan" while using the original functions of your mobile devices: \n
+\n
+    \tEnhanced device hardware and software acceleration function and personalized experience\n
+(1)	 Speed up the boot process and save your boot time to provide you with a better boot experience;\n
+(2)	 Provide you with the most popular software function experience. These functions are simple, easy to use and considerate;\n
+(3)	 Enhanced GPS positioning function, providing faster and more accurate GPS positioning functions;\n
+(4)	 Intelligent recognition and switching functions of 3G, WLAN and other network modes provide personalized services in different network environments. This largely save your 3G network traffic and costs while you enjoy the services; \n
+\n
+    \tMulti-faceted, personalized content recommendation service:\n  
+(1)	 When you are playing games, we will provide you with the latest game download links and information that you may be interested in;\n
+(2)	 When you are listening to music, we will provide you with information on recent activities, concerts and popular new songs of related singers;\n
+(3)	 When you are trying to use mobile offices, we will provide you with the latest and most popular office software and experience;\n
+(4)	 When you are surfing the Web, we will provide you with safe and fast access experience, and recommend the latest software, games, news, ebooks, music, videos and other personalized content services and multimedia audio-visual entertainment that you may be interested in;\n
+(5)	 When you are positioning navigation, in addition to the more accurate and efficient GPS positioning functions, we will also provide you with food, clothing and shelter recommendations and retrieval services based on location information;\n
+\n
+    \tSafe and reliable software and service experiences;\n
+(1)	 Through the grading and scoring mechanism for software, we will provide you with many types of built-in software which are more secure;\n
+(2)	 Considerate one-stop application retrieve, download, install and uninstall services, letting you experience the most popular software and games immediately;\n
+(3)	 Build personal cloud storage services for you; Let you share information between phones, computers, pads and even multimedia televisions of compatible formats anywhere, and you will no longer need to worry about missing your files. \n
+    You shall clearly understand and acknowledge that we only offer one convenient service. In other words, this service only provides you with the optimization, enhancement or personalization assistance based on your mobile device\'s existing functions. Specific services and contents may be provided by other third parties. We will not provide you with services and specific information content which shall be provided by their providers. \n
+    We will not provide any warranties for services and information content provided by any third parties, including but not limited to warranties for the security, reliability, timeliness and applicability of such information content. If you have any questions, objections, comments or suggestions on such information content, you shall contact the providers and consult with them. We do not assume any responsibility to you on this. \n
+    We reserve the rights to adjust the service content and service method as needed (including but not limited to the terms of service), and these adjusted contents or services or overview and/or function description based on them will be the effective part of this agreement. We will make reasonable business efforts to inform you. While you enjoy the services, you shall check and see the modified contents in time and follow them. \n
+    We may use technology or other measures to protect the services, ensure that the services comply with relevant laws and regulations and policy requirements, protect our suppliers, customers and employees, or prevent you from violating this plan. These measures may include but not limited to the control of your use of this service. These measures may prevent or interrupt your use of this service. \n
+\n
+2.	\tHow to obtain the service\n
+To obtain this service, you shall: \n
+(a) Make sure your mobile device has been connected to mobile communication network/Internet and the network connection is smooth; \n
+(b) Open the function modules corresponding to the service, such as push service, GPS, etc.; \n
+(c) Sign the plan in accordance with the Article 3 of this plan. \n
+    If you meet the above conditions, then you can use this service in accordance with this plan. \n
+3.	\tSign a plan\n
+\t    You must accept to sign the terms and conditions of this plan before you can use this service. When you sign this plan, you must reach the age of legal capacity as stipulated by applicable laws; if you are under such age of legal capacity, the signing of the plan must be completed by your parent or legal guardian. \n
+The following behaviors indicate that you understand and accept the terms and conditions of this plan: \n
+(a) You click on the I Agree or I Accept or similar buttons to confirm that you agree to or accept the online version of this plan;  \n
+(b) You have signed the paper version of this plan with us; \n
+(c) You have used this service (including any third party services provided together with this service). If you do not agree to the terms and conditions of this plan, please do not use this service. \n
+4.	\tService period and service fee \n
+\t    At present, services under this agreement are free services, but we reserve the rights to charge you for these services in the future. If we plan to charge this service, we will notify you in advance about the fees. We may not provide this service to you within a specific period ("service period") unless you pay the corresponding service fees in accordance with our requirements. We reserve the right to adjust the service fee at any time based on our actual situations. \n
+\t    The service fees do not include any fees incurred due to your access to Internet or mobile network. Whether the service is provided on a paid basis, any expenses (such as telephone bills, SMS bills, and fees incurred due to your access to other Internet services and online purchase of other applications, audio and video contents, services or products) payable to a third party (including network operators) due to your use of the service, shall be solely borne by yourself. \n
+5.	\tHow to use this service \n
+When using this service, you shall: \n
+    \tComply with any applicable laws, including international treaties or conventions;\n 
+    \tComply with all the plans, principles, provisions, procedures or notices related to this service; \n
+    \tImmediately notify us of any illegal use of your lenovo account or security bug in your account that you have become aware of; \n
+6.	\tProhibitions \n
+When using this service, you shall not: \n
+    \tUse this service to engage in any activities which may have an adverse effect on the normal operation of Internet or mobile networks; \n
+    \tUse this service to infringe the intellectual property rights or any other legal rights or interests of any other persons; \n
+    \tUse this service in such a manner that may impair the interests or reputation of us or our affiliates, dealers, distributors and/or suppliers (collectively referred to as "we"), or the interests or reputation of any customers thereof; "Affiliates" in this plan refer to the organizations controlled by us, under the same control of a third party as us, or controlling us. The "organizations" here refer to any companies, enterprises or other legal entities; and "control" means the ability to directly or indirectly affect the management of above-mentioned organizations, whether through ownership, voting shares, contracts or other methods. \n
+    \tEngage in or promote any illegal activities by using or leveraging this service; \n
+    \tUse any part of the service as a target link to any unsolicited bulk information or commercial information ("junk emails"); \n
+    \tAccess and/or use this service by using any automatic process or service; \n
+    \tUse any unauthorized means to modify or reroute, or attempt to modify or reroute this service; \n
+    \tDamage or destroy this service (or any network connected to this service) or make this service unworkable or being overloaded or disrupt the use and enjoyment of the service by any other parties; \n
+    \tResell or redistribute this service or any part of this service. \n
+7.	\tConsequence of breach \n
+    \tIf you breach any provisions of this plan when using this service, we reserve the rights to ask you to remedy such breach or directly take responsive measures, including but not limited to: (a) suspend the service provided to you; and/or (b) terminate the service provided to you, so as to minimize the influence of your misconduct. \n
+    \tAny penalty, investigation, accusation, claims or demands resulted from or incurred due to your conduct shall be settled by you at your own expense; and any losses and liabilities arising therefrom shall be solely borne by you.\n 
+    \tYou shall, at your own expense, defend and not hold us and our affiliates accountable ("us" includes our suppliers, customers or employees), against any penalty, investigation, accusation, claims or demands initiated by any third party against us ("us" includes our affiliates, suppliers, customers or employees) due to your conduct, immediately upon your receipt of our notice. In addition, we reserve the rights to claim against you for any losses sustained by us due to your conduct. \n
+8.	\tService changes\n 
+    \tWe may regularly or irregularly examine, repair, maintain and update the services\' websites or relevant devices so as to better meet our customers\' demands or update our products or perform technical improvement. For any suspension of the service for a reasonable period due to such reasons aforementioned, we promise to make reasonable efforts to inform you thereof in advance, and shall assume no responsibility for the inconvenience and losses caused by such reasons. 
+In consideration of the particularity and unpredictability of Internet services, you agree that we may change, suspend or terminate this service at any time for any reasons. If possible, we will make commercially reasonable efforts to send you a prior notice of such change, suspension or termination, but shall not be obligated to send such notice. 
+You can close the "User experience improvement plan" in the item "Device settings" at any time. After closing it, your mobile device will no longer interact with the server of this plan, and you can no longer use the corresponding functions and services.\n 
+    \tUpon the termination of the service for any reason, your rights to use the service will be terminated accordingly.\n 
+9.	\tIntellectual property rights \n
+    \tWe or the third party have all the rights, ownerships or interests in or to the service or any part thereof or the software and any text, picture, graph, audio and/or video materials ("materials") provided through or together with this service, including but not limited to all intellectual property rights. These materials are protected by laws on copyright, trademark and/or other property ownership. You agree not to modify, adapt, translate, produce derivative works from, decompile, reverse engineer or disassemble this service or materials provided through or together with this service, or attempt to derive source codes from the service or the materials in other ways, or extract a substantial part thereof for any other applications. You also agree not to remove, obscure or alter the copyright notice, trademark or other proprietary right notice by us or any third party attached to or contained in this service or accessed together with or through this service. "Intellectual property rights" means any and all rights available from time to time under patent laws, copyright laws, trade secret laws, trademark laws and anti-unfair competition laws and any and all other proprietary rights, and any and all applications therefor and renewals, extensions and restorations thereof, now or hereafter in force and effect worldwide. \n
+    \tUnless otherwise expressly specified herein, nothing in this plan shall be construed as the assignment by a party to the other party of any copyright, patent, trade secret, trademark or other intellectual property rights held thereby.\n 
+10.	\tData collection and protection \n
+\n
+     \tIn order to collaborate and provide better services, if you participated in the "User experience improvement plan", we will irregularly sync your mobile device operation data, including: equipment switch events, Push service switching events, WLAN switch events, GPS switch events and data, operator information, system function usage data, application startup/shutdown events, application installation/uninstallation events, device operation data (key features, exceptions, error data) and so on. \n
+\n
+    \tThe device operation data synchronized by "User experience improvement plan" are collected anonymously. \n
+    \tSynchronized mobile device data will be unified, encrypted, and stored on a particular server and kept for a period less than one year. Such information will be protected in accordance with our privacy policy. \n
+    \tYou may read details of our privacy policy by visiting http://www.lenovo.com.cn/Public/public_bottom/privacy.shtml.\n 
+    \tAnd we may access, use or disclose your data and information only for the following purposes:\n 
+(a) For the anonymous analysis of device running state and application function usage, in order to discover the problems when devices and applications are running; as the basis for improving products or service functions, improving user experiences and providing the services listed in Article 1 of this plan;\n 
+(b) To comply with laws or assist in investigation or enforcement by a judicial and/or enforcement authority; \n
+(c) To protect our and our customers\' property and legal rights, including the implementation of the plan and compliance with the policy applicable to this service; or \n
+(d) To protect the rights, properties and security of the public. \n
+However, there may be specific data leakage risks when you provide and transmit data through the network. You have fully considered and are willing to take the risk, so you hereby confirm that you will assume the responsibility for the consequences of data leakage caused by the network transmission. For such data leakage which is out of our control or not caused by our fault, and we shall not assume any responsibility. \n
+11.	\tLimited warranties \n
+    \tWe guarantee that we will provide this service in a professional manner consistent with the industry standards. You shall inform us of any inconsistency of this service provided by us with this warranty within ninety (90) days since this service is provided. \n
+    \tYou know and acknowledge that what we provide under this plan are services instead of goods. Therefore, we have made no warranty or representation with regard to this service other than above warranties, and hereby disclaim any other warranties or conditions (whether express or implied), including but not limited to those with respect to merchantability, applicability for a specific purpose and non-infringement.\n 
+    \tYou understand that this service is provided based on continuously developing technologies and in reliance upon telecommunication, Internet and other third-party services, and therefore may fail to satisfy the users\' demands due to disruption, delay or other problems occurred to this service, caused by unstable factors including but not limited to force majeure, computer virus or hacker attack, unstable system, user\'s location, user\'s device shutdown, or breakdown of GSM network, Internet, 3G network or other communication circuit. All of such risks shall be solely borne by the user who has enabled the service. We make no absolute warranty on the promptness, security or accuracy of the service and bear no liability for failure of timely and accurate storage, sending, receipt and reading of data, or any other similar problems caused by the reasons mentioned above. \n
+   \t You will decide whether to use this service at your sole discretion and bear any liabilities arising from such decision. \n
+    \tIf applicable laws prohibit the exclusion of some implied warranties by contracts, then to the greatest extent prohibited by such applicable laws, the above exclusion of implied warranties does not apply to you. And you may continue to enjoy the rights which are so prohibited to be excluded or restricted by contracts. \n
+12.	\tLimitation of liabilities \n
+    \tIf the service provided by us is inconsistent with the above warranty, we will make commercially reasonable efforts to correct the errors and provide the service again. If we are unable to materially correct any error therein in a commercially reasonable manner, you have the rights to terminate relevant services. If we charge you for the service, you can request refunds in reasonable proportion. The foregoing has set out all remedies available to you and all liabilities to be borne by us for such inconsistency. \n
+    \tNotwithstanding any other provisions of this plan, we bear no liability or obligation for: (a) any amount exceeding the total service fees received by us hereunder (if any); (b) any cost and expense incurred for obtaining substitute goods, technologies, services or rights; (c) expense, expense increase or loss incurred due to the interruption or delay of the service or the damage or loss of data, whether based on this plan or any contract, negligence, strict liabilities or any other legal principle, even if we have received a prior notice about possibility of compensation for damages mentioned above. \n
+    \tWe will in no case be liable for any incidental, indirect or consequential damage or loss of profits. \n
+    \tIf laws of your country prohibit the exclusion or limitation of some liabilities by contract, then to the greatest extent prohibited by such laws, the above liability limitation or exclusion provisions shall not apply to you.\n 
+13.	\tPlan changes\n
+    \tWithout prejudice to your material rights to enjoy the service, we reserve the rights to amend the provisions of this plan as necessary. We will provide a reasonably prior notice of any amendment to this plan via (a) webpage announcement; (b) e-mail; (c) push service and/or (d) SMS, etc. Please read the latest version of this plan at http://www.lenovomm.com (or any other website provided by us) from time to time to learn about any amendment. If you do not accept any amendment to this plan, please cancel and cease your use of the service before such amendment comes into force. If you do not cease your use of the service, you should use the service in accordance with the provisions of the amended plan.\n 
+14.	\tTermination; effects of termination \n
+   \t This plan shall become effective as of the agreed effective date until it is terminated by either party. \n
+   \t Upon the termination of this plan due to the expiry of its term or for any other reason, the [Intellectual property rights], [Limited warranties], [Limitation of liabilities], [Information collection and privacy protection] and [Termination; effects of termination] and other provisions of this plan that shall survive based on their nature shall survive and remain in force and effect until they have been fully performed. \n
+15.	\tConstruction of the plan\n
+    \tIf any provision of this plan is held invalid or unenforceable in whole or in part for whatever reason, the parties hereto shall replace such provision with a provision that can best reflect the intention of such invalid or unenforceable provision, and the remaining provisions of this plan shall remain valid and binding. This plan shall constitute the complete plan between the parties hereto on the subject matter of this plan and other relevant matters, and will supersede any prior plan or representation on your use of this service. The headings herein are inserted only for convenience and shall not affect the construction of this plan. If there is any inconsistency between this plan and lenovo Account Registration Plan, this plan shall prevail. \n
+16.	\tAssignment of the plan \n
+    \tWe may assign or subcontract this plan in whole or in part at any time with or without prior notice for the purpose of achieving or providing better services. You shall not assign this plan or any part hereof to any other person. Any assignment made by you shall be null and void. You shall not assign your rights to use this service or any part of this service to any other person, whether permanently or temporarily. \n
+17.	\tNo third-party beneficiary \n
+    \tThis plan shall only inure to the benefit of you and us and shall not inure to the benefit of any other persons other than the permitted successors or assignees. \n
+18.	\tGoverning law \n
+    \tThis plan shall be concluded and construed in accordance with the applicable laws of the mainland of the People\'s Republic of China (excluding Hong Kong and Macau). Any disputes and conflicts arising from or in connection with the performance and interpretation of this plan shall be submitted to a court having jurisdiction at the place where we domicile for ruling. \n
+19.	\tTrademark notice \n
+    \t"Lenovo" and other logos of Lenovo are trademarks or registered trademarks of Lenovo (Beijing) Limited or its affiliates in mainland China and/or other countries. Other products, trade names and trademarks referred to herein are trademarks or registered trademarks of their respective holders. Any reference of such products, trade names and trademarks is only for explanation and does not indicate any relevance between this service and these companies or organizations. We reserve all rights that are not expressly granted hereunder. \n
+    </string>
+
+    <!-- AUT: xingqx xingqx@lenovo.com  DATE:  2012-02-27 e -->
+    <!-- AUT: xingqx xingqx@lenovo.com DATE: 2012-01-19 cancel for bug in roll -->
+    <string-array name="pref_slide_effect_choices">
+        <item>Default</item>
+        <!--<item>Random</item>-->
+        <!--<item>Scale</item>-->
+        <item>Rotate</item>
+        <item>BullDoze</item>
+        <!--<item>Bounce</item>-->
+        <item>Windmill</item>
+        <item>Cube</item>
+        <item>Sine Wave</item>
+        <!--<item>Wave</item>-->
+        <item>Cylinder</item>
+        <!--<item>Sphere</item>-->
+        <!--<item>Chariot</item>-->
+        <!--<item>Snake</item>-->
+        <!--<item>Sweep</item>-->
+        <!--<item>Worm</item>-->
+    </string-array>
+    
+    <string-array name="pref_app_slide_effect_choices">
+        <item>Default</item>
+        <item>Random</item>
+        <item>Scale</item>
+        <item>Rotate</item>
+        <item>BullDoze</item>
+        <item>Bounce</item>
+        <item>Windmill</item>
+        <item>Cube</item>
+        <item>Sine Wave</item>
+        <item>Wave</item>
+        <item>Cylinder</item>
+        <item>Sphere</item>
+        <item>Chariot</item>
+        <item>Snake</item>
+        <item>Sweep</item>
+        <item>Worm</item>
+    </string-array>
+    
+    <string name="get_more_theme">Get More</string>
+    <string name="style_settings">Theme Settings</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="profile_settings">Scene Settings</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <string name="apply_theme">Apply theme</string>
+    <string name="delete_theme">Delete theme</string>
+    <string name="theme_appling_progress_info">Applying theme, please wait</string>
+    <string name="theme_appling_success">Theme has been applied successfully!</string>
+    <string name="icon_bg_style_settings_default">Icon background default style</string>
+    <string name="icon_bg_style_settings_title">Icon decoration</string>
+    <string name="icon_text_style_settings_default">Icon text default style</string>
+    <string name="icon_text_style_settings_title">Icon text style</string>
+    <string name="icon_style_settings_title">Desktop folder style</string>
+    <string name="icon_style_settings_default">Default style</string>
+    <string name="hotseat_settings_title">Desktop page number style</string>
+    <string name="hotseat_settings_default">Default style</string>
+    <string name="website_settings_default">AppStore</string>
+    <string name="website_settings_title">Application download source</string>
+    <string name="header_category_workspace_anim">Dynamic effect settings</string>
+    <string name="workspace_loop_settings_title">Desktop cycle display</string>
+    <string name="workspace_loop_on">Enabled</string>
+    <string name="applist_enter_effect_title">Applist enter effect animation</string>
+    <string name="applist_enter_default_effect">Center amplification</string>
+    <string name="applist_slide_effect_title">Application list flip animation</string>
+    <string name="applist_slide_default_effect">Horizontal flip</string>
+    <string name="header_category_lockscreen">Screen lock settings</string>
+    <string name="header_lockscreen_lenovo_title">Enable Lenovo Lockscreen program</string>
+    
+    <string name="lockscreen_style_title">Lockscreen program</string>
+    <string name="header_category_applist">Application list settings</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="applist_wallpaper_title">Set application list wallpaper</string>
+    <string name="reset_applist_wallpaper_title">Restore the default application list wallpaper</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="performance">Performance</string>
+    <string name="optimal_performance">Improve operation efficiency of Lenovo Launcher</string>
+    <string name="always_alive_title">Resident memory</string>
+    <string name="applist">AppList</string>
+    <string name="desktop">Desktop</string>
+    <string name="style">Theme</string>
+    <string name="style_change_random">Random change</string>
+    <string name="checkbox_open">Enabled</string>
+    <string name="checkbox_Close">Disabled</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="aboutlenovodesktop_message">This is a test version 0.1</string>
+
+    <string-array name="pref_applist_effect_choices">
+        <item>Default</item>
+        <item>Windmill</item>
+        <item>Flip</item>
+        <item>Alpha</item>
+    </string-array>
+    
+    <string name="workspace_loop_settings_off">Disabled</string>
+    <string name="load_widget_settings_title">Loading widget preview</string>
+    <string name="load_widget_on">ON</string>
+    <string name="load_widget_off">OFF</string>
+    <string name="others">Others</string>
+    <string name="settings_network_dialog_title">Friendly reminder</string>
+    <string name="settings_network_dialog_message">Dear user, the traffic generated by the mobile device connected to the Internet costs will be charged according to your standard package. More charges, please consult your local carrier, you agree?</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 END -->
+    
+    <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . PUR: for leos dock . S -->
+    <string name="menu_addapp">Add shortcuts</string>
+    <string name="out_of_space_and_drag_it_away">The space of current page is full, please drag the gadget/application to other pages or drag here to cancel addition.</string>
+    
+    <string-array name="pref_folder_style_choices">
+        <item>Android default stack style</item>
+        <item>4-dot matrix style</item>
+    </string-array>
+    
+    <string-array name="pref_hotseat_style_choices">
+        <item>Android default slider style</item>
+        <item>Lenovo Launcher style</item>
+    </string-array>
+    
+    <string name="confirm_remove_theme">Do you confirm to remove this theme?</string>
+    <string name="confirm_remove_current_theme">Delete current theme? Default theme will be recovered after deletion.</string>
+    <string name="remove_theme_done">Deletion succeeded!</string>
+    <string name="remove_theme_failed">Deletion failed!</string>
+    <string name="theme_removing_progress_info">Deleting theme, please wait...</string>
+    <string name="theme_settings_init_progress_info">Initializing, please wait.</string>
+    
+    <!-- AUT:zhaoxy . DATE:2012-02-27. START-->
+    <string name="network_enabler_summary">Enable data access over network</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-27. END-->
+    <string name="network_enabler_title">Network connection</string>
+    <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . PUR: for leos dock . E -->
+ 
+
+    <!-- AUT: henryyu1986@163.com DATE: 2011-12-20 -->
+    <string name="home_zone_label_workspace">Home</string>
+    <string name="icon_settings_title">Icon decoration</string>
+    <string name="icon_style_clear">Clear</string>
+    <string name="icon_style_cancel">Cancel</string>
+    <string name="icon_style_done">Done</string>
+    <string name="icon_edit_style_settings_title">Icon edit style</string>
+    <string name="icon_edit_style_settings_default">Icon default edit style</string>
+    <string name="icon_text_size_settings_title">Icon text size</string>
+    <string name="icon_text_size_settings_default">Icon default text size</string>
+    <string-array name="pref_icon_edit_style_choices">
+        <item>Scale</item>
+        <item>Rotate-Z</item>
+        <item>Alpha</item>
+        <item>Translate</item>
+        <item>Jump</item>
+    </string-array>
+    
+    <string-array name="pref_icon_text_size_choices">
+        <item>Big</item>
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+    
+    <string name="normal_settings">Normal settings</string>
+    <string name="lockscreen_settings">Lockscreen settings</string>
+    <string name="personal_settings">Personalization settings</string>
+    <string name="version_update">Version update</string>
+    <string name="effect_settings">Special effect settings</string>
+    <string name="senior_settings">Advanced settings</string>
+    <string name="more_settings">More settings</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="backup_settings">Backup/Recovery</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="app_order_settings">Icon sequencing</string>
+    <string name="about_lenovo_desktop">About Lenovo Launcher</string>
+    <string name="settings_feedback_title">Feedback</string>
+    <string name="feedback_dialog_title">Lenovo Launcher Feedback</string>
+    <string name="feedback_hint">Please leave your questions and suggestions, we will continue to improve.(200 words).</string>
+    <string name="feedback_send">Send</string>
+    <string name="feedback_err_empty_message">There is no content, please re-enter it.</string>
+    <string name="feedback_err_network_disabled">The data flow switch is turned off, check the Preferences -> More settings -> Data Flow Switch.</string>
+    <string name="feedback_err_network_not_connected">Network connection failed, please connect it...</string>
+    <string name="feedback_sent_succeed">Sent successfully, thank you for your support.</string>
+    <string name="feedback_been_sent">Your suggestion was sent, thank you for your support.</string>
+    <string name="feedback_sent_failed">Failed to send, please try it again...</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="restore_backup_settings">Backup/Recovery</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="restore_theme_settings_title">Restore the backup profile</string>
+    <string name="backup_theme_settings_title">Backup current theme settings</string>
+    <string name="theme_settings_summary">Theme settings summary</string>
+    <string name="lockscreen_settings_summary">Enable or customize lockscreen</string>
+    <string name="personal_settings_summary">Personalization settings for icons/folders, etc.</string>
+    <string name="effect_settings_summary">Multiple dynamic effect settings</string>
+    <string name="senior_settings_summary">Advanced settings</string>
+    <string name="wallpaper_slide_settings_title">Wallpaper slide</string>
+    <string name="dync_theme_change_summary">Shake mobile phone to change theme</string>
+    <string name="dync_theme_change_settings_title">Dynamic Theme change</string>
+    <!-- AUT: henryyu1986@163.com DATE: 2011-12-20 -->
+	 <!-- AUT: zhanglq@bj.cobellink.com DATE: 2011-12-26 -->
+    <string name="prompt_delet_screen">Are you sure you want to delete non-empty screen？</string>
+    <string name="delet_confirm">YES</string>
+    <string name="delet_cancel">NO</string>
+    <string name="home_delet_prompt">The main screen cannot be deleted.</string>
+	 <!-- AUT: zhanglq@bj.cobellink.com DATE: 2011-12-26 -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-28 START add for profile -->
+    <string name="pref_backup_restore">Backup and recovery</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <string name="profile_settings_title">Scene</string>
+    <string name="profile_save_btn">Save Scene</string>
+    <string name="apply_profile">Apply Scene</string>
+    <string name="delete_profile">Delete Scene</string>
+    <string name="share_profile">Share</string>
+    <string name="pref_default_profile">Default Scene</string>
+    <string name="profile_save_profile_ok">Desktop backup successfully</string>
+    <string name="profile_save_profile_fail">Backup desktop failed</string>
+    <string name="profile_save_button">OK</string>
+    <string name="profile_querying_progress_info">Getting scenes, please wait</string>
+    <string name="profile_applying_progress_info">Applying desktop, please wait</string>
+    <string name="profile_backuping_progress_info">Saving desktop, please wait</string>
+    <string name="profile_apply_profile_ok">Desktop applied successfully</string>
+    <string name="profile_apply_profile_fail">Desktop applied failed</string>
+    <string name="operation_failed_by_no_free_space">Operation failed, storage space not enough.</string>
+    <string name="add_profile_name_title">Save Scene</string>
+    <string name="profile_name_conflict">Name has existed, please retry with other names!</string>
+    
+    <string name="no_need_to_restore">Nothing was selected to restore!</string>
+    
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <string name="add_profile_name_save">Save</string>
+    <string name="add_profile_cancel">Cancel</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. START-->
+    <!-- AUT:chengliang . DATE:2012-02-28. START-->
+    <string name="add_profile_hint">Please input scene name</string>
+    <string name="profile_save_failed">Please retry under the interface of profile manager.</string>
+    <string name="profile_exist_override_msg">"File“<xliff:g id="NAME">%s</xliff:g>”already exists，do you want override it？"</string>
+    <string name="profile_new_create_default_name">NewProfile</string>
+    <!-- AUT:chengliang . DATE:2012-02-28. End-->
+    <string name="profile_delete_profile_ok">Scene deleted successfully</string>
+    <string name="profile_delete_profile_fail">Delete scene failed</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <string name="quick_action_replace">Replace</string>
+    <string name="quick_action_rename">Rename</string>
+    <string name="quick_action_delete">Delete</string>
+    <string name="quick_action_uninstall">Uninstall</string>
+    <string name="profile_apply_sdcard_unmount">No available SD Card</string>
+    <string name="profile_apply_no_preview">"Can't get preview bitmap."</string>
+    <string name="effect_shortcut">"Sliding screen effect"</string>
+    <string name="icon_style_apply">Applying icon decoration, please wait</string>
+    <string name="profile_apply_no_bitmap">Failed to obtain printscreen, backup failed!</string>
+    <string name="profile_apply_memory_low">Insufficient system memory, backup failed!</string>
+    <!-- AUT:zhaoxy . DATE:2012-03-05. Start-->
+    <string name="profile_delete_prompt">Are you sure to delete the scene?</string>
+    <string name="profile_name_illegal">The input scene name contains special characters, please re-input!</string>
+    <string name="profile_restore_failed_of_interruption">Profile apply failed, please restore again!</string>
+    <string-array name="pref_web_site_choices">
+        <item>LenovoStore Official Website</item>
+        <item>Others</item>
+    </string-array>
+    <string name="profile_delete_progress_info">Deleting scene, please wait</string>
+    
+    <!-- AUT:zhaoxy . DATE:2012-03-05. END-->
+    <string-array name="pref_icon_style_choices">
+        <item>None</item>
+        <item>NoBoard</item>
+        <item>Lenovo</item>
+        <item>Rounded</item>
+        <item>Pottery</item>
+        <item>Milk</item>
+        <item>Disc</item>
+        <item>MagicSquare</item>
+    </string-array>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-28 END -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-10 START for quick action rename, zoom and so on -->
+    <string name="quick_action_change_title">Choose icon</string>
+    <string-array name="quick_action_change_choices">
+        <item>Default icon</item>
+        <item>"Theme's icon"</item>
+        <item>Custom icon</item>
+    </string-array>
+    <string name="theme_image_preview_title">Choose icon</string>
+    <string name="theme_image_choose_theme">Choose theme : </string>
+    <string name="quick_action_zoom">Zoom</string>
+    <string name="quick_action_edit">Edit</string>
+    <string-array name="app_order_choices">
+        <item>default</item>
+        <item>alphabet</item>
+        <item>Newly installed in the near</item>
+        <item>Newly installed on the front</item><!-- <item>installation time</item> -->
+        <item>Frequency of use</item>
+        <item>most recently used</item>
+    </string-array>
+    
+    <string name="quick_action_rename_title">Rename</string>
+    <string name="menu_personal_settings">Personalized</string>
+    <string name="settings_pref_wallpaper">Wallpaper Settings</string>
+    <string name="settings_pref_icon">Icon settings</string>
+    <string name="settings_pref_hotseat">Desktop page number settings</string>
+    <string name="settings_pref_wallpaper_desktop">Desktop wallpaper</string>
+    <string name="settings_pref_wallpaper_allapp">Application list wallpaper</string>
+    <string name="theme_container_chooser_title">Select online themes</string>
+    <string-array name="theme_container_chooser_choices">
+        <item>Lenovo Market</item>
+        <item>Google Play Store</item>
+    </string-array>
+    <string name="settings_pref_special_title">Characteristics Features</string>
+    <string name="hawaii_upgrade_failed">Upgrade Failed</string>
+    <string name="settings_desktop_help_views">Lenovo Launcher Help</string>
+    <string name="confirm_network_open">Please check the Preferences -> More settings -> "Network connection",
+         allows Lenovo Launcher to the network to obtain data？</string>
+    <string name="icon_style_success">Icon decoration changed successfully!</string>
+    <string name="icon_style_clear_success">Icon decoration reset successfully!</string>
+    <string name="wait_allapps_loaded">All apps is loading, please wait and try again later.</string>
+    <string-array name="pref_all_app_y_choices">
+        <item>Sparse</item>
+        <item>Normal</item>
+        <item>Dense</item>
+    </string-array>
+    <string name="pref_allapp_cellcount_title">Workspace grid size setting</string>
+    <string name="quick_action_replace_success">Replace icon successfully!</string>
+    <string name="hawaii_tab_label">Genius</string>  
+    <string name="hawaii_upgrade_swtich_title">Reminder of the local applications of the new version</string>
+    <string name="sdcard_storage_full">sdcard is full!</string>
+    <string name="remove_from_category">Remove</string>
+    <string name="category_edit_existed">The name is existed, please try it again！</string>
+    <string name="application_category_map_existed">This application had been in this category!</string>
+    <string name="category_application_added_success">Added successfully!</string>
+    <string name="icon_style_clear_progress_msg">Icon style clearing, please wait</string>
+    <string name="app_wallpaper_change_success">Wallpaper of application list change successfully!</string>
+    <string name="app_wallpaper_reset_success">Wallpaper of application list reset successfully!</string>
+        
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-31 END -->
+    <!-- AUT: zhanghong5 zhanghong5@lenovo.com DATE: 2012-02-01 BEGIN -->
+    <string name="lockpaper_settings_default">Use lenovo lock screen wallpaper</string>
+    <string name="lock_empty">No Lenovo lock Activity.</string>
+    <string name="lockscreen_weather_city">Current city</string>
+    <string name="setting_weather_city">Setting the weather city</string>
+    <string name="header_style_lockscreen">Setting the style of Lock</string>
+    <string name="disable_lenovo_lockscreen">Please enabled the lenovo Lock</string>
+    <string name="need_lenovo_lockscreen_service">Please install the MagicLockScreen</string>
+    <string name="select_lenovo_lockscreen">Select lockscreen style</string>
+    <string name="city_setting">"The selected city is "</string>
+    <!-- AUT: zhanghong5 zhanghong5@lenovo.com DATE: 2012-02-01 END -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 START -->
+    <string name="profile_backup_title">Save Scene</string>
+    <string name="profile_backup_start_prompt">"The scene was not saved, save for the custom scene?"</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 END -->
+    <string name="update_target_label">"update"</string>
+
+    <!-- AUT: liuli1 DATE: 2012-02-10 START -->
+    <string name="selectedcellnum">"Selected application(s): "</string>
+    <string name="addfolder">"Add to Folder"</string>
+    <string name="emptycellnum">"Empty cell number："</string>
+    <!-- AUT: liuli1 DATE: 2012-02-10 END -->
+
+    <!-- AUT: zhanglq@bj.cobellink.com DATE: 2012-02-10 S -->
+    <string name="down_commend_suggestion">Your mobile phone did not install this component,please select a download to install.</string>
+    <string name="native_appstore">LenovoStore Client</string>
+        <string name="no_app">No application in the local.</string>
+    <string name="no_leappstore">You have not installed LenovoStore.</string>
+    <!-- AUT: zhanglq@bj.cobellink.com DATE: 2012-02-10 E -->
+        <string name="menu_reset_all_lotus">Reset all</string>
+    <string name="menu_reset_signal_lotus">Reset own</string>
+    <string name="gadget_name_lotus">Lotus</string>
+    <string name="title_store">Store</string>
+    <string name="title_sync">Sync</string>
+    <string name="title_guess">Guess</string>
+    <string name="title_navi">Navi</string>
+    <string name="title_safe">Safe</string>
+    <string name="title_voice">Voice</string>
+    <string name="title_share">M.share</string>
+    <string name="title_note">Note</string>
+    <string name="title_lefamily">LeFamily</string>
+    <string name="title_uninstalled">Uninstall</string>
+    <string name="inform_application_is_not_install">This application is not installed,would you like to download it?</string>
+    <string name="inform_application_is_not_install_not_download">This application is not installed!</string>
+    <string name="goto_store">Download </string>
+    <string name="not_goto_store">Cancel</string>
+    <string name="lotus_default">Default</string>
+    <string name="lotus_navi_customtitle">Navigation</string>
+    <string name="add_new">Add New</string>
+    <string name="inform_lotus_can_change">The Applications of lotus could be changed by long pressed </string>
+    <string name="appstore_search_leSec">乐安全</string>
+    <string name="appstore_search_howaii">乐推荐</string>
+    <string name="appstore_search_navigation">联想网址导航</string>
+    <string name="appstore_search_voice">乐语音</string>
+    <string name="appstore_search_sync">乐同步</string>
+    <string name="appstore_search_share">乐关联</string>
+    <string name="lotus_click_download">Download</string>
+    <string name="lefamily_no_apk">No apps!</string>
+
+    <!-- RK_ID: WORKSPACE_ADD_APP AUT: liuli1 DATE: 2012-02-17 START -->
+    <string name="workspace_pick_applications_nospace">No spare space on current screen!</string>
+    <string name="folder_max_count">"Folder max capacity ："</string>
+    <string name="add_shortcut_to_workspace_more">"The number of components which you selected has reached the limit!"</string>
+    <!-- RK_ID: WORKSPACE_ADD_APP AUT: liuli1 DATE: 2012-02-17 END -->
+
+    <!-- ID: Profile operation indicator statements  AUT: chengliang  DATE: 2012.02.22.   S -->
+    <string name="relaunch_launcher">"Relaunching Lenovo Launcher thread..."</string>
+    <string name="fetch_target_file">"Fetching target file ..."</string>
+    <string name="unmix_target_file">"Analyzing target file ..."</string>
+    <string name="failed_to_unmix">"File is not an standard scene file!"</string>
+    <string name="unpacking_file">"Try to retrieve ..."</string>
+    <string name="launch_wallpaper_thread">"Start wallpaper restore ..."</string>
+    <string name="init_reloader">"Initializing reloader ..."</string>
+    <string name="success_end">"Touch end successful !"</string>
+    <string name="wait_wallpaper_ready">"Waiting for wallpaper restore thread..."</string>
+    <string name="wallpaper_time_out">"Waiting thread time out!"</string>
+    <string name="clean_remainings">"Cleaing up remainings ..."</string>
+    <string name="restart_launcher">"Please restart Lenovo Launcher!"</string>
+    <string name="notify_backup_firstly">"Please backup scene firstly."</string>
+    <string name="extracter_exracting">"Extracting ..."</string>
+    <string name="ensure_dir">"Preparing directory ..."</string>
+    <string name="caching_previews">"Caching previews ..."</string>
+    <string name="picking_wallpaper">"Plucking wallpaper..."</string>
+    <string name="make_target_file">"Make target scene ..."</string>
+    <string name="lock_on_target_file">"Locking on scene ..."</string>
+    <string name="backup_failed">"Backup failed, please try again."</string>
+    <string name="backup_extract_settings">"Extract settings..."</string>
+    <string name="backup_extract_items">"Extract desktop..."</string>
+    <string name="backup_extract_priorites">"Extract priorities..."</string>
+    <string name="backup_flatten_profile">"Flatten scene..."</string>
+    <string name="restore_settings">"Restore settings..."</string>
+    <string name="restore_items">"Restore desktop..."</string>
+    <string name="restore_priorites">"Restore priorities..."</string>
+    <string name="restore_waiting_priorites">"Waiting for priorites retured ..."</string>
+    <string name="restore_waiting_time_out">"Time out."</string>
+    <string name="waiting_and_check_for_items_add_in">"Waiting for items add in..."</string>
+    <string name="inflater_ready_to_go">"Inflating ..."</string>
+    <string name="file_may_damaged">"Failed to inflate, file may damaged."</string>
+    <string name="restore_failed">"Failed to restore!"</string>
+    <string name="default_restore_processing">"Restoring default configuration, please do not operate and wait until finished!"</string>
+    <string name="desktop_first_launching">First time to load desktop</string>
+    
+    <string name="profile_selection_title">Restore profile</string>
+    <string name="profile_selection_application">Application entries and shortcuts on the desktop</string>
+    <string name="profile_selection_folders">Folders and its including items on the desktop</string>
+    <string name="profile_selection_widgets">Widgets on the desktop</string>
+    <string name="profile_selection_settings">Backup the settings of the Lenovo Launcher</string>
+    <string name="profile_selection_wallpaper">Wallpaper of the desktop and all applist</string>
+    <string name="profile_selection_priorities">Current icon order of the all applist</string>
+    <string name="profile_selection_confirmed">Confirm</string>
+
+    <string name="profile_time_stamped_restore">"The latest backup :"</string>
+
+    <!-- ID: Profile operation indicator statements  AUT: chengliang  DATE: 2012.02.22.   E -->
+    
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . S -->
+    <string name="capital_on">ON</string>
+    <string name="capital_off">OFF</string>
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . E -->
+    
+    <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT:zhangdxa. DATE: 2012-02-24.S -->
+    <string name="version_update_label">Version upgrade</string>
+    <string name="version_update_toast">Please check the preferences "Network connection".</string>
+    <string name="version_update_sd">Please insert SD card.</string>
+    <string name="version_update_menu">Version upgrade manually</string>
+    <string name="version_update_confirm_auto">Start version upgrade, would you like to continue?\nPlease check Preferences "Network connection".\nPlease make network connected.</string>
+    <string name="version_update_not_prompt">Not prompt</string>
+    <string name="version_update_query_version">Please wait while querying new version...</string>
+    <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT:zhangdxa. DATE: 2012-02-24.E -->
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: chenrong2 . DATE: 2012-02-27 . S -->
+    <string name="no_folder_created">Only 1 application has been added and no need to create a folder</string>
+    <string name="folder_editor">Edit folder</string>
+    <string name="folder_name_title">Folder name:</string>
+    <string name="folder_editor_hint">Please input folder name</string>
+    <string name="foler_empty_num">"Empty cell number: "</string>
+    <string name="folder_is_full">Folder is full and can not add application</string>
+	 <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: chenrong2 . DATE: 2012-02-27 . E -->
+
+
+    <!-- AUT:zhaoxy . DATE:2012-02-27. START-->
+    <string name="pref_color_picker_dialog_title">Select Color</string>
+    <string name="icon_bg_style_preview_title">Preview</string>
+    <string name="icon_bg_style_select_title">"Style"</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-27. END-->
+    
+    <string name="theme_icon_bg_title">"Custom"</string>
+    <string name="folder_opened">Folder opened, %1$d by %2$d</string>
+    <string name="folder_tap_to_close">Tap to close folder</string>
+    <string name="folder_tap_to_rename">Tap to commit rename</string>
+    <string name="folder_closed">Folder closed</string>
+    <string name="folder_renamed">Folder renamed to %1$s</string>
+    <string name="folder_name_format">Folder: %1$s</string>
+
+    <!-- RK_ID: RK_TRASH . AUT: zhanggx1 . DATE: 2012-04-06 . S -->
+    <string name="workspace_cleanup_title">"Desktop cleanup"</string>
+    <string name="workspace_cleanup_settings_title">"Desktop cleanup"</string>
+    <string name="workspace_cleanup_summary">"Some of the following shortcuts might be unused for a long period of time.Please choose the app shortcuts to be deleted in your homescreen."</string>
+    <string name="workspace_cleanup_empty_msg">"There is no clean-up content."</string>
+    <string name="workspace_cleanup_none_selected">"No shortcuts are selected."</string>
+    <string name="workspace_cleanup_cannot_create_folder">"Selected only one application, unable to create the folder."</string>
+    <string name="workspace_cleanup_create_folder_done_hotseat">"In the shortcut bar <xliff:g id="NAME">%s</xliff:g> lattice create folder."</string>
+    <string name="workspace_cleanup_create_folder_done_workspace">"In table <xliff:g id="NAME">%s</xliff:g> page <xliff:g id="NAME">%s</xliff:g> rows and <xliff:g id="NAME">%s</xliff:g> columns to create folder."</string>
+    <string name="workspace_cleanup_done">"The desktop cleanup has been completed."</string>
+    <string name="select_all">"Select all"</string>
+    <string name="select_none">"Clear"</string>
+    <string name="dialog_delete_title">"Clean up the shortcuts"</string>
+    <string name="dialog_delete_msg">"Confirm to delete the selected shortcut?"</string>
+    <string name="dialog_move_to_folder_msg">"Confirm to move the selected shortcut into unused shortcut folders?"</string>
+    
+    <string name="auto_workspace_cleanup_summary">"Can be set to a timer-cleaning frequency and the expiration time, and regularly cleaned."</string>
+    <string name="auto_workspace_cleanup_title">"Enable desktop cleanup"</string>
+    <string name="pref_workspace_cleanup_now">"Clean up manually"</string>
+    <string name="workspace_cleanup_unit"> Day(s)</string>
+    
+    <!-- Workspace Cleanup the Timeout-->
+    
+    <string name="pref_workspace_cleanup_timeout_default">"Unused for more than 7 Days"</string>
+    <string name="pref_workspace_cleanup_timeout_title">"Cleanup conditions"</string>
+    <string-array name="pref_workspace_cleanup_timeout_entries">
+        <item>"Unused for more than 7 Days"</item>
+        <item>"Unused for more than 14 Days"</item>
+        <item>"Unused for more than 21 Days"</item>
+        <item>"Unused for more than 30 Days"</item>
+        <item>"Unused for more than 60 Days"</item>
+    </string-array>
+    <!-- Workspace, Cleanup Timing -->
+    <string name="pref_workspace_cleanup_timing_default">"7 Days"</string>
+    <string name="pref_workspace_cleanup_timing_title">"Desktop shortcut cleanup frequency"</string>
+    <string-array name="pref_workspace_cleanup_timing_entries">
+        <item>"7 Days"</item>
+        <item>"14 Days"</item>
+        <item>"21 Days"</item>
+        <item>"30 Days"</item>
+        <item>"60 Days"</item>
+    </string-array>
+    
+    <!-- Workspace, Cleanup Method -->
+    <string name="pref_workspace_cleanup_method_default">"Remove shortcuts"</string>
+    <string name="pref_workspace_cleanup_method_title">"Methods for cleaning"</string>
+    <string name="pref_workspace_cleanup_unused_folder">"Unused shortcuts"</string>
+    <string-array name="pref_workspace_cleanup_method_entries">
+        <item>"Remove shortcuts"</item>
+       <!-- <item>"Moved To The Unused Shortcuts Folder"</item> --> 
+    </string-array>
+    
+    <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. START-->
+    <string name="applist_hiddenlist_settings_title">"Hide apps"</string>
+    <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. END-->
+
+    <!-- RK_ID: CATEGORY_MENU. AUT:zhaoxy . DATE:2012-06-25. START-->
+    <string name="label_all">All</string>
+    <string name="label_oftenuse">Often used</string>
+    <string name="label_tools">Tools</string>
+    <string name="label_games">Games</string>
+    <string name="label_sns">SNS</string>
+    <string name="cm_tips_text">Drag icon to the category</string>
+    <!-- RK_ID: CATEGORY_MENU. AUT:zhaoxy . DATE:2012-06-25. END-->
+
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-26 . S -->
+    <string name="apps_list_search_bar_hint">"Enter the app name"</string>
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-26 . E -->
+
+    <string name="unknow_theme_name">Unknown Theme</string>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string name="weather_magic_app_name">Magic Weather</string>
+    <string name="weather_app_name">Lotus Weather</string>
+    <string name="weather_button_ok">OK</string>
+    <string name="weather_button_cancel">Cancel</string>
+    <string name="weather_clock_forenoon">AM</string>
+	<string name="weather_clock_afternoon">PM</string>
+	<string name="weather_reminder">Friendly reminder</string>
+    <string name="weather_charge_alert_message">Dear user, the traffic generated by the mobile phone connected to the Internet costs will be charged according to your standard package.\nMore charges, please consult your local carrier, you agree?</string>
+    <string name="weather_network_alert_message">Please open the network in Lenovo Launcher settings.</string>
+    <string name="weather_animation_alert_message">Lenovo full-screen weather animation with Clover weather widget\nThe size of the software:10.89M\nIt is recommended to use the WLAN to download</string>
+    <string name="weather_baidu_alert_message">Baidu search uninstall, reinstall</string>
+    <string name="toggle_widget_name">Toggle</string>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string name="search_num">"%1$s results of \"%2$s\""</string>
+
+    <!--yangmao add start -->
+    <string name="hawaii_search_content_isnull">"Please input the application name to search"</string>
+    <string name="hawaii_search_jason_false">"The network request error, please try again later"</string>
+    <string name="hawaii_search_no_data">"Not found the results you want"</string>
+    <string name="hawaii_search_footview_content">"Loading"</string>
+    <string name="hawaii_search_btn">"Search"</string>
+     <!--yangmao add end -->
+     
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanghong5 . DATE: 2012-07-25 . S -->
+    <string name="search_local">"Local search"</string>
+    <string name="search_network">"Network search"</string>
+
+    <string name="add_to_category">"Add to "</string>
+    <string name="search_title">"App Search"</string>
+    <string name="separator_temp">-</string>
+    <string name="pref_lenovo_force_lock_on_title">Compulsion start lock screen</string>
+    <string name="pref_lenovo_force_lock_on_summary">If you use the lenovo mobile phone, and the screen lock is not yet effective, please turn this option</string>
+    <string name="pref_clear_two_lockscreen_title">Clear double lock screen</string>
+    <string name="pref_clear_two_lockscreen_summary">When the original lock screen and Le lock screen at the same time using</string>
+    <string name="clear_two_lockscreen_toast">Clear double lock screen success</string>
+    <string name="no_need_clear_two_lockscreen_toast">"Don't need clear double lock screen"</string> 
+    <string name="audio_search">Voice search</string>
+    <string name="audio_search_summary">"The use of voice search function needs to  download the plug-in, agree to download?"</string>   
+    <string name="audio_search_download">Voice plug-in download is in progress</string>
+    <string name="audio_search_install">"Voice plug-in download completed, please install"</string>
+    <string name="slide_effect_notify">"A part of hardware of equipment support this effect can not be perfect, if not satisfied with the results, please switch to other effects."</string>
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanghong5 . DATE: 2012-07-25 . E -->
+    
+    <string name="tabs_common">Common</string>
+    <string name="tabs_characteristic">Features</string>
+    <string name="tabs_more">More</string>
+    <string name="menu_effect_settings">Effects</string>
+    <string name="menu_update">Version Update</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_notification">Notification Bar</string>
+
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . -->
+    <string name="magic_gesture_notic_title">Double Click To Return</string>
+    <string name="no_recent_task">No recent apps</string>
+    <string name="workspace_count_limited">No space for new screen</string>
+    <string name="workspace_add_new">Adding new screen</string>
+    <string name="enable_levoice_label">Gesture-activated voice services</string>
+    <string name="double_click_dock_start_levoice">Double-click the shortcut bar at the bottom to activate voice service</string>
+    <string name="levoice">LeVoice</string>
+    <string name="levoice_download_summary"> The use of LeVoice function needs to  download the plug-in, agree to download? </string>
+    <string name="levoice_download_downloading">LeVoice plug-in download is in progress</string>
+    <string name="levoice_download_install">LeVoice plug-in download completed, please install</string>
+    <string name="levoice_not_found">LeVoice plugin is not found</string>
+    <string name="levoice_is_request">LeVoice plugin is request</string>
+    
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . E-->
+    <!-- RK_ID:RK_LENOVO_WIDGET gecn1 2012-10-17 -->
+    <string name="group_leos_widgets">LenovoWidgets</string>
+    <string name="applist_loop_settings_title">Applist cycle display</string>
+    <string name="applist_text_background">Applist icon text background</string>
+
+    
+    <string name="workspace_text_background">Icon text background</string>
+    <!-- AUT:liuyg1 . DATE:2012-11-01. Start-->
+	 <string name="default_update_processing">"Updating desktop configuration, please do not operate and wait until finished!"</string>
+    <string name="desktop_update_launching">Updating desktop configuration</string> 
+ 	 <!-- AUT:liuyg1 . DATE:2012-11-01. END--> 
+
+     <string name="screen_cellcount_setting">Desktop grid size</string>
+   
+    <string name="weather_settings">Weather settings</string>
+    <string name="weather_animation_toggle">Weather animation switch</string>
+    <string name="weather_animation_toggle_ex">display a weather animation</string>
+    <string name="weather_search_hite">Input the key of the city</string>
+    <string name="weather_search_hot_tips">Hot city</string>
+    <string name="weaher_city_search_faild">The search result is empty</string>
+	<string name="weaher_city_search_null">Search keyword can not be empty</string>
+	<string name="weaher_city_search_net_faild">Network connection fails</string>
+     <string name="weaher_city_nul_empty">No information</string>
+     <string name="weather_yubao_name">Weather Forecast</string>
+
+    <string name="weather_widget_zhishu_cloth">穿衣:</string>
+    <string name="weather_widget_zhishu_ganmao">感冒:</string>
+    <string name="weather_widget_zhishu_shushi">舒适:</string>
+    <string name="weather_widget_zhishu_zwx">紫外线:</string>
+    <string name="weather_widget_zhishu_sport">运动:</string>
+    <string name="weather_widget_zhishu_xiche">洗车:</string>
+    
+    <string name="toggle_widget_wifi_name">WLAN</string>
+    <string name="toggle_widget_gprs_name">GPRS</string>
+    <string name="toggle_widget_air_name">Airplane</string>
+    <string name="toggle_widget_lock_name">Lock</string>
+    <string name="toggle_widget_rev_name">Rotate</string>
+    <string name="toggle_widget_bress_name">Brightness</string>
+    <string name="toggle_widget_gps_name">GPS</string>
+    <string name="toggle_widget_bluetooth_name">Bluetooth</string>
+    <string name="toggle_widget_tt_name">Flashlight</string>
+    <string name="toggle_widget_tips_name">Long press icon to enter the details</string>
+    <string name="shortcut_widget_app_name">Shortcut</string>
+    <string name="shortcut_widget_lock_name">Lock screen</string>    
+	<string name="weather_uninstall_theme_lotus_name">Lotus</string>
+	<string name="weather_uninstall_theme_forest_name">Forest</string>
+	<string name="weather_uninstall_theme_super_name">Super</string>
+	<string name="weather_uninstall_theme_tea_name">Tea</string>
+	<string name="weather_uninstall_theme_dark_name">Dark</string>
+	<string name="weather_uninstall_theme_aurora_name">Aurora</string>
+	<string name="weather_install_theme">Default</string>
+	<string name="weather_theme_name">Weather theme</string>
+	<string name="weather_theme_uninstall_download">Download</string>
+	<string name="task_title_hlmd">Ignore list</string>
+	<string name="task_des_hlmd">The apps checked will not end when One-key acceleration works</string>
+    <string name="task_text_add_app_empty">No apps</string>
+	<string name="task_certain">Confirm</string>
+	<string name="task_lable_lesafe">LeSafe</string>
+	<string name="task_shortcut_enter_protected_list">Ignore list</string>
+	<string name="task_one_key_widget_clear_just_done1">"No apps"</string>
+	<string name="task_one_key_widget_clear_just_done2">"Need to be cleaned"</string>
+	<string name="task_one_key_widget_clear_app_count">"End &lt;font color=#348213>%1$s&lt;/font> apps"</string>
+	<string name="task_one_key_widget_clear_app_size">"Free &lt;font color=#348213>%1$s&lt;/font>"</string>
+	<string name="task_whitelist_suggest_check">Suggest checking</string>
+	<string name="task_no_browser">No browser in your phone</string>
+	<string name="task_download_lesafe_des">LeSafe provides you a comprehensive security service, download/update now？</string>
+	<string name="task_cancel">Cancel</string>
+       
+    
+    <string name="about_lenovo_desktop_settings_title">About</string>
+    <string name="settings_pref_ring">Ring settings</string>
+
+   <string name="custom_tab_add">Add</string>
+    <string name="custom_tab_wallpaper">Wallpaper</string>
+    <string name="custom_tab_theme">Theme</string>
+    <string name="custom_tab_dynamic">Effect</string>
+    <string name="custom_not_remove">Cannot move to the screen</string> 
+    
+    <string name="hotseat_dial_title">Dial</string>
+    <string name="hotseat_sms_title">Messaging</string>
+    <string name="hotseat_contacts_title">Contacts</string>
+    <string name="hotseat_browser_title">Browser</string>  
+     <string name="leos_app_settings">Widgets Settings</string>
+    <string name="leos_app_not_found">Activity not found!</string>
+   
+    <string name="theme_pkg_not_exist">The theme package does not exist.</string>
+    <string name="theme_version_not_correct">Version of the theme package does not match with the current version of the desktop may be some not compatible, it is recommended to download the version number %s theme pack.</string>
+    <string name="theme_apply_positive_btn">Apply</string>
+    <string name="theme_apply_negative_btn">Cancel</string>
+    <string name="icon_size_settings_title">Icon size</string>
+    <string name="icon_size_settings_default">Icon default size</string>
+    <string-array name="pref_icon_size_choices">
+        <item>Normal</item>
+        <item>Small</item>
+    </string-array>
+    <!--RK_ID:RK_CHANGE_ICON_SIZE AUT:zhanglz1@lenovo.com DATE: 2013-01-14 E -->
+    <!--RK_ID:RK_FONT AUT:zhanglz1@lenovo.com DATE: 2013-02-21 S -->
+    <string name="font_style_settings_title">Font style</string>
+    <string name="font_style_select_title">Font select</string>
+    <string name="font_style_settings_have_got">Found %1$s fonts</string>
+    <string name="font_alert">Tips</string>
+    <string name="font_alert_message"> 1.this function need to restart the phone  to take effect. \n 2.Display text may not be completely replaced \n \n Do you want to reboot?</string>
+    <string name="font_default">Default Typeface</string>
+    <string name="font_searching">Search...</string>
+    <string name="font_broken">File may damaged,please try another typeface!</string>
+    <string name="font_apply_to_system">Apply to system</string>
+    <string name="font_put_path">Put your font file into Sdcard</string>
+    <string name="font_search">Search font</string>
+    <string-array name="pref_screen_cellcount_choices">
+        <item>Rarefaction</item>
+        <item>Normal</item>
+    </string-array>
+    
+     <!--RK_ID:RK_RENAME_DIALOG AUT:GECN11@lenovo.com DATE: 2013-03-04 E -->
+    <string name="search_hotkey">Hot Word</string>
+    <string name="search_history_recoder">History</string>
+    <string name="hot_word_change">Change</string>
+    <string name="text_no_history">No history</string>
+    <string name="reci_no_data">Network requests error, try local</string>
+    <string name="search_result_loading">Getting search results...</string>    
+    <string name="local_search_nodata">Not found relative applications</string>
+    <string name="local_search_nodata_btn">Search on internet</string>
+    <string name="net_search_nodata_error_text">Not found relative applications \n The network may be not stable</string>
+    <string name="net_search_nodata_noconneted_text">The network is not available</string>
+    <string name="net_search_nodata_refresh">Refresh</string>
+    <string name="net_search_nodata_set_net">Network setting</string>
+
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 S -->
+    <string name="setting_wallpaper">Setting wallpaper</string>
+    <string name="share_set_wallper">Wallpaper set succesfully</string>
+    <string name="desktop_share_wallpaper_text">Send wallpaper</string>
+         <string name="desktop_share_theme_text">Send theme</string>
+         <string name="desktop_share_app_text">Send Apps</string>
+         <string name="send_leshare">No traffic send</string>
+         <string name="send_othershare">Select send</string>
+         <string name="downlaod_app_name">AnyShare</string>
+          <string name="downlaod_error_info">Download failed,please check the network</string>
+          <string name="anyshare_downloaded_install">"AnyShare download completed, please install"</string>
+          <string name="anyshare_downloading">AnyShare download is in progress</string>
+          <string name="anyshare_download_network_title">Tips</string>
+          
+          <string name="leshare_dialog_hidden_button">Hide</string>
+        <string name="leshare_dialog_cancel_button">Cancel</string>
+        <string name="leshare_dialog_again_button">Re-download</string>
+        <string name="leshare_dialog_title">Download</string>
+        <string name="leshare_dialog_msg">AnyShare has been completed</string>
+         <string name="leshare_qiezi_finish_msg">After installation, run the AnyShare, to complete the share</string>
+         
+          <string name="qiesi_install_message2">2.60 times faster then Bluetooth</string>
+          <string name="qiesi_install_message1"> 1.No traffic</string>
+          <string name="qiesi_install_dialog_title">The component not installed</string>
+          <string name="qiesi_update_dialog_title">The component need Update</string>
+          <string name="enter_install">Download</string>
+          <string name="share_no_app">Please select at first</string>
+          <string name="desktop_share_receive_text">Receive</string>
+          <string name="desktop_share_title">Share Lenovo Launcher</string>
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 E -->
+    <!--RK_ID:RK_BOOT_POLICY_DIALOG AUT:liuyg1 DATE: 2013-03-21 S -->
+    <string name="boot_backup_profile_name">backup</string>
+    <string name="boot_first_experience_desktop_btn">Experience now...</string>  	
+    <string name="boot_loading_desktop">Loading new desktop</string>  
+    <string name="boot_experience_new_desktop_text">Experience the new desktop</string>
+    <string name="boot_retain_old_desktop_text">Retain the original desktop</string>
+    <string name="boot_backup_desktop_msg">Desktop data is being backed up</string>
+    <string name="boot_backup_desktop_location">\tYou can：\n
+        \tDesktop Settings -> Desktop Backup and Recovery\n 
+        \tFind your original desktop layout\n</string>
+    <string name="boot_backup_desktop_success">Desktop backed up success</string>
+    <string name="boot_backup_desktop_fail">Desktop backed up failed</string>
+    
+     <string name="boot_first_dialog_title">Welcome to Lelauncher</string>
+     <string name="boot_first_dialog_tips">"\tV0.0.0 new features\n\t1.New Screen editing feature\n\t2.Dynamic wallpaper editing\n\t3.Online lock screen resource\n\t4.Optimized sliding effect\n"</string>
+
+     <string name="boot_first_dialog_license1">"\t\tChoose to continue using it means that you have knowledge of and agree to "</string>
+     <string name="boot_first_dialog_license2">\"Software License Agreement\"</string>
+     <string name="boot_first_dialog_license3">" and "</string>
+     <string name="boot_first_dialog_license4">\"Privacy Statement\"</string>
+     <string name="boot_first_dialog_license5">", and that you participate in "</string>
+     <string name="boot_first_dialog_license6">\"User Experience Program\"</string>
+    <string name="boot_first_dialog_license7">" ."</string>
+    
+    <string name="boot_remind_dialog_title1">Welcome to</string>
+    <string name="boot_remind_dialog_title2">Lelauncher V0.0.0</string>
+    <string name="boot_remind_dialog_tips">\tRelease major updates:</string>        
+     <string name="boot_remind_dialog_text">"\t1.New Screen editing feature\n\t2.Dynamic wallpaper editing\n\t3.Online lock screen resource\n\t4.Optimized sliding effect\n"</string>
+    <string name="boot_remind_dialog_userqcc">Participate</string>
+    <string name="boot_remind_dialog_userqcc_linktext">User experience improvement plan </string>
+    
+     <!--RK_ID:RK APP_CATEGORY GECN1@lenovo.com DATE: 2013-03-20 S -->
+     <string name="app_categroy">Please waiting for a moment</string>
+     <string name="apps_category_shortcut">"Apps Category"</string>
+
+<string name="applist_appmanager">More Apps</string>
+<string name="personalized_settings_title">Appearance settings</string>
+<string name="more_settings_title">More settings</string>
+<string name="lotus_setting_lt">Left-top</string>
+<string name="lotus_setting_rt">Right-top</string>
+<string name="lotus_setting_lb">Left-bottom</string>
+<string name="lotus_setting_rb">Right-bottom</string>
+
+<string name="no_profile_num">Have no any profile</string>
+<string name="profile_num_toplimit">Num of profile has been toplimit</string>
+<string name="no_chosen_profile">No profile is chosen</string>
+<string name="profile_to_apply">Are you sure to apply the profile?</string>
+    
+    <string name="other_widgets">Other Widgets</string>
+    <string name="xscreen_item_click_msg">No click event, please try to drag it to the screen.</string>
+    <string name="shortcut_installed_intofloder">Shortcut \"<xliff:g id="name" example="Browser">%s</xliff:g>\" added into\"<xliff:g id="FOLDER">%s</xliff:g>\".</string>
+
+    <string name="download_share_app_error">Share error, please delete the file and download again</string>
+    <string name="local_app_share">Share</string>
+    <string name="local_app_run">Run</string>
+    <string name="local_app_manager">Manage</string>
+    <string name="local_apps_upgrade">Upgrade</string>
+    <string name="local_app_update_ignore">Ignore</string>
+    <string name="local_app_update_remind">Remind</string>
+    <string name="local_app_ignore">Ignore</string>
+    <string name="download_notification_title">Download task remind</string>
+    <string name="download_notification_content">It has %s download task,Pleas click if you want know details</string>
+    <string name="download_completed_notification_content">It has %s download completed,Pleas click if you want know details</string>
+    <string name="download_app_redownload">Reload</string>
+    <string name="download_pause_all">Pause all</string>
+    <string name="download_continue_all">Contiune all</string>
+    <string name="download_delete_all">Delete all</string>
+    <string name="update_all">Update</string>
+    <string name="backup_restore">Backup</string>
+    <string name="local_app_wait">Wait</string>
+    <string name="local_app_redownload">Retry</string>
+    <string name="local_app_check_LeSync">Please enable Lenovo Sync</string>
+    <string name="network_close_body">Dataflow turned off,and no recommendation</string>     
+    <string name="local_app_size">Size:</string>
+    <string name="local_app_confirm_update_all">Update all?</string>
+    <string name="local_app_group_local">Apps are newest</string>
+    <string name="local_app_download_error">Download error</string>
+    <string name="local_app_group_update">Update apps</string>
+    <string name="wallpaper_settings_title">Wallpaper</string>
+    <string name="lock_settings_title">Lockscreen</string>
+
+    <string name="auto_workspace_classification_title">"Apps automatically classify"</string>
+    <string name="auto_workspace_classification_summary">"The newly installed application automatically categorized into folders"</string>
+    <string name="pref_workspace_classification">"Category Apps"</string>
+    <string name="pref_workspace_classification_summary">"Applications immediately organized to Category folder"</string>
+    <string name="workspace_classifyapps_title">"Category Apps"</string>
+    
+     <string name = "close_apps_aotu_classify">"Close option, newly installed applications will not be automatically organized into the corresponding folder"</string>
+     <string name="classfication_no_more_space">"There is no enough space on the screen"</string>
+     <string name="application_existed_in_folder">"The application is already in the folder"</string>
+     
+     <string name="profiles_number_text">%1$d scene files</string>
+     <string name="application_not_create_folder">"Two of the same application can not be placed in a folder"</string>
+     
+     <string name="icon_text_settings_title">"Icon text settings"</string>
+      <string name="quick_action_setting">Settings</string>
+	<string name="pref_lock_settings_title">Lock screen settings</string>
+ <!--RK_ID:RK_GESTURE_SETTING AUT:liuyg1 DATE: 2013-05-30 S -->
+       <string name="gesture_settings_title">Gesture settings</string>
+  <string name="scroll_up_gesture_setting">Scroll up</string>
+  <string name="scroll_down_gesture_setting">Scroll down</string>
+  <string name="double_click_gesture_setting">Double-click</string>
+  <string-array name="pref_gesture_choices">
+        <item>None</item>
+         <item>Show Launcher menu</item>
+         <item>Show recently used applications</item>
+        <item>Show notification bar</item>
+    </string-array>
+	 <!--RK_ID:RK_GESTURE_SETTING AUT:liuyg1 DATE: 2013-05-30 E -->
+
+	 <string name="lockscreen_button_ok">OK</string>
+    <string name="lockscreen_button_cancel">Cancel</string>
+    <string name="lockscreen_reminder">Friendly reminder</string>
+    <string name="lockscreen_alert_message">Dear user, after you activate Lock, Lenovo Launcher will not be able to force stop and uninstall, go to Settings > Security > Delvice administrators deactivate Lenovo Launcher.</string>
+
+    <string name="deliver_folder_title">"Dissolution"</string>
+    <string name="deliver_folder_msg">"After the dissolution, all applications will be placed on the workspace."</string>
+    <string name="delete_folder_error_msg">"Non-empty folders can not be deleted."</string>
+    <string name="uninstall_system_app">"Unable to uninstall system application."</string>
+    <string name="not_blank_delet_prompt">"A non-empty screen cannot be deleted."</string>
+    
+    <string name="local_restore">Local restore</string>
+    <string name="local_backup">Local backup</string>
+    <string name="cloud_restore">Recovery from the cloud</string>
+    <string name="cloud_backup">Backup to the cloud</string>
+    <string name="lastest_backup_tips">last backup：%s</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    
+    <string name="cannot_be_placed_on_hotseat">This type can not be placed on the hotseat.</string>
+    <string name="cannot_be_placed_on_full_hotseat">The hotseat is full.</string>
+    <string name="search_settings_title">SearchApps</string>
+  
+    <string name="promptInfo">Weather  animation has been installed</string>
+	<string name="tab_cloud">Cloud</string>
+	<!--<string name="no_need_redownload">This backup profile has existed and no need to redownload,apply it?</string>-->
+	<string name="use_wifi_m">You should use WIFI for data transmission.</string>
+	<string name="weather_widget_noinfo">Unable to obtain weather information</string>
+	<string name="has_no_backup_profile">There is no backup profile</string>
+
+     <!-- for delete bar -->
+    <string name="uninstall_title_key">"Uninstall "</string>
+    <string name="uninstall_message">"After uninstalling, you can download the application from store"</string>
+    <string name="uninstall_button_ok">Uninstall</string>
+    <string name="uninstall_button_cancel">Cancel</string>
+    <string name="uninstall_done">Uninstall finished.</string>
+    <string name="uninstall_failed">Uninstall unsuccessful.</string>
+    <string name="uninstall_failed_device_policy_manager">Can\'t uninstall because this package is an
+        active device administrator.</string>
+        
+    <!-- add by gecn1 -->
+    <string name="loading_worksapce">"Loading"</string>
+    
+    <string name="accessing_server">Is searching backup file</string>
+    
+    <!-- add by yangbin5 start -->
+    <string name="lockscreen_tab_wallpaper">Desktop</string>
+    <string name="lockscreen_tab_lockpaper">Lockscreen</string>
+    <string name="lockscreen_item_picture">Album</string>
+    <!-- add by yangbin5 end -->
+    <string name="auto_reorder_title">"Auto Arrange Icons"</string>
+    <string name="auto_reorder_summary">"While it is turned on, the screen icon will closely packed with no gaps.(Except for the main screen)"</string>
+    <string name="auto_reorder_finish">"Desktop has been collated Well"</string>
+    <string name="need_no_manual_reorder">"While it is turned on, the screen icon will closely packed with no gaps"</string>
+</resources>

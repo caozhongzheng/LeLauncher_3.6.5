@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts"
+    android:id="@+id/search_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/audio_search"
+            android:layout_width="54dip"
+            android:layout_height="54dip"
+            android:layout_marginLeft="@dimen/search_button_margin_left"
+            android:layout_marginRight="@dimen/search_button_margin_right"
+            android:background="@drawable/audio_search_background"
+            android:scaleType="center"
+            android:src="@drawable/audio_search" />
+
+        <EditText
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/audio_search"
+            android:background="@drawable/ic_hawaii_search_edittext_bg"
+            android:hint="@string/apps_list_search_bar_hint"
+            android:imeOptions="flagNoExtractUi|flagNoFullscreen|actionSearch"
+            android:inputType="textCapWords"
+            android:maxLength="30"
+            android:minHeight="54dip"
+            android:paddingLeft="8dip"
+	    android:paddingRight="8dip"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FFADADAD"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/search_bar"
+        android:scaleType="centerCrop"
+        android:src="@android:drawable/divider_horizontal_bright" />
+
+    <LinearLayout
+        android:id="@+id/button_line"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/header_divider"
+        android:background="@drawable/local_net_search_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/local_net_search_btn_bg"
+            android:focusable="true"
+            android:text="@string/search_local"
+            android:textColor="@color/local_net_search_tabbtn_textcolor"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/network_search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/local_net_search_btn_bg"
+            android:focusable="true"
+            android:singleLine="true"
+            android:text="@string/search_network"
+            android:textColor="@color/local_net_search_tabbtn_textcolor"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/search_btn_reci"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/local_net_search_btn_bg"
+            android:focusable="true"
+            android:text="@string/search_hotkey"
+            android:textColor="@color/local_net_search_tabbtn_textcolor" />
+
+        <Button
+            android:id="@+id/search_lishi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/local_net_search_btn_bg"
+            android:focusable="true"
+            android:text="@string/search_history_recoder"
+            android:textColor="@color/local_net_search_tabbtn_textcolor" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vPager_search_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_line"
+        android:layout_gravity="center"
+        android:layout_weight="1.0"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+    <FrameLayout
+        android:id="@android:id/tabcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</RelativeLayout>

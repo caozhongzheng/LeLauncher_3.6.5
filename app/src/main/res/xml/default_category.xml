@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<categories xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher" >
+
+    <category
+        launcher:categoryName="@string/label_oftenuse"
+        launcher:resourceName="ic_cm_oftenuse" />
+    <category
+        launcher:categoryName="@string/label_tools"
+        launcher:resourceName="ic_cm_tools" />
+    <category
+        launcher:categoryName="@string/label_games"
+        launcher:resourceName="ic_cm_games" />
+    <category
+        launcher:categoryName="@string/label_sns"
+        launcher:resourceName="ic_cm_sns" />
+
+</categories>

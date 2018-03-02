@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- for loading view -->
+
+    <include
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/init_localwallpaper" />
+    <!-- for show local lock screen -->
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:padding="3dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="7dp"
+        android:visibility="invisible" >
+    </GridView>
+
+    <ImageButton
+        android:padding="3dp"
+        android:src="@drawable/lockscreen_add_more"
+        android:id="@+id/bt_getmore"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <!-- <include
+        android:id="@+id/view_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_title"
+        android:minHeight="48dp" /> -->
+    <!-- <EditText
+        android:id="@+id/add_profile_edit"
+        android:layout_width="@dimen/profile_edit_text_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/text_edit_bg"
+        android:layout_marginTop="@dimen/profile_dialog_button_topPadding"
+        android:layout_marginBottom="@dimen/profile_dialog_button_topPadding"
+        android:hint="@string/add_profile_hint"
+        android:maxLength="28"
+        android:singleLine="true"
+        android:ellipsize="end"/> -->
+
+    <TextView
+        android:id="@+id/add_profile_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/profile_dialog_button_topPadding"
+        android:layout_marginLeft="@dimen/profile_dialog_textview_margin"
+        android:layout_marginRight="@dimen/profile_dialog_textview_margin"
+        android:layout_marginTop="@dimen/profile_dialog_button_topPadding"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+<!-- 
+    <include
+        layout="@layout/buttonbar" /> -->
+
+</LinearLayout>

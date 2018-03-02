@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Magic Desktop</string>
+    <string name="theme_applying_wallpaper_message">Setting wallpaper...</string>
+    <string name="wallpaper_insall_success">Wallpaper applied successful!</string>
+    <string name="theme_set_screenlock_success">Lock screen applied</string>
+
+        <string name="le_list_empty">No online resources.</string>
+    <string name="theme_applying_wallpaper_title">Set Wallpapers</string>
+    <string name="other_wallpaper_name">Other</string>
+    <string name="more_wallpaper">More wallpaper</string>
+    <string name="more_theme">More theme</string>
+    <string name="more_lock">More lockscreen</string>
+
+    <string name="download_msg">You must download a plug-in application before apply the live wallpaper (6M~~9M ), whether to need to download?</string>
+    <string name="download_edit_msg">The current plug-in  does not support the wallpaper editing function, whether to need to update?</string>
+    <string name="download_confirm_msg">Whether to need to download</string>
+    <string name="download_reconfirm_msg">Local device has already installed this applicatio, need to re-download?</string>
+
+
+    <string name="tab_settings">Settings</string>
+    <string name="tab_local">Local</string>
+    <string name="tab_network">Web</string>
+    <string name="tab_search">Search</string>
+    <string name="tab_download">Download</string>
+    <string name="tab_more">More</string>
+    <string name="network_wallpaper">Web wallpaper</string>
+    <string name="network_theme">Web theme</string>
+    <string name="network_lock">Web lockscreen</string>
+    <string name="download_more">More wallpaper:</string>
+    <string name="download_androidesk">Androidesk</string>
+    <string name="android_wallpaper">Androidesk</string>
+    <string name="love_wallpaper">爱壁纸</string>
+    <string name="moxiu_wallpaper">魔秀壁纸</string>
+
+    <string name="preview_wallpaper">Preview</string>
+    <string name="empty_refresh_done">No more resources</string>
+
+
+    <string name="le_wallpaper">Le-Wallpaper</string>
+    <string name="click_lewallpaper">Please click on the *Le wallpaper into set wallpaper</string>
+
+    <string name="apply_themes">Apply</string>
+    <string name="apply_wallpaper">Apply</string>
+    <string name="apply_screenlock">Apply</string>
+    <string name="edit_wallpaper">Edit</string>
+    
+	
+    <string name="le_download_install">Install</string>
+    <string name="tab_recommend">Recommend</string>
+    <string name="tab_application">Application</string>
+    <string name="tab_theme">Theme</string>
+    <string name="tab_wallpaper">Wallpaper</string>
+    <string name="tab_lockscreen">Lockscreen</string>
+    <string name="local_wallpaper">Local Wallpaper</string>
+    <string name="local_theme">Local Theme</string>
+    <string name="local_lock">Local LockScreen</string>
+    <string name="local_app">Local Application</string>
+    <string name="network_app">Network Application</string>
+    <string name="online_classic">Recommend</string>
+    <string name="getmore_text">Click for get more...</string>
+    <string name="theme_store_tab_hot">Hot</string>
+    <string name="theme_store_tab_latest">New</string>
+    <string name="theme_store_tab_category">Category</string>
+    <string name="push_app_refresh">Refresh</string>
+
+
+    <string name="data_apply">Apply</string>
+	<string name="file_access_fail">File access failed, please check the sd card</string>
+    <string name="grid_empty_error">Failure to obtain resources, please check the network.</string>
+    <string name="no_wallpaper_text">Nothing left</string>
+    
+    <!-- hawaii -->
+    
+    <string name="hw_content_receiver">HW_CONTENT_RECEIVER</string>
+    <string name="hw_ui_activity_name">Hawaii UI</string>
+    <string name="hw_ui_widget_no_service_framework">Please install LenovoServiceFramework-lenovo.apk </string>
+    <string name="hw_ui_widget_get_app_info_error">For application details, please check the network</string>
+    <string name="hw_ui_widget_no_appstroe">please install Leos AppStore Application</string>
+    <string name="hw_ui_widget_get_spere_list_error">Get recommended list failed, please try again later</string>
+    <string name="download">Download</string>
+    <string name="more_detail">More Detail</string>
+    <string name="download_app_free">Free</string>
+    <string name="package_size_prestring">Size :</string>
+    
+
+    <!-- @Download module -->
+    <string name="downlaod_preparation">Preparing…</string>
+    <string name="addedownloadqueue">Already add to download queue</string>
+    <string name="download_sd_error_1">SD is needed</string>
+   	<string name="download_count_overflow">Download too many tasks, please try again later.</string>
+   <string name="download_delete_dialog_title_lejingpin">This app will be deleted</string>
+	<string name="download_delete_dialog_confirm">Confirm</string>
+	<string name="download_delete_dialog_cancle">Cancel</string>
+    <!-- Download module@ -->
+
+    <!-- @app detail -->
+    <string name="app_detail_run">Run</string>
+    <string name="app_detail_run_error">The application can not be run directly</string>
+  	<string name="app_feature_10">推荐理由：免费最热，乐商店排行榜</string>
+    <string name="app_feature_11_14">推荐理由：装机必备，就在猜你喜欢</string>
+    <string name="app_feature_12_13">推荐理由：精品应用，乐商店小编推荐</string>
+    <string name="app_feature_others">推荐理由：个性推荐，我自己的应用</string>
+    
+    <!-- app detail@ -->
+
+	<!-- favorites  -->
+	<string name="favorites_delete_text">Not collect</string>
+
+    <!-- @lca package installer -->
+    <string name="lcapackageinstaller_out_of_space_dlg_title">"Without Storage Space"</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text2">Can not obtain Lenovo Account Authentication Data</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text3">User Canceled。</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text1">Network Connection Fails</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text">Failed to Check the Package.</string>
+    <string name="lcapackageinstaller_permission_error_dlg_title">Check Failed</string>
+    <string name="lcapackageinstaller_Parse_error_dlg_text">"Failed to Parse the Package"</string>
+    <string name="lcapackageinstaller_Parse_error_dlg_title">"Parse Error"</string>
+    <string name="lcapackageinstaller_install_hint_title">Install Tips</string>
+    <string name="lcapackageinstaller_install_hint_message">Installation package was not successfully downloaded, or had been deleted, please re-download!</string>
+    <string name="lcapackageinstaller_install_succeed">Install Succeed</string>
+    <!-- lca package installer @ -->
+
+    <string name="local_app_name">Local Apps</string>
+    <string name="push_app_name">Recommend</string>
+    <string name="nav_add_favorites">Add to Favorites</string>
+    <string name="nav_remove_favorites">Remove Favorites</string>
+    <string name="nav_recommned">RecommnedApp</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_flip">Try</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_more">More</string>
+    <string name="dialog_spere_update">New applications recommended!\n You may find the applications you have collected before in Menu-favorites.</string>
+    <string name="flip_tip">Drag to flip</string>
+    <string name="flip_confirm">Leave to flip</string>
+    <string name="list_loading">Loading recommended application ....</string>
+    <string name="list_empty_1">Thank you for enjoying the recommended applications.No more applications are provided now,come back soon please.You may go <![CDATA[<a href=http://www.lenovomm.com>Lenovo Store</a>]]></string>
+    <string name="detail_loading_falied_1">Applications will be checked and improved periodically,It is not available,try it later or search similiar ones.</string>
+    <string name="detail_download_progress">%s%</string>
+    <string name="detail_favorites_add">Saved to Favorites, You can download it later</string>
+    <string name="detail_favorites_delete">Collected already</string>
+    <string name="detail_favorites_add_failed">Please collect it  before download</string>
+    
+    
+    <!-- Text for update or download apk -->
+    <string name="download_appstroe_error">App Store is not installed or App Store does not work. Please install a higher version of App Store.</string>
+    <string name="music_download_status_downloading_label2">Current download progress: %1$s%%</string>
+    <string name="download_net_error">Network error. Please get online and try again.</string>
+    <string name="download_sdcard_notexists">SD card is full or not available.</string>
+    <string name="download_recommend_fail">Failed to obtain recommended applications.</string>
+    
+    <string name="favorites_empty_text">No favorites，you may drag icons to it.</string>
+    
+    <string name="hawaii_setting">Settings</string>
+    <string name="hawaii_setting_wifi">Download only in WLAN </string>
+    <string name="hawaii_setting_wifi_summary">May save data flow </string>
+    <string name="hawaii_setting_upgrade">Display new version </string>
+    <string name="hawaii_setting_upgrade_summary">To obtain the new version at first time</string>
+    <string name="hawaii_setting_load_picture">Load pictures </string>
+    <string name="hawaii_setting_load_picture_summary">Show thumbnails for more information</string>
+    <string name="hawaii_setting_switch">Recommendations</string>
+    <string name="hawaii_setting_switch_summary">Provide well-chosen applications</string>
+    <string name="hawaii_setting_delete_mem">Clear image cache</string>
+    <string name="hawaii_setting_delete_mem_success">Image successfully cleared</string>
+    <string name="hawaii_setting_delete_mem_summary">Reservation  may save data flow</string>
+    
+    <string name="help">About</string>
+    <string name="function">Introduction of function</string>
+    <string name="check_new_version">Update</string>
+    <string name="check_sdcard_status_result">No SD card. Please insert your SD card and try again.</string>
+    
+    <string name="d_switch_t">Notification</string>
+    <string name="d_switch_m">You have turned off the recommendation of applications, and you will not enjoy the applications which Lenovo Store provides.</string>
+    <string name="d_switch_ok">Confirm</string>
+    <string name="d_switch_cancel">Cancel</string>
+    <string name="open_hawaii">Turn on</string>
+    <string name="open_hawaii_summary">\tSorry, you have turned off recommendations.\n\n1. You will not enjoy the recommendations Lenovo has chosen for you.\n2. Turned on it, fashionable applications will be with you.\n3. Turned on it, no need to search  them here and there.\n4. Your life will be full of great fun with it.</string>
+    <string name="about_t">About Guess What You Like</string>
+    <string name="about_android">Guess What You Like for Android</string>
+    <string name="about_version">Version : </string>
+    <string name="about_owner">Developer : </string>
+    <string name="about_owner_content">E2E Team Lenovo</string>
+    <string name="about_features_new">Features :</string>
+    <string name="about_features_new_content">· Recommended applications, shaking for flip\n\n· Timely collection, download at any time\n\n· Use compression technology, saving the valuable traffic</string>
+    
+    <!-- search  -->
+    <string name="search_box_keyword_hint">search more apps</string>
+    <string name="search_box_go">Search</string>
+    <string name="search_notice_nokeyword">Input keywords please!</string>
+    <string name="search_apps_footer_loading">Loading</string>
+    <string name="search_history_footer_deleteall">Clear History</string>
+    <string name="search_history_deleteall_dialog_title">Tips</string>
+    <string name="search_history_deleteall_dialog_message">Are you sure to clear the history?</string>
+    <string name="search_history_deleteall_dialog_confirm">Confirm</string>
+    <string name="search_history_deleteall_dialog_concel">Cancel</string>
+    <string name="search_error_network">Check Network Please!</string>
+    <string name="search_error_client">Can NOT connect to Server</string>
+    <string name="search_data_nodata">No related application</string>
+    
+    <string name="spere_new_app_notifi_title">Remind from Guess you like</string>
+    <string name="spere_new_app_notifi_content"> ^-^ %s new applications, click to view.</string>    
+        
+    <!-- Detail -->    
+    <string name="auther">Source: </string>
+    <string name="download_count">Download count: </string>
+    <string name="app_size">Size: </string>
+    <string name="delete_icon_tip">delete </string>
+
+        
+	<string name="letongbu_install_dialog_body">Please download and install LeSync first</string>
+	<string name="letongbu_install_dialog_title">Attention</string>
+	<string name="ljp_delete_download_task_title">Download task will be canceled</string>
+	<string name="ljp_delete_download_task_msg">Confirm cancel download%s</string>
+   	<string name="game_app_name">Popular games</string>
+	<string name="game_app_more_prompt">Drag up refresh</string>
+	
+	<string name="app_file_path" translatable="false">/system/etc/localwallpaper/customed_wallpaper.xml</string>
+	
+	<!-- Dowload error info; added by mhl 2013.3.25 -->
+	<string name="failed_download_no_enough_space">SD card is full nor not available</string>
+	<string name="failed_download_network_error">Download failed caused by network error</string>
+	<string name="failed_download_other_error">Download failed</string>
+	<string name="download_sdcard_not_available">SD card is full nor not available</string>
+	
+ <string name="lejingpin_settings_title">Download Settings</string>
+ <string name="lejingpin_settings_download_settings_title">Download Settings</string>
+ <string name="lejingpin_settings_wlan_download_title">WLAN mode only</string>
+ <string name="lejingpin_settings_wlan_download_summary">Transmitt data only in WLAN</string>
+ 
+ <string name="lejingpin_settings_download_save_title">Direction of files downloaded</string>
+ <string name="lejingpin_settings_download_save_summary">/sdcard/.IdeaDeskTop/LeDownload/download</string>
+
+  
+ <string name="lejingpin_settings_clear_cache_title">Clean file buffers</string>
+ <string name="lejingpin_settings_clear_cache_summary">Reservation may save data flow</string>
+ 
+ <string name="lejingpin_settings_preview_title">Snapshot files load</string>
+ <string name="lejingpin_settings_preview_summary">Display of Snapshot in applications and icons</string>
+
+ 
+ <string name="lejingpin_settings_install_title">Install Settings</string>
+ <string name="lejingpin_settings_auto_install_title">Auto-install</string>
+ <string name="lejingpin_settings_auto_install_summary">Auto-install after download</string>
+ 
+ 
+ <string name="lejingpin_settings_clearcache_dialog_title">Clean cache file</string>
+ <string name="lejingpin_settings_clearcache_dialog_content">Confirm clearing the cache file?</string>
+ 
+ <string name="lejingpin_cacheclear_sucessed">buffers has been cleaned</string>
+ 
+ <string name="lejingpin_cacheclear_progress_title">Cleaning</string>
+ <string name="lejingpin_cacheclear_progress_content">Please wait......</string>
+
+ <string name="ljp_push_app_head_download_text">Download</string>
+
+ 	<string name="lejingpin_wlan_download_dialog_title">Friendly reminder</string>
+	<string name="lejingpin_wlan_download_dialog_body">The setting is "WLAN mode only", for the use of data transmission in a mobile network, please modify settings!</string>
+	<string name="lejingpin_wlan_download_dialog_btn_confirm">Set</string>
+	<string name="lejingpin_wlan_download_dialog_btn_cancel">Cancel</string>
+	
+	<string name="lejingpin_settings_lock_title">Lock screen settings</string>
+	<string name="lejingpin_settings_uselock_title">Use lock screen</string>
+   <string name="lejingpin_settings_uselock_summary">Some models do not support</string>
+	<string name="lejingpin_settings_setshake_title">Unlock vibration</string>
+	<string name="lejingpin_settings_setvoick_title">Lock screen audio</string>
+	<string name="lejingpin_settings_uselejingpinlock_dialog_title">Use lock screen </string>
+	<string name="lejingpin_settings_uselejingpinlock_dialog_content">Download Wizard lock screen</string>
+	
+	<string name="lejingpin_settings_go_locallock_title">LockScreen Style</string>
+	<string name="lejingpin_settings_go_locallock_summary">Select a different Style from the Local LockScreen</string>
+   <string name="confirm_delete_lockscreen">You are now deleting the lock screen which in use, are you sure you want to delete it?</string>
+	    
+	  <string name="pad_search_more">Loading...</string>      
+	
+	<!-- mohl add for online wallpaper 2013-7-16-->
+	<string name="wallpaper_open_detail_error">This wallpaper has not been loaded, please wait a moment</string>
+	<!-- mohl add for online wallpaper end-->
+
+   
+    <string name="goto_settings">Go to Settings</string>
+	  
+</resources>

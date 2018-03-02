@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ljp_favicon_size">16dip</dimen>
+    <dimen name="ljp_widgetThumbnailHeight">94dip</dimen>
+    <dimen name="ljp_widgetHorizontalSpacing">6dip</dimen>
+    <dimen name="ljp_widgetVerticalSpacing">6dip</dimen>
+    <dimen name="ljp_widgetColumnWidth">95dip</dimen>
+
+    <!-- app -->
+    <dimen name="ljp_reflex_app_icon_size">57dp</dimen>
+    <dimen name="ljp_app_icon_size">52dp</dimen>
+    <integer name="ljp_app_des_line">5</integer>
+    
+    <dimen name="ljp_app_download_buton_width">64dp</dimen>
+    <dimen name="ljp_app_download_buton_heigth">28dp</dimen>
+    <dimen name="ljp_app_download_text_size">11dp</dimen>
+
+    <integer name="ljp_apps_column_count">4</integer>
+    <integer name="ljp_apps_page_count">16</integer>
+    <dimen name="ljp_push_app_name_size">12sp</dimen>
+     <dimen name="ljp_push_app_introduction_size">14sp</dimen>
+
+    <dimen name="ljp_apps_layout_padding_top">15dp</dimen>
+    <dimen name="ljp_apps_layout_padding_left">5dp</dimen>
+    <dimen name="ljp_apps_layout_padding_right">5dp</dimen>
+    <dimen name="ljp_apps_cell_icon_padding">0dp</dimen>
+    <dimen name="ljp_push_app_download_cont">10sp</dimen>
+    
+    <dimen name="ljp_push_app_ratingbar_left">54dp</dimen>
+
+    <!-- download manager -->
+
+    <dimen name="ljp_download_item_left_margin">10dp</dimen>
+    <dimen name="ljp_download_item_right1_margin">10dp</dimen>
+    <dimen name="ljp_download_item_appname_maxwidth">156dp</dimen>
+    <dimen name="ljp_favorites_item_appname_maxwidth">190dp</dimen>
+	 <dimen name="ljp_menu_row_height">68dp</dimen>
+    <dimen name="ljp_download_item_right2_margin">75dp</dimen>
+
+    <dimen name="ljp_download_item_button_padding_left_right">10dp</dimen>
+    <dimen name="ljp_download_item_button_padding_top_bottom">5dp</dimen>
+    <integer name="ljp_download_upper_limit">5</integer>
+    <dimen name="ljp_push_head_app_download_margin_bottom_size">20dp</dimen>
+    <dimen name="ljp_push_content_app_download_margin_top_size">10px</dimen>
+
+    <!-- favorites -->
+	 <!-- for HtmlHelpFragment -->
+	 <dimen name="ljp_help_width">300dp</dimen>
+	 <dimen name="ljp_help_height">350dp</dimen>
+	 <dimen name="ljp_help_text_size_title">16sp</dimen>
+	 <dimen name="ljp_help_text_size_content">14sp</dimen>
+	 
+	 <dimen name="ljp_search_history_item_height">45dp</dimen>
+	 <dimen name="ljp_search_apps_item_height">75dp</dimen>
+	 
+	 <!-- menu -->
+</resources>

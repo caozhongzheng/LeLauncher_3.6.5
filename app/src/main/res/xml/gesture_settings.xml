@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_gesture_screen">
+   <!--  <com.lenovo.launcher2.commonui.LeListPreference
+        android:id="@+id/pref_key_scroll_up_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_scroll_up_guesture_lelist"
+        android:layout="@layout/custom_preference"
+        android:title="@string/scroll_up_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:defaultValue="@string/pref_scroll_up_guesture_default" />
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:id="@+id/pref_key_scroll_down_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_scroll_down_guesture_lelist"
+        android:layout="@layout/custom_preference"
+        android:title="@string/scroll_down_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more" 
+        android:defaultValue="@string/pref_scroll_down_guesture_default"/>
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:id="@+id/pref_double_click_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_double_click_guesture_lelist"
+        android:layout="@layout/custom_preference"
+        android:title="@string/double_click_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:defaultValue="@string/pref_double_click_guesture_default" />
+   -->  
+      
+ <!-- ListPreference -->
+    <ListPreference
+        android:id="@+id/pref_key_scroll_up_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_scroll_up_guesture"
+        android:layout="@layout/custom_preference"
+        android:title="@string/scroll_up_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:defaultValue="@string/pref_scroll_up_guesture_default" />
+   
+    <ListPreference
+        android:id="@+id/pref_key_scroll_down_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_scroll_down_guesture"
+        android:layout="@layout/custom_preference"
+        android:title="@string/scroll_down_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more" 
+        android:defaultValue="@string/pref_scroll_down_guesture_default"/>
+    <ListPreference
+        android:id="@+id/pref_double_click_guesture_setting"
+        android:entries="@array/pref_gesture_choices"
+        android:entryValues="@array/pref_gesture_values"
+        android:key="pref_double_click_guesture"
+        android:layout="@layout/custom_preference"
+        android:title="@string/double_click_gesture_setting"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:defaultValue="@string/pref_double_click_guesture_default" />
+</PreferenceScreen>

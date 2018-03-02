@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.MenuTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuTabHost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/apps_customize_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.lenovo.launcher2.FocusOnlyTabWidget
+             android:id="@android:id/tabs"
+             android:layout_width="match_parent"
+             android:layout_height="30dp"
+             android:layout_gravity="left"
+             android:background="@drawable/menu_tab_area_background"
+             android:tabStripEnabled="false"
+             android:divider="@null" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+            <com.lenovo.launcher2.MenuPagedView
+                android:id="@+id/paged_view"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.lenovo.launcher2.MenuTabHost>

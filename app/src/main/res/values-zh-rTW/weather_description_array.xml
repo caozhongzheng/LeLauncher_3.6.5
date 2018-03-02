@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string-array name="weather_description_array">
+        <item>晴</item>
+        <item>多雲</item>
+        <item>陰</item>
+        <item>陣雨</item>
+        <item>雷陣雨</item>
+        <item>雷陣雨伴有冰雹</item>
+        <item>雨夾雪</item>
+        <item>小雨</item>
+        <item>中雨</item>
+        <item>大雨</item>
+        <item>暴雨</item>
+        <item>大暴雨</item>
+        <item>特大暴雨</item>
+        <item>陣雪</item>
+        <item>小雪</item>
+        <item>中雪</item>
+        <item>大雪</item>
+        <item>暴雪</item>
+        <item>霧</item>
+        <item>凍雨</item>
+        <item>沙塵暴</item>
+        <item>小雨-中雨</item>
+        <item>中雨-大雨</item>
+        <item>大雨-暴雨</item>
+        <item>暴雨-大暴雨</item>
+        <item>大暴雨-特大暴雨</item>
+        <item>小雪-中雪</item>
+        <item>中雪-大雪</item>
+        <item>大雪-暴雪</item>
+        <item>浮塵</item>
+        <item>揚沙</item>
+        <item>強沙塵暴</item>
+    </string-array>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+</resources>

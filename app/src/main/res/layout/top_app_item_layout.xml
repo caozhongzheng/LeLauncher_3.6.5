@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.lenovo.lejingpin.hw.ui.AppGallery
+            android:id="@+id/gallery_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_ym"
+            android:animationDuration="1000"
+            android:fadingEdge="none"/>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="19dip"
+            android:layout_gravity="bottom"
+            android:gravity="right"
+            android:background="#33000000">
+     
+            <LinearLayout
+                android:id="@+id/home_advs_gallery_mark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="20dip">
+            </LinearLayout>
+       <!--
+                <RadioGroup
+                    android:id="@+id/home_advs_gallery_mark"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+                </RadioGroup>
+            -->
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

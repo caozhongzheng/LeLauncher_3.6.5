@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/dialog_bg"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+   <LinearLayout
+       android:id="@+id/install_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_title"
+        android:minHeight="48dp" />
+    
+        <Button
+            android:id="@+id/btn_download"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="112dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_share_selector"
+            android:text="@string/enter_install"
+            android:textColor="@color/white"
+            android:textSize="@dimen/install_dialog_btn_textsize" />
+
+           <TextView
+               android:id="@+id/message1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="60dp"
+               android:textColor="@color/message_color"
+               android:textSize="@dimen/install_dialog_message_textsize" />
+
+      <TextView
+          android:id="@+id/message2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="28dp"
+          android:layout_marginLeft="60dp"
+          android:textColor="@color/message_color"
+          android:textSize="@dimen/install_dialog_message_textsize" />
+
+	</LinearLayout>
+</LinearLayout>

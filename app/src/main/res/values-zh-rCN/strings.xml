@@ -1,0 +1,1168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+/*
+* Copyright (C) 2008 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">	
+    <string name="application_name" msgid="8424725141379931883">"乐桌面"</string>
+    <string name="uid_name" msgid="3371120195364560632">"Android 核心应用程序"</string>
+    <string name="folder_name" msgid="8551881338202938211">"文件夹"</string>
+    <string name="chooser_wallpaper" msgid="5988031014201479733">"选择壁纸来源"</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="wallpaper_instructions" msgid="4215640646180727542">"设置桌面壁纸"</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="pick_wallpaper" msgid="5630222540525626723">"乐桌面壁纸"</string>
+    <string name="activity_not_found" msgid="5591731020063337696">"未安装此应用程序。"</string>
+    <string name="widgets_tab_label" msgid="9145860100000983599">"窗口小部件"</string>
+   
+    <string name="apptask_tab_label">"最近打开"</string>
+    <string name="apprunning_tab_label">"正在运行"</string>
+  
+    <string name="long_press_widget_to_add" msgid="8915177487173521501">"触摸并按住可选取一个窗口小部件"</string>
+    <string name="market" msgid="2652226429823445833">"购买"</string>
+    <string name="external_drop_widget_error" msgid="4976816434597126575">"无法将该项放到主屏幕上"</string>
+    <string name="external_drop_widget_pick_title" msgid="4481311720134376218">"选择窗口小部件进行创建"</string>
+    <string name="rename_folder_label" msgid="5646236631298452787">"文件夹名称"</string>
+    <string name="rename_folder_title" msgid="4544573104191526550">"重命名文件夹"</string>
+    <string name="rename_action" msgid="6016003384693240896">"确定"</string>
+    <string name="cancel_action" msgid="3811860427489435048">"取消"</string>
+    <!-- RK_ID: RK_SETTINGS. AUT: liuli1 . DATE: 2012-04-01 . START -->
+    <string name="menu_item_add_item" msgid="6233177331075781114">"添加到桌面"</string>
+    <!-- RK_ID: RK_SETTINGS. AUT: liuli1 . DATE: 2012-04-01 . END -->
+    <string name="group_applications" msgid="4118484163419674240">"应用程序"</string>
+    <string name="group_shortcuts" msgid="9133529424900391877">"快捷方式"</string>
+    <string name="group_widgets" msgid="6704978494073105844">"其他小部件"</string>
+    <string name="group_wallpapers" msgid="1568191644272224858">"壁纸"</string>
+    <string name="out_of_space" msgid="8365249326091984698">"此屏幕上已没有空间。"</string>
+    <string name="invalid_hotseat_item" msgid="6545340627805449250">"该窗口小部件太大，超出基座区域可用空间。"</string>
+    <string name="shortcut_installed" msgid="7071557296331322355">"已创建“<xliff:g id="NAME">%s</xliff:g>”快捷方式。"</string>
+    <string name="shortcut_uninstalled" msgid="2129499669449749995">"已删除“<xliff:g id="NAME">%s</xliff:g>”快捷方式。"</string>
+    <string name="shortcut_duplicate" msgid="4757756326465060694">"“<xliff:g id="NAME">%s</xliff:g>”快捷方式已存在。"</string>
+    <string name="title_select_shortcut" msgid="2858897527672831763">"选择快捷方式"</string>
+    <string name="title_select_application" msgid="8031072293115454221">"选择应用程序"</string>
+    <string name="all_apps_button_label" msgid="2578400570124163469">"应用程序"</string>
+    <string name="all_apps_home_button_label" msgid="1022222300329398558">"主屏幕"</string>
+    <string name="delete_zone_label_workspace" msgid="7153615831493049150">"删除"</string>
+    <string name="delete_zone_label_all_apps" msgid="6664588234817475108">"卸载"</string>
+    <string name="delete_target_label" msgid="665300185123139530">"删除"</string>
+    <string name="delete_target_uninstall_label" msgid="748894921183769150">"卸载"</string>
+    <string name="info_target_label" msgid="4019495079517426980">"应用程序信息"</string>
+    <string name="accessibility_search_button" msgid="816822994629942611">"搜索"</string>
+    <string name="accessibility_voice_search_button" msgid="3938249215065842475">"语音搜索"</string>
+    <string name="accessibility_all_apps_button" msgid="1595097919145716305">"应用程序"</string>
+    <string name="accessibility_delete_button" msgid="3628162007991023603">"删除"</string>
+    <string name="delete_zone_label_all_apps_system_app" msgid="3683920959591819044">"卸载更新"</string>
+    <string name="menu_add" msgid="3065046628354640854">"添加"</string>
+    <string name="menu_manage_apps" msgid="2308685199463588895">"应用"</string>
+    <string name="menu_wallpaper" msgid="5837429080911269832">"壁纸"</string>
+    <string name="menu_search" msgid="4826514464423239041">"搜索"</string>
+    <string name="menu_notifications" msgid="6424587053194766192">"通知"</string>
+    <string name="menu_settings" msgid="3946232973327980394">"系统设置"</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 START -->
+    <string name="menu_theme_settings">"主题"</string>
+    <string name="menu_sense_settings">"桌面备份恢复"</string>
+    <string name="menu_desktop_settings">"桌面设置"</string>
+    <string name="menu_screen_setting">"屏幕管理"</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 END -->
+    <string name="menu_help" msgid="4901160661634590633">"帮助"</string>
+    <string name="cab_menu_delete_app" msgid="1242619904941293871">"卸载应用程序"</string>
+    <string name="cab_menu_app_info" msgid="5180426909324882018">"应用程序详细信息"</string>
+    <string name="cab_app_selection_text" msgid="606113924828167756">"已选中 1 个应用程序"</string>
+    <string name="cab_widget_selection_text" msgid="962527270506951955">"已选中 1 个窗口小部件"</string>
+    <string name="cab_folder_selection_text" msgid="8916111874189565067">"已选中 1 个文件夹"</string>
+    <string name="cab_shortcut_selection_text" msgid="8115847384500412878">"已选中 1 个快捷方式"</string>
+    <string name="permlab_install_shortcut" msgid="1201690825493376489">"安装快捷方式"</string>
+    <string name="permdesc_install_shortcut" msgid="7429365847558984148">"允许应用程序在没有用户介入的情况下添加快捷方式。"</string>
+    <string name="permlab_uninstall_shortcut" msgid="7696645932555926449">"卸载快捷方式"</string>
+    <string name="permdesc_uninstall_shortcut" msgid="959972195916090900">"允许应用程序在没有用户介入的情况下删除快捷方式。"</string>
+    <string name="permlab_read_settings" msgid="3452408290738106747">"读取主屏幕的设置和快捷方式"</string>
+    <string name="permdesc_read_settings" msgid="8377434937176025492">"允许应用程序读取主屏幕的设置和快捷方式。"</string>
+    <string name="permlab_write_settings" msgid="1360567537236705628">"写入主屏幕的设置和快捷方式"</string>
+    <string name="permdesc_write_settings" msgid="1098648778383349818">"允许应用程序更改主屏幕的设置和快捷方式。"</string>
+    <string name="gadget_error_text" msgid="8359351016167075858">"载入窗口小部件时出现问题"</string>
+    <string name="dream_name" msgid="2847171357608437154">"Rocket Launcher"</string>
+    <string name="folder_hint_text" msgid="8633351560105748141">"未命名文件夹"</string>
+    <string name="workspace_cling_title" msgid="738396473989890567">"随意浏览"</string>
+    <string name="workspace_cling_move_item" msgid="791013895761065070">"您可以在此处放置自己喜爱的应用程序。"</string>
+    <string name="workspace_cling_open_all_apps" msgid="2459977609848572588">"要查看您的所有应用程序，请触摸该圆圈。"</string>
+    <string name="all_apps_cling_title" msgid="2559734712581447107">"选择一些应用程序"</string>
+    <string name="all_apps_cling_add_item" msgid="7404588523183860170">"要将应用程序添加到主屏幕，请触摸并按住该应用程序。"</string>
+    <string name="folder_cling_title" msgid="4308949882377840953">"使用文件夹整理应用程序"</string>
+    <string name="folder_cling_move_item" msgid="270598675060435169">"要移动应用程序，请触摸并按住该应用程序。"</string>
+    <string name="folder_cling_create_folder" msgid="289412698047625601">"要在主屏幕上创建新文件夹，请将一个应用程序叠放到另一个上。"</string>
+    <string name="cling_dismiss" msgid="2780907108735868381">"确定"</string>
+    <string name="cling_dismiss_new">"我知道了"</string>
+
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 START -->
+    <string name="header_category_personal">主题设置</string>
+    <string name="workspace_slide_settings_title">桌面翻页动画</string>
+    <string name="workspave_slide_settings_summary">默认无动画</string>
+    <string name="theme_settings_title">我的主题</string>
+    <string name="theme_settings_default_theme">经典</string>
+    <string name="add_folder">文件夹</string>
+    <!-- AUT: xingqx xingqx@lenovo.com  DATE:  2012-02-29 s -->
+    <string name = "ideadesktop_help_title">乐桌面帮助教程</string>
+    <string name="about_lenovo_desktop_settings">关于乐桌面</string>
+    <string name="about_desktop_version">关于版本</string>
+    <string name="lenovo_desktop_verion_title">当前版本</string>
+    <string name="lenovo_desktop_verion_summary">乐桌面版本 </string>
+    <string name="lenovo_desktop_release_time_title">发布时间</string>
+    <string name="lenovo_desktop_release_time_summary">2012.03.15</string>
+    <string name="lenovo_desktop_qq_title">乐桌面QQ群</string>
+    <string name="lenovo_desktop_qq_summary">112119507</string>
+    <string name="lenovo_desktop_website_title">官网网址</string>
+    <string name="lenovo_desktop_website_summary">http://launcher.lenovo.com</string>
+    <string name="contact_us">联系我们</string>
+    <string name="user_data_acquisition_title">用户体验提升计划</string>
+    <string name="user_data_acquisition_summary">用于协助用户提升体验</string>
+    <string name="btn_agree">同意</string>
+    <string name="push_text11">用户体验提升计划</string>
+    
+<string name="uepromotion_protocol">\t感谢您选择使用联想移动设备！使用联想移动设备的“用户体验提升计划”功能之前，请您务必仔细阅读以下条款：\n
+    \t我们将按照本用户体验提升计划（“本计划”）的规定提供的基于移动通信网络/互联网的在线数据中心相关服务，本计划中涉及的我方直接提供的所有信息、功能、内容、软件、硬件或服务等统称为“服务”。本计划由您和北京联想调频科技有限公司（以下称“我们”或“我方”）签订。根据上下文，在本计划中，“我们”有时可能包括我们的供应商、服务提供商、客户或员工。而“您”是指任何同意参加或使用本服务的任何单位和个人。\n
+    
+1.\t服务定义及说明\n
+ 
+“用户体验提升计划”是我们针对联想移动设备提出的一项旨在提升产品或服务、提升用户体验的服务功能。您的移动设备在开启“用户体验提升计划”功能后，您将在使用移动设备原有功能的同时，还可以优先体验到“用户体验提升计划”的新服务：\n
+\n
+    \t增强的设备软硬件加速功能和人性化体验\n
+(1)	 开机加速优化，节省您的开机时间，给您更好的开机体验；\n
+(2)	 为您提供最受用户欢迎的、简单、易用、体贴的软件功能体验；\n
+(3)	 增强的GPS定位功能，提供更快速、更精准的GPS定位功能；\n
+(4)	 3G、WLAN等网络模式的智能识别和切换功能，在不同网络环境下，提供个性化的内容服务，在您享受内容盛宴的同时，最大限度的节省您的3G网络流量和花费；\n
+\n
+    \t多方位、个性化的内容推荐服务：\n 
+(1)	 在您玩游戏时，为您提供最新的、您可能感兴趣的游戏下载链接和资讯；\n
+(2)	 在您听音乐时，为您提供歌手的最近动态、演唱会和热门新歌信息；\n
+(3)	 在您移动办公时，为您提供提供最新、最受欢迎的办公软件和体验；\n
+(4)	 在您上网冲浪时，为您提供安全、快速的访问体验，并自动为您推荐的感兴趣的、最新的软件、游戏、新闻、电子书、音乐、视频等个性化内容服务和多媒体视听盛宴；\n
+(5)	 在您定位导航时，除了为您提供更精准、高效的的GPS定位功能，还为您提供基于位置信息的衣食住行推荐和检索服务；\n
+\n
+    \t安全可靠的软件和服务体验；\n
+(1)	 通过对软件的分级和打分机制，为您提供更丰富、更安全的内置软件；\n
+(2)	 贴心的一站式应用检索、下载、安装和卸载服务，让你第一时间体验最流行的软件和游戏；\n
+(3)	 为您量身打造属于您自己的个人存储云服务；让你随时随地在格式兼容的手机、电脑、pad甚至是多媒体电视之间共享资料，让您从此摆脱担心文件丢失的烦恼。\n
+    您清楚地了解并认可，我们仅提供一种方便服务，即本服务仅为您提供基于您的移动设备已有功能的优化、提升或个性化辅助，具体服务、信息内容可能由其他第三方为您提供。我们并不替代该等服务、信息内容的提供者为您提供具体信息内容。\n
+    我们不对任何第三方向您提供的服务、信息内容做任何保证，包括但不限于对该等信息内容的安全性、稳定性、及时性及可适用性的保证。如您对该等信息内容有任何疑问、异议、意见或建议，您应自行联系其提供者协商。我们不就此向您承担任何责任。\n
+    我们保留在必要时调整服务内容和服务方式的权利（包括但不限于本服务条款），且这些调整后的内容或服务或基于此形成的概述和/或功能描述，都将作为本协议的有效组成部分，我方会尽合理的商业努力给予通知，同时您在享受服务时，应及时查阅了解修改内容并自觉遵守。\n
+    我方可采取技术或其他措施以保护服务，保证服务符合相关法律法规及政策的要求，保护我们的供应商、客户、员工，或阻止您违反本计划。这些措施可能包括但不限于：对您使用本服务进行管制等。这些措施可能阻止或中断您对本服务的使用。\n
+\n
+2.\t您如何获得服务\n
+为获得本服务，您应：\n
+（a）保持您的移动设备已经接入移动通信网络/互联网，且网络连接通畅；\n
+（b）打开服务所对应的功能模块，例如推送服务、GPS等；\n
+（c）依照本计划第3条签署本计划。\n
+    \t在您符合前述条件的前提下，您方可依照本计划之约定使用本服务。\n
+3.\t签署计划\n
+\t  您必须先接受签署本计划的条款和条件，才能使用本服务。签署本计划时，您必须达到适用法律规定的具备法定行为能力的年龄；如果您不具备法定行为能力的年龄，须由您的父母或法定监护人完成计划的签署。\n
+以下行为表明您已经了解并接受本计划的条款和条件：\n
+（a）您点击“我同意”或“我接受”或类似按钮表明您确认同意或接受本计划的在线版本； \n
+（b）您在线下与我们签署了本计划的纸质版本；\n
+（c）您实际使用了本服务（包括连同本服务一同提供的任何第三方服务），如果您不同意本计划的条款和条件，请不要使用本服务。\n
+4.\t服务期限和服务费用\n
+\t目前，本协议项下的服务为免费服务，但我们保留今后就此服务向您收取服务费用的权利。如果我们拟就本服务收费，则将就收费事宜事先通知您，只有您依照我们要求支付相应服务费（“订购”）后，我们才会在一个特定期限（“服务期限”）内为您继续提供本服务。我们有权根据实际情况随时调整收费标准。\n
+\t服务费用不包含因您访问互联网或移动网络而产生的相关费用。无论本服务收费与否，您均应自行承担因使用本服务而向包括网络运营商在内的第三方支付的相关费用，例如，电话费、手机短信费、访问其他互联网服务的费用以及您通过网络购买其它应用、音视频内容、服务或产品而产生的费用等。\n
+5.\t您如何使用本服务\n
+在使用本服务时，您应当：\n
+\t遵守任何可适用的法律，包括可适用的国际条约或公约规定；\n
+\t遵守所有与本服务有关的计划、准则、规定、程序或通告；\n
+\t将您获悉的任何对您联想帐号的非法使用或您的联想帐号出现安全漏洞等相关情况立即通知我们。\n
+\n
+6.\t使用本服务时所禁止的行为\n
+在使用本服务时，您不得：\n
+\t利用本服务进行任何可能对互联网或移动网正常运转造成不利影响的行为；\n
+\t利用本服务侵犯任何他人的知识产权或其他任何合法权益；\n
+\t以损害我们或我们的关联公司、经销商、分销商和/或供应商（合称“我们”），或我们的任一客户的利益或声誉的方式使用本服务；本计划中“关联公司”：是指被我方控制、或控制我方、或与我方受共同控制的机构。这里“机构”指任何公司、企业或其他法律实体；这里“控制”是指直接或间接地拥有影响所提及机构管理的能力，无论是通过所有权、有投票权的股份、合同或其他方式。\n
+\t使用或通过本服务参加或推动任何违法活动；\n
+\t将本服务的任何一部分用作任何未经征求的批量信息或未经征求的商业信息（“垃圾邮件”）的目标链接；\n
+\t使用任何自动进程或服务访问和/或使用本服务；\n
+\t使用任何未经授权的方式修改或改接，或者试图修改或改接本服务；\n
+\t损坏或破坏本服务（或任何与本服务相连接的网络）或使其不能运行或超负荷或干扰任何其他方对本服务的使用和享受；\n
+\t转卖或再分销本服务，或本服务的任何部分。\n
+\n
+7.\t违反的后果\n
+\t如您在使用本服务时违反任何本计划的规定，我们有权要求您改正或直接采取相应措施，包括但不限于（a）暂停向您提供服务和/或（b）终止对您的服务，以减轻您不当行为造成的影响。\n
+\t由于您的行为所导致或产生的任何处罚、调查、指控、索赔或要求，或由此导致任何损失，均需您自行承担费用解决，并自行承担相应责任。\n
+\t如因您的行为导致任何第三方针对我们包括我们、我们的关联公司、我们的供应商、客户或员工提出任何处罚、调查、指控、索赔或要求，一经收到我们的通知，您应立即承担费用为我们、我们的关联公司、我们包括我们的供应商、客户或员工提供抗辩并使我们免受任何损害。同时我们保留就您的行为给我们导致的损失向您索赔的权利。\n
+8.\t服务变更
+\t为响应客户需求，及对产品进行更新和技术改造等原因，我们需要定期或不定期的对本服务平台或相关设备进行检修、维护和更新，如因此类情况造成服务在合理时间内中断，敬请谅解，我们承诺将尽合理努力事先进行通告，但对因此产生的不便和损失，我们无需承担责任。\n
+鉴于网络服务的特殊性和不可预见性，您同意我们可在任何时候为任何原因变更、中断或终止本服务或其任何部分。在可行的情况下，我们将尽商业上合理的努力将此类变更、中断或终止提前通知您，但前述通知并非我们必须履行的义务。\n
+您可在设备设置项中随时关闭“用户体验改进计划”，关闭后您的移动设备将不再与本计划的服务器进行信息交互，同时您也不再享有相应的功能和服务。\n
+\t无论服务因任何原因被终止后，您使用本服务的权利也相应终止。\n
+9.\t知识产权\n
+\t我们或第三方拥有对本服务、本服务的任何部分、或通过本服务或连同本服务提供的软件及任何文本、图片、图形、音频和/或视频资料（“材料”）的一切权利、所有权和权益，包括但不限于一切知识产权。这些材料受版权、商标和/或其它财产所有权法律的保护。您同意不对本服务或通过本服务或连同本服务提供的材料进行修改、改编、翻译、从其制作衍生作品、反编译、逆向工程、反汇编，或以其他方式试图从本服务或材料取得源代码，或从本服务及材料中摘取其实质部分作其他应用。您还同意不去除、掩盖或改变本服务所附带、载有或连同或通过本服务读取的我们或任何第三方的著作权说明、商标或其他专有权利说明。这里“知识产权”指现在或以后在世界范围内有效的专利法、著作权法、商业秘密法、商标法、反不正当竞争法项下不时存在的任何和一切权利及任何及一切其他专有权、其任何和一切申请、续展、延期和恢复。\n
+\t除非另有明确约定，本计划的任何内容不得被解释为一方向另一方转让了其所持有的版权、专利、商业秘密、商标或任何其他知识产权。\n
+10.\t数据收集和保护\n
+\n
+\t为了实现、协作和更好地提供服务，若您参加了“用户体验提升计划”，我们会不定期的同步您的移动设备运行数据，主要包括：设备开关机事件、Push服务开关事件、WLAN开关事件、GPS开关事件和数据、运营商信息、系统功能使用数据、应用启动/关闭事件、应用安装/卸载事件、设备运行数据(关键功能、异常、错误数据) 等。\n
+\n
+\t “用户体验提升计划”同步的设备运行数据均为匿名收集。\n
+\t 同步的移动设备数据将会被统一、加密存储在特定服务器上，且保留期限最长不超过一年，同时，将按照我们的隐私政策使保护这些信息。\n
+\t 您可以访问 http://www.lenovo.com.cn/Public/public_bottom/privacy.shtml 阅读和理解我们的隐私策略的详细内容。\n
+\t 此外，仅为下列目的，我们可以访问、使用或者透露您的相关数据和信息，包括：\n
+（a）用于匿名分析设备运行状态、应用功能使用情况，以便发现设备和应用运行中的问题，作为改善产品或服务功能、提升用户体验以及提供本计划第1条所列服务的依据。\n
+（b）为遵守法律、协助司法和/或执法机构的调查和执行；\n
+（c）为保护我们及我方客户的财产、合法权利，包括计划的执行和遵守适用于本服务的策略；或\n
+（d）为保护社会公众的权利、财产或安全。\n
+但是，因通过网络提供和传输相关数据存在特定的泄密风险，您已经充分考虑并愿意承担该风险，因此，您在此确认自行承担因网络传输导致的数据泄漏的后果，对于此类我们控制之外或非因我方过错导致的数据泄露我方不承担责任。\n
+11.\t有限保证\n
+\t我们保证我们将以与业界标准一致的专业方式提供您本服务。如我们提供的服务与此保证有任何不符，您应在该服务提供后九十（90）天内通知我们。\n
+\t你了解并认可本计划项下提供的是服务而非货物。为此，除前述保证外，我们未就本服务做出任何其它保证和陈述，并在此否认任何其它所有明示或默示的保证或条件，包括但不限于关于适销性、适用于特定用途和不侵权的默示保证。\n
+\t您理解，本服务依不断发展的技术状况提供，并且本服务需依赖电信、互联网及其他第三方服务，可能会受到各个环节不稳定因素，例如但可能不限于，不可抗力、计算机病毒或黑客攻击、系统不稳定、用户所在位置、用户关机、GSM网络、互联网络、3G网络或其它通信线路故障等原因的影响，导致服务中断、延迟或其它情况，而不能满足用户要求。开通服务的用户将自行承担以上风险。我们对服务的及时性、安全性、准确性不作绝对担保，对因上述原因导致的未能及时、正确存储、发送、接受和阅读数据，或其他类似问题不承担任何责任。\n
+\t您将完全基于您的判断决定使用或不使用本服务，并对此自行承担责任。\n
+\t如可适用法律不允许以合同方式排除某些默示保证，则在法律禁止的最大范围内，上述对默示保证的排除不适用于您。此外您将继续享有那些可适用法律不允许通过合同方式排除或限制的权利。\n
+12.\t责任限制\n
+\t如我们提供的服务不符合上述保证，我们将尽商业上合理的努力修正错误并重新提供服务，如果我们无法以商业上合理的方式实质性修正错误，您可终止相关服务；在我们对服务收费的情况下，您可要求按合理比例退费。以上是您就此可得到的全部补救以及我们所承担的全部责任。\n
+\t无论本计划是否有其他规定，我们对以下各项均不承担任何责任和义务：(a)任何超出我们所收到的在本计划项下支付的相关服务费总额的金额（如有）；（b）任何有关获得替代货物、技术、服务或权利的成本和费用；或（c）使用中断或延迟或数据损坏或丢失导致的费用、费用增加或损失，无论其是基于本计划或任何合同、疏忽、严格责任或任何其他法律原则，即使我们已被事先告知存在上述损害赔偿的可能性。\n
+\t无论如何我们不对任何附随的、间接的或继发的损害或利润损失承担责任。\n
+\t您所在的国家或地区的法律可能不允许以合同方式对某些责任进行排除或限制，则在法律禁止的最大范围内，上述某些责任限制或排除条款不适用于您。\n
+13.\t计划变更\n
+\t在不损害您享受服务实质性权利前提下，我们保留在必要时修改本计划的部分条款的权利，一旦本计划的内容发生变动，我们将会提前合理的时间通过包括但不限于（a）网页公告；（b）电子邮件；（c）推送和/或（c）短信提醒等方式通知您。请不时阅读本计划的最新版本，位置在http://www.lenovomm.com（或我们提供的其他网址），以便掌握任何变动情况。如您不同意该项变更，那么您应在变更发生前取消和停止使用服务。如您未停止使用服务，那么您将按照变更后的计划条款使用本服务。\n
+14.\t终止；终止的效果\n
+\t本计划的自约定的生效日起生效，直至被任何一方终止。\n
+\t本计划无论因到期或其他任何原因终止的，本计划中标题为[知识产权]、[有限保证]、[责任限制]、[数据收集和保护]、[终止；终止的效果]等条款以及本计划其他依其性质应当延续其效力的条款将延续并继续有效直至得到完全履行。\n
+15.\t计划的解释\n
+\t如本计划的任何条款无论因何种原因完全或部分无效或不具有执行力，那么您和我方将用最接近该不能履行部分内容之意愿的条款予以替代，本计划的其余条款仍应有效并且有约束力。本计划构成双方对本计划之约定事项及其他有关事宜的完整计划，取代此前关于您使用本服务的任何计划或声明。本计划中各节的标题仅为方便而设，在解释本计划时应被忽略。如本计划与《联想帐号用户注册计划》有任何不一致之处，以本计划为准。\n
+16.\t计划的转让\n
+\t我方可在任何时候基于实现或更好提供服务的目的经通知后或不经通知即全部或部分转让或分包本计划。您不能向其他任何人转让本计划，或计划的一部分。您的任何转让行为均为无效。不论是永久还是临时地，您都不得将使用本服务的任何权利或本服务的任何部分转让给任何其他人。\n
+17.\t无第三方受益人\n
+\t本计划仅为您和我方的利益而订立。除许可的继承或转让之外，本计划非为任何他人的利益而订立。\n
+18.\t法律管辖\n
+\t本计划按照中华人民共和国大陆地区（不包括香港和澳门特别行政区）的可适用法律订立和解释。因本计划执行、解释以及与此有关的一切争议和纠纷均应提交我方所在地有管辖权的法院裁决。\n
+19.\t商标通告\n
+\t “Lenovo”、“Lenovo联想”、“联想”及其他联想标识是联想（北京）有限公司或其关联机构的在中国大陆和/或其他国家或地区的商标或注册商标。提及的其他产品、商号和商标名称是其各自持有人的商标或注册商标，提及仅为说明目的，并不表明本服务与这些公司或机构有关。此处未明确授予的任何权利均予保留。\n
+    </string>
+
+    <!-- AUT xingqx date 2012.02.29 s-->
+    <!-- AUT: xingqx xingqx@lenovo.com DATE: 2012-01-19 cancel for bug in roll -->
+    <string-array name="pref_slide_effect_choices">
+        <item>默认动画</item>
+        <!--<item>随机</item> -->
+        <!--<item>缩放</item> --> 
+        <item>旋转</item>
+        <item>推压</item>
+        <!--<item>弹跳</item>-->
+        <item>风车</item>
+        <item>立方体</item>
+        <item>正弦</item>
+        <!--<item>波浪</item>-->
+        <item>圆柱体</item>
+        <!--<item>球</item> -->
+        <!--<item>咕噜咕噜滚</item> -->
+        <!--<item>贪食蛇</item> -->
+        <!--<item>扫</item>-->
+        <!--<item>毛毛虫</item> -->
+    </string-array>
+    <string-array name="pref_app_slide_effect_choices">
+        <item>默认动画</item>
+        <item>随机</item>
+        <item>缩放</item>
+        <item>旋转</item>
+        <item>推压</item>
+        <item>弹跳</item>
+        <item>风车</item>
+        <item>立方体</item>
+        <item>正弦</item>
+        <item>波浪</item>
+        <item>圆柱体</item>
+        <item>球</item>
+        <item>咕噜咕噜滚</item>
+        <item>贪食蛇</item>
+        <item>扫</item>
+        <item>毛毛虫</item>
+    </string-array>
+    <string name="get_more_theme">获取更多</string>
+    <string name="style_settings">主题设置</string>
+    <string name="apply_theme">应用主题</string>
+    <string name="delete_theme">删除主题</string>
+    <string name="theme_appling_progress_info">主题应用中, 请稍候</string>
+    <string name="theme_appling_success">主题应用成功</string>
+    <string name="icon_bg_style_settings_default">默认图标风格</string>
+    <string name="icon_bg_style_settings_title">图标装饰</string>
+    <string name="icon_text_style_settings_default">默认图标文字颜色</string>
+    <string name="icon_text_style_settings_title">图标文字颜色</string>
+    <string name="icon_style_settings_title">桌面文件夹风格</string>
+    <string name="icon_style_settings_default">默认圆形</string>
+    <string name="hotseat_settings_title">桌面页码风格</string>
+    <string name="hotseat_settings_default">默认</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="website_settings_title">应用下载来源</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="header_category_workspace_anim">动效设置</string>
+    <string name="workspace_loop_settings_title">桌面循环显示</string>
+    <string name="workspace_loop_on">已开启</string>
+    <string name="applist_enter_effect_title">应用列表进入动画</string>
+    <string name="applist_enter_default_effect">中心放大</string>
+    <string name="applist_slide_effect_title">应用列表翻页动画</string>
+    <string name="applist_slide_default_effect">横向翻页</string>
+    <!-- RK_ID: APPLIST_LOOP. AUT:zhaoxy . DATE:2012-12-17. START-->
+    <string name="applist_loop_settings_title">应用列表循环显示</string>
+    <!-- RK_ID: APPLIST_LOOP. AUT:zhaoxy . DATE:2012-12-17. END-->
+    <string name="header_lockscreen_lenovo_title">启用乐锁屏方案</string>
+    <string name="lockscreen_style_title">锁屏方案</string>
+    <string name="header_category_applist">应用设置</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="applist_wallpaper_title">设置应用列表壁纸</string>
+    <string name="reset_applist_wallpaper_title">恢复默认应用列表壁纸</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="workspace_loop_settings_off">未开启</string>
+    <string name="performance">性能</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="optimal_performance">提升乐桌面的运行效率</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="always_alive_title">常驻内存</string>
+    <string name="applist">应用列表</string>
+    <string name="desktop">桌面</string>
+    <string name="style">主题</string>
+    <string name="style_change_random">随机更换主题</string>
+    <string name="checkbox_open">已开启</string>
+    <string name="checkbox_Close">已关闭</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="aboutlenovodesktop_message">开发版本 0.1</string>
+    <string-array name="pref_applist_effect_choices">
+        <item>默认</item>
+        <item>风车</item>
+        <item>旋转</item>
+        <item>淡入淡出</item>
+    </string-array>
+    <string name="load_widget_settings_title">加载窗口小部件预览图</string>
+    <string name="load_widget_on">加载</string>
+    <string name="load_widget_off">不加载</string>
+    <string name="others">其它</string>
+    <string name="settings_network_dialog_title">友情提醒</string>
+    <string name="settings_network_dialog_message">尊敬的客户，设备接入互联网所产生的流量费用将根据您的套餐标准收取。详细资费请咨询当地运营商，您是否同意？</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-20 END -->
+    <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . PUR: for leos dock . S -->
+    <string name="menu_addapp">添加快捷键</string>
+    <string name="out_of_space_and_drag_it_away">此屏幕上已没有空间，请将小工具/应用拖拽至其他页，或拖拽到此处取消添加。</string>
+        <string-array name="pref_folder_style_choices">
+        <item>Android默认叠加风格</item>
+        <item>四点阵风格</item>
+    </string-array>
+        <string-array name="pref_hotseat_style_choices">
+        <item>Android默认滑块风格</item>
+        <item>乐桌面风格</item>
+    </string-array>
+    <string name="confirm_remove_theme">是否删除该主题?</string>
+    <string name="confirm_remove_current_theme">是否删除正在使用的主题?该主题删除后将恢复到默认主题。</string>
+    <string name="remove_theme_done">删除成功</string>
+    <string name="remove_theme_failed">删除失败</string>
+    <string name="theme_removing_progress_info">正在删除主题，请稍候......</string>
+    <string name="theme_settings_init_progress_info">正在初始化，请稍候......</string>
+    
+    <!-- AUT:zhaoxy . DATE:2012-02-27. START-->
+    <string name="network_enabler_summary">允许用户通过网络存取数据</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-27. END-->
+    <string name="network_enabler_title">数据流量开关</string>
+    <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . PUR: for leos dock . E -->
+    
+    <!-- AUT: henryyu1986@163.com DATE: 2011-12-20 -->
+    <string name="home_zone_label_workspace">移至桌面</string>
+    <string name="icon_settings_title">图标装饰</string>
+    <string name="icon_style_clear">清除</string>
+    <string name="icon_style_cancel">取消</string>
+    <string name="icon_style_done">确认</string>
+    <string name="icon_edit_style_settings_title">图标编辑态样式</string>
+    <string name="icon_edit_style_settings_default">默认图标编辑态样式</string>
+    <string name="icon_text_size_settings_title">图标文字大小</string>
+    <string name="icon_text_size_settings_default">默认文字大小</string>
+    <string-array name="pref_icon_edit_style_choices">
+        <item>缩放</item>
+        <item>旋转-Z</item>
+        <item>闪烁</item>
+        <item>移动</item>
+        <item>跳跃</item>
+    </string-array>
+
+    <string-array name="pref_icon_text_size_choices">
+        <item>较大</item>
+        <item>正常</item>
+        <item>较小</item>
+    </string-array>
+
+    <string name="normal_settings">常规设置</string>
+    <string name="lockscreen_settings">锁屏设置</string>
+    <string name="profile_settings">场景设置</string>
+    <string name="personal_settings">个性化设置</string>
+    <string name="version_update">版本升级</string>
+    <string name="effect_settings">特效设置</string>
+    <string name="senior_settings">高级设置</string>
+    <string name="more_settings">更多</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="backup_settings">备份/恢复</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="app_order_settings">图标排序</string>
+    <string name="about_lenovo_desktop">关于乐桌面</string>
+    <string name="settings_feedback_title">意见反馈</string>
+    <string name="feedback_dialog_title">乐桌面意见反馈</string>
+    <string name="feedback_title">"乐桌面“<xliff:g id="NAME">%s</xliff:g>”版本意见反馈汇总"</string>
+    <string name="feedback_hint">请留下您的问题和建议, 我们会持续改进(200字以内)</string>
+    <string name="feedback_send">发送</string>
+    <string name="feedback_err_empty_message">您还没有输入内容，请重新输入...</string>
+    <string name="feedback_err_network_disabled">数据流量开关已关闭，请勾选 桌面设置->更多设置->数据流量开关</string>
+    <string name="feedback_err_network_not_connected">网络连接失败，请打开网络连接</string>
+    <string name="feedback_been_sent">您的建议已发送，感谢您的支持！</string>
+    <string name="feedback_sent_succeed">发送成功，感谢您的支持！</string>
+    <string name="feedback_sent_failed">发送失败，请重试...</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="restore_backup_settings">备份/恢复</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="restore_theme_settings_title">恢复上次备份桌面</string>
+    <string name="backup_theme_settings_title">备份当前场景</string>
+    <string name="theme_settings_summary">主题及壁纸设置</string>
+    <string name="lockscreen_settings_summary">启动或自定义锁屏</string>
+    <string name="personal_settings_summary">图标/文件夹等个性化设置</string>
+    <string name="effect_settings_summary">多种动效设置</string>
+    <string name="senior_settings_summary">高级设置</string>
+    <string name="wallpaper_slide_settings_title">壁纸跟随屏幕滚动</string>
+    <string name="dync_theme_change_summary">设置后晃动手机可更换主题</string>
+    <string name="dync_theme_change_settings_title">动感主题更换</string>
+    <!-- AUT: henryyu1986@163.com DATE: 2011-12-20 -->
+	 <!-- AUT: zhanglq@bj.cobellink.com DATE: 2011-12-26 -->
+    <string name="prompt_delet_screen">您确定要删除非空的屏幕吗？</string>
+    <string name="delet_confirm">确定</string>
+    <string name="delet_cancel">取消</string>
+    <string name="home_delet_prompt">主屏幕不能被删除。</string>
+	 <!-- AUT: zhanglq@bj.cobellink.com DATE: 2011-12-26 -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-28 START add for profile -->
+    <string name="pref_backup_restore">备份和恢复</string>
+    <string name="profile_settings_title">场景</string>
+    <string name="no_need_to_restore">未选中任何恢复项！</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="profile_save_btn">" 保存场景 "</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="apply_profile">恢复备份</string>
+    <string name="delete_profile">删除场景</string>
+    <string name="share_profile">分享</string>
+    <string name="pref_default_profile">标准</string>
+    <string name="profile_save_profile_ok">桌面备份成功</string>
+    <string name="profile_save_profile_fail">桌面备份失败</string>
+    <string name="profile_save_button">确定</string>
+    <string name="profile_querying_progress_info">获取场景中, 请稍候</string>
+    <string name="profile_applying_progress_info">桌面应用中, 请稍候</string>
+    <string name="profile_backuping_progress_info">桌面备份中, 请稍候</string>
+    <string name="profile_apply_profile_ok">应用桌面成功</string>
+    <string name="profile_apply_profile_fail">应用桌面失败</string>
+    <string name="profile_name_conflict">该名称已经存在或预留，请输入其他名称！</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <string name="add_profile_name_title">备份当前桌面</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <string name="add_profile_name_save">保存</string>
+    <string name="add_profile_cancel">取消</string>
+    <!-- AUT:chengliang . DATE:2012-02-28. START-->
+    <string name="add_profile_hint">请输入场景名称</string>
+    <string name="profile_save_failed">请在桌面备份恢复界面重试.</string>
+    <string name="profile_new_create_default_name">新建场景</string>
+    <string name="profile_exist_override_msg">"文件“<xliff:g id="NAME">%s</xliff:g>”已存在，是否覆盖？"</string>
+    <!-- AUT:chengliang . DATE:2012-02-28. END-->
+    <string name="profile_delete_profile_ok">删除场景成功</string>
+    <string name="profile_delete_profile_fail">删除场景失败</string>
+    <string name="quick_action_replace">换图标</string>
+    <string name="quick_action_rename">重命名</string>
+    <string name="quick_action_delete">删除</string>
+    <string name="quick_action_uninstall">卸载</string>
+    <string name="profile_apply_sdcard_unmount">没有可用的SD卡</string>
+    <string name="operation_failed_by_no_free_space">磁盘空间不足，创建文件操作失败。</string>
+    <string name="profile_apply_no_preview">无法获取预览图，将用默认的图片代替。</string>
+    <string name="effect_shortcut">滑屏特效</string>
+    <string name="icon_style_apply">图标装饰应用中, 请稍候</string>
+    <string name="profile_apply_no_bitmap">不能获得截图，备份失败！</string>
+    <string name="profile_apply_memory_low">系统内存不足，备份失败！</string>
+    <string name="profile_delete_prompt">"确认删除所选场景吗？"</string>
+    <string name="profile_name_illegal">输入的场景名称含有特殊字符，请重新输入！</string>
+    <string name="profile_restore_failed_of_interruption">抱歉，上次场景应用失败，请重新应用！</string>
+    <string-array name="pref_web_site_choices">
+        <item>乐商店官网</item>
+        <item>其他</item>
+    </string-array>
+    <string name="profile_delete_progress_info">场景删除中, 请稍候</string>
+	<string-array name="pref_icon_style_choices">
+		<item>无</item>
+		<item>无装饰</item>
+		<item>联想</item>
+		<item>圆角</item>
+		<item>陶盘</item>
+		<item>牛奶</item>
+		<item>圆盘</item>
+		<item>幻方</item>
+	</string-array>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2011-12-28 END -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-10 START for quick action rename, zoom and so on -->
+    <string name="quick_action_change_title">更改图标样式</string>
+    <string-array name="quick_action_change_choices">
+        <item>默认图标</item>
+        <item>主题图标</item>
+        <item>自定义图标</item>
+    </string-array>
+    <string name="theme_image_preview_title">请选择图标</string>
+    <string name="theme_image_choose_theme">选择图标主题 : </string>
+    <string name="quick_action_zoom">缩放</string>
+    <string name="quick_action_edit">编辑</string>
+    <string-array name="app_order_choices">
+        <item>默认排序</item>
+        <item>字母排序</item>
+        <item>新安装在后</item>
+        <item>新安装在前</item><!-- <item>安装时间排序</item> -->
+        <item>使用频率排序</item>
+        <item>最近使用</item>
+    </string-array>
+
+    <string name="quick_action_rename_title">修改名称</string>
+    <string name="menu_personal_settings">个性化</string>
+    <string name="settings_pref_wallpaper">壁纸设置</string>
+    <string name="settings_pref_icon">图标设置</string>
+    <string name="settings_pref_hotseat">快捷栏设置</string>
+    <string name="settings_pref_wallpaper_desktop">桌面壁纸</string>
+    <string name="settings_pref_wallpaper_allapp">应用列表壁纸</string>
+    <string name="theme_container_chooser_title">选择在线主题库</string>
+    <string-array name="theme_container_chooser_choices">
+        <item>乐商店</item>
+        <item>Google电子市场</item>
+    </string-array>
+    <string name="settings_pref_special_title">特色功能</string>
+    <string name="hawaii_upgrade_failed">升级失败</string>
+    <string name="settings_desktop_help_views">桌面帮助</string>
+    <string name="confirm_network_open">请确认勾选桌面设置->更多设置中的“数据流量开关”，以允许乐桌面通过访问网络获取数据？</string>
+    <string name="icon_style_success">图标装饰应用成功！</string>
+    <string name="icon_style_clear_success">图标装饰清除成功！</string>
+    <string name="wait_allapps_loaded">正在初始化应用程序列表，请稍候再试。</string>
+    <string-array name="pref_all_app_y_choices">
+        <item>稀疏</item>
+        <item>正常</item>
+        <item>密集</item>
+    </string-array>
+    <string name="pref_allapp_cellcount_title">应用列表图标行列数</string>
+    <string name="quick_action_replace_success">更换图标已成功!</string>
+    <string name="hawaii_tab_label">猜你喜欢</string>
+    <string name="hawaii_upgrade_swtich_title">本地应用新版本提醒</string>
+    <string name="sdcard_storage_full">SD卡已满!</string>
+    <string name="remove_from_category">移出组</string>
+    <string name="category_edit_existed">分类名已存在，请重新编辑！</string>
+    <string name="application_category_map_existed">应用已经在分组中，无须再加入!</string>
+    <string name="category_application_added_success">添加成功!</string>
+    <string name="icon_style_clear_progress_msg">图标装饰清除中, 请稍候</string>
+    <string name="app_wallpaper_change_success">应用列表壁纸设置成功!</string>
+    <string name="app_wallpaper_reset_success">恢复默认应用列表壁纸成功!</string>
+    
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-31 END -->
+    <!-- AUT: zhanghong5 zhanghong5@lenovo.com DATE: 2012-02-01 BEGIN -->
+    <string name="lockpaper_settings_default">使用乐锁屏壁纸</string>
+    <string name="lock_empty">没有乐锁屏应用</string>
+    <string name="lockscreen_weather_city">当前城市</string>
+    <string name="setting_weather_city">设置天气城市</string>
+    <string name="header_style_lockscreen">锁屏方案设置</string>
+    <string name="disable_lenovo_lockscreen">请先启动乐锁屏</string>
+    <string name="need_lenovo_lockscreen_service">请先安装乐锁屏</string>    
+    <string name="select_lenovo_lockscreen">选择锁屏方案</string>
+    <string name="city_setting">当前城市已设置为</string>
+    <!-- AUT: zhanghong5 zhanghong5@lenovo.com DATE: 2012-02-01 END -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 START -->
+    <string name="profile_backup_title">保存场景</string>
+    <string name="profile_backup_start_prompt">"当前场景未保存，是否保存为自定义场景？"</string>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 END -->
+    <string name="update_target_label">"升级"</string>
+
+    <!-- AUT: liuli1 DATE: 2012-02-10 START -->
+    <string name="selectedcellnum">"已经选中组件个数："</string>
+    <string name="addfolder">"添加到文件夹"</string>
+    <string name="emptycellnum">"当前屏可添加组件个数："</string>
+    <!-- AUT: liuli1 DATE: 2012-02-10 END -->
+
+    <!-- AUT: zhanglq@bj.cobellink.com DATE: 2012-02-10 S -->
+    <string name="down_commend_suggestion">您的手机未安装此组件，请选择下载方式进行安装。</string>
+    <string name="native_appstore">乐商店客户端</string>
+    <string name="no_app">本地没有这个应用。</string>
+    <string name="no_leappstore">您没有安装乐商店。</string>
+    <!-- AUT: zhanglq@bj.cobellink.com DATE: 2012-02-10 E -->
+    <string name="menu_reset_all_lotus">恢复所有叶为默认</string>
+    <string name="menu_reset_signal_lotus">恢复本叶为默认</string>
+    <!-- ID: new_lotus   . AUT: zhanglz1 . DATE: 2012.02.27 . S -->
+    <string name="gadget_name_lotus">四叶草</string>
+	<string name="title_store">乐商店</string>
+	<string name="title_sync">乐同步</string>
+	<string name="title_guess">猜你喜欢</string>
+	<string name="title_navi">乐门户</string>
+	<string name="title_safe">乐安全</string>
+	<string name="title_voice">乐语音</string>
+	<string name="title_share">乐关联</string>
+	<string name="title_note">乐记事</string>
+	<string name="title_lefamily">乐应用</string>
+	<string name="title_uninstalled">未安装</string>
+    <string name="inform_application_is_not_install">该应用未安装，是否下载？</string>
+    <string name="inform_application_is_not_install_not_download">该应用未安装!</string>
+    
+    <string name="goto_store">下载</string>
+     <string name="not_goto_store">取消</string>
+     <string name="add_new">新增</string>
+     <string name="lotus_default">默认应用</string>
+     <string name="inform_lotus_can_change">长按四叶草四个图标，应用可更换</string>
+     <string name="lotus_navi_customtitle">网址导航</string>
+     <string name="lotus_click_download">点击下载</string>
+     <string name="lefamily_no_apk">没有相关应用!</string>
+    <!-- ID: new_lotus   . AUT: zhanglz1 . DATE: 2012.02.27 . E -->
+    <!-- RK_ID: WORKSPACE_ADD_APP AUT: liuli1 DATE: 2012-02-17 START -->
+    <string name="workspace_pick_applications_nospace">"此屏幕上已没有空间。"</string>
+    <string name="folder_max_count">文件夹最大可容纳 ："</string>
+    <string name="add_shortcut_to_workspace_more">"所选组件个数已达到上限"</string>
+    <!-- RK_ID: WORKSPACE_ADD_APP AUT: liuli1 DATE: 2012-02-17 END -->
+
+    <!-- ID: Profile operation indicator statements  AUT: chengliang  DATE: 2012.02.22.   S -->
+    <string name="relaunch_launcher">"重启乐桌面..."</string>
+    <string name="fetch_target_file">"获取场景 ..."</string>
+    <string name="unmix_target_file">"分析场景 ..."</string>
+    <string name="failed_to_unmix">"所恢复场景文件不是标准场景文件!"</string>
+    <string name="unpacking_file">"尝试抽取 ..."</string>
+    <string name="launch_wallpaper_thread">"启动桌面背景备份..."</string>
+    <string name="init_reloader">"初始化加载器..."</string>
+    <string name="success_end">"成功结束!"</string>
+    <string name="wait_wallpaper_ready">"等待桌面背景恢复结束..."</string>
+    <string name="wallpaper_time_out">"等待超时!"</string>
+    <string name="clean_remainings">"清理临时文件 ..."</string>
+    <string name="restart_launcher">"需要重启乐桌面!"</string>
+    <string name="notify_backup_firstly">"请先备份场景文件。"</string>
+    <string name="extracter_exracting">"定位并抽取 ..."</string>
+    <string name="ensure_dir">"准备所使用的文件 ..."</string>
+    <string name="caching_previews">"缓存预览 ..."</string>
+    <string name="picking_wallpaper">"抽取墙纸 ..."</string>
+    <string name="make_target_file">"生成目标文件 ..."</string>
+    <string name="lock_on_target_file">"锁定文件 ..."</string>
+    <string name="backup_failed">"备份失败，请重试！"</string>
+    <string name="backup_extract_settings">"保存设置 ..."</string>
+    <string name="backup_extract_items">"保存桌面 ..."</string>
+    <string name="backup_extract_priorites">"保存任何优先级排序..."</string>
+    <string name="backup_flatten_profile">"转化场景描述..."</string>
+    <string name="restore_settings">"恢复设置 ..."</string>
+    <string name="restore_items">"恢复桌面项 ..."</string>
+    <string name="restore_priorites">"恢复排序 ..."</string>
+    <string name="restore_waiting_priorites">"等待程序列表排序结束 ..."</string>
+    <string name="restore_waiting_time_out">"等待超时！"</string>
+    <string name="waiting_and_check_for_items_add_in">"加入并检查桌面项..."</string>
+    <string name="inflater_ready_to_go">"正在解析 ..."</string>
+    <string name="file_may_damaged">"解析失败，文件可能已损坏."</string>
+    <string name="restore_failed">"恢复场景失败!"</string>
+    <string name="default_restore_processing">"正在加载默认桌面配置，请勿操作并等待结束..."</string>
+    <string name="desktop_first_launching">首次加载桌面配置</string>
+        
+    <string name="profile_selection_title">恢复场景</string>
+    <string name="profile_selection_application">桌面应用和快捷方式图标</string>
+    <string name="profile_selection_folders">桌面文件夹</string>
+    <string name="profile_selection_widgets">桌面小工具</string>
+    <string name="profile_selection_settings">备份当前乐桌面设置项</string>
+    <string name="profile_selection_wallpaper">桌面及应用程序列表墙纸</string>
+    <string name="profile_selection_priorities">当前应用列表排序</string>
+    <string name="profile_selection_confirmed">确  定</string>
+    
+    <string name="profile_time_stamped_restore">"上次备份于:"</string>
+
+    <!-- ID: Profile operation indicator statements  AUT: chengliang  DATE: 2012.02.22.   E -->
+    
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . S -->
+    <string name="capital_on">"打开"</string>
+    <string name="capital_off">"关闭"</string>
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . E -->
+
+    <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT:zhangdxa. DATE: 2012-02-24.S -->
+    <string name="version_update_label">版本升级</string>
+    <string name="version_update_toast">请您勾选桌面设置中的“数据流量开关”选项</string>
+    <string name="version_update_sd">请插入SD卡。</string>
+    <string name="version_update_menu">版本手动升级</string>
+    <string name="version_update_confirm_auto">启动版本升级，是否继续?\n第一步，请确认勾选桌面设置中的“数据流量开关”选项；\n第二步，升级过程请保持网络连接，推荐使用WLAN。</string>
+    <string name="version_update_not_prompt">不再提醒</string>
+    <string name="version_update_query_version">正在查询乐桌面新版本...</string>
+    <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT:zhangdxa. DATE: 2012-02-24.E -->
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: chenrong2 . DATE: 2012-02-27 . S -->
+    <string name="no_folder_created">"只添加了1个应用，无须创建文件夹"</string>
+    <string name="folder_editor">编辑文件夹</string>
+    <string name="folder_name_title">文件夹名称:</string>
+    <string name="folder_editor_hint">编辑文件夹名称</string>
+    <string name="foler_empty_num">"当前文件夹可添加组件个数："</string>
+    <string name="folder_is_full">"文件夹中的的应用已达上限，无法添加应用"</string>
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: chenrong2 . DATE: 2012-02-27 . E -->
+    
+    <!-- AUT:zhaoxy . DATE:2012-02-27. START-->
+    <string name="pref_color_picker_dialog_title">"选择颜色"</string>
+    <string name="icon_bg_style_preview_title">"效果预览"</string>
+    <string name="icon_bg_style_select_title">"样式选择"</string>
+    <!-- AUT:zhaoxy . DATE:2012-02-27. END-->
+    
+    <string name="theme_icon_bg_title">"自定义"</string>
+    <string name="folder_opened" msgid="4129072635480822768">"文件夹已打开，尺寸为 %1$d x %2$d"</string>
+    <string name="folder_tap_to_close" msgid="4076794242530255812">"点按可关闭文件夹"</string>
+    <string name="folder_tap_to_rename" msgid="2125528923948315223">"点按即可重命名"</string>
+    <string name="folder_closed" msgid="3130534551370511932">"文件夹已关闭"</string>
+    <string name="folder_renamed" msgid="781234745487414781">"已将文件夹重命名为“%1$s”"</string>
+    <string name="folder_name_format" msgid="4513766553514769310">"文件夹：%1$s"</string>
+    <!-- RK_ID: RK_TRASH . AUT: zhanggx1 . DATE: 2012-04-06 . S -->
+    <string name="workspace_cleanup_title">"桌面清理"</string>
+    <string name="workspace_cleanup_settings_title">"桌面清理设置"</string>
+    <string name="workspace_cleanup_summary">"以下快捷方式或长时间未使用，请选择进行清理"</string>
+    <string name="workspace_cleanup_empty_msg">"当前没有可清理的内容"</string>
+    <string name="workspace_cleanup_none_selected">"没有快捷方式被选中"</string>
+    <string name="workspace_cleanup_cannot_create_folder">"只选中了一个应用，无法创建文件夹。"</string>
+    <string name="workspace_cleanup_create_folder_done_hotseat">"已在快捷栏的第<xliff:g id="NAME">%s</xliff:g>格创建文件夹"</string>
+    <string name="workspace_cleanup_create_folder_done_workspace">"已在桌面第<xliff:g id="NAME">%s</xliff:g>页的第<xliff:g id="NAME">%s</xliff:g>行第<xliff:g id="NAME">%s</xliff:g>列创建文件夹"</string>
+    <string name="workspace_cleanup_done">"桌面清理完毕"</string>
+    <string name="select_all">"全选"</string>
+    <string name="select_none">"全不选"</string>
+    <string name="dialog_delete_title">"清理快捷方式"</string>
+    <string name="dialog_delete_msg">"确认删除选中的快捷方式?"</string>
+    <string name="dialog_move_to_folder_msg">"确认将选中的快捷方式移至\"未使用的快捷方式\"文件夹?"</string>
+    
+    <string name="auto_workspace_cleanup_summary">"可设置定时清理频率及过期时间，进行定时清理"</string>
+    <string name="auto_workspace_cleanup_title">"桌面快捷方式自动清理"</string>
+    <string name="pref_workspace_cleanup_now">"手动清理"</string>
+    <string name="workspace_cleanup_unit"> 天</string>
+    
+    <!-- Workspace Cleanup Timeout -->
+    <string name="pref_workspace_cleanup_timeout_default">"7天以上未被使用"</string>
+    <string name="pref_workspace_cleanup_timeout_title">"清理的条件"</string>
+    <string-array name="pref_workspace_cleanup_timeout_entries">
+        <item>"7天以上未被使用"</item>
+        <item>"14天以上未被使用"</item>
+        <item>"21天以上未被使用"</item>
+        <item>"30天以上未被使用"</item>
+        <item>"60天以上未被使用"</item>
+        <!--item>"无条件"</item<cancel by xingqx>-->
+    </string-array>
+    
+    <!-- Workspace Cleanup Timing -->
+    <string name="pref_workspace_cleanup_timing_default">"7天一次"</string>
+    <string name="pref_workspace_cleanup_timing_title">"桌面快捷方式清理频率"</string>
+    <string-array name="pref_workspace_cleanup_timing_entries">
+        <item>"7天一次"</item>
+        <item>"14天一次"</item>
+        <item>"21天一次"</item>
+        <item>"30天一次"</item>
+        <item>"60天一次"</item>
+        <!-- <item>"1分钟一次"</item> -->
+    </string-array>
+    
+    <!-- Workspace Cleanup Method -->
+    <string name="pref_workspace_cleanup_method_default">"删除快捷方式"</string>
+    <string name="pref_workspace_cleanup_method_title">"清理方式"</string>
+    <string name="pref_workspace_cleanup_unused_folder">"未使用的快捷方式"</string>
+    <string-array name="pref_workspace_cleanup_method_entries">
+        <item>"删除快捷方式"</item>
+        <!-- <item>"移至\"未使用的快捷方式\"文件夹"</item> -->
+    </string-array>  
+    <!-- RK_ID: RK_TRASH . AUT: zhanggx1 . DATE: 2012-04-06 . E -->
+
+    <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. START-->
+    <string name="applist_hiddenlist_settings_title">"图标隐藏"</string>
+    <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. END-->
+    <!-- RK_ID: CATEGORY_MENU. AUT:zhaoxy . DATE:2012-06-25. START-->
+    <string name="label_all">全部</string>
+    <string name="label_oftenuse">常用</string>
+    <string name="label_tools">工具</string>
+    <string name="label_games">游戏</string>
+    <string name="label_sns">社交</string>
+    <string name="cm_tips_text">拖动图标到以下分类</string>
+    <!-- RK_ID: CATEGORY_MENU. AUT:zhaoxy . DATE:2012-06-25. END-->
+    
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-26 . S -->
+    <string name="apps_list_search_bar_hint">"请输入应用名称"</string>
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-26 . E -->
+
+    <string name="unknow_theme_name">"未知主题"</string>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string name="weather_magic_app_name">魔法天气</string>
+    <string name="weather_app_name">四叶草天气</string>
+    <string name="weather_button_ok">知道了</string>
+    <string name="weather_button_cancel">取消</string>
+    <string name="weather_clock_forenoon">上午</string>
+	<string name="weather_clock_afternoon">下午</string>
+	<string name="weather_reminder">友情提醒</string>
+    <string name="weather_charge_alert_message">尊敬的客户，手机接入互联网所产生的流量费用将根据您的套餐标准收取。详细资费请咨询当地运营商，您是否同意？</string>
+    <string name="weather_network_alert_message">当前乐桌面网络处于关闭状态，无法更新天气信息。请在"桌面设置"中打开网络开关。</string>
+    <string name="weather_animation_alert_message">联想全屏天气动画，配合天气小部件使用\n软件大小：10.89M\n建议使用WLAN下载</string>
+    <string name="weather_baidu_alert_message">百度搜索被卸载，请重新安装</string>
+    <string name="toggle_widget_name">一键开关</string>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string name="search_num">"%1$s条关于\"%2$s\"的搜索结果"</string>
+    
+    <!--yangmao add start -->
+    <string name="hawaii_search_content_isnull">"请输入想要搜索的应用名称"</string>
+	<string name="hawaii_search_jason_false">"网络请求出错了，请稍后再试"</string>
+	<string name="hawaii_search_no_data">"没有搜到你想要的结果"</string>
+	<string name="hawaii_search_footview_content">"正在加载"</string>
+	<string name="hawaii_search_btn">"搜索"</string>
+     <!--yangmao add end -->
+     
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanghong5 . DATE: 2012-07-25 . S -->
+    <string name="search_local">"本地搜索"</string>
+    <string name="search_network">"网络搜索"</string>
+    
+   
+    <string name="add_to_category">"添加应用到"</string>
+    <string name="search_title">"应用搜索"</string>
+    <string name="pref_lenovo_force_lock_on_title">强制启动锁屏</string>
+    <string name="pref_lenovo_force_lock_on_summary">如果您使用联想手机，并且锁屏开启但未生效，请开启此选项</string>
+    <string name="pref_clear_two_lockscreen_title">清除双锁屏</string>
+    <string name="pref_clear_two_lockscreen_summary">当原始锁屏与乐锁屏同时出现时使用</string>
+    <string name="clear_two_lockscreen_toast">清除双锁屏成功</string>
+    <string name="no_need_clear_two_lockscreen_toast">不需要清除双锁屏</string>
+    <string name="audio_search">语音搜索</string>
+    <string name="audio_search_summary">使用语音搜索功能需要下载插件,是否同意下载?</string>
+    <string name="audio_search_download">语音插件正在下载中</string>
+    <string name="audio_search_install">"语音插件下载完成，请安装"</string>
+    <string name="slide_effect_notify">"部分设备硬件不能完美支持此特效，如不满意使用效果，请切换其他特效。"</string>
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanghong5 . DATE: 2012-07-25 . E -->
+    
+    <string name="tabs_common">常用</string>
+    <string name="tabs_characteristic">特色</string>
+    <string name="tabs_more">更多</string>    
+    <string name="menu_effect_settings">特效</string>
+    <string name="menu_update">版本更新</string>
+    <string name="menu_about_us">关于我们</string>
+    <string name="menu_share">分享</string>
+    <string name="menu_notification">通知栏</string>
+
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 .S -->
+    <string name="magic_gesture_notic_title">双击返回桌面</string>
+    <string name="no_recent_task">最近没有运行任何应用</string>
+    <string name="workspace_count_limited">屏幕数量已达上限</string>
+    <string name="workspace_add_new">增加新屏幕</string>
+    <string name="enable_levoice_label">手势激活语音服务</string>
+    <string name="double_click_dock_start_levoice">双击底部快捷栏应用以激活语音服务</string>
+    <string name="levoice">乐语音</string>
+    <string name="levoice_download_summary">使用乐语音功能需要下载插件,是否同意下载?</string>
+    <string name="levoice_download_downloading">乐语音插件正在下载中</string>
+    <string name="levoice_download_install">乐语音插件下载完成，请安装</string>
+    <string name="levoice_not_found">未安装乐语音插件</string>
+    <string name="levoice_is_request">此功能需要乐语音支持</string>
+    
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . E-->
+    
+    <!-- RK_ID: RK_LENOVO_WIDGET gecn1 2012-10-17 -->
+    <string name="group_leos_widgets">"乐桌面小部件"</string>
+     <string name="workspace_text_background">图标文字背景</string> 
+    <string name="applist_text_background">应用列表图标文字背景</string>
+   
+		 <!-- AUT:liuyg1 . DATE:2012-11-01. Start-->
+    <string name="default_update_processing">"正在桌面配置，请勿操作并等待结束..."</string>
+    <string name="desktop_update_launching">桌面正在配置</string> 
+
+     <string name="screen_cellcount_setting">桌面图标排列</string>
+    <string name="weather_settings">天气设置</string>
+    <string name="weather_animation_toggle">天气动画开关</string>
+    <string name="weather_animation_toggle_ex">安装天气动画插件后，可显示天气动画</string>
+    <string name="weather_search_hite">请输入查询城市</string>
+    <string name="weather_search_hot_tips">请选择热门城市</string>
+           <string name="weaher_city_search_faild">搜索结果为空</string>
+	<string name="weaher_city_search_null">搜索关键字不能为空</string>
+	<string name="weaher_city_search_net_faild">网络连接失败</string>
+	<string name="weaher_city_nul_empty">无天气信息</string>
+	<string name="weather_yubao_name">天气预报</string>
+    <string name="toggle_widget_wifi_name">WLAN</string>
+    <string name="toggle_widget_gprs_name">移动网络</string>
+    <string name="toggle_widget_air_name">飞行模式</string>
+    <string name="toggle_widget_lock_name">一键锁屏</string>
+    <string name="toggle_widget_rev_name">屏幕旋转</string>
+    <string name="toggle_widget_bress_name">亮度</string>
+    <string name="toggle_widget_gps_name">GPS</string>
+    <string name="toggle_widget_bluetooth_name">蓝牙</string>
+    <string name="toggle_widget_tt_name">手电筒</string>
+    <string name="toggle_widget_tips_name">长按图标进详情界面</string>
+    <string name="shortcut_widget_app_name">快捷设置</string>
+    <string name="shortcut_widget_lock_name">一键锁屏</string>
+
+	<string name="weather_uninstall_theme_lotus_name">四叶草</string>
+	<string name="weather_uninstall_theme_forest_name">森林</string>
+	<string name="weather_uninstall_theme_super_name">极致</string>
+	<string name="weather_uninstall_theme_tea_name">下午茶</string>
+	<string name="weather_uninstall_theme_dark_name">夜</string>
+	<string name="weather_uninstall_theme_aurora_name">极光</string>
+	<string name="weather_install_theme">默认</string>
+	<string name="weather_theme_name">天气皮肤</string>
+	<string name="weather_theme_uninstall_download">下载</string>
+	<string name="task_title_hlmd">忽略名单</string>
+	<string name="task_des_hlmd">勾选的应用一键加速时不会被结束</string>
+    <string name="task_text_add_app_empty">还没有应用诶</string>
+	<string name="task_certain">确定</string>
+	<string name="task_lable_lesafe">乐安全</string>
+	<string name="task_shortcut_enter_protected_list">设置忽略名单</string>
+	<string name="task_one_key_widget_clear_just_done1">"暂时没有"</string>
+	<string name="task_one_key_widget_clear_just_done2">"需要清理的应用"</string>
+	<string name="task_one_key_widget_clear_app_count">"结束应用&lt;font color=#348213>%1$s&lt;/font>个"</string>
+	<string name="task_one_key_widget_clear_app_size">"释放内存&lt;font color=#348213>%1$s&lt;/font>"</string>
+	<string name="task_whitelist_suggest_check">建议勾选</string>
+	<string name="task_no_browser">您的手机没有浏览器</string>
+	<string name="task_download_lesafe_des">乐安全为您提供更全面的手机安全服务。是否需要下载/更新？</string>
+	<string name="task_cancel">取消</string>
+    
+    <string name="about_lenovo_desktop_settings_title">关于</string>
+    <string name="settings_pref_ring">铃声设置</string>
+    
+    <string name="custom_tab_add">添加</string>
+    <string name="custom_tab_wallpaper">壁纸</string>
+    <string name="custom_tab_theme">主题</string>
+    <string name="custom_tab_dynamic">特效</string>   
+    <string name="custom_not_remove">不能移到此屏幕</string> 
+        
+    <string name="hotseat_dial_title">拨号</string>
+    <string name="hotseat_sms_title">短信</string>
+    <string name="hotseat_contacts_title">联系人</string>
+    <string name="hotseat_browser_title">浏览器</string>
+    <string name="leos_app_settings">小部件设置</string>
+    <string name="leos_app_not_found">该应用未找到</string>
+    
+    <string name="theme_pkg_not_exist">主题包不存在！</string>    
+    <string name="theme_version_not_correct">该主题包的版本与当前桌面的版本不匹配，可能会有些不兼容，建议下载版本号为%s的主题包。</string>
+    <string name="theme_apply_positive_btn">确认应用</string>
+    <string name="theme_apply_negative_btn">取消</string>
+    <string name="icon_size_settings_title">图标大小</string>
+    <string name="icon_size_settings_default">默认图标大小</string>
+    <string-array name="pref_icon_size_choices">
+        <item>正常</item>
+        <item>较小</item>
+    </string-array>
+<string name="font_style_settings_title">字体设置</string>
+    <string name="font_style_select_title">字体选择</string>
+    <string name="font_style_settings_have_got">搜索到%1$s个字体</string>
+    <string name="font_alert">温馨提示</string>
+    <string name="font_alert_message"> 1.需重启手机该功能才能生效；\n 2.部分显示界面的字体可能无法被完全替换\n 是否重启手机？</string>
+    <string name="font_default">默认字体</string>
+    <string name="font_searching">正在搜索...</string>
+    <string name="font_broken">字体文件已损坏，请尝试其他字体!</string>
+    <string name="font_apply_to_system">应用到整个系统</string>
+    <string name="font_put_path">请将您的字体文件放在SD卡中</string>
+    <string name="font_search">搜索字体</string>
+     <string-array name="pref_screen_cellcount_choices">
+        <item>稀疏</item>
+        <item>正常</item>
+    </string-array>
+
+    <string name="search_hotkey">"搜索热词"</string>
+    <string name="search_history_recoder">"搜索历史"</string>
+    <string name="hot_word_change">换一换</string>
+    <string name="text_no_history">没有任何历史记录</string>
+    <string name="reci_no_data">网络请求出错了，搜搜本地吧</string>
+    <string name="search_result_loading">正在获取搜索结果...</string>
+    <string name="local_search_nodata">暂未找到相关应用</string>
+    <string name="local_search_nodata_btn">网络搜索</string>
+    <string name="net_search_nodata_error_text">暂未找到相关应用 \n 可能存在当前网络不稳定的情况</string>
+    <string name="net_search_nodata_noconneted_text">当前网络不可用</string>
+    <string name="net_search_nodata_refresh">刷新</string>
+    <string name="net_search_nodata_set_net">设置网络</string>
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 S -->
+       <string name="setting_wallpaper">正在设置壁纸...</string>
+       <string name="share_set_wallper">壁纸设置成功</string>
+       <string name="desktop_share_wallpaper_text">我要发壁纸</string>
+       <string name="desktop_share_theme_text">我要发主题</string>
+       <string name="desktop_share_app_text">我要发应用</string>
+       <string name="send_leshare">零流量快传</string>
+        <string name="send_othershare">自选方式发送</string>
+        <string name="downlaod_app_name">茄子快传</string>
+        <string name="downlaod_error_info">下载失败,请检查网络</string>
+        <string name="anyshare_downloaded_install">"茄子快传下载完成，请安装"</string>
+        <string name="anyshare_downloading">茄子快传正在下载中</string>
+        <string name="anyshare_download_network_title">温馨提示</string>
+         
+        <string name="leshare_dialog_hidden_button">隐藏窗口</string>
+        <string name="leshare_dialog_cancel_button">取消下载</string>
+        <string name="leshare_dialog_again_button">重新下载</string>
+        <string name="leshare_dialog_title">下载</string>
+        <string name="leshare_dialog_msg">正在下载，已完成 </string>
+         <string name="leshare_qiezi_finish_msg">安装后，请运行茄子，完成分享</string>
+         
+         <string name="qiesi_install_message2">2.速度可达蓝牙的60倍</string>
+         <string name="qiesi_install_message1">1.快传组件无需上网零流量传输</string>
+         <string name="qiesi_install_dialog_title">快传组件未安装</string>
+         <string name="qiesi_update_dialog_title">快传组件需更新</string>
+         <string name="enter_install">点击下载</string>
+          <string name="share_no_app">请选择</string>
+          <string name="desktop_share_receive_text">我要接收</string>
+          <string name="desktop_share_title">乐桌面分享中心</string>
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 E -->
+    <!--RK_ID:RK_BOOT_POLICY_DIALOG AUT:liuyg1 DATE: 2013-03-21 S --> 
+ <string name="boot_backup_profile_name">自动备份</string>  
+ <string name="boot_first_experience_desktop_btn">马上体验...</string>  	
+	<string name="boot_experience_new_desktop_text">体验新桌面</string>
+	 <string name="boot_loading_desktop">正在加载新桌面</string>  
+	<string name="boot_retain_old_desktop_text">保留原桌面</string>
+    <string name="boot_backup_desktop_msg">正在备份桌面布局</string>
+    <string name="boot_backup_desktop_location">\t您可以在：\n
+        \t桌面设置——>桌面备份与恢复\n
+        \t找到您的原桌面布局\n</string>
+    <string name="boot_backup_desktop_success">备份成功</string>
+    <string name="boot_backup_desktop_fail">备份失败</string>
+
+     <string name="boot_first_dialog_title">欢迎使用乐桌面</string>
+     <string name="boot_first_dialog_tips">\tV0.0.0版本 新增功能\n
+         \t1. 新增屏幕编辑功能\n
+         \t2. 新增动态壁纸编辑功能\n
+         \t3. 新增在线锁屏功能\n
+        \t4. 优化部分机型卡顿问题\n</string>
+     <string name="boot_first_dialog_license1">\t\t选择继续使用即表示您已经知晓并同意</string>
+     <string name="boot_first_dialog_license2">《软件使用许可协议》</string>
+     <string name="boot_first_dialog_license3">和</string>
+     <string name="boot_first_dialog_license4">《隐私保护声明》</string>
+     <string name="boot_first_dialog_license5">的内容，并表示您参与</string>
+     <string name="boot_first_dialog_license6">《用户体验提升计划》</string>
+    <string name="boot_first_dialog_license7">。</string>
+
+    <string name="boot_remind_dialog_title1">欢迎使用</string>
+     <string name="boot_remind_dialog_title2">乐桌面V0.0.0</string>
+     <string name="boot_remind_dialog_tips">
+         \t本版主要更新:\n
+      \t1. 新增屏幕编辑功能\n
+         \t2. 新增动态壁纸编辑功能\n
+         \t3. 新增在线锁屏功能\n
+        \t4. 优化部分机型卡顿问题\n</string>
+    <string name="boot_remind_dialog_userqcc">参加</string>
+    <string name="boot_remind_dialog_userqcc_linktext">用户体验改进计划</string>
+    <!--RK_ID:RK_BOOT_POLICY_DIALOG AUT:liuyg1 DATE: 2013-03-21 E -->
+    
+     <!--RK_ID:RK APP_CATEGORY GECN1@lenovo.com DATE: 2013-03-20 S -->
+     <string name="app_categroy">正在进行智能整理，请稍等！</string>
+     <string name="apps_category_shortcut">智能整理</string>
+     
+     <!--RK_ID:RK APP_CATEGORY GECN1@lenovo.com DATE: 2013-03-20 S -->
+      
+
+<string name="applist_appmanager">更多应用</string>
+<string name="personalized_settings_title">外观设置</string>
+<string name="more_settings_title">更多设置</string>
+<string name="lotus_setting_lt">左上</string>
+<string name="lotus_setting_rt">右上</string>
+<string name="lotus_setting_lb">左下</string>
+<string name="lotus_setting_rb">右下</string>
+
+<string name="no_profile_num">未保存任何场景</string>
+<string name="profile_num_toplimit">场景个数已达上限</string>
+<string name="no_chosen_profile">未选中任何场景</string>
+<string name="profile_to_apply">"确认应用该场景?"</string>
+    
+ <string name="other_widgets">其它小部件</string>
+ <string name="xscreen_item_click_msg">无点击事件，请尝试拖动到屏幕。</string>
+ <string name="shortcut_installed_intofloder">"已添加“<xliff:g id="NAME">%s</xliff:g>”快捷方式到“<xliff:g id="FOLDER">%s</xliff:g>“文件夹中。"</string>
+
+    <string name="download_share_app_error">分享失败，安装包错误，请重新下载</string>
+    <string name="local_app_share">分享</string>
+    <string name="local_app_run">运行</string>
+    <string name="local_app_manager">管理</string>
+    <string name="local_apps_upgrade">更新</string>
+    <string name="local_app_update_ignore">忽略更新</string>
+    <string name="local_app_update_remind">提醒更新</string>
+    <string name="local_app_ignore">已忽略</string>
+    <string name="download_notification_title">下载任务提醒</string>
+    <string name="download_notification_content">您有 %s 个任务正在下载，请点击查看</string>
+    <string name="download_completed_notification_content">您有 %s 个下载任务已完成，请点击查看</string>
+    <string name="download_app_redownload">重下</string>
+    <string name="download_pause_all">全部暂停</string>
+    <string name="download_continue_all">全部继续</string>
+    <string name="download_delete_all">全部清空</string>
+    <string name="update_all">全部更新</string>
+    <string name="backup_restore">备份恢复</string>
+    <string name="local_app_wait">等待</string>
+    <string name="local_app_redownload">重试</string>
+    <string name="local_app_size">大小：</string>
+    <string name="network_close_body">数据流量已关闭，无推荐内容。</string>
+    <string name="local_app_confirm_update_all">是否全部更新？</string>
+    <string name="local_app_check_LeSync">请启用乐同步</string>
+    <string name="local_app_group_local">已升级到最新版本的应用</string>
+    <string name="local_app_download_error">下载错误</string>
+    <string name="local_app_group_update">以下应用需要更新 </string>
+    <string name="wallpaper_settings_title">我的壁纸</string>   
+    <string name="lock_settings_title">我的锁屏</string>
+	 
+    <string name="auto_workspace_classification_title">"自动整理"</string>
+    <string name="auto_workspace_classification_summary">"将新安装的应用程序自动归类到文件夹中"</string>
+    <string name="pref_workspace_classification">"立即整理"</string>
+    <string name="pref_workspace_classification_summary">"立即将应用程序整理到分类文件夹中"</string>
+    <string  name="workspace_classifyapps_title">"桌面智能整理"</string>
+
+    <string name = "close_apps_aotu_classify">"关闭选项，桌面将不会把新安装的应用程序自动整理到对应的文件夹中"</string>
+    <string name="classfication_no_more_space">"没有足够的屏幕空间"</string>
+    <string name="application_existed_in_folder">"该文件夹中已有该应用"</string>
+    
+    
+ <string name="profiles_number_text">%1$d个场景文件</string>
+ <string name="application_not_create_folder">"不能将两个相同的应用放在一个文件夹中"</string>
+    
+ <string name="icon_text_settings_title">"图标文字设置"</string>
+ <string name="quick_action_setting">设置</string>  
+ <string name="pref_lock_settings_title">锁屏设置</string>
+
+  <string name="gesture_settings_title">手势桌面设置</string>
+  <string name="scroll_up_gesture_setting">上划手势</string>
+  <string name="scroll_down_gesture_setting">下划手势</string>
+  <string name="double_click_gesture_setting">空白处双击手势</string>
+  <string-array name="pref_gesture_choices">
+        <item>无</item>
+         <item>打开桌面菜单</item>
+         <item>显示最近打开应用</item>
+        <item>打开通知栏</item>
+    </string-array>
+  
+  <string name="lockscreen_button_ok">知道了</string>
+  <string name="lockscreen_button_cancel">取消</string>
+  <string name="lockscreen_reminder">友情提醒</string>
+  <string name="lockscreen_alert_message">尊敬的客戶，一键锁屏激活后，乐桌面应用将无法强制停止和卸载，请进入系统设置>安全>设备管理器中取消激活乐桌面。</string>
+  
+    <string name="uninstall_system_app" >"系统应用程序无法卸载"</string>
+    <string name="deliver_folder_title">"解散"</string>
+    <string name="deliver_folder_msg">"解散后，所有应用将放到桌面上"</string>
+    <string name="delete_folder_error_msg">"该文件夹内有内容，不可删除"</string>
+    <string name="not_blank_delet_prompt">非空屏幕不能被删除。</string>
+    
+    <string name="local_restore">本地恢复</string>
+    <string name="local_backup">本地备份</string>
+    <string name="cloud_restore">从云端恢复</string>
+    <string name="cloud_backup">备份到云端</string>
+    <string name="lastest_backup_tips">上次备份时间：%s</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="cannot_be_placed_on_hotseat">该类型不能放在快捷栏上</string>
+    <string name="cannot_be_placed_on_full_hotseat">快捷栏已满</string>
+    <string name="search_settings_title">应用搜索</string>
+    <string name="promptInfo">已安装天气动画</string>
+    <string name="tab_cloud">云端</string>
+    <!--<string name="no_need_redownload">该场景已存在，无需重复下载，是否应用该场景？</string>-->
+    <string name="use_wifi_m">建议使用WIFI进行数据传输。</string>
+    <string name="weather_widget_noinfo">无法获得天气信息</string>
+    <string name="has_no_backup_profile">未发现备份文件</string>
+
+       <!-- for delete bar -->
+    <string name="uninstall_title_key">"卸载 "</string>
+    <string name="uninstall_message">"卸载后，您可以从应用商店下载该应用"</string>
+    <string name="uninstall_button_ok">卸载</string>
+    <string name="uninstall_button_cancel">取消</string>
+    <string name="uninstall_done" msgid="3792487853420281888">卸载完成</string>
+    <string name="uninstall_failed" msgid="631122574306299512">卸载失败</string>
+    <string name="uninstall_failed_device_policy_manager" msgid="3493789239037852035">此程序包是当前使用的设备管理器，无法卸载</string>
+    
+    <!-- add by gecn1 -->
+    <string name="loading_worksapce">"正在加载"</string>
+    
+    <string name="accessing_server">正在查询备份文件</string>
+    
+    <!-- add by yangbin5 start -->
+    <string name="lockscreen_tab_wallpaper">桌面壁纸</string>
+    <string name="lockscreen_tab_lockpaper">锁屏壁纸</string>
+    <string name="lockscreen_item_picture">我的相册</string>
+    <!-- add by yangbin5 end -->
+    <!-- add by zhanggx1 for reordering all pages on 2013-11-20 -->
+    <string name="auto_reorder_title">"自动排列图标"</string>
+    <string name="auto_reorder_summary">"开启后，屏幕图标将紧密排列，不留空隙(主屏除外)"</string>
+    <string name="auto_reorder_finish">"桌面已经整理好啦"</string>
+    <string name="need_no_manual_reorder">"自动排列图标已开启，不能手动整理啦"</string>
+
+</resources>

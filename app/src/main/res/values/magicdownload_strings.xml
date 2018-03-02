@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="magicdownload_app_name">Magic Online</string>
+    <string name="hw_empty">No online resources, check the network</string>
+    <string name="hw_loading">Loading......</string>
+    <!-- @Download module -->
+    <string name="downloading">Downloading</string>
+    <string name="download_unknown_title">&lt;No Title></string>
+    <string name="notification_downloading_app">Downloading</string>
+    <string name="notification_start_download">%s start download</string>
+    <string name="added_downloadqueue">Already added to download queue</string>
+    <string name="downloadpause_app_title">%s download paused!</string>
+    <string name="downloadpause_app">Download paused</string>
+    <string name="click_start_download">Click to start download</string>
+    <string name="downloadcompleted_succuss_app_title">%s download completed</string>
+    <string name="downloadcompleted_error_app_title">%s download failed</string>
+    <string name="downloadcompleted_cancel_app_title">%s download cancelled</string>
+    <string name="click_start_install">Click to install</string>
+    <string name="click_start_view">Click to view more</string>
+    <string name="download_succuss">Succeeded</string>
+    <string name="download_error">Failed</string>
+    <string name="download_sd_error">The Memory is full or No SD card in use</string>
+    <string name="wait_wifi_content">Without WLAN，wait for WLAN ?</string>
+    <string name="geki_downdload">Download now</string>
+    <string name="wait_wifi_com">Wait WLAN</string>
+    <string name="addwifiqueue"> %s already added to WLAN download queue</string>
+    <string name="notify_push_download">The resource %s you bought from web can download now !</string>
+    <string name="notify_push_download_title">%s can download now</string>
+    <string name="notify_push_recommend">Recommend Message</string>
+    <string name="notify_content_download">Click to download</string>
+    <string name="download_setting_wifi_toast">Already paused and added to WLAN waiting queue</string>
+    <string name="download_setting_cancel_wifi_toast">The resource in WLAN waiting queue already begin download</string>
+    <string name="download_download">Download</string>
+    <string name="download_pause">Pause</string>
+    <string name="download_resume">Continue</string>
+    <string name="download_install">Install</string>
+    <string name="download_cancel">Cancel</string>
+    <string name="download_delete">Delete</string>
+    <string name="download_vc_size">Size : %1$s </string>
+    <string name="download_nodata">No downloads</string>
+    <string name="download_count_downloading"> Task Downloading</string>
+    <string name="download_count_downloaded"> Task Downloaded</string>
+    <string name="download_count_pause"> Task Paused</string>
+    <string name="download_delete_dialog_title">Delete %s ?</string>
+    <string name="download_delete_dialog_title_downloading">Cancel this %s download ?</string>
+    <string name="download_installed">Run</string>
+    <string name="download_run_app_fail">%s has been installed</string>
+    <string name="check_root_title">Auto-install</string>
+    <string name="check_root_msg">Auto-install after download</string>
+    <string name="check_root_prompt">You have system permission, you may check "Auto-install" to download and install quickly, would you check it？</string>
+    <string name="check_root_fail">You have no system permission and you may not use "Auto-install".</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancle">Cancel</string>
+    <string name="dialog_ignore">Ignore</string>
+    
+    <!-- Download module@ -->
+    <!-- @app detail -->
+    <string name="app_detail_download">Download</string>
+    <string name="app_detail_install">Install</string>
+    <!-- app detail@ -->
+    <!-- favorites  -->
+    <string name="favorites_nodata">No Favorites</string>
+    <string name="favorites_label">Favorites</string>
+    <string name="favorites_delete">Delete the favorite?</string>
+    <!-- @lca package installer -->
+    <string name="lca_installer_not_found">Failed to install, can not find the Package Installer.</string>
+    <string name="lcapackageinstaller_manage_applications">Manage Application</string>
+    <string name="lcapackageinstaller_out_of_space_dlg_text">Failed to install，please release more space and try again.</string>
+    <string name="lcapackageinstaller_permission_lenovo_authen_error">Failed to install, the pacakge can not obtain Account Authentication.</string>
+    <string name="lcapackageinstaller_permission_user_cancel_error">Failed to install, the package has been cancelled.</string>
+    <string name="lcapackageinstaller_permission_network_error">Failed to install, the package has network information error.</string>
+    <string name="lcapackageinstaller_permission_device_error">Failed to install, the package has been already bound to other devices.</string>
+    <string name="lcapackageinstaller_permission_date_error">Failed to install, the package has been already out of date.</string>
+    <string name="lcapackageinstaller_permission_verify_error">Failed to install, the package check failed.</string>
+    <string name="lcapackageinstaller_ok">Confirm</string>
+    <string name="lcapackageinstaller_cancel">Cancel</string>
+    <string name="lcapackageinstaller_parse_error">Failed to parse, please delete the package and download again.</string>
+    <string name="lcapackageinstaller_install_error">Install failed,please retry.</string>
+    <string name="lcapackageinstaller_lenovo_dlg_prepare_install">Preparing to install,hold on please </string>
+    <string name="lcapackageinstaller_install_exist">Installing...</string>
+    <string name="install_failed_inconsistent_certificates">An existing package by the same name
+        with a conflicting signature is already installed.</string>
+    <string name="install_failed_older_sdk">The package only works on newer versions of Android.</string>     
+    <string name="install_title" >Install information</string>
+    <string name="install_failed_download_again" >Install failed, the package has been downloaded failed or the package has been deleted. 
+        Would you download the package again？</string>
+    <string name="install_complete" >Installed</string>
+    <string name="install_run" >Click to run</string>
+    <string name="install_notification_title">%s installed</string>
+    <!-- lca package installer @ -->
+    <!-- Text definition for hawaii -->
+    <string name="nav_favorites">Favorites</string>
+    <string name="list_empty_error">Failure to obtain resources, please check the network.</string>
+    <string name="list_empty">No online resources.</string>
+    <string name="detail_loading_falied">Failure to obtain details, please check the network.</string>
+    <string name="detail_loading_empty">No Details.</string>
+    <string name="detail_loading">Loading details...</string>
+    <string name="detail_download">Download</string>
+    <string name="detail_details">Details</string>
+    <string name="detail_ispay">Free</string>
+    <string name="detail_size">Size : </string>
+    <string name="detail_favorites">Favorites</string>
+    <string name="detail_comment">Comment</string>
+    <string name="detail_comment_loading">Loading comments...</string>
+    <string name="detail_comment_empty">No comments.</string>
+    <string name="detail_comment_empty_1">Fail to obtain comments，please check the network.</string>
+    <string name="detail_desc_title">Summary</string>
+    <string name="detail_version">Version : </string>
+    <string name="detail_price_yuan"/>
+    <string name="detail_tab_details">Details</string>
+    <string name="detail_tab_comment">Comments</string>
+    <!-- zhanglz1 -->
+    <string name="detail_downloadtimes">Download Times:</string>
+    <string name="detail_auther">Auther:</string>
+    <string name="detail_res">Resolution :</string>
+    <!-- Text for update or download apk -->
+    <string name="download_already_inlist_ok">Download completed. Please install from the SD card.</string>
+    <string name="download_already_inlist_running">Downloading…</string>
+    <string name="download_invalid_adress">Invalid download address.</string>
+    <string name="download_appinfo_fail">Failed to obtain application details.</string>
+    <string name="download_upgrade_fail">Failed to obtain update information.</string>
+    <string name="download_url_fail">Failed to obtain download address.</string>
+    <string name="download_app_fail">Download failed.</string>
+    <string name="delete_download_app_success">Delete Success！</string>
+    <string name="delete_download_app_faild">Delete Failed！</string>
+    <string name="d_wifi_t">Notification</string>
+    <string name="d_wifi_m">Not in the WLAN, download will cost data flow, confirm ?</string>
+    <string name="d_wifi_ok">Confirm</string>
+    <string name="d_wifi_cancel">Cancel</string>
+    <string name="error_network_state">Network connection failed</string>
+    <string name="refresh">Refresh</string>
+    <!-- zdx modify -->
+    <string name="category_theme">Theme</string>
+    <string name="category_lockscreen">LockScreen</string>
+    <string name="category_wallpaper">Wallpaper</string>
+    <!-- yangmao add start -->
+    <string name="category_hwaii_search_app">Application</string>
+    <!-- yangmao add start -->
+    <string name="menu_download">Download Manager</string>
+    <string name="action_download">Click to enter Download Manager</string>
+    <string name="add_downloadqueue">%s add to download queue</string>
+    <string name="not_support_view_appdetail">Only support to view details in magic download lists</string>
+    <string name="setting_delete_installed_summary">Auto delete installed</string>
+    <string name="setting_delete_installed_title">Magic download settings</string>
+    <string name="download_count_installed"> Task Installed</string>
+    <string name="download_total_bytes_error">Unkown size</string>
+    <!-- zhanglz1  -->
+    <string name="wallpaper_insall_success_toast">Wallpaper applied successful!</string>
+    <string name="wallpaper_insall_fail_toast">Wallpaper applied failed.</string>
+    <string name="whether_install_wallpaper">Do you want to apply the wallpaper?</string>
+    <string name="download_delete_toast">%s is deleted</string>
+    <string name="download_install_wallpaper">Apply</string>
+    <string name="release_for_more">Release to get more</string>
+    <string name="pull_up_for_more">Pull up to get more</string>
+    <string name="magicdownload_loading">Loading......</string>
+    <string name="magicdownload_more">Get more</string>
+    
+    <!-- app manager -->
+    <string name="magicdownload_upgrade_applist">Apps manager</string>
+    <string name="magicdownload_upgrade_currentversion">Local version:</string>
+    <string name="magicdownload_upgrade_newversion">Upgraded version:</string>
+    <string name="magicdownload_upgrade_localcount">%s applications installed</string>
+    <string name="magicdownload_upgrade_upgradecount">%s applications can be upgraded</string>
+    <string name="magicdownload_upgrade_localtitle">Local</string>
+    <string name="magicdownload_upgrade_upgradetitle">Upgraded</string>
+    <string name="magicdownload_upgrade_uninstall">uninstall</string>
+    <string name="magicdownload_upgrade_all">Upgrade all </string>
+    <string name="magicdownload_upgrade_list_empty">No applications can be upgraded.</string>
+    
+    <string name="list_empty_refresh_done">No more online resources.</string>
+    <string name="category_lockscreen_fun">Fun locker</string>
+
+</resources>

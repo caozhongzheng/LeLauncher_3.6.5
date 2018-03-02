@@ -1,0 +1,53 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="5dp"
+    android:paddingTop="6dp"
+    android:orientation="horizontal">
+
+<LinearLayout 
+        android:id="@+id/textpic"
+        android:background="@drawable/le_wallpaper_magicdownload_push_app_icon_def" 
+        android:gravity="center"
+        android:layout_marginLeft="4dp"
+        android:layout_width="393dp"
+        android:layout_height="327dp">
+
+    <TextView
+         android:id="@+id/textname"
+         android:lines="2"
+         android:layout_gravity="bottom"
+         android:layout_alignParentBottom="true"
+         android:background="@drawable/name_bg_panel" 
+         android:textColor="@color/white"
+         android:paddingLeft="3sp"
+         android:gravity="left|center"
+    	 android:layout_width="fill_parent"
+    	 android:layout_height="30dp"/>
+</LinearLayout>
+
+<LinearLayout 
+        android:id="@+id/textpic1"
+        android:background="@drawable/le_wallpaper_magicdownload_push_app_icon_def" 
+        android:gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="4dp"
+        android:layout_width="393dp"
+        android:layout_height="327dp">
+
+    <TextView
+         android:id="@+id/textname1"
+         android:lines="2"
+         android:layout_gravity="bottom"
+         android:layout_alignParentBottom="true"
+         android:background="@drawable/name_bg_panel" 
+         android:textColor="@color/white"
+         android:paddingLeft="3sp"
+         android:gravity="left|center"
+         android:layout_width="fill_parent"
+         android:layout_height="30dp"/>
+</LinearLayout>
+</LinearLayout>
+
+

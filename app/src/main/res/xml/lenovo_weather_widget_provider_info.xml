@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2013-02-20 . S-->
+<lenovo-weather-widgets>
+<!-- 
+	<lenovo-weather-widget activity_name="WeatherWidgetAppWidgetProvider" Width="4" Height="2" 
+	    WidgetView="WeatherWidgetView"></lenovo-weather-widget>-->
+	<lenovo-weather-widget activity_name="WeatherWidgetSquareWidgetProvider" Width="2" Height="2" 
+	    WidgetView="WeatherWidgetSquareView"></lenovo-weather-widget>
+</lenovo-weather-widgets>

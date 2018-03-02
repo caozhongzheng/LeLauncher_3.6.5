@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/profile_title"
+        />
+
+    <TextView
+            android:id="@+id/number_text"
+            android:layout_below="@id/view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/preference_title_color"
+            android:textSize="14dp"
+            android:background="@drawable/sec_category_bg"
+     />
+    
+    <!-- ThemePagedView -->
+    <com.lenovo.launcher2.settings.ProfilePagedView
+        android:id="@+id/profiles"
+        android:layout_below="@id/number_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:columnWidth="60dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:listSelector="#00000000"
+        />
+       <!--   launcher:pageLayoutPaddingBottom="@dimen/theme_preview_padding_Bottom"
+        launcher:pageLayoutPaddingTop="@dimen/theme_preview_padding_Top"
+        launcher:pageLayoutPaddingLeft="@dimen/theme_preview_padding_Left"
+        launcher:pageLayoutPaddingRight="@dimen/theme_preview_padding_Right" />-->
+	<!-- 
+    <RelativeLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/theme_button_bg_height"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:singleLine="true"
+            android:background="@drawable/btn_background_selector"
+            android:text="@string/get_more_theme" 
+            android:textSize="@dimen/shortcut_dialog_button_textsize"
+            android:textColor="@color/button_color"/>
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnLeft"
+            android:layout_marginLeft="@dimen/theme_button_horizotal_margin"
+            android:singleLine="true" 
+            android:background="@drawable/btn_background_selector"
+            android:textSize="@dimen/shortcut_dialog_button_textsize"
+            android:textColor="@color/button_color"/>
+    </RelativeLayout>
+     -->
+
+  <!--   <LinearLayout
+        android:id="@+id/profiles_paged_view_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/buttonBar"/>
+
+     <ImageView
+        android:id="@+id/profiles_indicator_lightbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/setting_dotindicator_lightbar"
+        android:layout_above="@id/buttonBar"
+        android:visibility="gone" />-->
+
+</RelativeLayout>

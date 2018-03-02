@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/colors.xml
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<resources>
+    <!-- The color tints to apply to the text and drag view when hovering
+         over the delete target or the info target -->
+    <color name="delete_target_hover_tint">#DAFF0000</color>
+    <color name="info_target_hover_tint">#DA0099CC</color>
+
+    <!-- The alpha/color to apply to the drag image -->
+    <color name="drag_view_multiply_color">#CCFFFFFF</color>
+
+    <color name="bubble_dark_background">#20000000</color>
+
+    <color name="appwidget_error_color">#FCCC</color>
+
+    <color name="workspace_all_apps_and_delete_zone_text_color">#CCFFFFFF</color>
+    <color name="workspace_all_apps_and_delete_zone_text_shadow_color">#A0000000</color>
+    <!-- RK_ID: RK_THEME . AUT: zhanggx1 . DATE: 2011-01-04 . S-->
+    <color name="home_point_text_color">#FF0000de</color>
+    <color name="widget_dims_text_color">#FFb5b5b4</color>
+    <color name="widget_name_text_color">#FFb5b5b4</color>
+    <color name="apps_icon_text_color">#FFffffff</color>
+    <color name="folder_name_text_color">#ff6a6a6a</color>
+    <color name="folder_name_hint_color">#ff6a6a6a</color>
+    <color name="folder_name_hight_color">#ff90d1d3</color>
+    <color name="quick_action_text_color">#ff606671</color>
+    <color name="lotus_text_color">#ffffffff</color>
+    <color name="drop_target_text_color">#ffffffff</color>
+    <color name="apps_list_alpha_text_color">#ffebfcff</color>
+    <color name="apps_list_overlay_text_color">#FFffffff</color>
+    <color name="letter_list_view_text_color">#FFffffff</color>
+    <color name="letter_list_view_disabled_text_color">#FF606671</color>
+    <color name="letter_list_view_selected_text_color">#FF67ff63</color>
+    <color name="cm_tips_text_color">#fff6f6f6</color>
+    <color name="cm_cotent_text_color">#ff606671</color>
+    <color name="category_title_text_color">#ffffffff</color>
+    <color name="category_edit_text_color">#ff606671</color>
+    
+    <!-- for default value -->
+    <color name="def__home_point_text_color">#FF000000</color>
+    <color name="def__widget_dims_text_color">#FF555555</color>
+    <color name="def__widget_name_text_color">#FFffffff</color>
+    <color name="def__apps_icon_text_color">#FFffffff</color>
+    <color name="def__folder_name_text_color">#ff6a6a6a</color>
+    <color name="def__folder_name_hint_color">#ff6a6a6a</color>
+    <color name="def__folder_name_hight_color">#ff90d1d3</color>
+    <color name="def__tab_indicator_text_color">#ffebfcff</color>
+    <color name="def__quick_action_text_color">#ff606671</color>
+    <color name="def__lotus_text_color">#ffffffff</color>
+    <color name="def__drop_target_text_color">#ffffffff</color>
+    <color name="def__apps_list_alpha_text_color">#ffebfcff</color>
+    <color name="def__apps_list_overlay_text_color">#FFffffff</color>
+    <color name="def__letter_list_view_text_color">#FFffffff</color>
+    <color name="def__letter_list_view_disabled_text_color">#FF606671</color>
+    <color name="def__letter_list_view_selected_text_color">#FF67ff63</color>
+    <color name="def__cm_tips_text_color">#fff6f6f6</color>
+    <color name="def__cm_cotent_text_color">#ff606671</color>
+    <color name="def__category_title_text_color">#ffffffff</color>
+    <color name="def__category_edit_text_color">#ff606671</color>
+    <!-- RK_ID: RK_THEME . AUT: zhanggx1 . DATE: 2011-01-04 . E-->
+    <!-- RK_ID: RK_THEME . AUT: zhanghong5 . DATE: 2011-02-03 . S-->
+    <color name="live_wallpaper_thumbnail_background">#CC666666</color>
+    <color name="live_wallpaper_thumbnail_text_color">#FFFFFFFF</color>
+    <!-- RK_ID: RK_THEME . AUT: zhanghong5 . DATE: 2011-02-03 . E-->
+    <!-- RK_ID:RK_LAYOUT_CHANGE_1677 AUT:zhanglz1@lenovo.com. S-->
+   <color name="dialog_button_color">#ff2f2f2f</color>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+   <color name="weather_widget_date_color">#ffffffff</color>
+   <color name="weather_widget_week_color">#ffffffff</color>
+   <color name="weather_widget_temp_color">#ffffffff</color>
+   <color name="weather_widget_cityname_color">#ffffffff</color>
+   <color name="weather_widget_content_color">#ffffffff</color>
+   <color name="weather_widget_AMPM_color">#ffffffff</color>
+   <!--  RK_ID: RK_TASKKILLBAR. AUT: liuli1 . DATE: 2012-11-30 . START  -->
+    <color name="progress_bar_start_color">#ff66a214</color>
+    <color name="progress_bar_center_color">#ff4e8110</color>
+    <color name="progress_bar_end_color">#ff5d9313</color>
+    <color name="task_kill_text_color">#ffe9e9e9</color>
+<!--  RK_ID: RK_TASKKILLBAR. AUT: liuli1 . DATE: 2012-11-30 . END  -->
+
+   <color name="weather_magic_widget_date_color">#ff545454</color>
+   <color name="weather_magic_widget_week_color">#ff545454</color>
+   <color name="weather_magic_widget_temp_color">#ffffffff</color>
+   <color name="weather_magic_widget_cityname_color">#ffffffff</color>
+   <color name="weather_magic_widget_content_color">#ffffffff</color>
+   <color name="weather_magic_widget_other_week_color">#ffffffff</color>
+   <color name="weather_magic_widget_other_content_color">#ffffffff</color>
+   <color name="weather_magic_widget_other_temp_color">#ffffffff</color>
+   <color name="weather_magic_widget_zhishu_color">#ffffffff</color>
+   <color name="weather_magic_widget_cityname_empty">#ffffffff</color>
+    <color name="toggle_layout_text_color">#ff747474</color>
+    <color name="taskmanager_widget_text_color">#ffffffff</color>
+       <color name="task_black_4a4a4a">#4a4a4a</color>
+    <color name="task_grey3d393a">#3d393a</color>
+    <color name="activity_transparent">#66000000</color>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+   <color name="ue_promotion_color">#ff000000</color>
+   <color name="magic_gesture_notic_color">#ff000000</color>
+
+ <!-- RK_ID: RK_MENU_REFACTOR . AUT: LIUYG1 . DATE: 2012-12-02 . S-->
+   <color name="preference_background_color">#F7F7F7</color>  
+   <color name="dialog_title_color">#FF333333</color>  <!-- #FF9900 -->  
+     <color name="preference_title_color">#343434</color>  
+      <color name="preference_summary_color">#8e8e8e</color> 
+       <color name="preference_list_select_color">#efefef</color>   
+ <!-- RK_ID: RK_MENU_REFACTOR . AUT: LIUYG1 . DATE: 2012-12-02 . E-->
+ 
+     <color name="custom_menu_item_text_color">#ffffffff</color>  
+ <!-- RK_ID: RK_LEJINGPIN . AUT: yumina . DATE: 2012-12-17 . S-->
+
+    <color name="text_color">#303030</color>
+    <color name="reply_text">#2a91ca</color>
+    <color name="reply_title_color">#ededed</color>
+    <color name="white">#ffffff</color>
+    <color name="push_download_text">#FD7900</color>
+    <color name="push_list_divider">#c2c2c2</color>
+    <color name="blue">#185480</color>
+    <color name="gray">#a0a0a0</color>
+    <color name="black">#000000</color>
+    <color name="new_message_bg_color">#e1ebf9</color>
+    <color name="button_text_color">#2c2c2c</color>
+    <color name="notify_date_color">#b9b9b9</color>
+    <color name="widget_text_color">#2b2b2b</color>
+    <color name="widget_app_item_color">#4f4f4f</color>
+    <color name="widget_button_color">#2b2b2b</color>
+    <color name="widget_app_price_free_color">#ff19b200</color>
+    <color name="widget_title_color">#464646</color>
+    <color name="cache_color_hint">#00000000</color>
+    <color name="apps_icon_pressed">#79c1f3</color>
+    
+    <color name="menu_focused">#32809c</color>
+    
+    <drawable name="testColor">#0f0</drawable>
+  <!-- RK_ID: RK_LEJINGPIN . AUT: yumina . DATE: 2012-12-17 . E-->
+      <color name="apps_icon_text_shadow_color_in_applist">#FF000000</color>
+    <color name="apps_icon_text_shadow_color_in_workspace">#DD000000</color>
+	 <color name="hot_word_color_red">#ffa31f</color>
+    <color name="hot_word_color_blue">#9fcf03</color>
+    <color name="hot_word_color_green">#3ebfe3</color>
+    <color name="hot_word_color_pink">#45a5ff</color>
+    <color name="hot_word_color_black">#ff5e39</color>
+    <color name="local_search_click">#ffb961</color>
+	
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 S -->
+    <color name="message_color">#afaeae</color>
+    <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 E -->
+    
+     <!--RK_ID:RK_RENAME_PUSH_APP AUT:hubing3@lenovo.com DATE: 2013-03-04 S -->
+    <color name="push_app_head_download_text_color">#747474</color>
+    <!--RK_ID:RK_RENAME_PUSH_APP AUT:hubing3@lenovo.com DATE: 2013-03-04 E -->
+    
+      <color name="boot_reminder_dialog_bg">#EFEFEF</color>  
+     <color name="boot_reminder_dialog_title1_color">#ff9000</color>   
+      <color name="boot_reminder_dialog_checkbox_color">#357600</color>  
+       <color name="boot_reminder_dialog_title2_color">#f3f3f3</color>  
+       <color name="boot_reminder_dialog_tips_color">#222222</color>  
+        <color name="boot_reminder_dialog_text_color">#444444</color>   
+          <color name="boot_progress_dialog_text_color">#ffffff</color>
+
+ <color name="push_app_detial_dot_linear">#b7b6b7</color>   
+ <color name="dialog_title_pressed_color">#ff33b5e5</color>
+ <color name="weather_magic_widget_temp_color_41">#ffffffff</color>
+   <color name="weather_magic_widget_cityname_color_41">#ffffffff</color>
+   <color name="weather_magic_widget_content_color_41">#ffffffff</color>
+   <color name="weather_square_widget_empty_color">#ffffffff</color>
+   <color name="weather_square_widget_cityname_color">#ffffffff</color>
+   <color name="weather_square_widget_content_color">#ffffffff</color>
+   <color name="weather_square_widget_temp_color">#ffffffff</color>
+   <color name="weather_square_widget_AMPM_color">#ffffffff</color>
+   <color name="weather_square_widget_date_color">#ffffffff</color>
+   <color name="weather_square_widget_week_color">#ffffffff</color>
+   <color name="weather_square_widget_list_select_color">#ff1ea500</color>
+      
+</resources>

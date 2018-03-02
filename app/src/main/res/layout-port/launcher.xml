@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<com.lenovo.launcher2.DragLayer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+
+    android:id="@+id/drag_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<!-- AUT:zhanglq, zhanglq@bj.cobellink.com DATE:2012-3-29 start  -->
+    <ImageView android:id="@+id/wallPaperX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:scaleType="matrix"
+        />
+    <!-- AUT:zhanglq, zhanglq@bj.cobellink.com DATE:2012-3-29 end  -->
+    <!-- Keep these behind the workspace so that they are not visible when
+         we go into AllApps -->
+    <include
+        android:id="@+id/dock_divider"
+        layout="@layout/workspace_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/def__home_point_bottom_padding"
+        android:layout_gravity="bottom" />
+    <include
+        android:id="@+id/paged_view_indicator"
+        layout="@layout/scroll_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/def__home_point_bottom_padding" />
+    <!-- RK_ID: RK_HOME_POINT . AUT: zhanggx1 . DATE: 2011-12-19 . PUR: for leos scroller . S -->
+    <include
+        android:id="@+id/homePoint"
+        layout="@layout/home_point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"/> 
+        <!-- the margin value is defined in workspace.java -->
+        <!-- android:layout_marginBottom="@dimen/def__home_point_bottom_padding" -->
+    <TextView
+        android:id="@+id/addWidgetMsg"
+        android:background="#FFFF0000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/out_of_space_and_drag_it_away"
+        android:visibility="gone"
+        android:layout_gravity="top|center_horizontal"/>
+    <!-- RK_ID: RK_HOME_POINT . AUT: zhanggx1 . DATE: 2011-12-19 . PUR: for leos scroller . E -->
+    <!-- The workspace contains 5 screens of cells 
+         old is 
+         android:paddingTop="@dimen/qsb_bar_height_inset"
+         android:paddingBottom="@dimen/button_bar_height"-->
+    <com.lenovo.launcher2.Workspace
+        android:id="@+id/workspace"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/workspace_screen_padding_top"
+        android:paddingBottom="@dimen/workspace_screen_padding_bottom"
+        android:paddingLeft="@dimen/workspace_screen_padding_left"
+        android:paddingRight="@dimen/workspace_screen_padding_right"
+        launcher:defaultScreen="2"
+        launcher:cellCountX="4"
+        launcher:cellCountY="4"
+        launcher:pageSpacing="@dimen/workspace_page_spacing"
+        launcher:scrollIndicatorPaddingLeft="@dimen/workspace_divider_padding_left"
+        launcher:scrollIndicatorPaddingRight="@dimen/workspace_divider_padding_right">
+
+        <include android:id="@+id/cell1" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell2" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell3" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell4" layout="@layout/workspace_screen" />
+        <include android:id="@+id/cell5" layout="@layout/workspace_screen" />
+    </com.lenovo.launcher2.Workspace>
+        <include
+        android:id="@+id/customTabHost"
+        layout="@layout/custom_tabhost"        
+        />
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . S -->
+    <com.lenovo.launcher2.ShowWallpaper
+        android:id="@+id/showWallpaper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/workspace_screen_padding_left"
+        android:paddingRight="@dimen/workspace_screen_padding_right"
+        android:visibility="invisible">
+    </com.lenovo.launcher2.ShowWallpaper>
+    <TextView android:id="@+id/noticView" 
+	    android:layout_width="@dimen/showwallpaper_notic_width"
+		android:layout_height="@dimen/showwallpaper_notic_height" 
+		android:width="@dimen/showwallpaper_notic_width"
+		android:height="@dimen/showwallpaper_notic_height" 
+		android:layout_gravity="top|center_horizontal"
+		android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:ellipsize="end"
+        android:gravity="center"
+		android:background="@drawable/magic_gesture_notic_bg"
+        android:text="@string/magic_gesture_notic_title"
+        android:textColor="@color/magic_gesture_notic_color"
+        android:textSize="@dimen/showwallpaper_notic_textsize" 
+		android:visibility="gone" />  
+     <!-- <LinearLayout
+        android:id="@+id/showWallpaper_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:background="@drawable/magic_gestrue_cling"
+        android:visibility="gone"
+        android:gravity="center_horizontal|center_vertical" >
+
+        <TextView
+            android:id="@+id/show_wallpaper_cling_dismiss"
+            style="@style/ClingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="@dimen/show_wallpaper_cling_dismiss_bottom"
+            android:background="@drawable/magic_gestrue_cling_dismiss_bg"
+            android:text="@string/cling_dismiss_new"
+            android:gravity="center_horizontal|center_vertical"
+            android:textSize="20sp" />
+    </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/add_new_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+        <ImageView
+            android:id="@+id/add_new_page_hand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+    </LinearLayout>
+
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . E -->
+		
+    <include
+        android:id="@+id/qsb_bar"
+        layout="@layout/qsb_bar" />
+
+   <!-- art <include layout="@layout/apps_customize_pane"
+        android:id="@+id/apps_customize_pane"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />  -->
+   <include layout="@layout/xapps_pane"
+        android:id="@+id/surface_apps_customize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+   <!-- art -->
+
+    <include layout="@layout/hotseat"
+        android:id="@+id/hotseat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_bar_height_plus_padding"
+        android:layout_gravity="bottom" />
+
+    <!-- AUT:zhaoxy . DATE:2012-03-20. START-->
+<!--     <include layout="@layout/workspace_cling_new"
+        android:id="@+id/workspace_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    AUT:zhaoxy . DATE:2012-03-20. END
+
+    <include layout="@layout/folder_cling_new"
+        android:id="@+id/folder_cling"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+     -->
+    <!-- AUT:zhanglq, zhanglq@bj.cobellink.com DATE:2012-1-9 start  -->
+    <ImageView android:id="@+id/previewBackground"
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/screenbackground"
+        android:visibility="gone"/>
+    <include layout="@layout/preview_paged"
+        android:id="@+id/preview_paged"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+	<!-- AUT:zhanglq, zhanglq@bj.cobellink.com DATE:2012-1-9 end  -->
+</com.lenovo.launcher2.DragLayer>

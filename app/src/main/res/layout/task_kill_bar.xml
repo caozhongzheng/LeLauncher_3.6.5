@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/mem_bg"
+    android:visibility="gone" >
+
+    <ImageView
+        android:id="@+id/refresh"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/mem_refresh" />
+    
+    <ImageView
+        android:id="@+id/mem_divader"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/refresh"
+        android:src="@drawable/mem_divider"
+        />
+
+    <ImageView
+        android:id="@+id/killall"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/mem_divader"
+        android:src="@drawable/mem_kill" />
+
+    <ProgressBar
+        android:id="@+id/membar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/killall"
+        android:indeterminateOnly="false"
+        android:maxHeight="30dp"
+        android:minHeight="30dp"
+        android:background="@drawable/mem_progress_bg"
+        android:progressDrawable="@drawable/mem_progress" />
+
+    <TextView
+        android:id="@+id/meminfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/clearall"
+        android:paddingLeft="5dp" />
+
+</RelativeLayout>

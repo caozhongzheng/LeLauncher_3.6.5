@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_always_alive_on"
+        android:summary="@string/optimal_performance"
+        android:title="@string/always_alive_title" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_dync_theme_change"
+        android:summary="@string/dync_theme_change_summary"
+        android:title="@string/dync_theme_change_settings_title" />
+</PreferenceScreen>

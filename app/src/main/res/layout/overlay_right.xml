@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:layout_width="240dp"
+        android:layout_height="@dimen/shortcut_dialog_button_height"
+        android:textSize="@dimen/shortcut_dialog_button_textsize"
+        android:id="@+id/set_wall" 
+        android:textColor="@color/white"
+        android:background="@drawable/right_btn_wallpaper"
+        android:layout_gravity="center"
+/>
+

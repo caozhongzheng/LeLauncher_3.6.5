@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+    <string-array name="weather_description_array">
+        <item>Sunny</item>
+        <item>Cloudy</item>
+        <item>Overcast</item>
+        <item>Showers</item>
+        <item>Scattered T-storms</item>
+        <item>T-storms with hail</item>
+        <item>Sleet</item>
+        <item>Light rain</item>
+        <item>Moderate rain</item>
+        <item>Heavy rain</item>
+        <item>Torrential rain</item>
+        <item>Rainstorm</item>
+        <item>Heavy rainstorm</item>
+        <item>Snow showers</item>
+        <item>Light snow</item>
+        <item>Moderate snow</item>
+        <item>Heavy snow</item>
+        <item>Snowstorm</item>
+        <item>Fog</item>
+        <item>Freezing rain</item>
+        <item>Sandstorm</item>
+        <item>Light-moderate rain</item>
+        <item>Moderate-heavy rain</item>
+        <item>Heavey-torrential rain</item>
+        <item>Torrential rain-rainstorm</item>
+        <item>Rainstorm-heavy rainstorm</item>
+        <item>Light-moderate snow</item>
+        <item>Moderate-heavy snow</item>
+        <item>Heavy snow-snowstorm</item>
+        <item>Dust</item>
+        <item>Blowing dust</item>
+        <item>Heavy sandstorm</item>
+    </string-array>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+        <string-array name="chineseDateNames">
+		<item name="DateName0"></item>
+		<item name="DateName1">"初一"</item>
+		<item name="DateName2">"初二"</item>
+		<item name="DateName3">"初三"</item>
+		<item name="DateName4">"初四"</item>
+		<item name="DateName5">"初五"</item>
+		<item name="DateName6">"初六"</item>
+		<item name="DateName7">"初七"</item>
+		<item name="DateName8">"初八"</item>
+		<item name="DateName9">"初九"</item>
+		<item name="DateName10">"初十"</item>
+		<item name="DateName11">"十一"</item>
+		<item name="DateName12">"十二"</item>
+		<item name="DateName13">"十三"</item>
+		<item name="DateName14">"十四"</item>
+		<item name="DateName15">"十五"</item>
+		<item name="DateName16">"十六"</item>
+		<item name="DateName17">"十七"</item>
+		<item name="DateName18">"十八"</item>
+		<item name="DateName19">"十九"</item>
+		<item name="DateName20">"二十"</item>
+		<item name="DateName21">"廿一"</item>
+		<item name="DateName22">"廿二"</item>
+		<item name="DateName23">"廿三"</item>
+		<item name="DateName24">"廿四"</item>
+		<item name="DateName25">"廿五"</item>
+		<item name="DateName26">"廿六"</item>
+		<item name="DateName27">"廿七"</item>
+		<item name="DateName28">"廿八"</item>
+		<item name="DateName29">"廿九"</item>
+		<item name="DateName30">"三十"</item>
+		</string-array>
+    
+    <string-array name="chineseMonthNames">
+		<item name="MonthName0"></item>
+		<item name="MonthName1">"正"</item>
+		<item name="MonthName2">"二"</item>
+		<item name="MonthName3">"三"</item>
+		<item name="MonthName4">"四"</item>
+		<item name="MonthName5">"五"</item>
+		<item name="MonthName6">"六"</item>
+		<item name="MonthName7">"七"</item>
+		<item name="MonthName8">"八"</item>
+		<item name="MonthName9">"九"</item>
+		<item name="MonthName10">"十"</item>
+		<item name="MonthName11">"十一"</item>
+		<item name="MonthName12">"十二"</item>
+	</string-array>
+	<string-array name="chineseWeekNames">
+		<item name="week0"></item>
+		<item name="week1">"星期日"</item>
+		<item name="week2">"星期一"</item>
+		<item name="week3">"星期二"</item>
+		<item name="week4">"星期三"</item>
+		<item name="week5">"星期四"</item>
+		<item name="week6">"星期五"</item>
+		<item name="week7">"星期六"</item>
+	</string-array>
+    <string-array name="principleTermNames">
+		<item name="principleTermNames0">"大寒"</item>
+		<item name="principleTermNames1">"雨水"</item>
+		<item name="principleTermNames2">"春分"</item>
+		<item name="principleTermNames3">"谷雨"</item>
+		<item name="principleTermNames4">"夏满"</item>
+		<item name="principleTermNames5">"夏至"</item>
+		<item name="principleTermNames6">"大暑"</item>
+		<item name="principleTermNames7">"处暑"</item>
+		<item name="principleTermNames8">"秋分"</item>
+		<item name="principleTermNames9">"霜降"</item>
+		<item name="principleTermNames10">"小雪"</item>
+		<item name="principleTermNames11">"冬至"</item>
+	</string-array>
+	<string-array name="sectionalTermNames">
+		<item name="sectionalTermNames0">"小寒"</item>
+		<item name="sectionalTermNames1">"立春"</item>
+		<item name="sectionalTermNames2">"惊蛰"</item>
+		<item name="sectionalTermNames3">"清明"</item>
+		<item name="sectionalTermNames4">"立夏"</item>
+		<item name="sectionalTermNames5">"芒种"</item>
+		<item name="sectionalTermNames6">"小暑"</item>
+		<item name="sectionalTermNames7">"立秋"</item>
+		<item name="sectionalTermNames8">"白露"</item>
+		<item name="sectionalTermNames9">"寒露"</item>
+		<item name="sectionalTermNames10">"立冬"</item>
+		<item name="sectionalTermNames11">"大雪"</item>
+	</string-array>
+	<string-array name="stemNames">
+		<item name="stemNames0"></item>
+		<item name="stemNames1">"甲"</item>
+		<item name="stemNames2">"乙"</item>
+		<item name="stemNames3">"丙"</item>
+		<item name="stemNames4">"丁"</item>
+		<item name="stemNames5">"戊"</item>
+		<item name="stemNames6">"己"</item>
+		<item name="stemNames7">"庚"</item>
+		<item name="stemNames8">"辛"</item>
+		<item name="stemNames9">"壬"</item>
+		<item name="stemNames10">"癸"</item>
+	</string-array>
+	<string-array name="branchNames">
+		<item name="branchNames0"></item>
+		<item name="branchNames1">"子"</item>
+		<item name="branchNames2">"丑"</item>
+		<item name="branchNames3">"寅"</item>
+		<item name="branchNames4">"卯"</item>
+		<item name="branchNames5">"辰"</item>
+		<item name="branchNames6">"巳"</item>
+		<item name="branchNames7">"午"</item>
+		<item name="branchNames8">"未"</item>
+		<item name="branchNames9">"申"</item>
+		<item name="branchNames10">"酉"</item>
+		<item name="branchNames11">"戌"</item>
+		<item name="branchNames12">"亥"</item>
+	</string-array>
+	<string-array name="animalNames">
+		<item name="animalNames0"></item>
+		<item name="animalNames1">"鼠"</item>
+		<item name="animalNames2">"牛"</item>
+		<item name="animalNames3">"虎"</item>
+		<item name="animalNames4">"兔"</item>
+		<item name="animalNames5">"龙"</item>
+		<item name="animalNames6">"蛇"</item>
+		<item name="animalNames7">"马"</item>
+		<item name="animalNames8">"羊"</item>
+		<item name="animalNames9">"猴"</item>
+		<item name="animalNames10">"鸡"</item>
+		<item name="animalNames11">"狗"</item>
+		<item name="animalNames12">"猪"</item>
+	</string-array>
+    
+    
+    <string-array name="Festival">
+        
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕节</item>
+        <item>中元节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+        <item>除夕</item>
+    </string-array>
+    
+    <string-array name="Holiday">
+        <item>今天</item>
+        <item>元旦</item>
+        <item>春节</item>
+        <item>清明节</item>
+        <item>劳动节</item>
+        <item>端午节</item>
+        <item>中秋节</item>
+    </string-array>
+        
+    
+    <string-array name="calendarFestival">
+        <item>元旦</item>
+        <item>情人节</item>
+        <item>妇女节</item>
+        <item>劳动节</item>
+        <item>儿童节</item>
+        <item>教师节</item>
+        <item>国庆节</item>
+        <item>建军节</item>
+    </string-array>
+</resources>

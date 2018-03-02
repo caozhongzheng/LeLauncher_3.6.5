@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2009 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="lockscreens" translatable="false">
+        <item>lockscreen_local0</item>
+        <item>lockscreen_local1</item>
+        <item>lockscreen_local2</item>
+        <item>lockscreen_local3</item>
+        <item>lockscreen_local4</item>
+        <item>lockscreen_local5</item>
+        <item>lockscreen_local6</item>
+        <item>lockscreen_local7</item>
+        <item>lockscreen_local8</item>
+        <item>lockscreen_local9</item>
+        <item>lockscreen_local10</item>
+        <item>lockscreen_local11</item>
+        <item>lockscreen_local12</item>
+        <item>lockscreen_local13</item>
+    </string-array>
+
+</resources>

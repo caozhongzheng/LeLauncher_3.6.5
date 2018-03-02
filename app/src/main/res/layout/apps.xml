@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:allapps="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:id="@+id/hwbackground"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ViewStub
+        android:id="@+id/empty_stub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/shared_empty"/>
+
+    <ViewStub
+        android:id="@+id/push_app_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/push_app_fragment_layout" />
+
+</LinearLayout>

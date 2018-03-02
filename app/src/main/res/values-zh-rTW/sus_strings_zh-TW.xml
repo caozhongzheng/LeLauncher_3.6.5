@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SUS_MSG_FAIL_NOWLANCONNECTED">樂桌面升級,請打開WLAN!</string>
+    <string name="SUS_MSG_LATESTVERSION">樂桌面已是最新版本!</string>
+    <string name="SUS_MSG_NOTFOUND">没有找到樂桌面升級版本!</string>
+    <string name="SUS_MSG_FAIL_NETWORKUNAVAILABLE">樂桌面無法升級,當前網絡不可用!</string>
+    <string name="SUS_MSG_WARNING_PENDING">已有樂桌面升級正在處理中!</string>
+    <string name="SUS_MSG_DOWNLOADCOMPLETE">樂桌面下載完成!</string>
+    <string name="SUS_MSG_UPDATE_EXCEPTION">當前服務器不穩定，請稍侯再試</string>    
+    <string name="SUS_SETTINGS_NEVERPROMPT">不再提醒</string>
+    <string name="SUS_SETTINGS_NEWVERPROMPT">有新版本再提醒</string>
+    <string name="SUS_MSG_INSUFFICIENTSTORAGESPACE">樂桌面無法升級,存儲空間不足!</string>
+    <string name="SUS_VERSIONUPDATE">樂桌面升級啦！</string>
+    <string name="SUS_UPDATEDESC">更新說明:</string>
+    <string name="SUS_UPDATEVERPROMPT_VERNAME">版本名：</string>
+    <string name="SUS_UPDATEVERPROMPT_VERSIZE">版本大小：</string>
+    <string name="SUS_UPDATESIZEPROMPT_WLAN">若流量有限，建議用WLAN下載！</string>
+    <string name="SUS_UPDATE">立即升級</string>
+    <string name="SUS_CANCEL">稍後再說</string>
+    <string name="SUS_DOWNLOAD_TITLE">樂桌面升級中...</string>
+     <string name="SUS_CANCELBUTTON">取消</string>
+    <string name="SUS_NOTIFICATION_TITLE">提示</string>
+    <string name="SUS_NOTIFICATION_UPDATINGPROMPT">正在更新過程中……請稍候！</string>
+    <string name="SUS_NOTIFICATION_TIMEOUTPROMPT">網路超時，正在重試更新……</string>
+    <string name="SUS_NOTIFICATION_HIDE_BUTTONTEXT">我知道了</string>
+    <string name="SUS_NOTIFICATION_ABORTUPDATE_BUTTONTEXT">取消更新</string>
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_1">（本窗口將在 </string>
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_2">秒後自動隱藏）</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK_TITLE">請點擊安裝應用！</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK">請點擊安裝應用：</string>
+    <string name="SUS_ERROR_CURRENT_VERSION">獲取樂桌面當前版本信息出錯!</string>
+    <string name="SUS_QUERY_CURRENT_VERSION">當前版本: </string>
+	<string name="SUS_QUERY_NEW_VERSION">升級版本: </string>
+	<string name="SUS_QUERY_NEW_SIZE">升級版本大小: </string>
+	<string name="SUS_QUERY_COMMENT">更新内容: </string>
+	<string name="SUS_MSG_FAIL_SUSSERVER">獲取樂桌面升級版本信息出錯!</string>
+</resources>

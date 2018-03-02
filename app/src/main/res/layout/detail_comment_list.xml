@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_list_ym"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="10px"
+    android:paddingRight="5px" >
+
+    <include
+        android:id="@+id/comment_loading"
+        layout="@layout/shared_loading" />
+
+    <TextView
+        android:id="@+id/comment_list_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_list_ym"
+        android:gravity="center"
+        android:text="@string/detail_comment_empty"
+        android:textColor="#545454"
+        android:textSize="22px"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset" >
+    </ListView>
+
+</LinearLayout>

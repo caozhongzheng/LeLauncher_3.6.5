@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_personalized_screen">
+
+    <Preference
+        android:key="pref_personal_effect_settings"
+        
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/effect_settings">
+<!-- android:icon="@drawable/ic_effect_settings" -->
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lenovo.launcher2.settings.EffectSettings"
+            android:targetPackage="com.lenovo.launcher" />
+    </Preference>
+    <Preference
+        android:key="pref_personal_icon_settings"
+        
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/settings_pref_icon">
+     <!-- android:icon="@drawable/ic_icon_setting" -->
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lenovo.launcher2.settings.PersonalSettings"
+            android:targetPackage="com.lenovo.launcher" />
+    </Preference>
+    
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/pref_all_app_y_default"
+        android:entries="@array/pref_all_app_y_choices"
+        android:entryValues="@array/pref_all_app_y_values"
+        android:key="pref_applist_y_count"
+        android:title="@string/pref_allapp_cellcount_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/> 
+
+</PreferenceScreen>

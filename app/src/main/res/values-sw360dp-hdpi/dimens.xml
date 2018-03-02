@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- 四叶草widget占格用最小宽度 -->
+    <dimen name="lotus_widget_span_min_width">286dp</dimen>
+    <!-- 四叶草widget占格用最小高度 -->
+    <dimen name="lotus_widget_span_min_height">286dp</dimen>
+
+    <dimen name="toggle_layout_height_ex">198dp</dimen>
+	<dimen name="toggle_layout_height">66dp</dimen>
+    <dimen name="toggle_layout_height_ex_off">8dp</dimen>
+    <dimen name="toggle_layout_height_rate_l">30px</dimen>
+    <dimen name="toggle_layout_height_rate_h">40px</dimen>
+    <dimen name="ljp_push_content_app_download_margin_top_size">25px</dimen>
+    <!-- <dimen name="folder_cell_width">75dp</dimen>
+    <dimen name="folder_cell_height">94dp</dimen>
+    <dimen name="folder_content_padding">18dp</dimen> -->
+    
+    <dimen name="menu_row_height">70dp</dimen>
+    <dimen name="menu_row_paddingtop">7dp</dimen>
+    <dimen name="weathet_widget_square_details_height">105dp</dimen>
+    <dimen name="weathet_widget_square_details_content_margin_top">4dp</dimen>
+  
+ <dimen name="weathet_widget_square_details_pos_big">150px</dimen><!-- A820t -->
+ <dimen name="weathet_widget_square_details_pos_50">0px</dimen><!-- A820t -->
+ <dimen name="weathet_widget_square_details_pos_200">-150px</dimen><!-- A820t -->
+ <dimen name="weathet_widget_square_details_pos_300">210px</dimen>
+ <dimen name="weathet_widget_square_details_pos_500">-280px</dimen><!-- A820t -->
+ <dimen name="weathet_widget_square_details_pos_max">-580px</dimen>
+ 
+
+ <dimen name="weathet_widget_square_details_up_padding">10dp</dimen>
+ <dimen name="weathet_widget_square_nodetails_margin_top">52dp</dimen>
+
+  <!-- for delete bar -->
+    <dimen name="uninstall_apps_dialog_height">161dp</dimen>
+    <dimen name="uninstall_apps_hint_height">73dp</dimen>
+    <dimen name="uninstall_apps_image_height">52dp</dimen>
+    <dimen name="uninstall_apps_view_padding_left">22dp</dimen>
+    <dimen name="uninstall_apps_image_padding_top">20dp</dimen>
+    <dimen name="uninstall_apps_text_padding_left">12dp</dimen>
+    <dimen name="uninstall_apps_text_padding_top">25dp</dimen>
+    <dimen name="uninstall_apps_text_padding_bottom">2dp</dimen>
+    <dimen name="uninstall_apps_msg_padding_top">4dp</dimen>
+    <dimen name="uninstall_apps_button_padding_top">18dp</dimen>
+    <dimen name="uninstall_apps_button_width">132dp</dimen>
+    <dimen name="uninstall_apps_button_height">39dp</dimen>
+    <dimen name="uninstall_apps_button_padding_left">14dp</dimen>
+    <dimen name="uninstall_text_min_size">12.5sp</dimen>
+    <dimen name="uninstall_shadow_height">7dp</dimen>
+    
+     <!--  乐畅修改QHD定义 20130829 lechang add start-->
+    <dimen name="folder_cell_y_offset">10dp</dimen>
+    <dimen name="folder_icons_scale">26px</dimen>
+    <!--  with virtual keys start
+    <dimen name="hotseat_cell_height">98dp</dimen>
+      <dimen name="button_bar_height_plus_padding">100dp</dimen>     
+      <dimen name="app_icon_hotseat_padding_top">14dp</dimen>
+      -->
+          <dimen name="hotseat_cell_height">120px</dimen>
+      <dimen name="button_bar_height_plus_padding">120px</dimen>     
+      <dimen name="app_icon_hotseat_padding_top">0px</dimen>
+          <dimen name="home_point_margin_top">7px</dimen>
+              <dimen name="workspace_pageview_top_padding">0px</dimen>
+       <!--  with virtual keys end -->
+      
+      
+      	<!-- when folder open alltopoffset -->
+	 <dimen name="folder_name_padding">150dp</dimen>
+	  <dimen name="app_icon_text_width">114px</dimen>
+	     <dimen name="app_text_l_r_padding">2px</dimen>
+    <!--  lechang add end-->
+</resources>

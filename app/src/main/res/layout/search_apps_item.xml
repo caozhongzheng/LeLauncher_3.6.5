@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ljp_search_apps_item_height" >
+
+    <ImageView
+        android:id="@+id/search_app_icon"
+        android:layout_width="@dimen/ljp_app_icon_size"
+        android:layout_height="@dimen/ljp_app_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dip"
+        android:gravity="center"
+        android:src="@drawable/lepush_app_icon_def" />
+
+    <TextView
+        android:id="@+id/search_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dip"
+        android:layout_marginTop="8dip"
+        android:layout_toRightOf="@id/search_app_icon"
+        android:maxWidth="150dip"
+        android:singleLine="true"
+        android:textColor="#4d4d4d"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/search_app_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_app_name"
+        android:layout_marginLeft="9dip"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@id/search_app_icon"
+        android:singleLine="true"
+        android:text="@string/detail_size"
+        android:textColor="#808080"
+        android:textSize="13sp" />
+
+    <RatingBar
+        android:id="@+id/search_app_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_app_size"
+        android:layout_marginBottom="4dip"
+        android:layout_marginLeft="9dip"
+        android:layout_toRightOf="@id/search_app_icon"
+        android:isIndicator="true"
+        android:layout_marginTop="1dp"
+        android:numStars="5"
+        android:progressDrawable="@drawable/detail_star_bar" />
+
+    <LinearLayout
+        android:id="@+id/downloadContainer"
+        android:layout_width="90dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/search_app_pay"
+            android:layout_width="match_parent"
+            android:layout_height="32dip"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="4dip"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/detail_ispay"
+            android:textColor="#808080"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/search_app_download"
+            android:layout_width="match_parent"
+            android:layout_height="32dip"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/detail_download_selector"
+            android:gravity="center"
+            android:text="@string/app_detail_download"
+            android:textColor="#808080"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</RelativeLayout>

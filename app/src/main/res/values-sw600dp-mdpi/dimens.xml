@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- We can also afford to have a slightly wider portrait layout in
+         xlarge -->
+    <dimen name="button_bar_height_plus_padding">108dp</dimen>
+    <dimen name="app_icon_hotseat_padding_top">16dp</dimen>
+    <dimen name="app_icon_text_width">95px</dimen>
+    <dimen name="hotseat_cell_width">126dp</dimen>
+    <dimen name="hotseat_cell_height">126dp</dimen>
+
+    <dimen name="folder_cell_width">119dp</dimen>
+    <dimen name="folder_cell_height">113dp</dimen>
+
+    <dimen name="folder_cell_x_offset">0px</dimen>
+    <dimen name="folder_cell_y_offset">12px</dimen>
+    <dimen name="folder_content_margin">18dp</dimen>
+    <dimen name="folder_scale">225px</dimen>
+    <dimen name="folder_icons_scale">35px</dimen>
+
+    <dimen name="folder_app_icon_padding_top">15dp</dimen>
+    <dimen name="folder_indicate_offset">0dp</dimen>
+    <dimen name="folder_kuang_padding_h">11dp</dimen>
+    <dimen name="folder_kuang_padding_v">27dp</dimen>
+    <dimen name="folder_shadow_Left">10dp</dimen>
+    <dimen name="folder_shadow_Top">40dp</dimen>
+    <dimen name="folder_title_height">36dp</dimen>
+
+    <dimen name="delete_zone_height">41dp</dimen>
+    <dimen name="xpage_indicator_enter_touch_height">17dp</dimen>
+    <dimen name="delete_zone_icon_padding_top">0dp</dimen>
+</resources>

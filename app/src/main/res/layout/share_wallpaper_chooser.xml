@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+  
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_title"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1.0" 
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+  
+	
+    </LinearLayout>
+
+     <include
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/shortcut_dialog_bar_height"
+            layout="@layout/buttonbar"
+            android:minHeight="@dimen/shortcut_dialog_bar_min_height" />
+     
+    <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/btn_leshare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_background_selector"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/send_leshare"
+            android:textColor="@color/button_color"
+            android:textSize="@dimen/shortcut_dialog_button_textsize" />
+
+        <Button
+            android:id="@+id/btn_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_background_selector"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:text="@string/send_othershare"
+            android:textColor="@color/button_color"
+            android:textSize="@dimen/shortcut_dialog_button_textsize" />
+
+    </LinearLayout> -->
+
+</LinearLayout>

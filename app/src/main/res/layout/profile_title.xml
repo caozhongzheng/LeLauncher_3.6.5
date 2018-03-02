@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" 
+        >
+     <!-- android:background="@drawable/dialog_title_background" -->
+     
+     <include
+	    android:id="@+id/view_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/dialog_title"
+	    android:minHeight="48dp" 
+	    android:layout_alignParentLeft="true"
+        />
+     
+        <ImageView android:id="@+id/delete_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_profile_delete"
+            android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+            android:paddingRight="15dp"
+            android:layout_alignRight="@+id/view_title"
+            android:visibility="invisible"
+            />
+     <!-- <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/dialog_icon"/>
+
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/dialog_icon"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:textColor="@color/dialog_title_color"
+            android:textSize="@dimen/shortcut_dialog_title_size" /> -->
+    </RelativeLayout>
+
+           <!-- <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:background="@color/dialog_title_color" />
+          -->

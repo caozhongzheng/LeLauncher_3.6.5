@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical" >
+
+    <!-- <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_center_title"
+        android:minHeight="48dp" />
+    -->
+     <ListView
+        android:id="@+id/preference_list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:divider="@android:drawable/divider_horizontal_bright" >
+    </ListView>
+    <!-- unused view -->
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"   
+            android:background="@android:drawable/divider_horizontal_bright"/>
+     
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/lelist_preference_bottomtext_height"   
+     />
+     
+</LinearLayout>

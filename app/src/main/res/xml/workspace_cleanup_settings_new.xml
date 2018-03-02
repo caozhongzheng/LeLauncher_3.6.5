@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_workspace_cleanup_screen">
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_Timing"
+        android:entries="@array/pref_workspace_cleanup_timing_entries"
+        android:entryValues="@array/pref_workspace_cleanup_timing_values"
+        android:key="pref_workspace_cleanup_timing"
+        android:summary="@string/pref_workspace_cleanup_timing_default"
+        android:title="@string/pref_workspace_cleanup_timing_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more" />    
+    
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_Timeout"
+        android:entries="@array/pref_workspace_cleanup_timeout_entries"
+        android:entryValues="@array/pref_workspace_cleanup_timeout_values"
+        android:key="pref_workspace_cleanup_timeout"
+        android:summary="@string/pref_workspace_cleanup_timeout_default"
+        android:title="@string/pref_workspace_cleanup_timeout_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/>
+                 
+</PreferenceScreen>

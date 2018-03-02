@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.custommenu.CustomTabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuTabHost"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:background="@drawable/custom_menu_bg"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/apps_customize_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.lenovo.launcher2.FocusOnlyTabWidget
+             android:id="@android:id/tabs"
+             android:layout_width="match_parent"
+             android:layout_height="@dimen/custom_menu_tab_height"
+             android:layout_gravity="left"
+             android:background="@drawable/custom_menu_tab_area_background"
+             android:tabStripEnabled="false"
+             android:divider="@null" />
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+            <com.lenovo.launcher2.custommenu.CustomPagedView android:id="@+id/custompaged_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/custom_menu_pageview_height"
+                android:paddingBottom="@dimen/custom_menu_padding_bottom"
+                android:paddingLeft="@dimen/custom_menu_pageview_padding"
+                android:paddingRight="@dimen/custom_menu_pageview_padding"
+                android:paddingTop="@dimen/custom_menu_padding_top">
+           </com.lenovo.launcher2.custommenu.CustomPagedView>
+            
+            <!--<HorizontalScrollView android:id="@+id/paged_view"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scrollbars="horizontal"
+                android:fadeScrollbars="true"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp">
+                <GridLayout 
+                    android:id="@+id/gridLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:rowCount="1"
+                    android:scrollbars="horizontal"
+                    android:fadeScrollbars="true"
+                    android:fitsSystemWindows="true"
+                    android:orientation="horizontal"/>
+           </HorizontalScrollView>
+             <com.lenovo.launcher2.MenuPagedView
+                android:id="@+id/paged_view"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:paddingBottom="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"/>--> 
+        </FrameLayout>
+    </LinearLayout>
+</com.lenovo.launcher2.custommenu.CustomTabHost>

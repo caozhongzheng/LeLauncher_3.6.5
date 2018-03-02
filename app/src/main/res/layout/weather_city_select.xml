@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+  <include
+	    android:id="@+id/weaher_city_search_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/dialog_center_title"
+	    android:minHeight="48dp" />
+   <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/weaher_city_search_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+		android:maxLength="50"
+		android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/btn_search_icon"
+        android:hint="@string/weather_search_hite"
+        style="@style/CategoryEditText">
+        </EditText>
+        <TextView
+		android:id="@+id/weather_city_name_tips"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:singleLine="true"
+		android:textSize="18dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginLeft="30dp"
+		android:text="@string/weather_search_hot_tips" 
+		android:layout_below="@+id/weaher_city_search_edit"
+		/>
+        <ImageView
+            android:id="@+id/weaher_city_search_line"
+        	android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:background="#ababab"
+			android:layout_marginLeft="20dp"
+        	android:layout_marginRight="20dp"
+			android:layout_below="@+id/weather_city_name_tips"
+            />
+    	<GridView
+	        android:id="@+id/weaher_city_search_hot_city"
+	        android:layout_marginTop="15dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_below="@+id/weaher_city_search_line"
+	        android:padding="15dp"
+	    	android:verticalSpacing="7dp"
+	    	android:horizontalSpacing="7dp"
+	    	android:numColumns="3"
+	    	android:columnWidth="55dp"
+	    	android:stretchMode="columnWidth"
+	    	android:gravity="center"
+	    	android:visibility="gone"
+            />
+   	    <ListView
+	    android:id="@+id/weaher_city_seartch_list"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+		android:visibility="gone"
+	    android:layout_below="@+id/weaher_city_search_line"
+	    android:scrollbarStyle="insideOverlay" />
+    </RelativeLayout>
+</LinearLayout>    
+           

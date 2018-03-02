@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<leos_weather_widgets>
+    <leos_weather_widget
+    xmlns:widget="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    widget:widgetName="@string/weather_uninstall_theme_lotus_name"
+    widget:widgetPackage="com.lenovo.launcher2.weather.widget.lotus"
+    widget:iconName="@drawable/weather_app_widget_lotus"
+    widget:widgetversion="v0.8"
+    widget:widgetsize="(1.7M)"
+    widget:widgetUrl="http://launcher.lenovo.com/launcher/data/attachment/app/weather_theme/LotusWeatherTheme.apk">
+    </leos_weather_widget>
+    <leos_weather_widget
+    xmlns:widget="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    widget:widgetName="@string/weather_uninstall_theme_tea_name"
+    widget:widgetPackage="com.lenovo.launcher2.weather.widget.tea"
+    widget:iconName="@drawable/leos_widgets_weather_tea"
+    widget:widgetversion="v0.8"
+    widget:widgetsize="(1.3M)"
+    widget:widgetUrl="http://launcher.lenovo.com/launcher/data/attachment/app/weather_theme/TeaWeatherTheme.apk">
+    </leos_weather_widget>
+    <leos_weather_widget
+    xmlns:widget="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    widget:widgetName="@string/weather_uninstall_theme_aurora_name"
+    widget:widgetPackage="com.lenovo.launcher2.weather.widget.aurora"
+    widget:iconName="@drawable/leos_widgets_weather_aurora"
+    widget:widgetversion="v0.8"
+    widget:widgetsize="(9.1M)"
+    widget:widgetUrl="http://launcher.lenovo.com/launcher/data/attachment/app/weather_theme/AuroraWeatherTheme.apk">
+    </leos_weather_widget>
+</leos_weather_widgets>

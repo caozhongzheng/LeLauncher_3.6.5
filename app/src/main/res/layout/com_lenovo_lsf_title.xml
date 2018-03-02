@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <View
+        android:id="@+id/title_top"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:background="#80c8e7"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/title_top"
+        android:text="@string/com_lenovo_lsf_ui_name"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+     <View
+         android:layout_width="fill_parent"
+         android:layout_height="1dp"
+         android:layout_alignParentBottom="true"
+         android:background="#0072a7" />
+      <ImageButton
+         android:id="@+id/title_menu"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:adjustViewBounds="true"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+         android:background="#00000000"
+         android:src="@drawable/com_lenovo_lsf_title_setting"
+         android:layout_marginRight="8dp"
+         android:visibility="gone"/>
+     <View
+         android:id="@+id/right_line"
+         android:layout_width="1dp"
+         android:layout_height="27dp"
+         android:layout_centerVertical="true"
+         android:layout_toLeftOf="@+id/title_menu"
+         android:layout_marginRight="8dp"
+         android:visibility="gone"
+         android:background="#00577c" />
+     <View
+         android:id="@+id/left_line"
+         android:layout_width="1dp"
+         android:layout_height="27dp"
+         android:layout_centerVertical="true"
+         android:layout_toLeftOf="@+id/right_line"
+         android:visibility="gone"
+         android:background="#80c8e7" />
+</RelativeLayout>

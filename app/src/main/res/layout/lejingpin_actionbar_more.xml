@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lejingpin_actionbar_more_selector"    
+    android:paddingLeft="10dp"
+   	android:paddingRight="10dp">
+    <ImageView
+        android:id="@+id/lejingpin_actionbar_more"
+        android:src="@drawable/lejingpin_actionbar_more"
+        android:layout_gravity="center"
+        android:gravity="center"        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

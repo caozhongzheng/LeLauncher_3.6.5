@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_weather_setting">
+    <Preference
+        android:id="@+id/pref_lockscreen_weather_city"
+        android:key="pref_lockscreen_weather_city"
+        android:title="@string/setting_weather_city"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more" >
+        <intent android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.launcher2.settings.ProvinceActivity" android:targetPackage="com.lenovo.launcher"/>
+    </Preference>
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_weather_anim_setting"
+        android:summary="@string/weather_animation_toggle_ex"
+        android:title="@string/weather_animation_toggle" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"  />
+</PreferenceScreen>

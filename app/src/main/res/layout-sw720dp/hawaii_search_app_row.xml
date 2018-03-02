@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dip" >
+
+    <RelativeLayout
+        android:id="@+id/other_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/detail_icon"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:gravity="center"
+            android:src="@drawable/push_app_icon_def" />
+
+        <!-- android:textColor="#4d4d4d" -->
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@id/detail_icon"
+            android:maxWidth="145dip"
+            android:singleLine="true"
+            android:textColor="#454545"
+            android:textSize="14dip" />
+        <!-- android:textColor="#808080" -->
+        <!--
+             <TextView
+            android:id="@+id/detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="3dip"
+            android:layout_toRightOf="@id/detail_icon"
+            android:singleLine="true"
+            android:text="@string/detail_size"
+            android:textSize="12dip" 
+            android:textColor="#6E6E6E"/>
+
+        <RatingBar
+            android:id="@+id/detail_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_size"
+            android:layout_marginBottom="8dip"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@id/detail_icon"
+            android:isIndicator="true"
+            android:maxHeight="16dip"
+            android:maxWidth="16dip"
+            android:minHeight="16dip"
+            android:minWidth="16dip"
+            android:numStars="5"
+            android:progressDrawable="@drawable/magicdownload_hawaiisearch_detail_star_bar" />
+        -->
+
+        <RatingBar
+            android:id="@+id/detail_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:layout_marginLeft="8dip"
+            android:layout_marginTop="1dip"
+            android:layout_toRightOf="@id/detail_icon"
+            android:isIndicator="true"
+            android:maxHeight="14dip"
+            android:maxWidth="14dip"
+            android:minHeight="14dip"
+            android:minWidth="14dip"
+            android:numStars="5"
+            android:progressDrawable="@drawable/magicdownload_hawaiisearch_detail_star_bar" />
+
+        <TextView
+            android:id="@+id/detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_star"
+            android:layout_marginLeft="9dip"
+            android:layout_marginTop="-2dip"
+            android:layout_toRightOf="@id/detail_icon"
+            android:singleLine="true"
+            android:text="@string/detail_size"
+            android:textColor="#6E6E6E"
+            android:textSize="12dip" />
+
+        <!--
+             <TextView
+             android:id="@+id/detail_res"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignRight="@+id/detail_star"
+             android:layout_below="@id/detail_size"
+             android:layout_marginBottom="8dip"
+             android:layout_marginLeft="9dip"
+             android:layout_marginTop="1dip"
+             android:layout_toRightOf="@id/detail_icon"
+             android:singleLine="true"
+             android:textColor="#808080"
+             android:textSize="12dip" />
+        -->
+
+
+        <!--
+              <LinearLayout
+            android:id="@+id/downloadContainer"
+            android:layout_width="90dip" 
+		    android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/detail_pay"
+                android:layout_width="match_parent"
+                android:layout_height="33dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="4dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/detail_ispay"
+                android:textColor="#B6B6B6" 
+                android:textSize="16dip"/>
+            <TextView
+                android:id="@+id/detail_download"
+                android:layout_width="match_parent"
+                android:layout_height="33dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginBottom="5dip"
+                android:gravity="center"              
+                android:background="@drawable/magicdownload_hawaiisearch_detail_download_selector" 
+                android:text="@string/app_detail_download"  
+                android:textSize="16dip"
+                android:textColor="#454545"/>
+         </LinearLayout>
+        -->
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/downloadContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/local_apps_list_item_split" />
+
+        <TextView
+            android:id="@+id/detail_download"
+            android:layout_width="63dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/lejingpin_search_list_item_selector"
+            android:drawableTop="@drawable/ic_download_normal"
+            android:gravity="center"
+            android:paddingTop="10dip"
+            android:text="@string/app_detail_download"
+            android:textColor="#6a6a6a"
+            android:textSize="14dip" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+    </LinearLayout>
+	<TextView
+	    android:layout_alignParentBottom="true"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:background="#000000"    
+	    />
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_bg"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/dialog_title"
+            android:minHeight="48dp" />
+
+        <LinearLayout
+            android:id="@+id/leshare_progress_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/leshare_dialog_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/button_color"
+                android:textSize="18dp" />
+
+            <ProgressBar
+                android:id="@+id/leshare_dialog_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="260dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:max="100"
+                android:progressDrawable="@drawable/game_widget_progress_bar_layout" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="13dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp" >
+
+                <Button
+                    android:id="@+id/leshare_dialog_hidden"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_background_selector"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/leshare_dialog_hidden_button"
+                    android:textColor="@color/button_color"
+                    android:textSize="@dimen/shortcut_dialog_button_textsize" />
+
+                <Button
+                    android:id="@+id/leshare_dialog_cancel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/btn_background_selector"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/leshare_dialog_cancel_button"
+                    android:textColor="@color/button_color"
+                    android:textSize="@dimen/shortcut_dialog_button_textsize" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/leshare_qiezi_finish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/leshare_qiezi_finish_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/button_color"
+                android:textSize="18dp"
+                android:text="@string/leshare_qiezi_finish_msg" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="13dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp" >
+
+                <Button
+                    android:id="@+id/leshare_qiezi_finish_confirm"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/btn_background_selector"
+                    android:ellipsize="marquee"
+                    android:singleLine="true"
+                    android:text="@string/d_switch_ok"
+                    android:textColor="@color/button_color"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

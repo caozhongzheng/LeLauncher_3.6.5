@@ -1,0 +1,81 @@
+<resources>
+    <dimen name="toggle_layout_height_ex">202dp</dimen>
+	<dimen name="toggle_layout_height">66dp</dimen>
+    <dimen name="toggle_layout_height_ex_off">8dp</dimen>
+    <dimen name="toggle_layout_height_rate_l">50px</dimen>
+    <dimen name="toggle_layout_height_rate_h">40px</dimen>
+    <dimen name="ljp_push_app_name_size">16sp</dimen>
+    <integer name="ljp_app_des_line">4</integer>
+    <dimen name="ljp_push_app_introduction_size">14sp</dimen>
+    
+    <dimen name="apps_customize_cell_width">82dp</dimen>
+    <dimen name="apps_customize_cell_height">85dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1dp</dimen>
+    <dimen name="apps_taskManager_taskClearnViewDeleteWidth">20dp</dimen>
+    <!-- <dimen name="folder_cell_width">75dp</dimen>
+    <dimen name="folder_cell_height">94dp</dimen>
+    <dimen name="folder_content_padding">18dp</dimen> -->
+    <dimen name="weathet_widget_square_details_pos_big">200px</dimen><!-- S820 -->
+    <dimen name="weathet_widget_square_details_pos_50">0px</dimen><!-- S820 -->
+    <dimen name="weathet_widget_square_details_pos_200">210px</dimen>
+    <dimen name="weathet_widget_square_details_pos_300">-210px</dimen><!-- S820 -->
+    <dimen name="weathet_widget_square_details_pos_500">-390px</dimen><!-- S820 -->
+    <dimen name="weathet_widget_square_details_pos_max">-580px</dimen>
+     
+    <dimen name="weathet_widget_square_details_up_padding">10dp</dimen>
+    <dimen name="weathet_widget_square_nodetails_margin_top">52dp</dimen>
+
+    <!-- for delete bar -->
+    <dimen name="uninstall_apps_dialog_height">180dp</dimen>
+    <dimen name="uninstall_apps_hint_height">79dp</dimen>
+    <dimen name="uninstall_apps_image_height">57dp</dimen>
+    <dimen name="uninstall_apps_view_padding_left">25dp</dimen>
+    <dimen name="uninstall_apps_image_padding_top">22dp</dimen>
+    <dimen name="uninstall_apps_text_padding_left">16dp</dimen>
+    <dimen name="uninstall_apps_text_padding_top">27dp</dimen>
+    <dimen name="uninstall_apps_text_padding_bottom">4dp</dimen>
+    <dimen name="uninstall_apps_msg_padding_top">7dp</dimen>
+    <dimen name="uninstall_apps_button_padding_top">21dp</dimen>
+    <dimen name="uninstall_apps_button_width">148dp</dimen>
+    <dimen name="uninstall_apps_button_height">43dp</dimen>
+    <dimen name="uninstall_apps_button_padding_left">17dp</dimen>
+    <dimen name="uninstall_shadow_height">10dp</dimen>
+    
+      <!--  乐畅修改Xhdpi定义 20130828lechang add start-->
+    <!-- about folder start -->
+    <!-- when folder colse all icon in folder offset-->
+     <dimen name="folder_cell_x_offset">0dp</dimen>
+    <dimen name="folder_cell_y_offset">15dp</dimen>
+    <!--  -->
+     <dimen name="folder_scale">2185207px</dimen>
+     <!-- more big more jizhong -->
+    <dimen name="folder_icons_scale">35px</dimen>
+    <!-- when folder open rect width height -->
+     <dimen name="folder_cell_width">100dp</dimen>
+    <dimen name="folder_cell_height">110dp</dimen>
+	<dimen name="folder_indicate_offset">0dp</dimen>
+	<!-- when folder open alltopoffset -->
+	 <dimen name="folder_name_padding">120dp</dimen>
+    <!-- when folder open all content topoffset of foldername-->
+    <dimen name="folder_content_margin">13dp</dimen>
+     <!-- about folder end -->
+    
+     <dimen name="hotseat_cell_height">89dp</dimen>
+      <dimen name="hotseat_cell_width">145px</dimen> 
+     <dimen name="button_bar_height_plus_padding">89dp</dimen>
+	 <dimen name="app_icon_hotseat_padding_top">7dp</dimen>
+      <!--  可控制应用名称与icon的距离
+      <dimen name="app_icon_drawable_padding">3dp</dimen>
+       -->
+       
+        <dimen name="button_bar_height_top_padding">0dp</dimen>
+    <dimen name="button_bar_height_bottom_padding">0dp</dimen>
+    <dimen name="button_bar_width_left_padding">0dp</dimen>
+    <dimen name="button_bar_width_right_padding">0dp</dimen>
+ 
+       
+   	
+      <!--  lechang add end-->
+      <dimen name="app_icon_text_width">160px</dimen>
+</resources>

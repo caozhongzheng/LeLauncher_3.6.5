@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="SUS_MSG_FAIL_NOWLANCONNECTED">Lenovo Launcher upgrade, please open the WLAN.</string>
+	<string name="SUS_MSG_LATESTVERSION">Lenovo Launcher is the latest.</string>
+	<string name="SUS_MSG_NOTFOUND">Lenovo Launcher upgrade version not found.</string>
+	<string name="SUS_MSG_FAIL_NETWORKUNAVAILABLE">Lenovo Launcher cannot be upgraded, network is unavailable.</string>
+	<string name="SUS_MSG_WARNING_PENDING">Lenovo Launcher upgrade is being processed.</string>
+    <string name="SUS_MSG_DOWNLOADCOMPLETE">Lenovo Launcher download complete.</string>
+    <string name="SUS_MSG_UPDATE_EXCEPTION">Server Exception. Please try again later.</string>    
+	<string name="SUS_SETTINGS_NEVERPROMPT">Never prompt</string>
+	<string name="SUS_SETTINGS_NEWVERPROMPT">Prompt when find a new version</string>	
+	<string name="SUS_MSG_INSUFFICIENTSTORAGESPACE">Lenovo Launcher cannot be upgraded, the storage space is insufficient.</string>
+	<string name="SUS_VERSIONUPDATE">Lenovo Launcher Upgrade</string>
+    <string name="SUS_UPDATEDESC">Describe:</string>
+	<string name="SUS_UPDATEVERPROMPT_VERNAME">Name:</string>
+	<string name="SUS_UPDATEVERPROMPT_VERSIZE">Size:</string>
+	<string name="SUS_UPDATESIZEPROMPT_WLAN">recommend download with WLAN!</string>
+	<string name="SUS_UPDATE">Upgrade</string>
+	<string name="SUS_CANCEL">Cancel</string>
+	<string name="SUS_DOWNLOAD_TITLE">Lenovo Launcher upgrading...</string>
+	<string name="SUS_CANCELBUTTON">Cancel</string>
+    <string name="SUS_NOTIFICATION_TITLE">Prompt</string>
+    <string name="SUS_NOTIFICATION_UPDATINGPROMPT">Update pengding...</string>
+    <string name="SUS_NOTIFICATION_TIMEOUTPROMPT">Network time-out,update retrying...</string>
+    <string name="SUS_NOTIFICATION_HIDE_BUTTONTEXT">Continue</string>
+    <string name="SUS_NOTIFICATION_ABORTUPDATE_BUTTONTEXT">Abort</string>	
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_1">(The dialog will hide after </string>
+    <string name="SUS_NOTIFICATION_AUTOHIDPROMPTINFO_2">seconds.)</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK_TITLE">Please install the apk！</string>
+    <string name="SUS_NOTIFICATION_INSTALLAPK">Please install the apk:</string>
+	<string name="SUS_ERROR_CURRENT_VERSION">Fail to get Lenovo Launcher current version.</string>
+	<string name="SUS_QUERY_CURRENT_VERSION">Current version: </string>
+	<string name="SUS_QUERY_NEW_VERSION">New version: </string>
+	<string name="SUS_QUERY_NEW_SIZE">New version size: </string>
+	<string name="SUS_QUERY_COMMENT">Update description: </string>
+	<string name="SUS_MSG_FAIL_SUSSERVER">Fail to get Lenovo Launcher new version.</string>
+</resources>

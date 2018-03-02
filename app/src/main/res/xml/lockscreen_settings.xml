@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_lock_screen">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_lockscreen_lenovo_on"
+        android:summary="@string/workspace_loop_on"
+        android:title="@string/header_lockscreen_lenovo_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox" />
+
+    <Preference
+        android:key="pref_lockscreen_style"
+        android:title="@string/lockscreen_style_title"
+        android:summary="@string/select_lenovo_lockscreen"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more" > 
+    </Preference>
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_lockscreen_wallpaper_on"
+        android:summary="@string/workspace_loop_on"
+        android:title="@string/lockpaper_settings_default" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"/>
+    
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_lenovo_force_lock_on"
+        android:summary="@string/pref_lenovo_force_lock_on_summary"
+        android:title="@string/pref_lenovo_force_lock_on_title"
+         android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox" />  
+        
+    <Preference
+        android:key="pref_clear_two_lockscreen"
+        android:title="@string/pref_clear_two_lockscreen_title"
+        android:summary="@string/pref_clear_two_lockscreen_summary"
+        android:layout="@layout/custom_preference"
+        > 
+    </Preference>
+    
+</PreferenceScreen>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+     android:id="@+id/share_dialog_bg"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+      
+    android:clickable="true"
+     >
+     
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg">
+       <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_center_title"
+        android:minHeight="48dp" />
+    
+    
+    <!--  RK_ID: RK_FOLDER_EDITOR . AUT: chenrong2 . DATE: 2012-03-20 . S -->
+    <LinearLayout
+        android:id="@+id/folder_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/folder_name_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/folder_name_editor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/folder_editor_hint"
+            android:singleLine="true"
+            android:maxLength="@integer/folder_name_max_length"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             />
+    </LinearLayout>
+    
+
+    <!--  launcher:verticalSpacing 最好与 android:verticalSpacing一致（原因：自定义的GridView 不能获取verticalSpacing）-->
+    <LinearLayout android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        
+        <com.lenovo.launcher2.commonui.ShortcutGridView
+	        android:id="@+id/applist"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:gravity="center"
+	        android:paddingLeft = "0dp"
+	        android:paddingRight = "0dp"
+	        android:paddingTop = "10dp"
+	        android:paddingBottom="10dp"
+	        android:numColumns="4"  
+	        android:layout_weight="1.0"
+	        android:verticalSpacing="10dip"
+	        launcher:verticalSpacing="10dip"
+	        android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+	        android:listSelector="@android:color/transparent"/>
+        
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

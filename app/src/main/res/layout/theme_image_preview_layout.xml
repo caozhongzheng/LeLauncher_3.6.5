@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative_letheme"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/quick_letheme_preview_spinner_height" >
+
+        <Spinner
+            android:id="@+id/spinner_theme"
+            android:layout_width="@dimen/quick_letheme_preview_spinner_width"
+            android:layout_height="@dimen/quick_letheme_preview_spinner_height"
+            android:layout_alignParentRight="true"
+            android:drawSelectorOnTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxWidth="155dp"
+            android:singleLine="true"
+            android:text="@string/theme_image_choose_theme"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/allIconGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="@dimen/quick_letheme_grid_col_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/quick_letheme_grid_spacing_padding"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/quick_letheme_grid_spacing_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/quick_letheme_grid_spacing_padding" />
+
+</LinearLayout>

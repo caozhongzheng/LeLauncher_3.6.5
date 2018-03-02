@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="920px"
+    android:layout_height="1330px"
+    android:background="@drawable/background_list_ym"
+    
+    android:orientation="vertical" 
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:background="@drawable/title_bar_ym" >
+
+        <ImageView
+            android:id="@+id/detail_icon"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_marginLeft="12px"
+            android:layout_marginTop="25px"
+            android:scaleType="fitXY"
+            android:src="@drawable/lepush_app_icon_def" />
+
+
+        <TextView
+            android:id="@+id/detail_ispay"
+            android:layout_width="75px"
+            android:layout_height="40px"
+            android:layout_below="@id/detail_icon"
+            android:layout_marginLeft="45px"
+            android:layout_marginTop="30px"
+            android:textSize="35px"
+            android:background="@drawable/free_icon_ym"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="40px"
+            android:layout_toRightOf="@id/detail_icon"
+            android:maxWidth="480px"
+            android:singleLine="true"
+            android:textColor="#4d4d4d"
+            android:textSize="50px"
+            />
+
+        <TextView
+            android:id="@+id/detail_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_name"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="28px"
+            android:layout_toRightOf="@id/detail_icon"
+            android:singleLine="true"
+            android:text="@string/detail_size"
+            android:textColor="#808080"
+            android:textSize="40px" />
+
+        <TextView
+            android:id="@+id/detail_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_size"
+            android:layout_marginBottom="12px"
+            android:layout_marginLeft="30px"
+            android:layout_marginTop="2px"
+            android:layout_toRightOf="@id/detail_icon"
+            android:singleLine="true"
+            android:text="@string/detail_version"
+            android:textColor="#808080"
+            android:textSize="40px" />
+
+        <RatingBar
+            android:id="@+id/detail_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12px"
+            android:layout_marginTop="45px"
+            android:isIndicator="true"
+            android:maxHeight="40px"
+            android:maxWidth="40px"
+            android:minHeight="40px"
+            android:minWidth="40px"
+            android:numStars="5"
+            android:progressDrawable="@drawable/detail_star_bar" />
+
+        <TextView
+            android:layout_width="300px"
+            android:layout_height="110px"
+            android:text="@string/app_detail_download"
+            android:textStyle="bold"
+            android:textSize="40px"
+            android:gravity="center"            
+            android:textColor="@color/white"
+            android:id="@+id/detail_download"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30px"
+            android:layout_marginRight="30px"
+            android:background="@drawable/detail_download_selector" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="1220px"
+        android:background="@drawable/background_list_ym" >
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true" >
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.lenovo.lejingpin.hw.ui.GandalfFlipper
+                    android:id="@+id/gallery"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/background_ym"
+                    android:paddingLeft="5px"
+                    android:paddingRight="5px"
+                    android:paddingTop="5px"
+                    android:spacing="5px" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gallery"
+                    android:layout_marginBottom="5px"
+                    android:layout_marginTop="30px"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="5px"
+                    android:paddingLeft="20px"
+                    android:text="@string/detail_desc_title"
+                    android:textColor="#4d4d4d"
+                    android:textSize="50px" />
+
+                <TextView
+                    android:id="@+id/detail_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gallery"
+                    android:layout_marginTop="90px"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="5px"
+                    android:paddingLeft="18px"
+                    android:paddingRight="18px"
+                    android:textColor="#808080"
+                    android:textSize="43px" />
+
+                <TextView
+                    android:id="@+id/detail_empty"
+                    android:layout_width="match_parent"
+                    android:layout_height="485px"
+                    android:layout_centerInParent="true"
+                    android:background="#f5f5f5"
+                    android:gravity="center"
+                    android:text="@string/detail_loading_falied"
+                    android:textColor="#545454"
+                    android:textSize="14dip"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/detail_watting"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f5f5f5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:indeterminateOnly="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10px"
+                android:text="@string/detail_loading"
+                android:textColor="#545454"
+                android:textSize="14dip" />
+        </LinearLayout>
+
+        <ViewStub
+            android:id="@+id/detail_comment_list"
+            android:layout_width="920px"
+            android:layout_height="match_parent"
+            android:layout="@layout/detail_comment_list_k5" />
+
+        <LinearLayout
+            android:layout_width="594px"
+            android:layout_height="130px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="904px"
+            android:background="#00000000"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/detail_favorites"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:background="@drawable/detail_comment_bg_selector"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/detail_favorites" />
+                <!-- android:drawableTop="@drawable/detail_favorites_selector" 
+    	            android:paddingTop="15px" 
+                -->
+
+            <CheckBox
+                android:id="@+id/detail_comment"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/detail_favorites_bg_selector"
+                android:button="@null"
+                android:text="@string/detail_comment"
+                android:gravity="center" />
+                <!-- android:drawableTop="@drawable/detail_comment_selector" 
+	                android:paddingTop="18px" 
+                -->
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_bar_ym"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_effect_screen">
+
+    <PreferenceCategory android:key="pref_key_effect_desktop_settings" android:title="@string/desktop"
+        android:layout="@layout/sec_pref_category"/>
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_workspaceSlide"
+        android:entries="@array/pref_slide_effect_choices"
+        android:entryValues="@array/pref_slide_effect_values"
+        android:key="pref_workspace_slide_effect"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:summary="@string/workspave_slide_settings_summary"
+        android:title="@string/workspace_slide_settings_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_workspace_loop"
+         android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"
+        android:summary="@string/workspace_loop_on"
+        android:title="@string/workspace_loop_settings_title" />
+<!-- RK_MENUN_REFACTOR LIUYG1@lenovo.com 2012-11-29 S -->  
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_folderStyle"
+        android:entries="@array/pref_hotseat_style_choices"
+        android:entryValues="@array/pref_hotseat_style_values"
+        android:key="pref_hotseat_style"
+        android:summary="@string/hotseat_settings_default"
+        android:title="@string/hotseat_settings_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/>
+
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_folderStyle"
+        android:entries="@array/pref_folder_style_choices"
+        android:entryValues="@array/pref_folder_style_values"
+        android:key="pref_icon_style"
+        android:summary="@string/icon_style_settings_default"
+        android:title="@string/icon_style_settings_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/>
+<!-- RK_MENUN_REFACTOR LIUYG1@lenovo.com 2012-11-29 E -->  
+
+    <PreferenceCategory android:key="pref_key_effect_applist_settings" android:title="@string/applist"
+        android:layout="@layout/sec_pref_category"/>
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_applist"
+        android:entries="@array/pref_applist_effect_choices"
+        android:entryValues="@array/pref_applist_effect_values"
+        android:key="pref_applist_enter_effect"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:summary="@string/applist_enter_default_effect"
+        android:title="@string/applist_enter_effect_title" />
+
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_workspaceSlide"
+        android:entries="@array/pref_app_slide_effect_choices"
+        android:entryValues="@array/pref_app_slide_effect_values"
+        android:key="pref_applist_slide_effect"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:summary="@string/applist_slide_default_effect"
+        android:title="@string/applist_slide_effect_title" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_applist_loop"
+         android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"
+        android:summary="@string/checkbox_open"
+        android:title="@string/applist_loop_settings_title" />
+
+</PreferenceScreen>

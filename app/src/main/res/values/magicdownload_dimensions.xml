@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="magicdownload_app_icon_size">55dp</dimen>
+    <dimen name="app_text_size">14sp</dimen>
+    <dimen name="apps_cell_height">90dp</dimen>
+    <dimen name="apps_cell_width">60dp</dimen>
+
+    <!-- download manager -->
+    <dimen name="download_item_left_margin">8dp</dimen>
+    <dimen name="download_item_right1_margin">0dp</dimen>
+    <dimen name="download_item_right2_margin">60dp</dimen>
+    <dimen name="download_item_appname_maxwidth">175dp</dimen>
+
+    <dimen name="favorites_item_appname_maxwidth">220dp</dimen>    
+    <dimen name="detail_comment_tab_margin">58dp</dimen>
+    
+    <dimen name="snap_image_width">162dp</dimen>
+    <dimen name="snap_image_height">270dp</dimen>
+    <dimen name="menu_height">80dp</dimen>
+    <dimen name="window_height_margin">120dp</dimen>
+    <dimen name="grid_cateogry_margin">20dp</dimen>
+    
+     <!-- zhanglz1 -->
+    <dimen name="detail_detail_tab_margin_left">86dp</dimen>
+        
+</resources>

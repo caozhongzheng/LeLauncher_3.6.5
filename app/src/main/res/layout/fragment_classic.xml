@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+         android:background="@drawable/header_background" >
+         android:src="@drawable/theme_tab_menu_selected" />
+-->
+ <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@android:id/tabhost" 
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent" >
+ 
+     <LinearLayout
+         android:id="@+id/linearLayout1"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:orientation="vertical" >
+ 
+         <TabWidget
+              android:id="@android:id/tabs"
+             android:layout_width="wrap_content"
+             android:layout_height="0dip"/> 
+      <include layout="@layout/top_tab_bar"
+             android:visibility="gone" />
+
+<!--
+         <LinearLayout
+         android:id="@+id/linearLayout2"
+         android:background="@drawable/header_background"
+
+         android:layout_width="fill_parent"
+         android:layout_height="40dip">
+
+ 
+         <TextView
+              android:id="@+id/text1"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1.0"
+             android:gravity="center"
+             android:textColor="@drawable/recommend_tab_textview_color"
+
+
+             android:text="@string/local_wallpaper"
+             android:textSize="@dimen/indicator_text_size"/>
+ 
+         <TextView
+             android:id="@+id/text2"
+             android:textColor="@drawable/recommend_tab_textview_color"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent"
+             android:layout_weight="1.0"
+             android:gravity="center"
+             android:text="@string/online_classic"
+             android:textSize="@dimen/indicator_text_size"/>
+
+ 
+     </LinearLayout>
+     
+-->
+          <!--  LinearLayout
+         android:id="@+id/linearLayout2"
+         android:background="@drawable/header_longline"
+         android:layout_width="fill_parent"
+         android:layout_height="5dp"-->
+<!--
+         <LinearLayout
+         android:id="@+id/linearLayout2"
+         android:background="@drawable/header_longline"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"
+         android:visibility="gone">
+     <ImageView
+         android:id="@+id/cursor"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:scaleType="matrix"
+         android:src="@drawable/tab_selected_holo_line" />
+     </LinearLayout>
+ -->
+     <android.support.v4.view.ViewPager
+         android:id="@+id/vPager"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1.0"
+         android:flipInterval="30"
+         android:persistentDrawingCache="animation" />
+ 
+         <FrameLayout
+             android:id="@android:id/tabcontent"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:visibility="gone" >
+         </FrameLayout>
+     </LinearLayout>
+<!--
+         android:background="#000000"
+      <include layout="@layout/bottom_tab_bar"/>
+-->
+</TabHost>

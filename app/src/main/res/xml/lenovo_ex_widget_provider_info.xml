@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+<lenovo-exwidgets>
+    <lenovo-exwidget activity_name="WeatherWidgetMagicYuBaoWidgetProvider"
+	    WidgetView="WeatherWidgetYuBaoMagicView"></lenovo-exwidget>
+    <lenovo-exwidget activity_name="WeatherWidgetMagicZhishuWidgetProvider"
+	    WidgetView="WeatherWidgetZhishuiView"></lenovo-exwidget>
+</lenovo-exwidgets>

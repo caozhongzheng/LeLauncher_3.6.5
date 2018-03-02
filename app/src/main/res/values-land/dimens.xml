@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- Workspace -->
+    <dimen name="workspace_left_padding">0dp</dimen>
+    <dimen name="workspace_right_padding">0dp</dimen>
+    <!-- Block spacing on each side of the screen.  And also padding
+         for the portals to look right. -->
+    <dimen name="workspace_top_padding">6dp</dimen>
+    <dimen name="workspace_bottom_padding">0dp</dimen>
+    <dimen name="workspace_page_spacing">-1dp</dimen>
+
+<!-- AppsCustomize -->
+    <integer name="apps_customize_cellCountX">4</integer>
+    <integer name="apps_customize_cellCountY">5</integer>
+    <dimen name="apps_customize_pageLayoutWidthGap">-1dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">-1dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">10dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">5dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">5dp</dimen>
+    <integer name="apps_customize_cling_focused_x">1</integer>
+    <integer name="apps_customize_cling_focused_y">1</integer>
+
+    <dimen name="apps_customize_widget_cell_width_gap">20dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">10dp</dimen>
+    <integer name="apps_customize_widget_cell_count_x">2</integer>
+    <integer name="apps_customize_widget_cell_count_y">3</integer>
+
+<!-- add for screen preview page, merge from master Launcher -->
+    <dimen name="layout_width">80dp</dimen>
+    <dimen name="layout_height">136dp</dimen>
+    <dimen name="layout_11_height">172dp</dimen>
+    <dimen name="layout_21_height">90dp</dimen>
+    <dimen name="layout_22_height">242dp</dimen>
+    <dimen name="layout_31_height">16dp</dimen>
+    <dimen name="layout_32_height">169dp</dimen>
+    <dimen name="layout_33_height">322dp</dimen>
+    <dimen name="layout_21_width">66dp</dimen>
+    <dimen name="layout_22_width">173dp</dimen>
+    <dimen name="layout_211_width">66dp</dimen>
+    <dimen name="layout_221_width">173dp</dimen>
+    <dimen name="layout_31_width">12dp</dimen>
+    <dimen name="layout_32_width">120dp</dimen>
+    <dimen name="layout_33_width">226dp</dimen>
+    <dimen name="snapLayout_width">71dp</dimen>
+    <dimen name="snapLayout_height">110dp</dimen>
+    <dimen name="snapLayout_img_padding_l">5dp</dimen>
+    <dimen name="snapLayout_img_padding_t">7dp</dimen>
+    <dimen name="snapLayout_img_padding_r">0dp</dimen>
+    <dimen name="snapLayout_img_padding_b">0dp</dimen>
+<!-- add for screen preview page, merge from master Launcher -->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 START -->
+    <dimen name="single_profile_picture_width">224dp</dimen>
+    <dimen name="single_profile_picture_height">326dp</dimen>
+    <dimen name="quick_aciton_x_move_min">15dp</dimen>
+    <dimen name="quick_aciton_y_move_min">15dp</dimen>
+    <dimen name="profile_dialog_textview_margin">20dp</dimen>
+    <dimen name="icon_style_text_size">8dp</dimen>
+    <!-- add for apps category manager -->
+    <dimen name="title_layout_height">40dp</dimen>
+    <dimen name="title_text_view_width">249dp</dimen>
+    <dimen name="title_text_view_height">33dp</dimen>
+    <dimen name="category_back_btn_width">45dp</dimen>
+    <dimen name="category_back_btn_height">23dp</dimen>
+    <dimen name="category_back_btn_margin_right">-5dp</dimen>
+    <dimen name="back_button_padding_left">9dp</dimen>
+    <dimen name="category_edit_btn_width">25dp</dimen>
+    <dimen name="category_edit_btn_margin_right">11dp</dimen>
+    <dimen name="category_edit_btn_margin_top">5dp</dimen>
+    <dimen name="category_grid_hori_space">24dp</dimen>
+    <dimen name="category_grid_vert_space">21dp</dimen>
+    <dimen name="category_grid_padding">12dp</dimen>
+    <dimen name="category_grid_padding_bottom">30dp</dimen>
+    <dimen name="category_grid_column_width">60dp</dimen>
+    <dimen name="category_remove_target_height">50dp</dimen>
+    <dimen name="category_grid_item_height">82dp</dimen>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-02-02 END -->
+    <!-- AUT:zhaoxy . DATE:2012-04-05. START-->
+    <dimen name="icon_style_paged_view_width_gap">14dp</dimen>
+    <dimen name="icon_style_paged_view_height_gap">8dp</dimen>
+    <!-- AUT:zhaoxy . DATE:2012-04-05. END-->
+    <!-- AUT:zhaoxy . DATE:2012-03-09. START-->
+    <dimen name="profile_setting_thumbnails_width">200dp</dimen>
+    <!-- AUT:zhaoxy . DATE:2012-03-09. END-->
+    <dimen name="xscreen_mng_tab_indicator_region_height">35dp</dimen>
+    <dimen name="android_button_bar_height">68dip</dimen>
+    <dimen name="android_button_bar_height_plus_padding">76dp</dimen>
+</resources>

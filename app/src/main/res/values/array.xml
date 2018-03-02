@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preview" translatable="false">
+        <item>@drawable/themepreview</item>
+        <item>@drawable/themepreview_1</item>
+</array>
+</resources>

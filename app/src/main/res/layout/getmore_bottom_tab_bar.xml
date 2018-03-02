@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2008 The Android Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center_horizontal"
+        android:background="@drawable/my_phone_tab_bg" 
+        android:layout_gravity="bottom|center_horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+   <RadioGroup
+       android:id="@+id/toolBar"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal"
+       android:checkedButton="@+id/status_bar_toolbar_btn_notify"
+       >
+<!--
+       <RadioButton
+           android:id="@+id/bar_toolbar_recommend"
+           android:drawableTop="@drawable/ic_tab_app"
+           android:text="@string/tab_application"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:background="@drawable/tab_widget_indicator_selector"
+           android:gravity="top|center_horizontal"
+           android:drawablePadding="0dip"
+           android:button="@null"
+           android:textSize="12dip"
+           android:textStyle="normal"
+           android:textColor="@android:color/white"
+           />
+-->
+       <RadioButton
+           android:id="@+id/bar_toolbar_theme"
+           android:paddingTop="5dp"
+           android:drawableTop="@drawable/ic_tab_theme"
+           android:text="@string/tab_theme"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:drawablePadding="0dip"
+           android:button="@null"
+           android:background="@drawable/letab_widget_indicator_selector"
+           android:textSize="12dip"
+           android:textStyle="normal"
+           android:textColor="@color/le_indicator_text_color"
+           android:saveEnabled="false"
+           />
+       <RadioButton
+           android:id="@+id/bar_toolbar_wallpaper"
+           android:paddingTop="5dp"
+           android:drawableTop="@drawable/ic_tab_wallpaper"
+           android:text="@string/tab_wallpaper"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:drawablePadding="0dip"
+           android:button="@null"
+           android:background="@drawable/letab_widget_indicator_selector"
+           android:textSize="12dip"
+           android:textStyle="normal"
+           android:textColor="@color/le_indicator_text_color"
+           android:saveEnabled="false"
+           />
+       <RadioButton
+           android:id="@+id/bar_toolbar_lockscreen"
+           android:paddingTop="5dp"
+           android:drawableTop="@drawable/ic_tab_lockscreen"
+           android:text="@string/tab_lockscreen"
+           android:layout_width="0dip"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:drawablePadding="0dip"
+           android:button="@null"
+           android:background="@drawable/letab_widget_indicator_selector"
+           android:textSize="12dip"
+           android:textStyle="normal"
+           android:textColor="@color/le_indicator_text_color"
+           android:visibility="gone"
+           android:saveEnabled="false"
+           />
+   </RadioGroup>
+</LinearLayout>

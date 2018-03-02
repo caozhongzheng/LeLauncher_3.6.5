@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2008, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lenovo.launcher" android:versionName="v3.6.5" android:versionCode="1">
+
+    <original-package android:name="com.lenovo.launcher2" />
+    <original-package android:name="com.lenovo.lejingpin" />
+    <original-package android:name="com.lenovo.launcher2.addon" />
+    <original-package android:name="com.lenovo.launcher2.taskmanager" />
+	<original-package android:name="com.lenovo.launcher2.shortcut" />
+    <permission
+        android:name="com.android.launcher.permission.INSTALL_SHORTCUT"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal"
+        android:label="@string/permlab_install_shortcut"
+        android:description="@string/permdesc_install_shortcut" />
+    <permission
+        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal"
+        android:label="@string/permlab_uninstall_shortcut"
+        android:description="@string/permdesc_uninstall_shortcut"/>
+    <permission
+        android:name="com.android.launcher.permission.READ_SETTINGS"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal"
+        android:label="@string/permlab_read_settings"
+        android:description="@string/permdesc_read_settings"/>
+    <permission
+        android:name="com.android.launcher.permission.WRITE_SETTINGS"
+        android:permissionGroup="android.permission-group.SYSTEM_TOOLS"
+        android:protectionLevel="normal"
+        android:label="@string/permlab_write_settings"
+        android:description="@string/permdesc_write_settings"/>
+
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BIND_APPWIDGET" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+     <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+      <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <!-- ***RK_ID:RK_DEVICEID_1807 AUT:zhanglz1@lenovo.com. ***-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_DOWNLOAD_MANAGER" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+
+    <!-- zhanglq@bj.cobellink.com DATA 2012-08-02 S -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER_COMPONENT"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+    <uses-permission android:name="android.permission.SET_PREFERRED_APPLICATIONS"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_USER_DATA"/>
+    <!-- zhanglq@bj.cobellink.com DATA 2012-08-02 E -->
+    <!-- AUT:zhaoxy . DATE:2012-04-19. START-->
+    <!--<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>-->
+    <!-- AUT:zhaoxy . DATE:2012-04-19. END-->
+    <!--  RK_ID: RK_HAWAII. AUT: liuli1 . DATE: 2012-06-01 . START  -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--  RK_ID: RK_HAWAII. AUT: liuli1 . DATE: 2012-06-01 . END  -->
+    <supports-screens android:anyDensity="true"/>
+    <!-- RK_ID: SCREEN_SIZE. AUT:zhaoxy . DATE:2012-05-25. START-->
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="9"/>
+    <!-- RK_ID: SCREEN_SIZE. AUT:zhaoxy . DATE:2012-05-25. END-->
+    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />  
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"></uses-permission>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <!-- RK_ID: RK_WIDGET_TOGGLE. AUT: KANGWEI3 DATE: 2012-09-19 S -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- RK_ID: RK_WIDGET_TOGGLE AUT: KANGWEI DATE: 2012-09-19 S -->
+
+    <!-- RK_ID: RK_WIDGET_TOGGLE. AUT: XUJING3 DATE: 2013-06-26 S -->
+	<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!-- RK_ID: RK_WIDGET_TOGGLE AUT: KANGWEI DATE: 2013-06-26 S -->
+
+    <application
+        android:name="com.lenovo.launcher.components.XAllAppFace.LauncherApplication"
+        android:label="@string/application_name"
+        android:icon="@drawable/idea_desktop_home"
+        android:theme="@style/Theme.LeLauncher"
+        android:hardwareAccelerated="@bool/config_hardwareAccelerated"
+        android:process="android.process.acore"
+        android:largeHeap="@bool/config_largeHeap"
+		>
+        
+        <!-- NEW ART S-->
+        <activity
+            android:name="com.lenovo.launcher.components.XAllAppFace.XLauncher"
+            android:label="@string/application_name"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:stateNotNeeded="true"
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:configChanges="mcc|mnc|orientation|keyboardHidden|keyboard|screenSize" > <!-- change by yumin for pad -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.LenovoThemeCenter" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+            <!-- AUT:yumina . DATE:2013-06-20. added just for the theme center-->
+            <meta-data android:name="res" android:resource="@xml/res"/>
+        </activity>
+
+        <!-- NEW ART E--> 
+        <!-- AUT:yumina . DATE:2013-03-26. START just for the apply theme apk-->
+        <activity
+            android:name="com.lenovo.launcher2.Launcher"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <!-- AUT:yumina . DATE:2013-03-26. END-->
+        
+        <activity
+            android:name="com.lenovo.launcher2.settings.WallpaperChooserActivity"
+            android:theme="@style/Theme.LeLauncher.NoActionBar"
+            android:label="@string/pick_wallpaper"
+            android:icon="@drawable/ic_launcher_wallpaper"
+            android:finishOnCloseSystemDialogs="true"
+            android:screenOrientation="nosensor"
+            android:process=":wallpaper_chooser">
+            <intent-filter>
+              <!-- <action android:name="android.intent.action.SET_WALLPAPER" />-->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="android.wallpaper.preview"
+                android:resource="@xml/wallpaper_picker_preview" />
+        </activity>
+        
+   <!-- RK_ID:MENU_DIALOG_ACTIVITY_SHARE. AUT:hubing3 . DATE:2013-3-14. START-->
+   <activity android:name="com.lenovo.launcher2.addon.share.LeShareActivity"
+       android:configChanges="orientation|keyboardHidden|screenSize"
+       android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"
+       android:process="com.lenovo.launcher.addon"
+       android:launchMode="singleTask"></activity>
+   <activity
+            android:name="com.lenovo.launcher2.addon.share.LelauncherDownloadAnyShare"
+     		android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process="com.lenovo.launcher.addon"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.launcher2.addon.share.LelauncherAppsShare"
+     		android:configChanges="orientation|keyboardHidden|screenSize"
+            android:process="com.lenovo.launcher.addon"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.launcher2.addon.share.LeShareWallpaperChooserActivity"
+            android:label="@string/desktop_share_wallpaper_text"
+            android:process="com.lenovo.launcher.addon"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.lenovo.launcher2.addon.share.LeWallpaperSettingActivity"
+            android:label="@string/wallpaper_instructions"
+            android:process="com.lenovo.launcher.addon"
+     		android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.lenovo.launcher2.addon.share.LeShareThemeChooserActivity"
+            android:label="@string/desktop_share_theme_text"
+            android:process="com.lenovo.launcher.addon"
+     		android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.lenovo.launcher2.addon.share.APKChangeReceiver"
+             android:process="com.lenovo.launcher.addon">
+                     <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.launcher.START_SHARE_RECEIVE_ACTIVITY"></action>
+                    </intent-filter>
+        </receiver>
+        <activity 
+            android:name="com.lenovo.launcher2.leshare.WallpaperSettingActivity"
+            android:label="@string/wallpaper_instructions"
+            android:process="com.lenovo.launcher.addon"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lenovo.launcher2.addon.share.LeShareProgressDialog"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"
+            android:process="com.lenovo.launcher.addon"
+            android:screenOrientation="nosensor"
+            android:launchMode="singleTask"></activity>
+   <!-- RK_ID:MENU_DIALOG_ACTIVITY_SHARE. AUT:hubing3 . DATE:2013-3-14. END-->
+       <!-- <activity android:name="com.lenovo.launcher2.RocketLauncher"
+            android:label="@string/dream_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DREAM" />
+            </intent-filter>
+        </activity>
+        -->
+        <!-- AUT: henryyu1986@163.com DATE: 2011-12-22 S -->
+        <activity
+            android:name="com.lenovo.launcher2.settings.IconStyleSettings"
+            android:icon="@drawable/ic_launcher_iconstyle_settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/MyTheme.SplashWindow"
+            android:process=":iconstyle">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.launcher2.settings.PersonalSettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_menu_personal">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.DESKTOP_SETTING_PERSONAL" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- RK_ID:  . AUT: xingqx . DATE: 2012-01-31 .S -->
+        <activity
+            android:name="com.lenovo.launcher2.settings.SeniorSettings"
+            
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/menu_desktop_settings"
+            >
+            <!-- android:icon="@drawable/ic_launcher_desktop_settings"
+                 android:theme="@android:style/Theme.DeviceDefault.Light" -->
+            <!-- android:theme="@style/Theme.LeLauncher.NoActionBar" -->
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.DESKTOP_SETTING" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+           android:configChanges="orientation|keyboardHidden|screenSize"
+           android:icon="@drawable/ic_launcher_desktop_settings"
+           android:name="com.lenovo.launcher2.settings.PersonalizedSettings"
+           android:theme="@style/Theme.LeLauncher.NoActionBar" >
+            
+            <intent-filter >
+               <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.DEFAULT" />
+           </intent-filter>
+       </activity>
+
+        <activity
+           android:configChanges="orientation|keyboardHidden|screenSize"
+           android:name="com.lenovo.launcher2.settings.MoreSettings"
+           android:theme="@style/Theme.LeLauncher.NoActionBar" 
+           android:label="@string/more_settings_title">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <!-- AUT:liuyg1 . DATE:2013-05-27. START-->
+        <activity
+            android:name="com.lenovo.launcher2.addon.gesture.settings.GestureSettings"
+            android:label="@string/gesture_settings_title"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.LeLauncher.NoActionBar"
+            >
+            
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>   
+           <!-- AUT:liuyg1 . DATE:2013-05-27. END-->  
+        <activity
+            android:name="com.lenovo.lejingpin.settings.LejingpingSettings"           
+            android:label="@string/lejingpin_settings_title"
+            android:logo="@drawable/lejingpin_logo"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            >
+            <!--  android:theme="@style/MyTheme.SplashWindowTitle" -->
+            <intent-filter >
+                 
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+        
+                <activity
+            android:name="com.lenovo.lejingpin.settings.LejingpingLockScreenSettings"           
+            android:label="@string/lejingpin_settings_title"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:logo="@drawable/lejingpin_logo"
+            android:theme="@style/MyTheme.SplashWindowTitle"
+            
+            >
+            <!--  android:theme="@style/Theme.LeLauncher.NoActionBar" -->
+            <intent-filter >
+                 
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+            
+        <activity
+            android:name="com.lenovo.launcher2.settings.AboutLenovoDesktop"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_about_us"
+            android:label="@string/about_lenovo_desktop_settings">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+                <!-- AUT:yumina . DATE:2012-07-20. START-->
+        <activity android:name="com.lenovo.launcher2.settings.UEPromotionActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.LeLauncher.BackupProgressDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.LENUEPROMOTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+                <!-- AUT:yumina . DATE:2012-07-20. END-->
+                <!-- AUT:liuyg1 . DATE:2013-05-2. START-->
+        <activity android:name="com.lenovo.launcher2.settings.LicenseContentActivity" 
+            android:theme="@style/MyTheme.SplashWindow"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.LICENSECONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.lenovo.launcher2.settings.StatementContentActivity" 
+            android:theme="@style/MyTheme.SplashWindow"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.STATEMENTCONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+           <!-- AUT:liuyg1 . DATE:2013-05-2. END-->
+         <activity android:name="com.lenovo.launcher2.settings.FeedbackActivity" 
+            android:theme="@style/Theme.LeLauncher.BackupProgressDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <!-- RK_ID:  . AUT: xingqx . DATE: 2012-01-31 .E -->
+        <activity
+            android:name="com.lenovo.launcher2.settings.EffectSettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_menu_effect">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.DESKTOP_SETTING_EFFECT" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- AUT: henryyu1986@163.com DATE: 2011-12-22 E -->
+
+        <!--<activity
+            android:name="com.lenovo.launcher2.settings.ProfileSettings"
+            android:icon="@drawable/ic_scence_setting_pressed"/>-->
+
+        <activity
+            android:name="com.lenovo.launcher2.settings.LethemeImagesActivity"
+            android:screenOrientation="nosensor" >
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LETHEME_IMAGE" />
+ 		<action android:name="android.intent.action.MAIN" />
+		<category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Intent received used to install shortcuts from other applications -->
+        <receiver
+            android:name="com.lenovo.launcher.components.XAllAppFace.InstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.INSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.INSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver>
+        <!-- Intent received used to uninstall shortcuts from other applications -->
+        <receiver
+            android:name="com.lenovo.launcher.components.XAllAppFace.UninstallShortcutReceiver"
+            android:permission="com.android.launcher.permission.UNINSTALL_SHORTCUT">
+            <intent-filter>
+                <action android:name="com.android.launcher.action.UNINSTALL_SHORTCUT" />
+            </intent-filter>
+        </receiver> 
+
+        <!-- The settings provider contains Home's data, like the workspace favorites -->
+        <provider
+            android:name="com.lenovo.launcher2.LauncherProvider"
+            android:authorities="com.lenovo.launcher2.settings"
+            android:writePermission="com.android.launcher.permission.WRITE_SETTINGS"
+            android:readPermission="com.android.launcher.permission.READ_SETTINGS" />
+         <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . 
+             PUR: the activity after click a dock add icon . S -->
+        <activity android:name="com.lenovo.launcher2.commoninterface.ShortcutActivityPicker"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/menu_addapp"
+            android:theme="@style/Theme.LeLauncher.ShortcutPicker">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- RK_ID: RK_DOCK_ADD . AUT: zhanggx1 . DATE: 2011-12-15 . 
+             PUR: the activity after click a dock add icon . E -->
+
+
+        <!-- RK_ID: RK_CUSTOM_LOTUS. AUT: zhanglz1 . DATE: 2012-2-15 . 
+             PUR: the activity after click a dock add icon . S -->
+        <activity android:name="com.lenovo.launcher2.gadgets.Lotus.ShortcutActivityPicker"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/menu_addapp">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK_SHORTCUT_LOTUS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+ 
+     <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+     <!--RK_ID:RK_LEOSWIDGET AUT:kangwei DATE: 2012-10-17 START -->
+     <activity android:name="com.lenovo.launcher2.weather.widget.WeatherWidgetAppWidgetProvider"
+            android:label="@string/weather_magic_app_name"
+            android:icon="@drawable/weather_widget_icon">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />
+                <action android:name="com.lenovo.launcher.action.LENOVO_WEATHER_WIDGETS" />
+            </intent-filter>
+     </activity>
+     <activity android:name="com.lenovo.launcher2.weather.widget.WeatherWidgetSquareWidgetProvider"
+            android:label="@string/weather_magic_app_name"
+            android:icon="@drawable/weather_square_widget_icon">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />
+                <action android:name="com.lenovo.launcher.action.LENOVO_WEATHER_WIDGETS" />
+            </intent-filter>
+     </activity>
+     <activity android:name="com.lenovo.launcher2.weather.widget.WeatherWidgetMagicWidgetProvider"
+            android:label="@string/weather_magic_app_name"
+            android:icon="@drawable/weather_app_widget_icon">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />
+            </intent-filter>
+     </activity>
+
+     <activity android:name="com.lenovo.launcher2.weather.widget.WeatherWidgetMagicYuBaoWidgetProvider"
+            android:label="@string/weather_yubao_name"
+            android:icon="@drawable/weather_widget_icon">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOEXWIDGETS" />
+            </intent-filter>
+     </activity>
+     <activity android:name="com.lenovo.launcher2.weather.widget.WeatherWidgetMagicZhishuWidgetProvider"
+            android:label="@string/weather_yubao_name"
+            android:icon="@drawable/weather_app_widget_icon">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOEXWIDGETS" />
+            </intent-filter>
+     </activity>
+           
+      
+      <activity android:name="com.lenovo.launcher2.shortcut.widget.ShortCutActivity"
+            android:label="@string/shortcut_widget_app_name"
+			  android:theme="@style/ShortCutTheme"
+			  android:process="com.lenovo.launcher2.shortcut"
+            android:icon="@drawable/shutcut_widget_app_icon">
+            <intent-filter >
+                <!-- <action android:name="android.intent.action.LE_SHORTCUT" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+                 <!--<action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />--> 
+            </intent-filter>
+      </activity>
+      <activity android:name="com.lenovo.launcher2.shortcut.widget.ShortCutDetailActivity"
+            android:theme="@style/ShortCutTheme"
+            android:launchMode="singleTask"
+            android:process="com.lenovo.launcher2.shortcut"
+            android:label="@string/shortcut_widget_app_name"
+            android:icon="@drawable/shutcut_widget_app_icon">
+            <intent-filter >
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.lenovo.launcher.action.shortcutdetail" /> 
+            </intent-filter>
+      </activity>
+      <activity android:name="com.lenovo.launcher2.lock.widget.LockWidgetProvider"
+            android:label="@string/toggle_widget_lock_name"
+			  android:theme="@style/ShortCutTheme"
+            android:icon="@drawable/lock_widget_app_icon">
+            <intent-filter >
+               <!--  <action android:name="android.intent.action.LE_SHORTCUT" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+              <!--  <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" /> --> 
+            </intent-filter>
+      </activity>
+      <activity  android:name="com.lenovo.launcher2.weather.widget.WeatherSquareDetailsActivity" 
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+      <activity  android:name="com.lenovo.launcher2.weather.widget.WeatherSquareNoDetailsActivity" 
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+      <activity  android:name="com.lenovo.launcher2.weather.widget.NetworkAlertActivity" 
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+		<activity  android:name="com.lenovo.launcher2.weather.widget.ChargeAlertActivity" 
+           android:theme="@style/Theme.LeLauncher.Dialog.Alert">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.lenovo.launcher2.settings.WeatherSettings"
+            android:icon="@drawable/ic_launcher_desktop_settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label = "@string/weather_settings">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                 <!--   <action android:name="lenovo.intent.setting.widget.action" />-->
+                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- <activity
+            android:name="com.lenovo.launcher2.settings.WhiteListAppActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"
+            android:label = "@string/taskmanager_settings_quick_taskkiller"
+            android:description="@string/taskmanager_white_list_subtitle"
+            android:screenOrientation="nosensor">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="lenovo.intent.setting.widget.action" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         -->
+        <provider android:name="com.lenovo.launcher2.weather.widget.settings.WeatherDataProvider"
+              android:authorities="com.lenovo.launcher2.weather.widget.settings" />
+         <activity android:name="com.lenovo.launcher2.weather.widget.AddLeosExWidgetActivity" 
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+            <intent-filter >
+                <action android:name="android.intent.action.WORKSPACE_PICK_LEOSEXWIDGET" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>       
+        <activity android:name="com.lenovo.launcher2.weather.widget.AddLeosWeatherWidgetActivity" 
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+            <intent-filter >
+                <action android:name="android.intent.action.WORKSPACE_PICK_LEOSWEATHERWIDGET_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>    
+         <!--RK_ID: RK_LEJINGPIN AUT: yumina DATE: 2012-12-12 E -->
+		  
+        
+    <!-- RK_ID: RK_WEATER_WIDGET . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+ 
+ 
+        <activity  android:name="com.lenovo.launcher2.settings.ProvinceActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        
+       <!-- AUT: liuli1 DATE: 2012-02-10 START -->
+       <activity
+            android:name="com.lenovo.launcher2.commoninterface.AddShortcutItemActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+            <intent-filter >
+                <action android:name="android.intent.action.WORKSPACE_PICK_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.lenovo.launcher2.settings.ThemeShortCut"
+            android:label="@string/wallpaper_settings_title"
+            android:icon="@drawable/ic_launcher_theme_shortcut"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter >
+                <action android:name="android.intent.action.LE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+		
+<!--                 yangmao add lockscreen shortCut 
+         <activity
+            android:name="com.lenovo.launcher2.settings.LockShortCut"
+            android:label="@string/lock_settings_title"
+            android:icon="@drawable/ic_launcher_lockscreen_shortcut"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter >
+                <action android:name="android.intent.action.LE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> -->
+        
+        
+                         <!--yangmao add search shortCut  -->
+         <!-- <activity
+            android:name="com.lenovo.launcher2.settings.SearchShortCut"
+            android:label="@string/search_settings_title"
+            android:icon="@drawable/search_shortcut"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter >
+                <action android:name="android.intent.action.LE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+        
+        
+        
+        
+        <activity
+            android:icon="@drawable/ic_launcher_icon_shortcut"
+            android:label="@string/icon_settings_title"
+            android:name="com.lenovo.launcher2.settings.PersonalSettingShortCut"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter >
+                <!-- <action android:name="android.intent.action.LE_SHORTCUT" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+
+        <activity
+            android:name="com.lenovo.launcher2.settings.EffectSettingShortCut"
+            android:label="@string/effect_shortcut"
+            android:icon="@drawable/ic_launcher_animate_shortcut"
+            android:theme="@android:style/Theme.NoDisplay" >
+                        
+            <intent-filter >
+                <!--  <action android:name="android.intent.action.LE_SHORTCUT" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            
+        </activity> 
+        
+        <activity
+            android:name="com.lenovo.launcher2.settings.AppsCategoryShortCut"
+            android:label="@string/apps_category_shortcut"
+            android:icon="@drawable/ic_launcher_classify_apps"
+            android:theme="@android:style/Theme.NoDisplay" >
+            
+            <intent-filter >
+                <!--  <action android:name="android.intent.action.LE_SHORTCUT" /> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity> 
+
+        <activity
+            android:icon="@drawable/ic_launcher_allapps_settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.lenovo.launcher2.settings.AllAppsSettings"/>
+
+       
+        <activity
+            android:icon="@drawable/ic_launcher_wallpaper_settings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.lenovo.launcher2.settings.WallpaperSettings"
+            />
+
+        <activity
+            android:icon="@drawable/ic_launcher_menu_special_feature"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:name="com.lenovo.launcher2.settings.SpecialFeatureSettings"
+           />
+
+        <activity
+            android:icon="@drawable/ic_launcher_menu_personal"
+            android:name="com.lenovo.launcher2.settings.IndicatorSettings"
+            android:screenOrientation="nosensor" />
+         
+        <!-- AUT: liuli1 DATE: 2012-02-10 END -->
+        <!-- AUT: zhanghong5 DATE: 2012-02-10 START -->
+        <receiver android:name="com.lenovo.launcher2.settings.LocaleReceiver">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" /> 
+                <action android:name="android.intent.action.LOCALE_CHANGED"></action>
+            </intent-filter>
+        </receiver>
+
+        
+        <!-- AUT: zhanghong5 DATE: 2012-02-10 END -->
+            
+        <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT: zhangdxa DATE: 2012-02-27 S -->
+        <!--  android:icon="@drawable/ic_launcher_menu_version"-->
+        <activity
+            android:name="com.lenovo.launcher2.settings.VersionUpdateActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VERSION_UPDATE_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>    
+
+        <!--meta-data android:value="BJ89ZWZP5PJX" android:name="SUS_APPKEY"/>
+        <activity android:name="com.lenovo.lps.sus.control.SUSPromptActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert"-->              
+        <activity android:name="com.lenovo.lps.sus.control.SUSPromptActivity"
+            android:theme="@*android:style/Theme.Translucent">
+        </activity> 
+		<activity android:name="com.lenovo.lps.sus.control.SUSCustdefNotificationActivity" 
+            android:theme="@*android:style/Theme.Dialog">
+        </activity>
+		<activity android:name="com.lenovo.lps.sus.control.SUSNotificationActivity" 
+            android:theme="@*android:style/Theme.Translucent">
+        </activity>
+		<!-- receiver android:name="com.lenovo.lps.sus.control.SUSReceiver">   
+		    <intent-filter>   
+		        <action android:name="com.lenovo.lps.sus.ACTION_UPDATE" />   
+		    </intent-filter>   
+		</receiver-->
+		<!-- zhangdxa modify 20130128 for SUS lenovo upgrade. -->
+        <!--This is only for inner use of lenovo, please not merge into bu version. -->
+        <meta-data android:value="BU" android:name="SUS_CHANNEL"/>
+        <!-- RK_ID: RK_LELAUNCHER_VERSION_UPDATE. AUT: zhangdxa DATE: 2012-02-27 E -->
+        
+        <!-- RK_ID: RK_LELAUNCHER_REAPER. AUT: zhangdxa DATE: 2012-03-01 S -->
+        <meta-data android:name="lenovo:applicationToken" android:value="RT3N00LZP3B8" />
+        <meta-data android:name="lenovo:eventReportNumThreshold" android:value="5" />
+        <!--This is only for inner use of lenovo, please not merge into bu version. -->
+        <meta-data android:name="lenovo:channel" android:value="BU" />
+        <meta-data android:name="lenovo:isTestMode" android:value="true" />
+        <!-- meta-data android:name="lenovo:customReaperServer" android:value="http://fsr.dev.surepush.cn/" /-->
+        <!--meta-data android:value="4f829d1c527015463b000067" android:name="UMENG_APPKEY"> </meta-data> -->  
+        <receiver android:name="com.lenovo.launcher2.customizer.ReaperReceiver">
+            <intent-filter>
+                <action android:name="com.lenovo.action.ACTION_REAPER" />
+                <action android:name="com.lenovo.action.ACTION_REAPER_MAP" />
+                <action android:name="com.lenovo.action.ACTION_REAPER_INIT" />
+                <action android:name="com.lenovo.action.ACTION_REAPER_INIT_AGAIN"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.lenovo.action.ACTION_NETWORK_ENABLER_CHANGED" />
+                <action android:name="com.lenovo.action.ACTION_REAPER_INIT_FORCE" />
+                <action android:name="com.lenovo.action.ACTION_REAPER_INIT_CMCC_FORCE" />
+            </intent-filter>
+        </receiver>
+        <!-- RK_ID: RK_LELAUNCHER_REAPER. AUT: zhangdxa DATE: 2012-03-01 E -->
+        
+        
+	    <!-- RK_ID: LeLauncher Profile, First Configuration. AUT: chengliang DATE: 2012-03-03 S -->
+	    
+	    <activity  android:name="com.lenovo.launcher2.commoninterface.ProfileReloaderSelectionActivity"
+	           android:screenOrientation="nosensor"
+	           android:theme="@style/Theme.LeLauncher.Dialog.Shortcut">
+	           <intent-filter >
+	               <category android:name="android.intent.category.DEFAULT" />
+	           </intent-filter>
+	    </activity>
+	   <!-- RK_ID: LeLauncher Profile, First Configuration. AUT: chengliang DATE: 2012-03-03 E -->
+
+       <!-- AUT: chenrong2 DATE: 2012-03-01 START -->
+       <activity
+            android:excludeFromRecents="true"
+            android:launchMode="singleTop"
+            android:name="com.lenovo.launcher2.gadgets.Lotus.QuickAlertDialogActivity"
+            android:noHistory="true"
+            android:taskAffinity="com.lenovo.launcher.quickalertdialog"
+            android:theme="@style/Theme.LeLauncher.Dialog"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- AUT: chenrong2 DATE: 2012-03-01 END -->
+
+        <!-- AUT:zhaoxy . DATE:2012-03-07. START-->
+        <activity
+            android:name="com.lenovo.launcher2.customizer.ProgressDialog"
+            android:screenOrientation="nosensor"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.LeLauncher.Dialog"
+            android:process="com.lenovo.launcher.dialogtest">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.ACTION_SHOW_PROGRESS_DIALOG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. START-->
+        <activity
+            android:name="com.lenovo.launcher2.settings.HideAppsSettings"
+            android:label="@string/icon_bg_style_settings_title"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="false"
+            android:noHistory="true">
+            <intent-filter >
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- RK_ID: APP_HIDDEN. AUT:zhaoxy . DATE:2012-04-26. END-->
+
+        <!--  		 ID: BU Interface. AUT: chengliang . DATE: 2012.04.09 . S -->
+        <receiver android:name="com.lenovo.launcher2.customizer.ExternalCommander" >
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.SHOW_ALLAPPS" />
+            </intent-filter>
+        </receiver>
+        <!-- 		 ID: BU Interface. AUT: chengliang . DATE: 2012.04.09 . E -->
+        
+       
+      <!--RK_ID:RK_LEOSWIDGET AUT:caozz DATE: 2013-06-05 START-->
+    <!--<service android:name="com.lenovo.launcher2.weather.widget.WidgetService"   
+            android:enabled = "true">
+    </service>  -->
+        <!--RK_ID:RK_LEOSWIDGET AUT:caozz DATE: 2013-06-05 END-->
+    <!--RK_ID:RK_LEOSWIDGET AUT:kangwei DATE: 2012-10-17 START-->
+    <service android:name="com.lenovo.launcher2.taskmanager.widget.TaskManagerService"   
+            android:exported = "true">
+    </service>
+    <!--RK_ID:RK_LEOSWIDGET AUT:kangwei DATE: 2012-10-17 E-->
+            
+       <!--RK_ID: RK_LEOSWIDGET AUT: liuyg DATE: 2012-09-28 START -->
+       <activity
+            android:name="com.lenovo.launcher2.addleoswidget.AddLeosWidgetActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut" >
+            <intent-filter >
+                <action android:name="android.intent.action.WORKSPACE_PICK_LEOSWIDGET_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+       <activity
+            android:name="com.lenovo.launcher2.gadgets.Lotus.LotusWidget"
+            android:label="@string/gadget_name_lotus"
+            android:icon="@drawable/lotus_logo">
+            <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />
+            </intent-filter>
+       </activity>
+       
+		<!--RK_ID: RK_LEOSWIDGET AUT: liuyg DATE: 2012-09-28 END -->	
+		
+	<!--<activity android:name="com.lenovo.launcher.theme.template.ClassicActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.THEMESKIN" />
+            </intent-filter> 
+        </activity>-->
+<!--RK_ID: RK_LEOSWIDGET AUT: kangwei3 DATE: 2012-11-12 S -->
+ 
+
+ 
+<!--RK_ID: RK_LEOSWIDGET AUT: kangwei3 DATE: 2012-11-12 E -->        
+        
+        <!-- RK_ID CUSTOM SHORTCUT PICKER AUTH:GECN1 DATE:2012-12-11 S-->
+        <activity android:name="com.lenovo.launcher2.commoninterface.AddShortcutActivityPicker" 
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"               
+            android:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <action android:name="com.lenovo.launcher.action.PICK_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- RK_ID CUSTOM SHORTCUT PICKER AUTH:GECN1 DATE:2012-12-11 E-->
+    <!--RK_ID:RK_LEOS_APP_SETTING AUT:zhanglz1@lenovo.com DATE: 2013-03-11 S -->
+       <activity
+            android:name="com.lenovo.launcher2.settings.LeosAppSetting"
+            android:icon="@drawable/ic_leos_widget_setting_pressed"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.LEOSAPPSETTING" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+        <!--RK_ID:RK_LEOS_APP_SETTING AUT:zhanglz1@lenovo.com DATE: 2013-03-11 E -->
+        <receiver android:name="com.lenovo.launcher2.customizer.APKChangeReceiver">
+                        <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_ADDED"></action>
+                                <data android:scheme="package"/>
+                        </intent-filter>
+
+                        <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_REPLACED"></action>
+                                <data android:scheme="package"/>
+                    </intent-filter>
+                    
+                     <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.launcher.START_SHARE_RECEIVE_ACTIVITY"></action>
+                    </intent-filter>
+                            
+                     <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.ACTION_PACKAGE_REMOVED"></action>
+                    </intent-filter>
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.ACTION_INSTALL_PACKAGE"></action>
+                    </intent-filter>     
+                   <!--  <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_REMOVED"></action>
+                                <data android:scheme="package"/>
+                    </intent-filter>
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.lejingpin.hw.ACTION_DOWNLOAD_STATE"></action>
+                    </intent-filter> -->
+        </receiver>
+       <!-- <activity
+            android:name="com.lenovo.launcher2.settings.WorkspaceCleanupSettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_menu_workspace_cleanup"
+            android:label="@string/workspace_cleanup_settings_title">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                
+            </intent-filter>
+        </activity>
+        -->
+        
+        <!-- yangmao add 0319 start -->
+		<!--             android:theme="@style/MyTheme.SplashWindow"
+            android:process="com.lenovo.launcher.addon" 
+            android:screenOrientation="portrait"
+            -->
+        <activity
+            android:icon="@drawable/ic_launcher_search_shortcut"
+            android:label="@string/search_title"
+            android:launchMode="singleTask"
+            android:name="com.lenovo.launcher2.addon.search.SearchActivityNew"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateVisible|adjustPan" >
+            <intent-filter >
+                <action android:name="android.intent.action.SEARCH_ACTIVITY_NEW" />
+                <action android:name="android.intent.action.MAIN" />
+		<action android:name="com.lenovo.launcher.action.SEARCH_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+            
+         <activity android:name="com.lenovo.lejingpin.magicdownloadremain.HawaiiSearchAppInfoDialogFragment" 
+             	  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:label="@string/magicdownload_app_name"
+                  android:icon="@drawable/magicdownload_ic_launcher"/>
+        
+        <activity android:name="com.lenovo.lejingpin.magicdownloadremain.AppDetails" 
+            	  android:configChanges="keyboardHidden|orientation|screenSize"
+                  android:label="@string/magicdownload_app_name"
+                  android:icon="@drawable/magicdownload_ic_launcher"
+                  />
+        <activity android:name="com.lenovo.lejingpin.magicdownloadremain.AppComments"
+            	  android:configChanges="keyboardHidden|orientation|screenSize" 
+                  android:label="@string/magicdownload_app_name"
+                  android:icon="@drawable/magicdownload_ic_launcher"
+                  />
+        
+        
+        <service  android:name="com.lenovo.lejingpin.hw.lcapackageinstaller.LcaInstallerService" />
+        
+<!-- yangmao add 0319 end -->    
+            
+            
+        <!--RK_ID: RK_LEJINGPIN AUT: yumina DATE: 2012-12-12 S 
+        -->
+     <receiver android:name="com.lenovo.lejingpin.hw.content.MagicDownloadReceiver">
+            <intent-filter>
+                <action android:name="com.lenovo.action.ACTION_APP_UPGRADE" />
+                <action android:name="com.lenovo.action.ACTION_APK_FAILD_DOWNLOAD" />
+                <action android:name="com.lenovo.action.ACTION_DOWNLOAD_DELETE"/>
+                <action android:name="com.lenovo.action.ACTION_DOWNLOAD_APP_FROM_LESTORE" />
+                <action android:name="com.lenovo.action.ACTION_DOWNLOAD_FROM_COMMON" />
+            </intent-filter>
+            <intent-filter>
+				<category android:name="android.intent.category.DEFAULT" /> 
+				<action android:name="android.intent.action.PACKAGE_ADDED"></action>
+				<action android:name="android.intent.action.PACKAGE_REMOVED"></action>
+				<data android:scheme="package"/>
+			</intent-filter>
+        </receiver>
+
+        <activity 
+            android:name="com.lenovo.lejingpin.ClassicFragmentActivity" 
+            android:theme="@style/MyTheme.SplashWindowTitle"
+            android:launchMode="singleTask"
+            android:logo="@drawable/lejingpin_logo"
+            android:process="com.lenovo.lejingpin"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.lenovo.launcher.action.THEME_SETTING" />
+                <action android:name="android.intent.action.start.lejingpin" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+             android:theme="@style/MyTheme.SplashWindow"
+             android:name="com.lenovo.lejingpin.GetMoreFragmentActivity" 
+            android:process="com.lenovo.getmore"
+            android:logo="@drawable/lejingpin_logo">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+             android:theme="@style/MyTheme.SplashWindowTitle"
+             android:name="com.lenovo.lejingpin.ShowWallpaperTypeDetailActivity"
+            android:process="com.lenovo.getmore"
+            android:logo="@drawable/lejingpin_logo"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+             android:theme="@style/MyTheme.SplashWindowTitle"
+             android:name="com.lenovo.lejingpin.ShowWallpaperSpecialActivity"
+            android:process="com.lenovo.getmore"
+            android:logo="@drawable/lejingpin_logo"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+             android:theme="@style/MyTheme.SplashWindowTitle"
+             android:name="com.lenovo.lejingpin.ShowWallpaperTypeActivity"
+            android:process="com.lenovo.lejingpin">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity 
+             android:name="com.lenovo.lejingpin.WallpaperPreviewActivity"
+            android:process="com.lenovo.lejingpin"
+             android:icon="@drawable/actionbar_icon"
+             android:configChanges="orientation|keyboardHidden|keyboard|screenSize">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+             android:name="com.lenovo.lejingpin.DetailClassicActivity"
+            android:process="com.lenovo.lejingpin"
+            android:logo="@drawable/lejingpin_logo"
+              android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
+              android:theme="@android:style/Theme.DeviceDefault.Light"
+             >
+
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.lenovo.launcher.action.LIVE_WALLPAPER_PREVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <!-- yangbin5 start -->
+        <activity
+            android:name="com.lenovo.lejingpin.BladeDetailClassicActivity"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize"
+            android:logo="@drawable/lejingpin_logo"
+            android:process="com.lenovo.lejingpin"
+            android:theme="@android:style/Theme.DeviceDefault.Light" >
+        </activity>
+        <!-- yangbin5 end -->
+        
+                <activity 
+             android:name="com.lenovo.lejingpin.DetailClassicActivityLock"
+            android:process="com.lenovo.lejingpin"
+            
+            android:logo="@drawable/lejingpin_logo"
+              android:theme="@style/MyTheme.SplashWindowTitle"
+             >
+
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+               
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <receiver android:name="com.lenovo.lejingpin.APKInstallReceiver"
+            android:process="com.lenovo.lejingpin">
+                        <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_ADDED"></action>
+                                <data android:scheme="package"/>
+                        </intent-filter>
+
+                        <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_REPLACED"></action>
+                                <data android:scheme="package"/>
+                    </intent-filter>
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="android.intent.action.PACKAGE_REMOVED"></action>
+                                <data android:scheme="package"/>
+                    </intent-filter>
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.action.ACTION_DOWNLOAD_STATE_CHANGED"></action>
+                    </intent-filter>
+                    <intent-filter >
+                         <category android:name="android.intent.category.DEFAULT" />
+                         <action android:name="com.lenovo.launcher.boost.lejingpin" />
+                    </intent-filter>
+
+                    <!--RK_ID:RK_LEOSWIDGET AUT:mohl DATE: 2013-2-27 S-->
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.launcher.Intent.ACTION_SCENE_APPLY"></action>
+                    </intent-filter>
+		    		<!--RK_ID:RK_LEOSWIDGET AUT:mohl DATE: 2013-2-27 E-->
+		    		<!--RK_ID:RK_LEOSWIDGET AUT:mohl DATE: 2013-3-11 S-->
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.action.ACTION_DOWNLOAD_DELETE"></action>
+                    </intent-filter>
+		    		<!--RK_ID:RK_LEOSWIDGET AUT:mohl DATE: 2013-3-11 E-->
+		    		
+                    <intent-filter>
+                                <category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="com.lenovo.launcher.action.SET_WALLPAPER"></action>
+                    </intent-filter>
+		    		<intent-filter>
+		    		    		<category android:name="android.intent.category.DEFAULT" />
+                                <action android:name="action.letheme.appling"></action>
+		    		</intent-filter>
+		    		<!--RK_ID:RK_LEOSWIDGET AUT:mohl DATE: 2013-2-27 E-->
+        </receiver>
+        
+        <!-- activity UI -->
+<!--
+		 <activity 
+            android:name="com.lenovo.lejingpin.hw.game.widget.GameActivity"
+            android:icon="@drawable/game_widget_icon"
+            android:label="@string/game_app_name"
+            android:launchMode="singleTask"
+            android:process="com.lenovo.lejingpin">
+           <intent-filter >
+                <action android:name="com.lenovo.launcher.action.LENOVOWIDGETS" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="com.lenovo.lejingpin.hw.game.widget.GameAppActivity"
+            android:screenOrientation="nosensor"
+            android:process="com.lenovo.lejingpin"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.LeLauncher.Dialog.Shortcut"></activity>
+-->
+<!--android:process="com.lenovo.lejingpin"  -->
+        <receiver android:name="com.lenovo.lejingpin.hw.content.HwContentMangerReceiver" 
+            >
+            <intent-filter>
+                <action android:name="com.lenovo.lejingpin.hw.ACTION_REQUEST_APP_INFO" />
+                <action android:name="com.lenovo.lejingpin.hw.ACTION_REQUEST_APP_DOWNLOAD" />
+                <action android:name="com.lenovo.lejingpin.hw.ACTION_TIMESHEDULE_SPEREAPPLIST" />
+                <action android:name="com.lenovo.lejingpin.hw.ACTION_REQUEST_APP_COMMON_LIST" />
+                <action android:name="com.lenovo.lejingpin.hw.game.widget.ACTION_GAME_APP_REQUEST" />
+                <!--yangmao add for search_move 1225 start  -->
+                <action android:name="com.lenovo.action.ACTION_HAWAII_SEARCH_APP_INFO"/>
+                <action android:name="com.lenovo.action.ACTION_REQUEST_HAWAII_SEARCH_APP_COMMENT_LIST"/> 
+                <!--yangmao add for search_move 1225 end  -->
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.lenovo.lejingpin.hw.content.util.HwContentProvider"
+            android:authorities="com.lenovo.lejingpin.hw.Provider" >
+        </provider>
+        <!-- content manager -->
+
+
+        <!-- @lca package installer -->
+        <activity
+            android:name="com.lenovo.lejingpin.hw.lcapackageinstaller.LcaInstallerActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.lca"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+        
+        <!--yangmao add fix bug 6476 start  
+        android:screenOrientation="nosensor"
+        -->    
+             <activity
+            android:name="com.lenovo.lejingpin.hw.lcapackageinstaller.MagicLcaInstallerActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert"            
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <!--yangmao add fix bug 6476 end  -->   
+         <activity
+            android:name="com.lenovo.lejingpin.hw.lcapackageinstaller.LcaInstallerDownloadActivity"
+            android:theme="@style/Theme.LeLauncher.Dialog.Alert"
+            android:screenOrientation="nosensor">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>    
+            
+
+        <provider
+            android:name="com.lenovo.lejingpin.hw.lcapackageinstaller.LcaInfoProvider"
+            android:authorities="com.lenovo.lejingpin.provider.hw.appinfonew" >
+        </provider>
+
+        <!-- @Download module -->
+        <activity
+            android:name="com.lenovo.lejingpin.hw.download.ui.DownloadExpandableActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:label="@string/download_download"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+        />
+        <!-- android:theme="@style/MyTheme.SplashWindowTitle" -->
+        <activity
+            android:name="com.lenovo.lejingpin.hw.download.ui.InstallDialog"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+ 		<activity android:name="com.lenovo.lejingpin.hw.ui.PushAppDetialActivity"
+ 		    android:launchMode="singleTask"
+ 		    android:process="com.lenovo.lejingpin"
+ 		    android:label="@string/tab_application"
+ 		    android:icon="@drawable/app_detial_title_icon"
+ 		    android:theme="@style/MyTheme.SplashWindowTitle" ></activity>
+        <receiver android:name="com.lenovo.lejingpin.hw.utils.PackageAddedReceiver"
+            android:process="com.lenovo.lejingpin">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+
+        <!-- Download module@ -->
+	       <!-- xujing3 add ,begin -->
+	    <activity
+            android:icon="@drawable/ic_launcher_appsmanager_shortcut"
+            android:label="@string/magicdownload_upgrade_applist"
+            android:name="com.lenovo.lejingpin.magicdownloadremain.AppsManagerShortCut"
+            android:theme="@android:style/Theme.NoDisplay" >
+                <!-- 
+            <intent-filter >
+                <action android:name="android.intent.action.LE_SHORTCUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LENOVO_LAUNCHER_NOTIFICATION" />
+            </intent-filter>
+                 -->
+        </activity>
+       <activity
+            android:name="com.lenovo.lejingpin.share.download.DownloadExpandableActivity"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:process="com.lenovo.lejingpin"
+            android:label="@string/download_download"
+            android:logo="@drawable/lejingpin_logo"
+            android:theme="@android:style/Theme.DeviceDefault.Light"
+             />
+       <!-- android:theme="@style/MyTheme.SplashWindowTitle" -->
+        <receiver android:name="com.lenovo.lejingpin.appsmgr.content.UpgradeContentManagerReceiver"
+            android:process="com.lenovo.lejingpin" >
+             <intent-filter>
+                <action android:name="com.lenovo.appsmgr.action.ACTION_REQUEST_APPUPGRADE" /> 
+                <action android:name="com.lenovo.share.action.ACTION_REQUEST_APPDOWNLOAD" />
+                <!--  <action android:name= "com.lenovo.action.ACTION_REQUEST_APPDOWNLOAD" /> -->
+             </intent-filter>
+        </receiver>
+        
+        <service android:name="com.lenovo.lejingpin.share.service.ConcurrentIntentService"
+            android:process="com.lenovo.lejingpin" >
+            
+        </service>
+        <service android:name="com.lenovo.lejingpin.share.service.TaskService" 
+            android:process="com.lenovo.lejingpin">
+        </service>
+        
+        <provider android:name="com.lenovo.lejingpin.appsmgr.content.UpgradeContentProvider"
+                 android:authorities="com.lenovo.lejingpin.appsmgr.content.upgradeprovider"
+                 android:process="com.lenovo.lejingpin">
+        </provider>
+        
+        <service  android:name="com.lenovo.lejingpin.share.download.IService"
+            android:process="com.lenovo.lejingpin">
+            <intent-filter>
+                <action android:name="com.lenovo.lejingpin.share.download.IDownloadService" />
+            </intent-filter>
+        </service>
+        
+        <receiver android:name="com.lenovo.lejingpin.share.download.IService$DownloadReceiver" 
+            android:process="com.lenovo.lejingpin">
+            <intent-filter>
+                <action android:name="com.lenovo.lejingpin.share.download.DOWNLOAD_CHANGED" />
+                <action android:name="com.lenovo.lejingpin.share.download.DOWNLOAD_COMPLETED" />
+                <action android:name="com.lenovo.lejingpin.share.download.START" />
+                <action android:name="com.lenovo.lejingpin.share.download.ACTION" />
+                <action android:name="com.lenovo.lejingpin.share.download.CONFIG_ACTION" />
+                <action android:name="com.lenovo.lejingpin.share.download.DOWNLOAD_WAKEUP" />
+                <action android:name="com.lenovo.lejingpin.settings.wlanvalue" />
+                <!-- 
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                 -->
+                <action android:name="com.lenovo.lejingpin.share.download.DOWNLOAD_NOTIFICATION_CLICKED" />
+                <action android:name="com.lenovo.action.ACTION_APK_PARSE_OR_INSTALL_FAILED" />
+                <action android:name="rapp001" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.lenovo.lejingpin.share.download.DownloadService" 
+            android:process="com.lenovo.lejingpin"/>
+        <provider android:name="com.lenovo.lejingpin.share.download.DownloadProvider"
+                  android:authorities="com.lenovo.lejingpin.share.download" 
+                  android:process="com.lenovo.lejingpin" />
+        <activity
+            android:name="com.lenovo.launcher2.settings.ProfileSettings"
+            android:label="@string/menu_sense_settings"
+            android:configChanges="orientation|keyboard">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- android:theme="@style/Theme.LeLauncher.NoActionBar"
+        android:icon="@drawable/ic_launcher_desktop_settings" -->
+        <service android:name="com.lenovo.lsf.payment.PaymentService" >
+            <intent-filter>
+                <action android:name="com.lenovo.lsf.payment.PaymentService" />
+            </intent-filter>
+        </service>
+        
+         <!-- new ui -->
+        
+        <activity android:name="com.lenovo.lsf.account.PsUserSettingActivity" 
+                  android:configChanges="orientation|keyboard|keyboardHidden"
+                  android:launchMode="singleTask">
+			<intent-filter>
+				<action android:name="android.intent.action.USERSETTING" />
+				<action android:name="android.intent.action.MAIN" />
+			</intent-filter>
+		</activity>
+
+		<!-- new ui -->
+		<activity 
+		    android:name="com.lenovo.lsf.account.PsLoginActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:launchMode="singleTask"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.LOGINREGISTER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.lenovo.lsf.account.ChangePasswordActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.CHANGEPASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ForgetPasswordActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGETPASSWORD" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ForgetResultActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+            <intent-filter>
+                <action android:name="android.intent.action.FORGETRESULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.MyAccountActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MYACCOUNT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.AccountBindingActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.OneKeyLoginActivity"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_dialogactivitytheme"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        <activity
+            android:name="com.lenovo.lsf.account.ThirdLoginWebView"
+            android:label="@string/com_lenovo_lsf_ui_name" 
+ 		    android:theme="@style/com_lenovo_lsf_ui"
+ 		    android:windowSoftInputMode="stateHidden"
+ 		    android:configChanges="orientation|keyboardHidden"
+ 		    >
+        </activity>
+        
+       <!--  xujing3 add ,end -->
+
+        <!--RK_ID: RK_LEJINGPIN AUT: yumina DATE: 2012-12-12 E -->
+
+         <!-- PK_ID:APPS_CALSSIFICATION AUT:GECN1 DATE:2013-03-19  S-->
+         <provider
+            android:name="com.lenovo.launcher2.addon.classification.AppsCategoryProvider"
+            android:authorities="com.lenovo.launcher2.addon.classification" />
+         
+         
+         <activity
+            android:name="com.lenovo.launcher2.settings.ClassifyAppsSettings"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:icon="@drawable/ic_launcher_classify_apps"
+            android:label="@string/workspace_cleanup_settings_title">
+            <intent-filter >
+                <action android:name="android.intent.action.CLASSIFYAPPSSETTINGS" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <!--PK_ID:APPS_CALSSIFICATION  AUT:GECN1 DATE:2013-03-19  E-->
+	     <activity android:name="com.lenovo.launcher2.gadgets.Lotus.LotusSetting"
+             android:icon="@drawable/ic_allapps"
+             android:label="@string/gadget_name_lotus" 
+             android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <!-- <action android:name="lenovo.intent.setting.widget.action"/> -->
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+
+    </application>  
+
+</manifest>

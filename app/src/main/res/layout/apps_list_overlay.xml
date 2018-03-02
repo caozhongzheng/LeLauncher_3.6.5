@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<TextView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:id="@+id/overlay"
+    android:textSize="50dp"  
+    android:textColor="@color/apps_list_overlay_text_color"  
+    android:background="@drawable/apps_list_overlay_bg"    
+    android:minWidth="80dip"    
+    android:maxWidth="80dip"    
+    android:padding="5dip"  
+    android:gravity="center" 
+    android:shadowColor="#ff000000"
+    android:shadowDx="0.0"
+    android:shadowDy="0.0"
+    android:shadowRadius="2.0"
+/>  

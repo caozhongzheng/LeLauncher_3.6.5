@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/app_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:background="@color/white">
+
+        <View
+            android:id="@+id/app_shader"
+            android:layout_width="wrap_content"
+            android:layout_height="165dp"/>
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/ljp_app_icon_size"
+            android:layout_height="@dimen/ljp_app_icon_size"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/lepush_app_icon_def" />
+        
+        <TextView
+            android:id="@+id/app_download_count"
+            android:layout_width="@dimen/ljp_app_icon_size"
+            android:layout_height="50px"
+            android:layout_marginTop="3dp"
+            android:layout_alignLeft="@id/app_icon"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/app_icon"
+            android:textSize="@dimen/ljp_push_app_download_cont"
+            android:textStyle="bold"
+            android:textColor="#949494"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/app_icon"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/app_icon"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:singleLine="true"
+            android:textColor="#434343"
+            android:textSize="@dimen/ljp_push_app_name_size"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/app_star"
+            style="@style/pushAppStartBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/app_name"
+            android:layout_below="@id/app_name"
+            android:numStars="5"
+            android:rating="3" />
+
+        <com.lenovo.lejingpin.hw.ui.DownloadButton
+            android:id="@+id/app_download"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="@dimen/ljp_app_download_buton_width"
+            android:layout_height="@dimen/ljp_app_download_buton_heigth"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/ljp_push_head_app_download_margin_bottom_size"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/push_btn_background_selector"
+            android:gravity="center"
+            android:focusable="false"
+            android:text="@string/app_detail_download"
+            android:textColor="@color/push_app_head_download_text_color"
+            android:textSize="@dimen/ljp_app_download_text_size"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/app_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/app_name"
+            android:layout_below="@id/app_star"
+            android:layout_marginBottom="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/app_icon"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/app_feature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:textColor="#FD7900" />
+
+            <TextView
+                android:id="@+id/app_introduction"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="85dp"
+                android:ellipsize="end"
+                android:textSize="@dimen/ljp_push_app_introduction_size"
+                android:lines="@integer/ljp_app_des_line"
+                android:textColor="#949494" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ThemePagedView -->
+    <com.lenovo.launcher2.settings.ThemePagedView
+        android:id="@+id/themes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        launcher:pageLayoutPaddingBottom="@dimen/theme_preview_padding_Bottom"
+        launcher:pageLayoutPaddingTop="@dimen/theme_preview_padding_Top"
+        launcher:pageLayoutPaddingLeft="@dimen/theme_preview_padding_Left"
+        launcher:pageLayoutPaddingRight="@dimen/theme_preview_padding_Right" />
+
+    <RelativeLayout
+        android:id="@+id/buttonBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/theme_button_bg_height"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:singleLine="true"
+            android:text="@string/get_more_theme" 
+            android:textSize="@dimen/theme_settings_button_textsize"/>
+
+        <Button
+            android:id="@+id/buttonRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/buttonLeft"
+            android:layout_marginLeft="@dimen/theme_button_horizotal_margin"
+            android:enabled="false"
+            android:singleLine="true" 
+            android:textSize="@dimen/theme_settings_button_textsize"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/themes_paged_view_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_above="@id/buttonBar"/>
+
+    <ImageView
+        android:id="@+id/indicator_lightbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonBar"
+        android:src="@drawable/setting_dotindicator_lightbar"/>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip">    
+    <ListView
+        android:id="@+id/comment_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideInset" 
+        android:divider="@color/content_divider"
+        android:dividerHeight="1dip">
+    </ListView>
+    <include layout="@layout/magicdownload_loading" />
+</FrameLayout>

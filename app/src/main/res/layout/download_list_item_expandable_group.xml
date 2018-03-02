@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/download_list_item_expandable_group"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@drawable/bg_download_manager_group"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="@dimen/ljp_download_item_left_margin"
+    android:textColor="#313131"
+    android:textSize="12sp" >
+</TextView>
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/download_list_item_expandable_group"
+    	android:background="@drawable/bg_download_manager_group"
+    	android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+	<TextView
+	    android:id="@+id/download_group_title"
+	    android:layout_weight="1"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="@dimen/ljp_download_item_left_margin"
+	    android:textColor="#696969"
+	    android:textSize="12sp" />
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:src="@drawable/local_apps_list_item_split"/>
+	<TextView
+		android:id="@+id/download_group_button"
+		android:layout_width="58dip"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="1dip"
+		android:layout_marginBottom="1dip"
+		android:layout_marginRight="5dip"
+		android:gravity="center"
+		android:textColor="#434343"
+		android:textSize="11sp"
+		android:singleLine="true"
+		android:background="@drawable/bg_white_button_selector" />
+</LinearLayout>

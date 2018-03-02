@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/history_list"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+	
+    <ListView
+        android:id="@+id/search_history_list_ym"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@drawable/list_deliver" />
+    
+    <TextView 
+        android:id="@+id/text_no_history"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/text_no_history"
+        android:textSize="16sp"
+        android:textColor="#828997"
+        android:layout_gravity="center|center_vertical"
+        android:gravity="center"
+       	android:visibility="gone"    
+        />
+
+</LinearLayout>

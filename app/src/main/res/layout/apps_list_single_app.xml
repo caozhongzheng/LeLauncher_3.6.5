@@ -1,0 +1,18 @@
+<com.lenovo.launcher2.PagedViewIcon
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+
+    style="@style/WorkspaceIcon.Portrait.AppsCustomize"
+
+    android:id="@+id/application_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+
+    launcher:blurColor="#FF6B8CF0"
+    launcher:outlineColor="#FF8CD2FF"
+
+    android:singleLine="true"
+    android:ellipsize="end"
+    android:focusable="true"
+    android:background="@drawable/focusable_view_bg" />

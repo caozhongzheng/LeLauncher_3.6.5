@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher">
+
+    <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
+    <shortcut
+        launcher:icon="@drawable/com_android_contacts__ic_launcher_phone"
+        launcher:title="@string/hotseat_dial_title" 
+        launcher:uri="#Intent;action=android.intent.action.DIAL;launchFlags=0x10000000;end"
+        launcher:container="-101"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0" />
+
+    <shortcut
+        launcher:icon="@drawable/com_android_contacts__ic_launcher_contacts"
+        launcher:title="@string/hotseat_contacts_title" 
+        launcher:uri="content://com.android.contacts/contacts#Intent;action=android.intent.action.VIEW;launchFlags=0x10000000;end"
+        launcher:container="-101"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <shortcut
+        launcher:icon="@drawable/com_android_mms__ic_launcher_smsmms"
+        launcher:title="@string/hotseat_sms_title" 
+        launcher:uri="#Intent;action=android.intent.action.MAIN;type=vnd.android-dir/mms-sms;launchFlags=0x10000000;end"
+        launcher:container="-101"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0" />
+    <shortcut
+        launcher:icon="@drawable/com_android_browser__ic_launcher_browser"
+        launcher:title="@string/hotseat_browser_title"
+        launcher:uri="http://m.idea123.cn/?c=02#Intent;action=android.intent.action.VIEW;S.com.android.browser.application_id=-2036735900831708960;end"
+        launcher:container="-101"
+        launcher:screen="4"
+        launcher:x="4"
+        launcher:y="0" />
+</favorites>

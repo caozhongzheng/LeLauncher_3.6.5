@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="toggle_layout_height_ex">196dp</dimen>
+	<dimen name="toggle_layout_height">66dp</dimen>
+    <dimen name="toggle_layout_height_ex_off">8dp</dimen>
+    <dimen name="toggle_layout_height_rate_l">30px</dimen>
+    <dimen name="toggle_layout_height_rate_h">40px</dimen>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AllAppsIcon">
+        <item name="android:layout_width">@dimen/apps_cell_width</item>
+        <item name="android:layout_height">@dimen/apps_cell_height</item>
+        <item name="android:textSize">@dimen/app_text_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:shadowColor">#B0000000</item>
+    </style>
+    
+     <style name="magicdownload_dialogWindowAnim" parent="android:Animation" mce_bogus="1">
+        <item name="android:windowEnterAnimation">@anim/magicdownload_dialog_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/magicdownload_dialog_exit_anim</item>
+    </style>    
+</resources>

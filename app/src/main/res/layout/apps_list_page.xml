@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:orientation="horizontal"
+    android:layout_width="match_parent"    
+    android:layout_height="match_parent" >   
+       
+    <ListView android:id="@+id/list_view"   
+        android:layout_height="wrap_content"   
+        android:layout_width="0dp"
+        android:layout_weight="1"  
+        android:scrollbars="none" 
+        android:divider="@null" 
+        android:cacheColorHint="#00000000"/>  
+    <com.lenovo.launcher2.appsmanager.AlphabetFastScrollerView   
+        android:id="@+id/MyLetterListView01"   
+        android:background="@android:color/transparent"
+        android:paddingTop="@dimen/letter_list_view_padding_top"
+        android:paddingRight="@dimen/letter_list_view_padding_right"
+        android:paddingBottom="@dimen/letter_list_view_padding_bottom"
+        android:paddingLeft="@dimen/letter_list_view_padding_left"   
+        android:layout_width="@dimen/letter_list_view_width"   
+        android:layout_height="fill_parent"  
+        android:layout_gravity="right" />  
+</LinearLayout>

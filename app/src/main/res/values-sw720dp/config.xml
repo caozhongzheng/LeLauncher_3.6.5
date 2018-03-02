@@ -1,0 +1,11 @@
+<resources>
+    <integer name="config_machine_type">1</integer>
+    <bool name="allow_rotation">true</bool>
+    <integer name="folder_max_count_x">3</integer>
+    <integer name="folder_max_count_y">3</integer>
+    <integer name="folder_max_count">9</integer>
+    <integer name="xscreen_tab_content_apps_cellx">4</integer>
+    <integer name="xscreen_tab_content_apps_celly">3</integer>
+    <integer name="xscreen_tab_content_widgets_cellx">3</integer>
+    <integer name="xscreen_tab_content_widgets_celly">4</integer>
+</resources>

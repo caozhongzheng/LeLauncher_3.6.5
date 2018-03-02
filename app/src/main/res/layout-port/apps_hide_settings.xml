@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_center_title"
+        android:minHeight="48dp" />
+    
+    <LinearLayout
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="37dip"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:divider="?android:attr/dividerHorizontal"
+        android:dividerPadding="0dip"
+        android:minHeight="37dip"
+        android:orientation="vertical"
+        android:showDividers="end" >
+
+        <LinearLayout
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:measureWithLargestChild="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/clear"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:background="@drawable/top_btn_bg_selector"
+                android:textColor="@color/top_button_color"
+                android:text="@string/select_none" />
+
+            <Button
+                android:id="@+id/selectAll"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/top_btn_bg_selector"
+                android:maxLines="2"
+                android:textColor="@color/top_button_color"
+                android:paddingBottom="0dip"
+                android:text="@string/select_all" />
+        </LinearLayout>
+    </LinearLayout>
+  <com.lenovo.launcher2.commonui.ShortcutGridView
+        android:id="@+id/applist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:layout_gravity="center_horizontal"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:verticalSpacing="10dp"
+         launcher:verticalSpacing="10dp"/>
+    <include
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        layout="@layout/buttonbar"
+        android:minHeight="@dimen/shortcut_dialog_bar_min_height" />
+</LinearLayout>

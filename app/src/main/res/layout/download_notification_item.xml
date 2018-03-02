@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/notify_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">    
+   
+    <LinearLayout android:layout_height="wrap_content"
+    	android:orientation="horizontal"    	    			
+		android:layout_width="fill_parent">
+			
+    <TextView android:id="@+id/notification_download_appname"
+        android:layout_marginLeft="10px"
+		android:textColor="@color/download_notification" 
+        android:textSize="16sp"       
+        android:singleLine="true"
+        android:layout_weight="3"
+		android:layout_width="0px"		 
+		android:layout_height="wrap_content"/>	
+	<TextView
+		android:id="@+id/notification_downloading"
+		android:textSize="13sp"       
+		android:textColor="@color/download_notification"
+        android:singleLine="true"
+        android:layout_weight="2"
+		android:layout_width="0px"
+		android:layout_marginLeft="20px"		
+		android:layout_height="wrap_content"/>	
+ 	</LinearLayout>
+ 	
+	<LinearLayout android:layout_height="wrap_content"	
+		android:orientation="horizontal"
+		android:id="@+id/pb_ll"
+		android:layout_width="wrap_content">
+   	<ProgressBar android:id="@+id/notificationProgress"
+   	    android:layout_marginLeft="10px"
+		android:layout_width="183dip" 
+		android:layout_marginTop="2dip"
+		android:layout_height="wrap_content"		
+		style="?android:attr/progressBarStyleHorizontal"/>	
+	<TextView
+		android:id="@+id/notification_tx_progress"
+		android:layout_width="wrap_content"	
+		android:textColor="@color/download_notification"
+		android:layout_marginLeft="6dip"		
+		android:layout_height="wrap_content"/>	
+ 	</LinearLayout>
+ 	<TextView
+		android:id="@+id/end_text"
+		android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#FFF000"
+		android:visibility="gone"
+		android:layout_width="wrap_content"	
+		android:layout_marginLeft="10px"		
+		android:layout_height="wrap_content"/>
+		<TextView
+		android:id="@+id/end_text2"
+		android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="#FFF000"
+		android:visibility="gone"
+		android:layout_width="wrap_content"	
+		android:layout_marginLeft="10px"		
+		android:layout_height="wrap_content"/>
+		<!--  android:textColor="@color/white"-->
+ 	
+</LinearLayout>
+

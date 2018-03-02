@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_allappsetting_screen">
+
+  <!--  <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_load_widget_preview"
+        android:summary="@string/load_widget_on"
+        android:title="@string/load_widget_settings_title" /> -->
+
+    <Preference
+        android:key="pref_icon_bg_style"
+        android:title="@string/icon_bg_style_settings_title"
+        android:layout="@layout/custom_preference"
+        >
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lenovo.launcher2.settings.IconStyleSettings"
+            android:targetPackage="com.lenovo.launcher" />
+    </Preference>
+
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/pref_all_app_y_default"
+        android:entries="@array/pref_all_app_y_choices"
+        android:entryValues="@array/pref_all_app_y_values"
+        android:key="pref_applist_y_count"
+        android:title="@string/pref_allapp_cellcount_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/>
+    
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_applist"
+        android:entries="@array/pref_applist_effect_choices"
+        android:entryValues="@array/pref_applist_effect_values"
+        android:key="pref_applist_enter_effect"
+        android:summary="@string/applist_enter_default_effect"
+        android:title="@string/applist_enter_effect_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more" />
+
+    <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_workspaceSlide"
+        android:entries="@array/pref_app_slide_effect_choices"
+        android:entryValues="@array/pref_app_slide_effect_values"
+        android:key="pref_applist_slide_effect"
+        android:summary="@string/applist_slide_default_effect"
+        android:title="@string/applist_slide_effect_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_applist_loop"
+        android:layout="@layout/custom_preference"
+        android:summary="@string/checkbox_open"
+        android:title="@string/applist_loop_settings_title"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox" />
+
+</PreferenceScreen>

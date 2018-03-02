@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ex="http://schemas.android.com/apk/res/com.android.contacts"
+    android:id="@+id/search_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    
+    <TextView
+        android:id="@+id/num_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_line"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textColor="#FF454545"
+        android:paddingLeft="12dp"
+        android:textSize="16sp"
+        android:visibility = "gone"/>
+    
+    <ImageView
+        android:id="@+id/header_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_below="@+id/num_msg"
+        android:src="@android:drawable/divider_horizontal_bright"
+        android:scaleType="centerCrop"
+    />
+    
+<!--        <include
+        android:id="@+id/local_search_nodata_layout"
+        layout="@layout/local_search_nodata"
+        android:layout_centerVertical="true"
+        
+         /> -->
+    
+
+    
+    <TextView 
+        android:id="@+id/loacal_no_data_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="@string/local_search_nodata"
+		android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:visibility="gone"        
+        />
+    
+        <ImageView 
+        android:id="@+id/local_no_data_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/local_search_nodata"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:layout_above="@id/loacal_no_data_text"       
+        />
+    
+    
+    <Button 
+        android:id="@+id/loacal_no_data_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/loacal_no_data_text"
+        android:background="@drawable/search_all_btn_background_selector"
+        android:layout_centerHorizontal="true"
+        android:textColor="#828997"
+		android:text="@string/local_search_nodata_btn"
+		android:visibility="gone"        
+        />
+       
+    <com.lenovo.launcher2.addon.search.SearchListView
+        android:id="@+id/list"
+        android:layout_below="@+id/header_divider2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:footerDividersEnabled = "true"
+        android:headerDividersEnabled = "true"
+        android:listSelector="@null"
+        android:dividerHeight="2px"
+        android:divider="@android:drawable/divider_horizontal_bright"
+    />
+    
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <ImageView 
+        android:id="@+id/game_app_icon"
+         android:layout_width="@dimen/ljp_app_icon_size"
+         android:layout_height="@dimen/ljp_app_icon_size"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="10dp"
+         android:scaleType="fitXY"
+         android:src="@drawable/push_app_icon_def"/>
+    <TextView 
+        android:id="@+id/game_app_anme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="12sp"
+        android:singleLine="true"
+        android:gravity="center_horizontal"/>
+    <TextView 
+        android:id="@+id/game_app_download_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <ProgressBar
+        android:id="@+id/game_app_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/game_widget_progress_bar_layout"
+        android:layout_width="@dimen/ljp_app_icon_size"
+        android:layout_height="5dp"
+        android:max="100"
+        android:visibility="invisible"/>
+
+</LinearLayout>

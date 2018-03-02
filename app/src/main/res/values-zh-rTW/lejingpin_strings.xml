@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">樂精品</string>
+    <string name="more_wallpaper">更多桌布</string>
+    <string name="more_theme">更多主題</string>
+    <string name="more_lock">更多鎖屏</string>
+    <string name="download_msg">應用樂桌面動態桌布之前必須下載一個樂壁紙插件(6M~~9M),是否需要下載？</string>
+    <string name="download_edit_msg">當前樂壁紙插件不支持編輯功能,是否需要更新？</string>
+    <string name="download_confirm_msg">是否需要下載</string>
+    <string name="download_reconfirm_msg">本地已經安裝過此應用，是否需要重新下載？</string>
+
+
+    <string name="le_wallpaper">樂壁紙</string>
+
+    <string name="empty_refresh_done">沒有更多的資源啦</string>
+
+    <string name="theme_applying_wallpaper_message">正在設置桌布，請不要退出程序</string>
+
+    <string name="theme_set_screenlock_success">鎖屏設置成功</string>
+
+    <string name="wallpaper_insall_success">桌布設定成功!</string>
+
+    <string name="le_list_empty">沒有可下載的在線資源。</string>
+
+
+    <string name="tab_settings">下載設置</string>
+
+    <string name="tab_local">本地</string>
+    <string name="tab_network">在線</string>
+    <string name="tab_search">搜索</string>
+    <string name="tab_download">下載管理</string>
+    <string name="tab_more">更多</string>
+    <string name="network_wallpaper">在線桌布</string>
+    <string name="network_theme">在線主題</string>
+    <!-- add by hwf -->
+    <string name="network_lock">在線鎖屏</string>
+
+ <string name="download_more">更多精彩桌布:</string>
+ <string name="download_androidesk">安卓壁紙</string>
+   <string name="android_wallpaper">安卓壁紙</string>
+    <string name="preview_wallpaper">"預覽"</string>
+
+
+
+     <string name="no_wallpaper_text">什麼都沒留下</string>
+
+    <string name="le_download_install">安裝</string>
+    <string name="tab_recommend">推薦</string>
+    <string name="theme_applying_wallpaper_title">設置桌布</string>
+    <string name="apply_themes">應用主題</string>
+    <string name="apply_wallpaper">應用桌布</string>
+    <string name="apply_screenlock">應用鎖屏</string>
+    <string name="other_wallpaper_name">其他桌布</string>
+    <string name="edit_wallpaper">編輯</string>
+    <string name="click_lewallpaper">請點擊"☆乐壁纸"進入之後設置桌布</string>
+
+
+    <string name="tab_application">應用</string>
+    <string name="tab_theme">主題</string>
+    <string name="tab_wallpaper">桌布</string>
+    <string name="tab_lockscreen">鎖屏</string>
+    <string name="local_wallpaper">本地桌布</string>
+    <string name="local_theme">本地主題</string>
+    <string name="local_lock">本地鎖屏</string>
+    <string name="local_app">本地應用</string>
+    <string name="network_app">在線應用</string>
+    <string name="online_classic">精選推薦</string>
+    <string name="getmore_text">點擊獲取更多...</string>
+     <string name="theme_store_tab_hot">最熱</string>
+    <string name="theme_store_tab_latest">最新</string>
+    <string name="theme_store_tab_category">分類</string>
+    <string name="data_apply">應用</string>
+
+     <string name="file_access_fail">獲取文件失敗，請檢查sd卡</string>
+
+
+   <string name="grid_empty_error">網絡不給力，請稍後再試。</string>
+   
+   <!--  hawaii  -->
+   
+    <string name="hw_content_receiver">HW_CONTENT_RECEIVER</string>
+    <string name="hw_ui_activity_name">Hawaii UI</string>
+    <string name="hw_ui_widget_no_service_framework">請安裝 LenovoServiceFramework-lenovo.apk,否則該小工具無法正常運行</string>
+    <string name="hw_ui_widget_get_app_info_error">獲取應用詳情失敗，請檢查網絡</string>
+    <string name="hw_ui_widget_get_spere_list_error">獲取推薦列表失敗，請稍後重試</string>
+    <string name="hw_ui_widget_no_appstroe">請安裝聯想的AppStore應用</string>
+    <string name="download">點擊下載</string>
+    <string name="more_detail">更多詳情</string>
+    <string name="download_app_free">免費</string>
+    <string name="package_size_prestring">大小 :</string>
+
+    <!-- Download module@ -->
+    <string name="downlaod_preparation">準備中...</string>
+    <string name="addedownloadqueue">已經加到下載隊列中</string>
+	<string name="download_count_overflow">下載任務過多，請稍後再試。</string>
+	<string name="download_delete_dialog_title_lejingpin">該應用將被刪除</string>
+	<string name="download_delete_dialog_confirm">確定</string>
+	<string name="download_delete_dialog_cancle">取消</string>
+	<string name="push_app_refresh">刷新</string>
+	    
+	<!-- @app detail -->
+    <string name="app_detail_run">運 行</string>
+    <string name="app_detail_run_error">該應用無法直接運行</string>
+    <string name="app_feature_10">推薦理由：免費最熱，樂商店排行榜</string>
+    <string name="app_feature_11_14">推薦理由：裝機必備，就在樂精品</string>
+    <string name="app_feature_12_13">推薦理由：精品應用，樂商店小編推薦</string>
+    <string name="app_feature_others">推薦理由：個性推薦，我自己的應用</string>
+    
+    <!-- app detail@ -->     
+	    
+  	<string name="favorites_delete_text">不收藏</string>
+        
+    <!-- @lca package installer -->
+    <string name="lcapackageinstaller_hello">Hello World, PackageInstallerActivity!</string>
+    <string name="lcapackageinstaller_app_name">Lca包安裝器</string>
+    <string name="lcapackageinstaller_out_of_space_dlg_title">"沒有存儲空間"</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text2">獲取聯想帳號認證數據失敗。</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text3">用戶取消。</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text1">網絡連接失敗。</string>
+    <string name="lcapackageinstaller_permission_error_dlg_text">驗證包時出現問題.</string>
+    <string name="lcapackageinstaller_permission_error_dlg_title">驗證失敗</string>
+    <string name="lcapackageinstaller_Parse_error_dlg_text">"解析包時出現問題。"</string>
+    <string name="lcapackageinstaller_Parse_error_dlg_title">"解析錯誤"</string>
+	<string name="lcapackageinstaller_install_hint_title">安裝提示</string>
+    <string name="lcapackageinstaller_install_hint_message">安裝包沒有下載成功,或已被刪除,請重新下載!</string>
+    
+    <string name="local_app_name">已裝應用</string>
+    <string name="push_app_name">推薦應用</string>
+    <string name="nav_add_favorites">加入收藏</string>
+    <string name="nav_remove_favorites">删除收藏</string>
+    <string name="nav_recommned">推薦應用</string>
+    <string name="nav_settings">設置</string>
+    <string name="nav_flip">試試手氣</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_more">更多</string>
+    <string name="dialog_spere_update">有新應用了!\n您以前收藏的應用可從菜單-收藏中查找。</string>
+    <string name="flip_tip">拖拽更換</string>
+    <string name="flip_confirm">鬆手更換</string>
+    <string name="list_loading">正在獲取推薦應用....</string>
+    <string name="list_empty_1">\t\t感謝您使用推薦應用，現在沒有更多內容了，稍後再來看看。也可以進入樂商店找找.<![CDATA[<a href=http://www.lenovomm.com>點擊進入</a>]]></string>
+    <string name="favorites_empty">沒有收藏的應用</string>
+    <string name="detail_loading_falied_1">應用程序會被定期檢查和改進，現在不可用。請以後再試，或到搜索中查找類似應用。</string>
+    <string name="detail_download_progress">%s%</string>
+    <string name="detail_favorites_add">保存到收藏，便於以後下載</string>
+    <string name="detail_favorites_delete">已收藏</string>
+    <string name="detail_favorites_add_failed">請在下載前收藏</string>
+
+    <!-- Text for update or download apk -->
+    <string name="download_appstroe_error">未安裝AppStroe或AppStore無法正常使用!請安裝高版本的AppStore!</string>
+    <string name="music_download_status_downloading_label2">當前下載進度：%1$s%%</string>
+    <string name="download_net_error">網絡鏈接錯誤. 請聯網後重試</string>
+    <string name="download_sdcard_notexists">存儲卡滿或不可用</string>
+    <string name="download_recommend_fail">獲取推薦應用失敗！</string>
+    <string name="favorites_empty_text">沒有收藏的應用，可以拖拽應用圖標到收藏夾。</string>
+    <string name="hawaii_setting">設置</string>
+    <string name="hawaii_setting_wifi">僅在WLAN時下載應用</string>
+    <string name="hawaii_setting_wifi_summary">節省網絡流量</string>
+    <string name="hawaii_setting_upgrade">已裝應用新版本提醒</string>
+    <string name="hawaii_setting_upgrade_summary">及時獲取新版本</string>
+    <string name="hawaii_setting_load_picture">顯示應用介紹縮略圖</string>
+    <string name="hawaii_setting_load_picture_summary">顯示縮略圖更好了解應用</string>
+    <string name="hawaii_setting_switch">推薦應用</string>
+    <string name="hawaii_setting_switch_summary">提供精選的應用軟件</string>
+    <string name="hawaii_setting_delete_mem">清除緩存圖片</string>
+    <string name="hawaii_setting_delete_mem_success">緩存圖片清除成功</string>
+    <string name="hawaii_setting_delete_mem_summary">保留緩存可以節省網絡流量</string>
+     
+    <string name="help">關於</string>
+    <string name="function">功能介紹</string>
+    <string name="check_new_version">檢查更新</string>
+    <string name="check_sdcard_status_result">無sd卡,請插入sd卡後重試!</string>
+    
+    <string name="d_switch_t">提醒</string>
+    <string name="d_switch_m">您選擇了關閉推薦，將不能享受為您精選的推薦應用。</string>
+    <string name="d_switch_ok">確定</string>
+    <string name="d_switch_cancel">取消</string>
+    <string name="open_hawaii">立即開啟</string>
+    <string name="open_hawaii_summary">\t\t\t很遺憾，您關閉了推薦應用！\n\n1 您將不能享受聯想的推薦應用服務；\n2 開啟推薦，時尚和精品應用就在手邊；\n3 開啟推薦，省去了您東奔西跑去查找；\n4 推薦應用為您的生活增添更多樂趣。</string>
+    
+    <string name="about_t">關於猜你喜歡</string>
+    <string name="about_android">猜你喜歡 Android 版</string>
+    <string name="about_version">版\t\t本：</string>
+    <string name="about_owner">開\t\t發：</string>
+    <string name="about_owner_content">聯想E2E開發團隊</string>
+    <string name="about_features_new">新 特 性：\t</string>
+    <string name="about_features_new_content">· 推薦應用，直接下載安裝\n\n· 及時收藏，隨時都能下載\n\n· 壓縮技術，節省寶貴流量</string>
+    
+    <!-- search  -->
+    <string name="search_box_keyword_hint">搜搜看</string>
+    <string name="search_box_go">搜索</string>
+    <string name="search_notice_nokeyword">請輸入搜索關鍵字!</string>
+    <string name="search_apps_footer_loading">正在加載</string>
+    <string name="search_history_footer_deleteall">清空歷史記錄</string>
+    <string name="search_history_deleteall_dialog_title">提示</string>
+    <string name="search_history_deleteall_dialog_message">確定清空歷史記錄?</string>
+    <string name="search_history_deleteall_dialog_confirm">確定</string>
+    <string name="search_history_deleteall_dialog_concel">取消</string>
+    <string name="search_error_network">網絡不給力啊!\n請檢查網絡設置後重試!</string>
+    <string name="search_error_client">無法連接到服務器</string>
+    <string name="search_data_nodata">沒有搜索到相關應用</string>
+    
+    <!-- spere app notification -->
+    <string name="spere_new_app_notifi_title">猜你喜歡提醒</string>
+    <string name="spere_new_app_notifi_content"> ^-^ 有%s個新應用啦，點擊查看哦.</string>
+ 	
+ 	<!-- Detail -->
+    <string name="auther">来源: </string>
+    <string name="download_count">下載次數: </string>
+    <string name="app_size">大小: </string>
+    <string name="delete_icon_tip">刪除 </string>
+
+    <!--yangmao add for fix bug 1227 start  -->
+	<string name="letongbu_install_dialog_body">請首先下載并且安裝樂同步</string>
+	<string name="letongbu_install_dialog_title">提示</string>
+	<!--yangmao add for fix bug 1227 end  -->
+	
+	
+	<!--yangmao add start for silence-install -->
+    <string name="lcapackageinstaller_install_succeed">應用安裝成功</string>
+	<!--yangmao add end silence-install -->
+	
+	<string name="ljp_delete_download_task_title">下載任務將被取消</string>
+	<string name="ljp_delete_download_task_msg">確認取消下載%s</string>
+	<string name="game_app_name">熱門遊戲</string>
+	<string name="game_app_more_prompt">向上拖動刷新</string>
+	
+		<!-- Dowload error info; added by mhl 2013.3.25 -->
+	<string name="failed_download_no_enough_space">存儲卡已滿或不可用，下載失敗</string>
+	<string name="failed_download_network_error">網絡出現錯誤，下載失敗</string>
+	<string name="failed_download_other_error">下載失敗</string>
+	<string name="download_sdcard_not_available">存儲卡已滿或不可用</string>
+	
+	
+	
+	<!--yangmao add lejingpin settings start  -->
+	<string name="lejingpin_settings_title">下載設置</string>
+	<string name="lejingpin_settings_download_settings_title">下載設置</string>
+	<string name="lejingpin_settings_wlan_download_title">僅用WLAN模式</string>
+	
+	<!--Lenovo zhaoxin5 20130903 fix bug BLADEX-3215. begin -->
+	<string name="lejingpin_settings_wlan_download_summary">僅通過WLAN傳輸數據</string>
+	<string name="lejingpin_settings_download_save_title">檔案下載位置</string>
+	<!--Lenovo zhaoxin5 20130903 fix bug BLADEX-3215. end -->
+	
+	<string name="lejingpin_settings_download_save_summary">/sdcard/.IdeaDeskTop/LeDownload/download</string>
+
+
+
+	<string name="lejingpin_settings_clear_cache_title">清除文件緩存</string>
+	<string name="lejingpin_settings_clear_cache_summary">保留緩存可以節省設備流量</string>
+
+
+
+	<string name="lejingpin_settings_preview_title">應用預覽圖加載</string>
+	<string name="lejingpin_settings_preview_summary">加載應用圖標和詳情中的截圖</string>
+
+
+	<string name="lejingpin_settings_install_title">安裝設置</string>
+	<string name="lejingpin_settings_auto_install_title">自動安裝</string>
+	<string name="lejingpin_settings_auto_install_summary">下載後自動安裝</string>
+
+	<string name="lejingpin_settings_auto_clear_installpackages_title">自動刪除源文件</string>
+	
+	<string name="lejingpin_settings_clearcache_dialog_title">清除緩存文件</string>
+	<string name="lejingpin_settings_clearcache_dialog_content">確認清除緩存文件嗎?</string>
+
+	<string name="lejingpin_cacheclear_sucessed">緩存已清空</string>
+	
+	<string name="lejingpin_cacheclear_progress_title">正在清除</string>
+	<string name="lejingpin_cacheclear_progress_content">請稍後......</string>
+	
+	<string name="ljp_push_app_head_download_text">馬上下載</string>
+
+	<string name="lejingpin_wlan_download_dialog_title">友情提示</string>
+	<string name="lejingpin_wlan_download_dialog_body">目前設置為僅用WLAN模式，如需使用移動網絡傳輸數據，請先修改設置！</string>
+	<string name="lejingpin_wlan_download_dialog_btn_confirm">設置</string>
+	<string name="lejingpin_wlan_download_dialog_btn_cancel">取消</string>
+	
+	<string name="lejingpin_settings_lock_title">鎖屏設置</string>
+ 	<string name="lejingpin_settings_uselock_title">啟用桌面鎖屏(體驗版)</string>
+	<string name="lejingpin_settings_uselock_summary">部分機型暫不支持</string>
+ 	<string name="lejingpin_settings_setshake_title">解鎖震動</string>
+ 	<string name="lejingpin_settings_setvoick_title">鎖屏音效</string>
+ 
+	<string name="lejingpin_settings_uselejingpinlock_dialog_title">使用精靈鎖屏</string>
+ 	<string name="lejingpin_settings_uselejingpinlock_dialog_content">去下載精靈鎖屏</string>
+ 	
+ 	<string name="lejingpin_settings_go_locallock_title">鎖屏樣式</string>
+	<string name="lejingpin_settings_go_locallock_summary">進入本地鎖屏選擇不同的鎖屏樣式</string>
+	
+	<!--yangmao add lejingpin settings end  -->
+	<!-- add for lockscreen -->
+	  <string name="confirm_delete_lockscreen">當前要刪除的鎖屏爲正在使用的鎖屏，確認要刪除嗎？</string>
+	<string name="pad_search_more">正在加載，請稍後</string>
+	
+	<!-- mohl add for online wallpaper 2013-7-16-->
+	<string name="wallpaper_open_detail_error">當前桌布尚未加載，請稍後加載完畢再點擊進入詳情頁面</string>
+	<!-- mohl add for online wallpaper end-->
+
+       <string name="goto_settings">前往設定</string>
+</resources>

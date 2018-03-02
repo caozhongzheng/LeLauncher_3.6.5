@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+     >
+    <!-- 左上叶子 -->
+    <RelativeLayout
+        android:id="@+id/leftup_part"
+        android:background="@drawable/lotus_leftup_selector"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+
+        android:clickable="true"
+         >
+        <TextView
+            android:id="@+id/top_left"
+
+            android:textSize="12sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="28dp"
+
+            android:text="@string/string_for_measure"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffffff"
+            android:clickable="false"
+             />
+        <ImageView
+            android:id="@+id/top_left_image"
+            android:layout_above="@id/top_left"
+            android:src="@drawable/lotus_for_others"
+
+            android:layout_height="52dp"
+
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+             />
+        <TextView
+            android:id="@+id/missed_num_tl"
+            android:layout_alignLeft="@id/top_left_image"
+        	android:layout_alignBottom="@id/top_left_image"
+            android:background="@drawable/notify_background"
+            
+            android:textSize="14sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:clickable="false"
+             />
+    </RelativeLayout>
+    <!-- 右上叶子 -->
+    <RelativeLayout
+        android:id="@+id/rightup_part"
+        android:background="@drawable/lotus_rightup_selector"
+
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+
+        android:clickable="true"
+         >
+        <TextView
+            android:id="@+id/top_right"
+
+            android:textSize="12sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="28dp"
+
+            android:text="@string/string_for_measure"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffffff"
+            android:clickable="false"
+             />
+        <ImageView
+            android:id="@+id/top_right_image"
+            android:layout_above="@id/top_right"
+            android:src="@drawable/lotus_for_others"
+
+            android:layout_height="52dp"
+
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+             />
+        <TextView
+            android:id="@+id/missed_num_tr"
+            android:layout_alignRight="@id/top_right_image"
+        	android:layout_alignBottom="@id/top_right_image"
+            android:background="@drawable/notify_background"
+            
+            android:textSize="14sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:clickable="false"
+             />
+    </RelativeLayout>
+    <!-- 左下叶子 -->
+    <RelativeLayout
+        android:id="@+id/leftdown_part"
+        android:background="@drawable/lotus_leftdown_selector"
+
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="124dp"
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+
+        android:clickable="true"
+         >
+        <TextView
+            android:id="@+id/bottom_left"
+
+            android:textSize="12sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="28dp"
+
+            android:text="@string/string_for_measure"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffffff"
+            android:clickable="false"
+             />
+        <ImageView
+            android:id="@+id/bottom_left_image"
+            android:layout_above="@id/bottom_left"
+            android:src="@drawable/lotus_for_others"
+
+            android:layout_height="52dp"
+
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+             />
+        <TextView
+            android:id="@+id/missed_num_bl"
+            android:layout_alignLeft="@id/bottom_left_image"
+            android:layout_alignBottom="@id/bottom_left_image"
+            android:background="@drawable/notify_background"
+            
+            android:textSize="14sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:clickable="false"
+             />
+    </RelativeLayout>
+    <!-- 右下叶子 -->
+    <RelativeLayout
+        android:id="@+id/rightdown_part"
+        android:background="@drawable/lotus_rightdown_selector"
+
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="124dp"
+        android:layout_width="128dp"
+        android:layout_height="124dp"
+
+        android:clickable="true"
+         >
+        <TextView
+            android:id="@+id/bottom_right"
+
+            android:textSize="12sp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="28dp"
+
+            android:text="@string/string_for_measure"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffffff"
+            android:clickable="false"
+             />
+        <ImageView
+            android:id="@+id/bottom_right_image"
+            android:layout_above="@id/bottom_right"
+            android:src="@drawable/lotus_for_others"
+
+            android:layout_height="52dp"
+
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:clickable="false"
+             />
+        <TextView
+            android:id="@+id/missed_num_br"
+            android:layout_alignRight="@id/bottom_right_image"
+            android:layout_alignBottom="@id/bottom_right_image"
+            android:background="@drawable/notify_background"
+            
+            android:textSize="14sp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textColor="#ffffff"
+            android:visibility="invisible"
+            android:clickable="false"
+             />
+    </RelativeLayout>
+    <!-- 叶心 -->
+    <ImageView
+        android:id="@+id/store"
+        android:src="@drawable/lotus_center_selector"
+
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="76dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+
+        android:scaleType="centerInside"
+        android:clickable="true"
+         />
+</FrameLayout>
+
+   
+

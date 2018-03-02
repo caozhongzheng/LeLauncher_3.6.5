@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent">
+        <!-- Here is the list. Since we are using a ListActivity, we
+             have to call it "@android:id/list" so ListActivity will
+             find it -->
+
+
+
+        <ListView  
+            android:id="@+id/android_network_wallpaper_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:background="@color/white"/>
+        <!-- Here is the view to show if the list is emtpy -->
+        <include 
+        android:id="@+id/empty"
+        layout="@layout/init_loading"/>
+    </FrameLayout>

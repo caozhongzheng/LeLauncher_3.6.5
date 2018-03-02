@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+                android:layout_marginBottom="45dp"
+-->
+<!--
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+          android:background="@android:color/transparent" 
+          android:layout_height="fill_parent"
+          android:orientation="vertical">
+        <com.lenovo.lejingpin.JingpinViewPager
+                android:id="@+id/pager" android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="55dp"
+                android:persistentDrawingCache="animation"
+                android:flipInterval="30"/>
+-->
+           <FrameLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/fragment_relative" android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+<!--
+       android:layout_marginBottom="55dp"/>
+
+                   <LinearLayout
+                        android:id="@+id/movearea_pointarea"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+          android:orientation="vertical"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true">
+     <TextView android:id="@+id/getmoretext"
+           android:background="@android:color/transparent" 
+    android:layout_width="match_parent" android:layout_height="20dp"
+    android:gravity="center_horizontal"
+    android:visibility="gone"
+    android:text="@string/app_name"/>
+     <include layout="@layout/getmore_bottom_tab_bar"/>
+
+                </LinearLayout>
+ </RelativeLayout>
+-->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <!--  RK_ID: RK_FOLDER_EDITOR . AUT: chenrong2 . DATE: 2012-03-20 . S -->
+    <LinearLayout
+        android:id="@+id/folder_name_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/folder_name_title"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/folder_name_editor"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:hint="@string/folder_editor_hint"
+            android:singleLine="true"
+            android:maxLength="@integer/folder_name_max_length"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+             />
+    </LinearLayout><include
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shortcut_dialog_bar_height"
+        android:layout_alignParentBottom="true"
+        layout="@layout/buttonbar"
+        android:minHeight="@dimen/shortcut_dialog_bar_min_height" />
+
+    <ListView
+        android:id="@+id/applist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/view2"
+
+
+        android:drawSelectorOnTop="false" />
+
+</RelativeLayout>

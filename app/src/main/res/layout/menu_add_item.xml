@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/add_dialog_bg"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+     >
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+       
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical" >
+<!--  android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" -->
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_center_title"
+        android:minHeight="48dp" />
+
+
+        <com.lenovo.launcher2.commonui.MenuGridView
+            android:id="@+id/grid_item"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:horizontalSpacing="15dp"
+            android:listSelector="@drawable/menu_selected_bg"
+            android:numColumns="3"
+            android:paddingBottom="15dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:verticalSpacing="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

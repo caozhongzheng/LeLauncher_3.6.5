@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:layout_width="210dp"
+  android:layout_height="175dp"
+  android:layout_alignParentLeft="true"
+  android:layout_centerVertical="true"
+  >
+	<ImageView
+		android:id="@+id/detail_classic_item_image" 
+   android:layout_width="210dp"
+  android:layout_height="210dp"
+		>
+	</ImageView>
+	<ImageView
+		android:id="@+id/detail_classic_item_remark" 
+		android:scaleType="fitXY"
+   android:layout_width="210dp"
+  android:layout_height="210dp"
+	>
+	</ImageView>
+</FrameLayout>

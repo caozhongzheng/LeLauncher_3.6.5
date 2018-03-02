@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_about_screen">
+    
+    <PreferenceCategory android:key="pref_key_about_contact_us_settings" 
+          android:title="@string/contact_us" />
+    <!-- android:layout="@layout/sec_pref_category" -->
+    
+    <Preference
+        android:key="pref_lenovo_desktop_website"
+        android:summary="@string/lenovo_desktop_website_summary"
+        android:title="@string/lenovo_desktop_website_title" 
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:layout="@layout/custom_preference"
+        />
+
+    <!--  <PreferenceScreen
+        android:key="pref_qq_group"
+        android:summary="@string/lenovo_desktop_qq_summary"
+        android:title="@string/lenovo_desktop_qq_title" 
+        android:layout="@layout/custom_preference"/>-->
+	
+</PreferenceScreen>

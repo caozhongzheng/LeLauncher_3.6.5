@@ -1,0 +1,26 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="98dp"
+        android:layout_height="154dp">
+
+    <ImageView
+        android:id="@+id/textpic"
+        android:layout_width="fill_parent"
+        android:src="@drawable/lemagicdownload_push_app_icon_def" 
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:scaleType="fitXY"/>
+    <TextView
+         android:id="@+id/textname"
+         android:textColor="@color/white"
+         android:layout_gravity="bottom|center_horizontal"
+         android:textSize="14sp"
+         android:paddingLeft="5sp"
+         android:background="@drawable/name_bg_panel" 
+         android:lines="1"
+         android:gravity="left|center"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"/>
+</FrameLayout>
+
+

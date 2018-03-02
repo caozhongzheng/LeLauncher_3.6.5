@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ProgressBar
+        android:id="@+id/weather_widget_square_progress_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/weather_progress_bg"
+        android:indeterminateDuration="1000"
+        android:interpolator="@android:interpolator/linear" >
+    </ProgressBar>
+
+    <ProgressBar
+        android:id="@+id/weather_widget_square_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateBehavior="repeat"
+        android:indeterminateDrawable="@drawable/weather_progress"
+        android:indeterminateDuration="1000"
+        android:interpolator="@android:interpolator/linear" >
+    </ProgressBar>
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <ImageView
+        android:id="@+id/download_tv"
+        android:src="@drawable/ic_download_manage_title"
+        android:background="@drawable/bg_back_button_selector"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    <TextView
+        android:id="@+id/download_count"
+        android:background="@drawable/ic_reddot_backgroud"
+        android:textSize="9dip"
+        android:gravity="center"
+        android:layout_gravity="top|right"
+        android:text="@string/tab_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</FrameLayout>

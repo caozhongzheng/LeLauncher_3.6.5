@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.lenovo.launcher"
+        minSdkVersion 8
+        targetSdkVersion 9
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/DiscuzAdvisetoGo.jar')
+    compile files('libs/FeedbackAgent_v2.0.jar')
+    compile files('libs/Lsf-user-4.1.1.jar')
+    compile files('libs/android-support-v13.jar')
+    compile files('libs/httpmime-4.1.2.jar')
+    compile files('libs/lcp.jar')
+    compile files('libs/ledroid-nac.jar')
+    compile files('libs/lenovo-analytics-sdk-2.4.5.jar')
+    compile files('libs/lsf-common.jar')
+    compile files('libs/lsf-dispatch.jar')
+    compile files('libs/sus.jar')
+    compile files('libs/weibo.sdk.android.sso.jar')
+}

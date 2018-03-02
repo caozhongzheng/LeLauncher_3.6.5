@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:layout_marginBottom="0dp"
+    android:paddingBottom="0dp"
+    android:clickable="true" >
+
+      <!-- <LinearLayout
+        android:id="@+id/grid_view_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:orientation="vertical" >
+  -->
+        <com.lenovo.launcher2.commonui.MenuGridView
+            android:id="@+id/grid_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            android:focusable="false"
+            android:gravity="center"
+            android:horizontalSpacing="@dimen/menu_row_horizontalSpacing"
+            android:paddingLeft="@dimen/menu_list_paddingleft"
+            android:paddingRight="@dimen/menu_list_paddingright"
+            android:paddingBottom="@dimen/menu_list_paddingbottom"
+            android:paddingTop="@dimen/menu_list_paddingtop"
+            android:listSelector="@drawable/menu_selected_bg"
+            android:numColumns="3"
+            android:verticalSpacing="@dimen/menu_row_verticalSpacing" 
+            android:background="@drawable/menu_background"/>
+ <!--    </LinearLayout> -->
+
+</LinearLayout>

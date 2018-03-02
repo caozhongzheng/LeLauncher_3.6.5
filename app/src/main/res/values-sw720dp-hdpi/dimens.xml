@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- We can also afford to have a slightly wider portrait layout in
+         xlarge -->
+    <dimen name="xscreen_mng_tab_widgets_text_size">18dp</dimen>
+    <dimen name="xscreen_mng_tab_text_size">18dp</dimen>
+
+    <dimen name="custom_preference_title_textsize">18dp</dimen>
+    <dimen name="custom_preference_summy_textsize">12dp</dimen>
+    <dimen name="custom_preference_summy_title_textsize">16dp</dimen>
+
+    <dimen name="home_point_width">15px</dimen>
+    <dimen name="home_point_height">15px</dimen>
+    <dimen name="home_point_gap">12px</dimen>
+    <dimen name="menu_row_height">91dp</dimen>
+    <dimen name="folder_cell_width">119dp</dimen>
+    <dimen name="folder_cell_height">119dp</dimen>
+
+    <dimen name="apps_customize_pageLayoutWidthGap">-1dp</dimen>
+    <integer name="apps_customize_widget_cell_count_x">3</integer>
+    <integer name="apps_customize_widget_cell_count_y">3</integer>
+    <dimen name="hotseat_cell_width">125dp</dimen>
+    <dimen name="hotseat_cell_height">128dp</dimen>
+    <dimen name="app_icon_hotseat_padding_top">12dp</dimen>
+    <dimen name="app_icon_size">114px</dimen>
+    <dimen name="app_icon_texture_size">103px</dimen>
+    <dimen name="app_icon_drawable_size">114px</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">0dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">0dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingLeft">0dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingRight">0dp</dimen>
+    <dimen name="workspace_left_padding">15dip</dimen>
+    <dimen name="workspace_right_padding">0dip</dimen>
+    <dimen name="workspace_top_padding">0dip</dimen>
+    <dimen name="workspace_bottom_padding">0dip</dimen>
+    <dimen name="workspace_width_gap">0dp</dimen>
+    <dimen name="workspace_height_gap">0dp</dimen>
+    <dimen name="workspace_screen_padding_top">0dp</dimen>
+    <dimen name="workspace_screen_padding_bottom">0dp</dimen>
+    <dimen name="workspace_screen_padding_left">0dp</dimen>
+    <dimen name="workspace_screen_padding_right">0dp</dimen>
+    <dimen name="button_bar_height_plus_padding">130dp</dimen>
+    <dimen name="textview_background_offset">3dp</dimen>
+    <dimen name="push_app_start_bar">15dp</dimen>
+    <dimen name="workspace_cell_width">96dip</dimen>
+    <dimen name="workspace_cell_height">96dip</dimen>
+    <dimen name="folder_cell_x_offset">0dp</dimen>
+    <dimen name="folder_cell_y_offset">10dp</dimen>
+    <dimen name="folder_icons_scale">40px</dimen>
+    <dimen name="foldericon_inner_ring_factor">60px</dimen>
+    <dimen name="scale_offset">-80dp</dimen>
+    <dimen name="folder_content_margin">24dp</dimen>
+    <dimen name="folder_app_icon_padding_top">24dp</dimen>
+    <dimen name="folder_indicate_offset">-10dp</dimen>
+    <dimen name="folder_kuang_padding_v">20dp</dimen>
+    <dimen name="xscreen_mng_del_margin">20dp</dimen>
+    <dimen name="xscreen_mng_home_margin_bottom">18dp</dimen>
+    <dimen name="xscreen_mng_thumbnail_margin_top">20dp</dimen>
+    <dimen name="folder_shadow_Left">44dp</dimen> 
+	<dimen name="folder_shadow_Top">14dp</dimen>  
+	<dimen name="popupwindow_width">160px</dimen>
+    <dimen name="user_folder_Editname_textsize">30sp</dimen>
+    <dimen name="folder_title_height">53dp</dimen>
+    
+    
+    <dimen name="lelist_preference_bottomtext_height">25dp</dimen> 
+    <dimen name="icon_style_app_icon_size">72dp</dimen>
+
+    <!-- for delete bar -->
+    <dimen name="uninstall_apps_dialog_height">244px</dimen>
+    <dimen name="uninstall_apps_hint_height">125px</dimen>
+    <dimen name="uninstall_apps_image_height">72px</dimen>
+    <dimen name="uninstall_apps_view_padding_left">10px</dimen>
+    <dimen name="uninstall_apps_image_padding_top">45px</dimen>
+    <dimen name="uninstall_apps_text_padding_left">18px</dimen>
+    <dimen name="uninstall_apps_text_padding_top">43px</dimen>
+    <dimen name="uninstall_apps_msg_padding_top">7px</dimen>
+    <dimen name="uninstall_apps_button_padding_top">24px</dimen>
+    <dimen name="uninstall_apps_button_width">131px</dimen>
+    <dimen name="uninstall_apps_button_height">62px</dimen>
+    <dimen name="uninstall_apps_button_padding_left">146px</dimen>
+    <dimen name="uninstall_text_max_size">20dp</dimen>
+    <dimen name="uninstall_text_min_size">15dp</dimen>
+    <dimen name="uninstall_shadow_height">13px</dimen>
+    <!-- Workspace padding -->
+    <dimen name="workspace_left_padding_port">0dp</dimen>
+    <dimen name="workspace_left_padding_land">0dp</dimen>
+    <dimen name="workspace_right_padding_port">0dp</dimen>
+    <dimen name="workspace_right_padding_land">0dp</dimen>
+
+    <dimen name="workspace_top_padding_port">@dimen/android_qsb_bar_height_inset</dimen>
+    <dimen name="workspace_top_padding_land">@dimen/android_qsb_bar_height_inset</dimen>
+    <dimen name="workspace_bottom_padding_port">@dimen/android_button_bar_height_plus_padding</dimen>
+    <dimen name="workspace_bottom_padding_land">@dimen/android_button_bar_height_plus_padding</dimen>
+    
+    <!-- Workspace cell size -->
+    <dimen name="workspace_cell_width_land">96dp</dimen>
+    <dimen name="workspace_cell_width_port">96dp</dimen>
+    <dimen name="workspace_cell_height_land">96dp</dimen>
+    <dimen name="workspace_cell_height_port">96dp</dimen>
+    <dimen name="workspace_width_gap_land">50dp</dimen>
+    <dimen name="workspace_width_gap_port">0dp</dimen>
+    <dimen name="workspace_height_gap_land">16dp</dimen>
+    <dimen name="workspace_height_gap_port">70dp</dimen>
+    
+    <!-- CellLayout padding land / port-->
+    <dimen name="cell_layout_left_padding_port">4dp</dimen>
+    <dimen name="cell_layout_left_padding_land">4dp</dimen>
+    <dimen name="cell_layout_right_padding_port">4dp</dimen>
+    <dimen name="cell_layout_right_padding_land">4dp</dimen>
+    <dimen name="cell_layout_top_padding_port">12dp</dimen>
+    <dimen name="cell_layout_top_padding_land">12dp</dimen>
+    <dimen name="cell_layout_bottom_padding_port">8dp</dimen>
+    <dimen name="cell_layout_bottom_padding_land">8dp</dimen>
+    
+    <dimen name="android_qsb_bar_height">60dp</dimen>
+    <dimen name="android_qsb_bar_height_inset">60dp</dimen>
+    <dimen name="android_button_bar_height">82dp</dimen>
+    <dimen name="android_button_bar_height_plus_padding">82dp</dimen>
+    
+    <dimen name="delete_zone_height">45dp</dimen>
+    <dimen name="delete_zone_icon_padding_top">4dp</dimen>
+</resources>

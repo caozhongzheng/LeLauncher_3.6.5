@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.commonui.MenuGridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_item"
+    style="@style/Widget.Leos.GridView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:horizontalSpacing="@dimen/custom_menu_pageview_padding"
+    android:numColumns="4"
+    android:stretchMode="columnWidth"
+    android:scrollbars="none"
+    android:overScrollMode="never"
+    android:listSelector="@drawable/menu_selected_bg"
+    android:verticalSpacing="0dp" />

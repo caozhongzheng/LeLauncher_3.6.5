@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/share_dialog_bg"
+      android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+    
+     >
+   <LinearLayout
+        android:id="@+id/share_dialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+    <include
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/dialog_center_title"
+        android:minHeight="48dp" />
+
+    <com.lenovo.launcher2.commonui.MenuGridView
+        android:id="@+id/grid_item"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:gravity="center"
+        android:focusable="false"
+        android:listSelector="@drawable/menu_selected_bg"
+        android:numColumns="3" />
+
+  <!--           <Button
+                android:id="@+id/share_app"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="180dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="@dimen/share_dialog_bar_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="@drawable/send_btn_background_selector"
+                android:textColor="@color/white"
+                android:textSize="@dimen/share_dialog_button_textsize" />
+
+            <Button
+                android:id="@+id/share_wallpaper"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="180dp"
+                android:layout_height="@dimen/share_dialog_bar_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/send_btn_background_selector"
+                android:textColor="@color/white"
+                android:textSize="@dimen/share_dialog_button_textsize" />--> 
+
+        <Button
+            android:id="@+id/btn_receive"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shortcut_dialog_button_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background_selector"
+            android:textColor="@color/button_color"
+            android:minWidth="@dimen/shortcut_dialog_button_min_width"
+            android:textSize="@dimen/share_dialog_button_textsize" />
+<!-- android:layout_width="@dimen/share_dialog_bar_with" 
+     android:background="@drawable/btn_share_selector" -->
+    </LinearLayout>
+
+</LinearLayout>

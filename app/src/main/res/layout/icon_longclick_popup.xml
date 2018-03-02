@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/quick_action_height" >
+
+    <LinearLayout
+        android:id="@+id/quick_action_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/quickaction_bg"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/replace_icon"
+            style="@style/QuickActionIcon"
+            android:layout_width="@dimen/quick_action_cell_width_with_padding"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/rename_icon"
+            style="@style/QuickActionIcon"
+            android:layout_width="@dimen/quick_action_cell_width_with_padding"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/delete_icon"
+            style="@style/QuickActionIcon"
+            android:layout_width="@dimen/quick_action_cell_width_with_padding"
+            android:focusable="true"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/uninstall_icon"
+            style="@style/QuickActionIcon"
+            android:layout_width="@dimen/quick_action_cell_width_with_padding"
+            android:focusable="true"
+            android:visibility="gone" />
+         <TextView
+            android:id="@+id/share_icon"
+            style="@style/QuickActionIcon"
+            android:layout_width="@dimen/quick_action_cell_width_with_padding"
+            android:focusable="true"
+            android:visibility="gone" />    
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/quick_action_indicator_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/quick_action_layout"
+        android:layout_marginBottom="@dimen/def__quick_indicator_up_margin_bottom"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/quickaction_arrow_up" />
+
+    <ImageView
+        android:id="@+id/quick_action_indicator_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quick_action_layout"
+        android:layout_marginTop="@dimen/def__quick_indicator_down_margin_top"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/quickaction_arrow_down" />
+
+</RelativeLayout>

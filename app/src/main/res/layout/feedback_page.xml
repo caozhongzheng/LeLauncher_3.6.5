@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="top|center_horizontal"
+    >
+   <!--  <include
+			android:id="@+id/view_title"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			layout="@layout/dialog_title"
+			android:minHeight="48dp" />     -->
+	<EditText 
+	    android:id="@+id/feedback_input"
+	    android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	    android:minHeight="200dp"
+	    android:layout_gravity="center"
+	    android:padding="10dp"
+	    android:gravity="left|top"
+	    android:scrollbars="vertical"
+	    android:hint="@string/feedback_hint"
+	    android:maxLength="200"
+
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginRight="20dp"
+	    android:background="@drawable/feedback_text_bg"
+	    />
+	<!--  -->
+    <!--  <include layout="@layout/buttonbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:layout_marginBottom="8dp"
+       android:layout_marginTop="8dp" />  -->
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- RK_ID: RK_weater_widget . AUT: kangwei3 . DATE: 2012-07-02 . S-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="286dp"
+    android:minHeight="100dp"
+    android:updatePeriodMillis="0">
+</appwidget-provider>

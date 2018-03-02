@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_moresetting_screen">
+ <!--RK_ID:RK_GESTURE_SETTING AUT:liuyg1 DATE: 2013-05-30 S -->
+   <Preference
+        android:id="@+id/pref_gesture_setting"
+        android:key="pref_gesture_setting"
+        android:layout="@layout/custom_preference" 
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/gesture_settings_title" >
+        <intent android:action="android.intent.action.MAIN" 
+            android:targetClass="com.lenovo.launcher2.addon.gesture.settings.GestureSettings" 
+            android:targetPackage="com.lenovo.launcher"/>   
+    </Preference>
+
+ 
+   <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_network_enabler"
+        android:summary="@string/network_enabler_summary"
+        android:title="@string/network_enabler_title"
+        android:layout="@layout/custom_preference"
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"/>
+   <!-- 
+        android:icon="@drawable/ic_network_enabler_settings" -->
+  
+     <Preference
+        android:id="@+id/pref_lejingpin_setting"
+        android:key="pref_lejingpin_setting"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/lejingpin_settings_title" >
+        <intent android:action="android.intent.action.MAIN" 
+            android:targetClass="com.lenovo.lejingpin.settings.LejingpingSettings" 
+            android:targetPackage="com.lenovo.launcher"/>   
+    </Preference>
+<!-- add by zhanggx1 for reordering all pages on 2013-11-20. s -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_auto_reorder"
+        android:title="@string/auto_reorder_title"
+        android:summary="@string/auto_reorder_summary"
+        android:layout="@layout/custom_preference"
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"/>
+    <!-- add by zhanggx1 for reordering all pages on 2013-11-20. e -->
+ 
+</PreferenceScreen>

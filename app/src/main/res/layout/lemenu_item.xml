@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lemenu_background"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/menu_str_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/menu_settings"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/hawaii_setting"
+        android:textColor="#606671"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/menu_str_settings_line"
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_line" />
+
+    <TextView
+        android:id="@+id/menu_str_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/menu_favorites"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/nav_favorites"
+        android:textColor="#606671"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/menu_str_favorites_line"
+        android:layout_width="2px"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_line" />
+
+    <TextView
+        android:id="@+id/menu_str_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/menu_download"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/download_download"
+        android:textColor="#606671"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/menu_str_download_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_line" />
+
+    <TextView
+        android:id="@+id/menu_str_upgrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/menu_upgrade"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/check_new_version"
+        android:textColor="#606671"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/menu_str_update_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_line" />
+
+    <TextView
+        android:id="@+id/menu_str_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/menu_about"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/help"
+        android:textColor="#606671"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/menu_str_help_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu_line" />
+
+    <TextView
+        android:id="@+id/menu_str_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/menu_item_bg"
+        android:drawablePadding="3dp"
+        android:drawableTop="@drawable/lemenu_more"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/nav_more"
+        android:textColor="#606671"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+</LinearLayout>

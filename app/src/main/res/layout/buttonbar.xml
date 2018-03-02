@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/shortcut_dialog_bar_height"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="@dimen/buttonbar_margin_bottom"
+    android:minHeight="@dimen/shortcut_dialog_bar_min_height"
+    android:orientation="vertical" >     
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/shortcut_dialog_bar_height"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:measureWithLargestChild="true"
+        android:orientation="horizontal" >
+       
+       <Button
+            android:id="@+id/addfinish"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shortcut_dialog_button_height"
+            android:background="@drawable/btn_background_selector"
+            android:gravity="center"
+            android:maxLines="2"
+            android:layout_marginRight="9dp"
+            android:minWidth="@dimen/shortcut_dialog_button_min_width"
+            android:text="@string/menu_help"
+            android:textColor="@color/button_color"
+            android:textSize="@dimen/shortcut_dialog_button_textsize" />
+        <Button
+            android:id="@+id/canceladd"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/shortcut_dialog_button_height"
+            android:minWidth="@dimen/shortcut_dialog_button_min_width"
+            android:background="@drawable/btn_background_selector"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/menu_help"
+            android:textColor="@color/button_color"
+            android:textSize="@dimen/shortcut_dialog_button_textsize" />
+
+       
+
+    </LinearLayout>
+
+</LinearLayout>

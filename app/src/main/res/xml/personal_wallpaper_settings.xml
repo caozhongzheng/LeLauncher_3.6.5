@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_wallpaper_desktop"
+        android:title="@string/settings_pref_wallpaper_desktop"
+         android:layout="@layout/sec_pref_category"   />
+
+    <Preference
+        android:key="pref_wallpaper"
+        android:title="@string/wallpaper_instructions" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"/>
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_wallpaper_slide"
+        android:title="@string/wallpaper_slide_settings_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox" />
+    <!-- 
+    <PreferenceCategory
+        android:key="pref_wallpaper_all_app"
+        android:title="@string/settings_pref_wallpaper_allapp" />
+
+    <Preference
+        android:key="pref_applist_wallpaper"
+        android:title="@string/applist_wallpaper_title" />
+    <Preference
+        android:key="pref_reset_applist_wallpaper"
+        android:title="@string/reset_applist_wallpaper_title" />
+     -->
+</PreferenceScreen>

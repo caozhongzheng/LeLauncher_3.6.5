@@ -1,0 +1,63 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* Android.mk
+* CleanSpec.mk
+* MODULE_LICENSE_APACHE2
+* NOTICE
+* README
+* build.properties
+* fill_screens.py
+* pom.xml
+* print_db.py
+* proguard.cfg
+* proguard.flags
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/DiscuzAdvisetoGo.jar => app/libs/DiscuzAdvisetoGo.jar
+* libs/FeedbackAgent_v2.0.jar => app/libs/FeedbackAgent_v2.0.jar
+* libs/Lsf-user-4.1.1.jar => app/libs/Lsf-user-4.1.1.jar
+* libs/android-support-v13.jar => app/libs/android-support-v13.jar
+* libs/armeabi-v7a/libImgFun.so => app/src/main/jniLibs/armeabi-v7a/libImgFun.so
+* libs/armeabi/libImgFun.so => app/src/main/jniLibs/armeabi/libImgFun.so
+* libs/httpmime-4.1.2.jar => app/libs/httpmime-4.1.2.jar
+* libs/lcp.jar => app/libs/lcp.jar
+* libs/ledroid-nac.jar => app/libs/ledroid-nac.jar
+* libs/lenovo-analytics-sdk-2.4.5.jar => app/libs/lenovo-analytics-sdk-2.4.5.jar
+* libs/lsf-common.jar => app/libs/lsf-common.jar
+* libs/lsf-dispatch.jar => app/libs/lsf-dispatch.jar
+* libs/sus.jar => app/libs/sus.jar
+* libs/weibo.sdk.android.sso.jar => app/libs/weibo.sdk.android.sso.jar
+* libs/x86/libImgFun.so => app/src/main/jniLibs/x86/libImgFun.so
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/lenovo/lejingpin/share/download/DownloadInfo.aidl => app/src/main/aidl/com/lenovo/lejingpin/share/download/DownloadInfo.aidl
+* src/com/lenovo/lejingpin/share/download/IDownloadService.aidl => app/src/main/aidl/com/lenovo/lejingpin/share/download/IDownloadService.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

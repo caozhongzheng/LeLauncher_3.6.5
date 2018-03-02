@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- AUT:zhanglq, zhanglq@bj.cobellink.com DATE:2012-1-9 -->
+
+<com.lenovo.launcher2.PreViewCellLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:hapticFeedbackEnabled="false"
+        launcher:widthGap="5dp"
+        launcher:heightGap="5dp"
+        launcher:cellWidth="105dp"
+        launcher:cellHeight="151dp" 
+        launcher:maxGap="0dp"/>

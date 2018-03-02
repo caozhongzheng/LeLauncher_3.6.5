@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ <!-- BUGFIX -->
+   
+    <GridView
+        android:id="@+id/recenttasklist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1.0"
+        android:verticalSpacing="10dip" />
+
+    <ImageView
+        android:id="@+id/clear_all_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#FFFFFFFF"
+        android:src="@drawable/mem_kill"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/no_recent_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+         android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/no_recent_task"
+        android:textAppearance="@style/LeTextAppearance.Large"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="lejingpin_preference_screen" >
+
+    <!-- <CheckBoxPreference
+        android:key="key_wlan_download_slide"
+        android:defaultValue="false"       
+        android:layout="@layout/lejingpin_custom_preference"
+        android:summary="@string/lejingpin_settings_wlan_download_summary"
+        android:title="@string/lejingpin_settings_wlan_download_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_checkbox" />
+    -->
+    <SwitchPreference
+        android:key="key_wlan_download_slide"
+        android:defaultValue="false"       
+        android:summary="@string/lejingpin_settings_wlan_download_summary"
+        android:title="@string/lejingpin_settings_wlan_download_title"
+        android:layout="@layout/lejingpin_custom_preference"
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"
+    />
+
+    <!--  -->
+
+    
+
+    <Preference
+        android:id="@+id/settings_clear_cache"
+        android:key="key_clear_cache"
+        android:summary="@string/lejingpin_settings_clear_cache_summary"
+        android:title="@string/lejingpin_settings_clear_cache_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_more" 
+        android:layout="@layout/lejingpin_custom_preference">
+    </Preference>
+    <!--         
+     -->
+    <!-- <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="key_preview_download_slide"
+        android:layout="@layout/lejingpin_custom_preference"
+        android:summary="@string/lejingpin_settings_preview_summary"
+        android:title="@string/lejingpin_settings_preview_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_checkbox" />
+    -->
+    
+   <!--  <SwitchPreference
+        android:defaultValue="true"
+        android:key="key_preview_download_slide"
+        android:summary="@string/lejingpin_settings_preview_summary"
+        android:title="@string/lejingpin_settings_preview_title"
+        android:layout="@layout/lejingpin_custom_preference"
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"
+    />
+    -->
+    <!-- 
+     <Preference
+        android:selectable="false"
+       	android:enabled="false"
+        android:key="key_downloadfiles_save"
+        android:id="@+id/settings_downloadfiles_save"        
+        android:layout="@layout/lejingpin_custom_preference"
+        android:summary="@string/lejingpin_settings_download_save_summary"
+        android:title="@string/lejingpin_settings_download_save_title"
+         >
+      </Preference>   
+     
+     -->
+</PreferenceScreen>

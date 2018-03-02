@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_workspace_cleanup_screen">
+    
+    
+    <Preference
+        android:key="pref_workspace_classification"
+        android:layout="@layout/custom_preference"
+        android:title="@string/pref_workspace_classification"
+        android:summary="@string/pref_workspace_classification_summary">
+    </Preference>
+    
+     <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_auto_apps_classify"     
+        android:summary="@string/auto_workspace_classification_summary"    
+        android:title="@string/auto_workspace_classification_title" 
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"/>
+    
+
+    
+</PreferenceScreen>

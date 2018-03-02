@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="pref_senior_screen">
+
+    <!-- NORMAL -->
+  <!-- RK_MENUN_REFACTOR LIUYG1@lenovo.com 2012-12-04 S -->     
+    <PreferenceCategory android:title="@string/normal_settings" 
+        android:key="pref_normal_settings"        
+        />
+    <!-- android:layout="@layout/sec_pref_category" -->
+    
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_wallpaper_slide"
+        android:title="@string/wallpaper_slide_settings_title"
+        android:layout="@layout/custom_preference" 
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"
+    />
+    
+    <!-- 特效设置中的选项 -->
+    <!-- <com.lenovo.launcher2.commonui.LeListPreference
+        android:defaultValue="@string/prefDefault_workspaceSlide"
+        android:entries="@array/pref_slide_effect_choices"
+        android:entryValues="@array/pref_slide_effect_values"
+        android:key="pref_workspace_slide_effect_lelist"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:summary="@string/workspave_slide_settings_summary"
+        android:title="@string/workspace_slide_settings_title" 
+        />
+   -->
+   <!-- 
+       android:icon="@drawable/ic_personalized_setting" -->
+   
+    <ListPreference
+        android:defaultValue="@string/prefDefault_workspaceSlide"
+        android:entries="@array/pref_slide_effect_choices"
+        android:entryValues="@array/pref_slide_effect_values"
+        android:key="pref_workspace_slide_effect"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        
+        android:title="@string/workspace_slide_settings_title" 
+        />
+    <!-- android:summary="@string/workspave_slide_settings_summary" -->
+    
+    <!-- <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_workspace_loop"
+         android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_checkbox"
+        android:summary="@string/workspace_loop_on"
+        android:title="@string/workspace_loop_settings_title" 
+        />
+    -->
+    <!-- android:icon="@drawable/ic_leos_widget_setting" -->
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_workspace_loop"
+        android:title="@string/workspace_loop_settings_title"
+        android:layout="@layout/custom_preference"
+        android:switchTextOff="@string/pref_switchwidget_text"
+        android:switchTextOn="@string/pref_switchwidget_text"
+    />
+
+    
+    <Preference
+        android:id="@+id/pref_key_classify_apps"
+        android:key="pref_key_classifyapps"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/workspace_classifyapps_title" >
+    <intent android:action="android.intent.action.MAIN" 
+            android:targetClass="com.lenovo.launcher2.settings.ClassifyAppsSettings" 
+            android:targetPackage="com.lenovo.launcher" />
+	</Preference> 
+    <!-- 
+         android:icon="@drawable/ic_classify_apps" -->
+    
+    <Preference
+        android:id="@+id/pref_scence_setting"
+        android:key="pref_scence_setting"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        android:title="@string/menu_sense_settings" >
+        <intent android:action="android.intent.action.MAIN" 
+            android:targetClass="com.lenovo.launcher2.settings.ProfileSettings" 
+            android:targetPackage="com.lenovo.launcher"/>
+        
+    </Preference>
+    <!--
+          android:icon="@drawable/ic_scence_setting" -->
+    
+    <Preference
+        android:key="pref_more_settings"
+        android:title="@string/more_settings_title"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        >
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lenovo.launcher2.settings.MoreSettings"
+            android:targetPackage="com.lenovo.launcher" />
+    </Preference>
+    <!-- 
+         android:icon="@drawable/ic_more_setting" -->
+   
+     <PreferenceCategory android:title="@string/about_lenovo_desktop_settings_title" 
+        android:key="pref_about_settings"/>
+     <!-- android:layout="@layout/sec_pref_category"   -->
+     
+     <Preference
+        android:id="@+id/pref_key_version_update"
+        android:key="pref_key_version_update"
+        android:title="@string/menu_update"
+        android:layout="@layout/custom_preference"
+        >
+        <intent android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.launcher2.settings.VersionUpdateActivity" android:targetPackage="com.lenovo.launcher" />
+        </Preference>
+        <!--  
+             android:icon="@drawable/ic_version_update_settings" >-->
+        
+        <Preference
+        android:id="@+id/pref_key_about_desktop"
+        android:key="pref_key_about_desktop"
+        android:title="@string/about_lenovo_desktop_settings"
+        android:layout="@layout/custom_preference"
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        >
+        <intent android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.launcher2.settings.AboutLenovoDesktop" android:targetPackage="com.lenovo.launcher" />
+        </Preference>
+        <!--
+        
+        android:icon="@drawable/ic_about_desktop_settings" -->
+        
+        <Preference
+        android:id="@+id/pref_key_desktop_feedback"
+        android:key="pref_key_desktop_feedback"
+        android:title="@string/settings_feedback_title"
+        android:layout="@layout/custom_preference" 
+        android:widgetLayout="@layout/sec_pref_widget_more"
+        >
+        <intent android:action="android.intent.action.MAIN" android:targetClass="com.lenovo.launcher2.settings.FeedbackActivity" android:targetPackage="com.lenovo.launcher" />
+        </Preference>
+        <!-- 
+             android:icon="@drawable/ic_desktop_feedback_settings" -->
+        
+</PreferenceScreen>

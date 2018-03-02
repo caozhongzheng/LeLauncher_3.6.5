@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- We can also afford to have a slightly wider portrait layout in
+         xlarge -->
+    <dimen name="workspace_pageview_left_padding">7dp</dimen>
+    <dimen name="workspace_pageview_top_padding">90dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">0dp</dimen>
+    <dimen name="apps_customize_pageLayoutHeightGap">0dp</dimen>
+    <dimen name="apps_customize_cell_width">97dp</dimen>
+    <dimen name="apps_customize_cell_height">112dp</dimen>
+    <dimen name="workspace_screen_height">1020dp</dimen>
+    <dimen name="workspace_screen_width">798dp</dimen>
+    <dimen name="app_icon_padding_left">0dp</dimen>
+    <dimen name="app_icon_padding_top">62dp</dimen>
+    <dimen name="app_text_l_r_padding">3dp</dimen>
+   <dimen name="quick_action_height_add_for_pad">0dp</dimen>
+    <dimen name="button_bar_width_left_padding">50dp</dimen>
+    <dimen name="button_bar_width_right_padding">50dp</dimen>
+    <dimen name="home_point_margin_top">50dp</dimen>
+
+    
+    <dimen name="folder_content_padding">163dp</dimen>
+    <dimen name="folder_cell_width">159dp</dimen>
+    <dimen name="folder_cell_height">150dp</dimen>
+    <dimen name="folder_name_padding">316dp</dimen>
+    <dimen name="folder_name_height">52dp</dimen>
+    <dimen name="app_icon_text_width">125px</dimen>
+    
+    <dimen name="android_qsb_bar_height">102dp</dimen>
+    <dimen name="android_qsb_bar_height_inset">102dp</dimen>
+    <dimen name="android_button_bar_height">126dp</dimen>
+    <dimen name="android_button_bar_height_plus_padding">126dp</dimen>
+    
+    <!-- add for quick drag mode by sunzq3, begin -->
+    <dimen name="home_point_margin_bottom">40dp</dimen>
+    <!-- add for quick drag mode by sunzq3, end -->
+</resources>

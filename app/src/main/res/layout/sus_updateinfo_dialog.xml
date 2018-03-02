@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <TextView   
+     android:id="@+id/SUS_currentversioninfo"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dip"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:textColor="@color/ue_promotion_color"
+     android:textSize = "16dip"
+     /> 
+    
+    <TextView   
+     android:id="@+id/SUS_newversioninfo"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:textColor="@color/ue_promotion_color"
+     android:textSize = "16dip"
+     />  	
+     
+     <TextView   
+     android:id="@+id/SUS_newversioninfo_size"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:textColor="@color/ue_promotion_color"
+     android:textSize = "16dip"
+     />  	
+     
+    <TextView   
+     android:id="@+id/SUS_versiondescribe"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="10dip"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:textColor="@color/ue_promotion_color"
+     android:textStyle="bold"
+     android:text="@string/SUS_QUERY_COMMENT"
+     android:textSize = "16dip"
+     />
+    
+     <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:overScrollMode="ifContentScrolls">
+            <TextView   
+               android:id="@+id/SUS_versiondescribe_content"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:textColor="@color/ue_promotion_color"
+               android:textSize = "16dip"
+               android:scrollbars="vertical"
+           />
+     </ScrollView>
+</LinearLayout>

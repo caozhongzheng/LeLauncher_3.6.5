@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="magicdownload_app_name">精彩在線</string>
+    <string name="hw_empty">無在線資源，請檢查網絡</string>
+    <string name="hw_loading">正在載入數據...</string>
+    <!-- Download module@ -->
+    <!-- @Download module -->
+    <string name="downloading">下載中</string>
+    <string name="download_unknown_title">&lt;無標題></string>
+    <string name="notification_downloading_app">正在下載</string>
+    <string name="notification_start_download">%s 開始下載</string>
+    <string name="added_downloadqueue">已經加到下載隊列中</string>
+    <string name="downloadpause_app_title">%s 暫停下載</string>
+    <string name="downloadpause_app">下載暫停</string>
+    <string name="click_start_download">點擊開始下載</string>
+    <string name="downloadcompleted_succuss_app_title">%s 下載完成!</string>
+    <string name="downloadcompleted_error_app_title">%s 下載失敗!</string>
+    <string name="downloadcompleted_cancel_app_title">%s 下載取消</string>
+    <string name="click_start_install">點擊開始安裝</string>
+    <string name="click_start_view">點擊查看</string>
+    <string name="download_succuss">下載完成</string>
+    <string name="download_error">下載失敗</string>
+    <string name="download_sd_error">空間滿或無SD卡</string>
+    <string name="wait_wifi_content">無WLAN連接，是否等待WLAN連接再進行下載？</string>
+    <string name="geki_downdload">馬上下載</string>
+    <string name="wait_wifi_com">等待WLAN連接</string>
+    <string name="addwifiqueue">應用%s 已添加到WLAN下載列隊中</string>
+    <string name="notify_push_download">你在網頁上購買的%s 可以下載了</string>
+    <string name="notify_push_download_title">%s 可以下載了</string>
+    <string name="notify_push_recommend">推薦信息</string>
+    <string name="notify_content_download">點擊開始下載</string>
+    <string name="download_setting_wifi_toast">正在下載的應用已暫停並加入到WLAN等待列表中</string>
+    <string name="download_setting_cancel_wifi_toast">WLAN等待列表中的應用已開始下載</string>
+    <string name="download_download">下載</string>
+    <string name="download_pause">暫停</string>
+    <string name="download_resume">繼續</string>
+    <string name="download_install">安裝</string>
+    <string name="download_cancel">取消</string>
+    <string name="download_delete">删除</string>
+    <string name="download_vc_size">大小 : %1$s </string>
+    <string name="download_nodata">無下載內容</string>
+    <string name="download_count_downloading">個任務下載中</string>
+    <string name="download_count_downloaded">個任務下載完成</string>
+    <string name="download_count_pause">個任務下載暫停</string>
+    <string name="download_delete_dialog_title">是否刪除 %s ？</string>
+    <string name="download_delete_dialog_title_downloading">是否取消 %s 下載 ?</string>
+    <string name="download_installed">運行</string>
+    <string name="download_run_app_fail">%s 已安裝</string>
+    <string name="check_root_title">自動安裝</string>
+    <string name="check_root_msg">下載後自動安裝</string>
+    <string name="check_root_prompt">您是具有係統安裝權限的用戶，可以開啟“自動安裝“，即可下載完自動安裝，是否開啟？</string>
+    <string name="check_root_fail">您沒有係統安裝權限，無法使用自動安裝。</string>
+    <string name="dialog_confirm">確定</string>
+    <string name="dialog_cancle">取消</string>
+    <string name="dialog_ignore">忽略</string>
+    
+    <!-- @app detail -->
+    <string name="app_detail_download">下 載</string>
+    <string name="app_detail_install">安 裝</string>
+    <!-- app detail@ -->
+    <string name="favorites_nodata">無收藏内容</string>
+    <string name="favorites_label">收藏</string>
+    <string name="favorites_delete">刪除該收藏？</string>
+    <!-- @lca package installer -->
+    <string name="lca_installer_not_found">未找到安裝管理器，無法安裝。</string>
+    <string name="lcapackageinstaller_manage_applications">管理程式</string>
+    <string name="lcapackageinstaller_out_of_space_dlg_text">存儲空間已滿，無法安裝。請釋放一些存儲空間並重試。</string>
+    <string name="lcapackageinstaller_permission_lenovo_authen_error">安裝包的聯想帳號認證信息有誤，無法安裝。</string>
+    <string name="lcapackageinstaller_permission_user_cancel_error">安裝包已被取消，無法安裝。</string>
+    <string name="lcapackageinstaller_permission_network_error">安裝包的網絡信息有誤，無法安裝。</string>
+    <string name="lcapackageinstaller_permission_device_error">安裝包已綁定其它設備，無法安裝。</string>
+    <string name="lcapackageinstaller_permission_date_error">安裝包已過期，無法安裝。</string>
+    <string name="lcapackageinstaller_permission_verify_error">安裝包驗證失敗，無法安裝。</string>
+    <string name="lcapackageinstaller_ok">確定</string>
+    <string name="lcapackageinstaller_cancel">取消</string>
+    <string name="lcapackageinstaller_parse_error">安裝包解析有誤，無法安裝。請重試，或者進入下載管理器刪除安裝包並重新下載。</string>
+    <string name="lcapackageinstaller_install_error">安裝失敗，請重試。</string>
+    <string name="lcapackageinstaller_lenovo_dlg_prepare_install">正在準備安裝，請稍候</string>
+    <string name="lcapackageinstaller_install_exist">安裝進行中</string>
+    <string name="install_failed_inconsistent_certificates">已安裝了存在簽名衝突的同名數據包。</string>
+    <string name="install_failed_older_sdk" >該數據包僅適用於較新版本的 Android。</string>
+    <string name="install_title" >安裝提示</string>
+    <string name="install_failed_download_again" >安裝失敗，安裝包沒有下載成功或者已經被刪除，是否重新下載？</string>
+    <string name="install_complete" >安裝完成</string>
+    <string name="install_run" >點擊開始運行</string>
+    <string name="install_notification_title">%s 安裝完成</string>
+    <!-- activity module -->
+    <string name="nav_favorites">收藏</string>
+    <string name="list_empty_error">網絡請求出錯了，請稍後再試。</string>
+    <string name="list_empty">沒有可下載的在線資源。</string>
+    <string name="detail_loading_falied">獲取詳情信息出錯了，請檢查網絡。</string>
+    <string name="detail_loading_empty">無詳情信息。</string>
+    <string name="detail_loading">正在獲取詳情...</string>
+    <string name="detail_download">下載</string>
+    <string name="detail_details">更多詳情</string>
+    <string name="detail_ispay">免費</string>
+    <string name="detail_size">大小 : </string>
+    <string name="detail_favorites">收藏</string>
+    <string name="detail_comment">評論</string>
+    <string name="detail_comment_loading">正在獲取評論...</string>
+    <string name="detail_comment_empty">該應用暫無評論</string>
+    <string name="detail_comment_empty_1">獲取評論出錯了，請檢查網絡。</string>
+    <string name="detail_desc_title">簡介</string>
+    <string name="detail_version">版本 : </string>
+    <!-- zhanglz1 -->
+    <string name="detail_downloadtimes">下載次數:</string>
+    <string name="detail_auther">。上傳者：</string>
+    <string name="detail_res">分辨率：</string>
+    <!-- Text for update or download apk -->
+    <string name="download_already_inlist_ok">已下載完成,請到SD卡中安裝!</string>
+    <string name="download_already_inlist_running">正在下載!</string>
+    <string name="download_invalid_adress">無效的下載地址!</string>
+    <string name="download_appinfo_fail">獲取應用詳情失敗！</string>
+    <string name="download_upgrade_fail">獲取更新信息失敗！</string>
+    <string name="download_url_fail">獲取下載地址失敗！</string>
+    <string name="download_app_fail">下載失敗！</string>
+    <string name="delete_download_app_success">删除成功！</string>
+    <string name="delete_download_app_faild">刪除失敗！</string>
+    <string name="d_wifi_t">提醒</string>
+    <string name="d_wifi_m">目前不是WLAN網絡環境，下載應用將花費您一定流量，確定嗎？</string>
+    <string name="d_wifi_ok">確定</string>
+    <string name="d_wifi_cancel">取消</string>
+    <string name="error_network_state">網絡連接失敗</string>
+    <string name="refresh">刷新</string>
+    <!-- zdx modify -->
+    <string name="category_theme">主题</string>
+    <string name="category_lockscreen">鎖屏</string>
+    <string name="category_wallpaper">壁紙</string>
+    <!-- yangmao add start -->
+    <string name="category_hwaii_search_app">應用</string>
+    <!-- yangmao add start -->
+    <string name="menu_download">下載管理</string>
+    <string name="action_download">點擊進入下載管理</string>
+    <string name="add_downloadqueue">%s 加入下載隊列中</string>
+    <string name="not_support_view_appdetail">隻支持查看精綵在線列錶中的各資源詳情</string>
+    <string name="setting_delete_installed_summary">自動刪除已安裝的資源</string>
+    <string name="setting_delete_installed_title">精綵在線設置</string>
+    <string name="download_count_installed">個任務安裝完成</string>
+    <string name="download_total_bytes_error">未知大小</string>
+    
+    <!-- zhanglz1  -->
+    <string name="wallpaper_insall_success_toast">壁紙設定成功!</string>
+    <string name="wallpaper_insall_fail_toast">壁紙設定失敗.</string>
+    <string name="whether_install_wallpaper">是否設定为壁紙?</string>
+    <string name="download_delete_toast">%s 已被删除</string>
+    <string name="download_install_wallpaper">設为壁紙</string>
+    <string name="release_for_more">松開穫取更多</string>
+    <string name="pull_up_for_more">上拉穫取更多</string>
+    <string name="magicdownload_loading">正在穫取……</string>
+    <string name="magicdownload_more">穫取更多</string>
+    <string name="detail_tab_details">詳情</string>
+    <string name="detail_tab_comment">評論</string>
+    
+    <!-- app manager -->
+    <string name="magicdownload_upgrade_applist">應用管理</string>
+    <string name="magicdownload_upgrade_currentversion">本地版本:</string>
+    <string name="magicdownload_upgrade_newversion">更新版本：</string>
+    <string name="magicdownload_upgrade_localcount">您共安裝 %s 個應用</string>
+    <string name="magicdownload_upgrade_upgradecount">有 %s 個應用可升級</string>
+    <string name="magicdownload_upgrade_localtitle">我的應用</string>
+    <string name="magicdownload_upgrade_upgradetitle">應用升級</string>
+    <string name="magicdownload_upgrade_uninstall">卸載</string>
+    <string name="magicdownload_upgrade_all">全部升級</string>
+    <string name="magicdownload_upgrade_list_empty">沒有可以進行升級的應用。</string>
+    
+    <string name="list_empty_refresh_done">沒有更多的在線資源。</string>
+    <string name="category_lockscreen_fun">千機解鎖</string>
+
+</resources>

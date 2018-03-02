@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.appsmanager.CategoryMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cm_menu_height"
+    android:layout_gravity="bottom"
+    launcher:columnCount="5"
+    android:content="@+id/cm_content"
+    android:handle="@+id/cm_handler"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:id="@+id/cm_handler"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="@dimen/cm_drawer_height" >
+
+    <ImageView
+        android:id="@+id/imageHandlerIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/cm_handler"
+        android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/cm_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/cm_drawer_height"
+            android:textColor="@color/cm_tips_text_color"
+            android:textSize="20sp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/cm_tips_text"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cm_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_menu_height" >
+
+        <ImageButton
+            android:id="@+id/btnScrollLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cm_left"
+            android:src="@drawable/ic_cm_left"
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/btnScrollRight"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/cm_right"
+            android:src="@drawable/ic_cm_right"
+            android:visibility="gone" />
+
+        <HorizontalScrollView
+            android:id="@+id/menu_selector_frame"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_menu_height"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/btnScrollRight"
+            android:layout_toRightOf="@+id/btnScrollLeft"
+            android:background="@drawable/cm_center"
+            android:scrollbars="none"
+            android:overScrollMode="never" >
+
+            <LinearLayout
+                android:id="@+id/menuSelectionContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+
+</com.lenovo.launcher2.appsmanager.CategoryMenu>

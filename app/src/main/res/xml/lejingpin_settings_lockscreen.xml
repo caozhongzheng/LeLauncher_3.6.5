@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="lejingpin_preference_screen" >
+
+<!--     <PreferenceCategory
+        android:key="key_lockscreen_settings"
+        android:layout="@layout/lejingpin_sec_pref_category"
+        android:title="@string/lejingpin_settings_lock_title" /> -->
+    
+    
+        <Preference
+        android:id="@+id/settings_go_locallock"
+        android:key="key_go_locallock"
+        android:layout="@layout/lejingpin_custom_preference"
+        android:summary="@string/lejingpin_settings_go_locallock_summary"
+        android:title="@string/lejingpin_settings_go_locallock_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_more" >
+
+<!--         <intent
+            android:action="android.intent.action.MAIN"
+            android:targetClass="com.lenovo.launcher2.settings.ClassifyAppsSettings"
+            android:targetPackage="com.lenovo.launcher" /> -->
+    </Preference>
+    
+    
+
+    <CheckBoxPreference
+        android:key="key_lock_slide"
+        android:defaultValue="false"
+	android:disableDependentsState="false"       
+        android:layout="@layout/lejingpin_custom_preference"
+        android:summary="@string/lejingpin_settings_uselock_summary"
+        android:title="@string/lejingpin_settings_uselock_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_checkbox" />
+    
+    <!-- android:summary="@string/lejingpin_settings_setshake_title" -->
+	 <CheckBoxPreference
+        android:key="key_lockshake_slide"
+        android:defaultValue="false"       
+        android:dependency="key_lock_slide"
+        android:layout="@layout/lejingpin_custom_preference"        
+        android:title="@string/lejingpin_settings_setshake_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_checkbox" />
+	<!--android:summary="@string/lejingpin_settings_setvoick_title"  -->
+	 <CheckBoxPreference
+        android:key="key_lockvoick_slide"
+        android:defaultValue="false"
+        android:dependency="key_lock_slide"              
+        android:layout="@layout/lejingpin_custom_preference"        
+        android:title="@string/lejingpin_settings_setvoick_title"
+        android:widgetLayout="@layout/lejingpin_sec_pref_widget_checkbox" />
+	 
+</PreferenceScreen>

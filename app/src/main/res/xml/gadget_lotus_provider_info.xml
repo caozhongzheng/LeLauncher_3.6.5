@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ID: Lenovo gadget add-on. AUT: chengliang . DATE: 2012.01.11  -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="@dimen/lotus_widget_span_min_width"
+    android:minHeight="@dimen/lotus_widget_span_min_height"
+    android:updatePeriodMillis="8640000000000000"
+    android:previewImage="@drawable/lotus_icon"
+    android:initialLayout="@layout/gadget_lotus_face_base">
+</appwidget-provider>

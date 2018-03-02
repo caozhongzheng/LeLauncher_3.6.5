@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:visibility="gone" >
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <com.lenovo.lejingpin.magicdownloadremain.GandalfFlipper
+                    android:id="@+id/gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/magicdownload_background_ym"
+                    android:paddingLeft="3dip"
+                    android:paddingRight="3dip"
+                    android:paddingTop="3dip"
+                    android:spacing="3dip" />
+
+                <TextView
+                    android:id="@+id/detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gallery"
+                    android:layout_marginBottom="3dip"
+                    android:layout_marginTop="10dip"
+                    android:ellipsize="end"
+                    android:lineSpacingExtra="3dip"
+                    android:paddingLeft="13dip"
+                    android:text="@string/detail_desc_title"
+                    android:textColor="#808080"
+                    android:textSize="15dip" />
+                <TextView
+                    android:id="@+id/detail_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_title"
+                    android:layout_marginTop="3dip"
+                    android:ellipsize="end"
+                    android:includeFontPadding="false"
+                    android:lineSpacingExtra="3dip"
+                    android:paddingLeft="12dip"
+                    android:paddingRight="12dip"
+                    android:textColor="#808080"
+                    android:textSize="14dip" />
+                               
+                <TextView
+                    android:id="@+id/detail_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/detail_desc"
+                    android:layout_marginLeft="14dip"
+                    android:layout_marginTop="10dip"
+                    android:singleLine="true"
+                    android:text="@string/detail_version"
+                    android:textColor="#808080"
+                    android:textSize="14dip" />
+                        
+            </RelativeLayout>
+        </ScrollView>        
+        <include layout="@layout/magicdownload_loading" />
+        <!-- TextView
+             android:id="@+id/detail_empty"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#f5f5f5"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:text="@string/detail_loading_falied"
+             android:textColor="#4d4d4d"
+             android:textSize="14dip"
+             android:visibility="gone" /-->
+    </FrameLayout>

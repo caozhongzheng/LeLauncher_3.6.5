@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res/com.lenovo.launcher"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+	<!-- ThemePagedView -->
+   <!-- AUT:zhaoxy . DATE:2012-02-28. START-->
+    <include
+	    android:id="@+id/view_title"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/dialog_title"
+	    android:minHeight="48dp" />
+	<!--RK_ID:RK_FONT AUT:zhanglz1@lenovo.com DATE: 2013-02-21  -->
+	<TextView
+		android:id="@+id/preview_title"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+	    android:layout_gravity="left"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:text="@string/icon_bg_style_preview_title"
+	    />
+	
+    <GridLayout
+        android:id="@+id/show_icon"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:layout_marginLeft="@dimen/icon_style_layout_margin"
+        android:layout_marginRight="@dimen/icon_style_layout_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@drawable/icon_settings_background"
+        android:layout_weight="1"
+        />
+    <!--<ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_divider_holo_light_blue"
+        />-->
+    <!-- ThemePagedView -->
+    <!--RK_ID:RK_FONT AUT:zhanglz1@lenovo.com DATE: 2013-02-21  -->
+    <TextView 
+    android:id="@+id/style_title"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:editable="false" 
+	android:layout_gravity="left"
+	android:layout_marginLeft="40dp" 
+	android:textSize="18sp"
+	android:textColor="#333333" 
+	android:text="@string/icon_bg_style_select_title" />
+    <!-- AUT:zhaoxy . DATE:2012-02-28. END-->
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="@dimen/icon_style_layout_margin"
+        android:layout_marginRight="@dimen/icon_style_layout_margin" 
+        android:background="@drawable/icon_settings_background">
+    <com.lenovo.launcher2.settings.IconStylePagedView        
+        android:id="@+id/icon_style"
+        android:paddingTop="0dp"
+        android:paddingBottom="0dp"
+        android:numColumns="4"        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <!-- <FrameLayout android:layout_width="match_parent" 
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.1"
+        android:layout_height="wrap_content">
+	    <LinearLayout
+	        android:id="@+id/IconStyles_paged_view_indicator"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_gravity="top"/>
+	
+	    <ImageView
+	        android:id="@+id/indicator_lightbar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/setting_dotindicator_lightbar"/>
+    </FrameLayout> -->
+    </LinearLayout>
+    
+ <include
+        android:id="@+id/view2"
+        layout="@layout/buttonbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shortcut_dialog_bar_height"
+        android:minHeight="@dimen/shortcut_dialog_bar_min_height" 
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dip"/>
+
+</LinearLayout>

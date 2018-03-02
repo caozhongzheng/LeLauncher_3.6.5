@@ -1,0 +1,7 @@
+<resources>
+    <integer name="xscreen_tab_content_apps_cellx">4</integer>
+    <integer name="xscreen_tab_content_apps_celly">3</integer>
+    <integer name="xscreen_tab_content_widgets_cellx">2</integer>
+    <integer name="xscreen_tab_content_widgets_celly">2</integer>
+    
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingRight="1dp"
+    android:paddingTop="1dp"
+    android:paddingBottom="1dp"
+    android:orientation="horizontal" >
+        <EditText
+            android:id="@+id/folder_name_editor"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:hint="@string/folder_editor_hint"
+            android:singleLine="true"
+            android:background="@null"
+            android:maxLength="@integer/folder_name_max_length"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textCursorDrawable="@drawable/text_cursor_holo_light"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="#FFffffff"
+            android:textSize="@dimen/user_folder_Editname_textsize"
+            android:imeOptions="actionDone" />
+        
+         <Button android:id="@+id/folder_name_modify_ok"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="left|center_vertical"
+            android:layout_height="match_parent"
+            android:background="@drawable/folder_rename_button_selector"
+            android:textColor="#FFffffff"
+            android:textSize="@dimen/user_folder_Editname_textsize"
+            android:text="@string/btn_ok"/>
+        
+
+
+</LinearLayout>

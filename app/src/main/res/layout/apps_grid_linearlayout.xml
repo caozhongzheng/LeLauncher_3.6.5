@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.appsmanager.AppsCategoryLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_layout_height"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/back_to_all"
+            android:layout_width="@dimen/category_back_btn_width"
+            android:layout_height="@dimen/category_back_btn_height"
+            android:layout_marginLeft="@dimen/back_button_padding_left"
+            android:layout_marginRight="@dimen/category_back_btn_margin_right"
+            android:layout_marginTop="@dimen/category_edit_btn_margin_top"
+            android:background="#00000000"
+            android:contentDescription="@string/application_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_cm_tools" />
+
+        <TextView
+            android:id="@+id/category_title"
+            style="@style/CategoryTitleText"
+            android:layout_width="@dimen/title_text_view_width"
+            android:layout_height="@dimen/title_text_view_height"
+            android:layout_toRightOf="@id/back_to_all"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/edit_title"
+            style="@style/CategoryEditText"
+            android:layout_width="@dimen/title_text_view_width"
+            android:layout_height="@dimen/title_text_view_height"
+            android:hint=""
+            android:maxLength="8"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="@dimen/back_button_padding_left"            
+            android:visibility="gone" />
+
+        <ImageButton
+            android:id="@+id/category_edit"
+            android:layout_width="@dimen/category_back_btn_width"
+            android:layout_height="@dimen/category_edit_btn_width"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/category_edit_btn_margin_right"
+            android:layout_marginTop="@dimen/category_edit_btn_margin_top"
+            android:background="#00000000"
+            android:contentDescription="@string/application_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit_category" />
+
+        <ImageButton
+            android:id="@+id/category_edit_ok"
+            android:layout_width="@dimen/category_back_btn_width"
+            android:layout_height="@dimen/category_edit_btn_width"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/category_edit_btn_margin_right"
+            android:layout_marginTop="@dimen/category_edit_btn_margin_top"
+            android:background="#00000000"
+            android:contentDescription="@string/application_name"
+            android:scaleType="centerInside"
+            android:src="@drawable/edit_category_ok"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/title_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/title_layout"
+        android:contentDescription="@string/application_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_apps_category_indicator" />
+
+    <com.lenovo.launcher2.appsmanager.AppsGridView
+        android:id="@+id/apps_grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title_indicator"
+        android:columnWidth="@dimen/category_grid_column_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/category_grid_hori_space"
+        android:numColumns="4"
+        android:paddingBottom="@dimen/category_grid_padding_bottom"
+        android:paddingTop="@dimen/category_grid_padding"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/category_grid_vert_space" />
+
+    <com.lenovo.launcher2.appsmanager.RemoveDropTarget
+        android:id="@+id/remove_target_text"
+        style="@style/DropTargetButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_remove_target_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/remove_drop_target"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/remove_from_category" />
+
+</com.lenovo.launcher2.appsmanager.AppsCategoryLayout>

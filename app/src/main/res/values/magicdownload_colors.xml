@@ -1,0 +1,10 @@
+<resources>
+    <color name="download_notification">#adadab</color>
+    <color name="unfocused">#B4EEB4</color>
+    <color name="pressed">#fff22fff</color>
+    <color name="selected">#fff33fff</color>
+    <color name="focused">#ffff44ff</color>
+    <color name="content_background">#f5f5f5</color>
+    <color name="content_divider">#c0c0c0</color>
+    <color name="content_notification_background">#222222</color>
+</resources>

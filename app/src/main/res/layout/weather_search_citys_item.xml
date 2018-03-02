@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lenovo.launcher2.weather.widget.settings.SearchCityItemView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	>
+    <ImageView
+        android:id="@+id/point"
+        android:layout_width="6dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical" />
+
+	<LinearLayout
+		android:layout_height="50dp"
+		android:layout_width="170dp"
+		android:layout_marginLeft="15dp"
+		android:orientation="vertical"
+		android:gravity="center_vertical">
+		<TextView
+			android:id="@+id/city_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:includeFontPadding="false"
+			android:textSize="16sp"
+			android:textColor="#545454"
+			android:singleLine="true" />
+		<TextView
+			android:id="@+id/province_name"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:includeFontPadding="false"
+			android:textSize="14sp"
+			 android:singleLine="true"
+			android:textColor="#545454"
+			android:layout_marginTop="5dp" />
+		
+	</LinearLayout>
+		<TextView
+			android:id="@+id/country_name"
+			android:layout_height="wrap_content"
+			android:layout_width="90dp"
+			android:includeFontPadding="false"
+			android:textSize="16sp"
+			android:singleLine="true"
+			android:textColor="#545454"
+			android:layout_gravity="center_vertical" />
+</com.lenovo.launcher2.weather.widget.settings.SearchCityItemView>

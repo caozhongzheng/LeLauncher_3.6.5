@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+<!-- Cling -->
+    <dimen name="clingPunchThroughGraphicCenterRadius">94dp</dimen>
+    <dimen name="folderClingMarginTop">20dp</dimen>
+    <!-- The offset for the text in the cling -->
+    <dimen name="cling_text_block_offset_x">0dp</dimen>
+    <dimen name="cling_text_block_offset_y">0dp</dimen>
+    <dimen name="short_cut_margin">0dp</dimen>
+
+<!-- Workspace -->
+    <!-- qsb_bar_height_inset represents qsb_bar_height minus the padding
+         that we put on each page for allowing folders to draw out of bounds -->
+    <dimen name="qsb_bar_height_inset">34dp</dimen>
+    <dimen name="qsb_bar_height">40dp</dimen>
+    <dimen name="qsb_padding_left">0dp</dimen>
+    <dimen name="qsb_padding_right">0dp</dimen>
+    <dimen name="search_bar_height">40dp</dimen>
+    <dimen name="workspace_cell_width">80dp</dimen>
+    <dimen name="workspace_cell_height">100dp</dimen>
+    <dimen name="workspace_width_gap">-1dp</dimen>
+    <dimen name="workspace_height_gap">-1dp</dimen>
+    <dimen name="workspace_max_gap">16dp</dimen>
+    <!-- <dimen name="folder_cell_width">70dp</dimen> -->
+    <dimen name="folder_cell_width">86dp</dimen>
+    <!-- modify by zhanglq@bj.cobellink.com DATA 2012-07-09 START -->
+    <!-- <dimen name="folder_cell_height">94dp</dimen> -->
+    <dimen name="folder_cell_height">103dp</dimen>
+    <dimen name="folder_scale">2209302px</dimen>
+    <dimen name="folder_icons_scale">26px</dimen>
+    <dimen name="foldericon_inner_ring_factor">15px</dimen>
+    <!-- modify by zhanglq@bj.cobellink.com DATA 2012-07-09 END -->
+    <dimen name="workspace_divider_padding_left">3dp</dimen>
+    <dimen name="workspace_divider_padding_right">3dp</dimen>
+    <dimen name="workspace_divider_padding_top">0dp</dimen>
+    <dimen name="workspace_divider_padding_bottom">0dp</dimen>
+    <dimen name="hotseat_cell_width">64dp</dimen>
+    <dimen name="hotseat_cell_height">64dp</dimen>
+    <dimen name="hotseat_width_gap">-1dp</dimen>
+    <dimen name="hotseat_height_gap">-1dp</dimen>
+    <dimen name="workspace_overscroll_drawable_padding">0dp</dimen>
+	<dimen name="popup_icon_padding_top">3dp</dimen>
+	<dimen name="app_icon_padding_top">3dp</dimen>
+	<dimen name="folder_app_icon_padding_top">3dp</dimen>
+	<dimen name="app_icon_drawable_padding">3dp</dimen>
+	<!-- add by zhanglz1 bugfix 172888 S-->
+	<dimen name="app_icon_padding_left">4dp</dimen>
+	<dimen name="app_icon_padding_right">4dp</dimen>
+	<dimen name="app_icon_padding_bottom">4dp</dimen>
+	<!-- add by zhanglz1 bugfix 172888 E-->
+    
+    <!-- add by xingqx for change workaspace site -->
+    <dimen name="workspace_screen_padding_top">8dp</dimen>
+    <dimen name="workspace_screen_padding_bottom">0dp</dimen>
+    <dimen name="workspace_screen_padding_left">0dp</dimen>
+    <dimen name="workspace_screen_padding_right">0dp</dimen>
+    <dimen name="hawaii_button_right_padding">11dp</dimen>
+
+<!-- QSB -->
+    <dimen name="toolbar_button_vertical_padding">0dip</dimen>
+    <dimen name="toolbar_button_horizontal_padding">12dip</dimen>
+    <!-- External toolbar icon size (for bounds) -->
+    <dimen name="toolbar_external_icon_width">36dp</dimen>
+    <dimen name="toolbar_external_icon_height">36dp</dimen>
+
+<!-- AllApps/Customize/AppsCustomize -->
+    <integer name="apps_customize_maxCellCountX">-1</integer>
+    <integer name="apps_customize_maxCellCountY">-1</integer>
+    <!-- The height of the tab bar - if this changes, we should update the
+         external icon width/height above to compensate -->
+    <!-- RK_ID: RK_THEME . AUT: yumina . DATE: 2012-06-29 . S-->  
+    <dimen name="apps_customize_tab_bar_height">46dp</dimen>
+    <!-- RK_ID: RK_THEME . AUT: yumina . DATE: 2011-06-29 . E-->
+    <dimen name="apps_customize_tab_bar_margin_top">0dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. START-->
+    <dimen name="app_icon_size">57dp</dimen>
+    <dimen name="app_icon_drawable_size">57dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. END-->
+    <!-- The width can be 72dp because we don't have L/R padding -->
+    <dimen name="apps_customize_cell_width">74dp</dimen>
+    <dimen name="apps_customize_cell_height">82dp</dimen>
+    <dimen name="apps_customize_max_gap">18dp</dimen>
+    <dimen name="apps_customize_widget_cell_width_gap">10dp</dimen>
+    <dimen name="apps_customize_widget_cell_height_gap">8dp</dimen>
+    <dimen name="title_texture_width">120px</dimen>
+
+    <!-- height of the bottom row of controls -->
+    <dimen name="button_bar_height">64dip</dimen>
+    <!-- Because portal animations go beyond the bounds of an icon, we need
+         to make the dock layout slightly larger than the button_bar_height -->
+    <dimen name="button_bar_height_top_padding">0dp</dimen>
+    <dimen name="button_bar_height_bottom_padding">0dp</dimen>
+    <dimen name="button_bar_width_left_padding">0dp</dimen>
+    <dimen name="button_bar_width_right_padding">0dp</dimen>
+    <dimen name="button_bar_height_plus_padding">72dp</dimen>
+	<dimen name="app_icon_hotseat_padding_top">0dp</dimen>
+
+    <!-- extra horizontal spacing between mini screen thumbnails ie. in all
+         apps and in customization mode -->
+    <dimen name="smallScreenExtraSpacing">0dip</dimen>
+
+    <!-- Vertical spacing between edge of screen and mini cell layouts when they
+         are minimized to the bottom in all apps -->
+    <dimen name="allAppsSmallScreenVerticalMarginLandscape">30dip</dimen>
+    <dimen name="allAppsSmallScreenVerticalMarginPortrait">60dip</dimen>
+
+    <!-- Drag padding to add to the bottom of drop targets -->
+    <dimen name="drop_target_drag_padding">14dp</dimen>
+
+    <!-- padding between the delete zone drawable and text -->
+    <dimen name="delete_zone_drawable_padding">8dip</dimen>
+
+    <!-- roughly a status bar (for vertically centering the all apps
+         home icon in landscape) -->
+    <dimen name="status_bar_height">25dip</dimen>
+
+<!-- Dragging -->
+    <!-- the area at the edge of the screen that makes the workspace go left
+         or right while you're dragging. -->
+    <dimen name="scroll_zone">20dp</dimen>
+
+    <!-- When dragging items on the workspace, the number of dps by which the position of
+     the drag view should be offset from the position of the original view. -->
+    <dimen name="dragViewOffsetX">0dp</dimen>
+    <dimen name="dragViewOffsetY">-8dp</dimen>
+
+    <!-- Padding applied to AppWidgets -->
+    <dimen name="app_widget_preview_padding_left">8dp</dimen>
+    <dimen name="app_widget_preview_padding_top">8dp</dimen>
+
+<!-- Folders -->
+    <!-- The size of the image which sits behind the preview of the folder contents -->    
+    <!-- The amount that the preview contents are inset from the preview background -->
+    <dimen name="folder_title_bar_height">47dp</dimen>
+    <dimen name="folder_preview_padding">4dp</dimen>
+    <dimen name="folder_name_padding">73dp</dimen>
+    <dimen name="folder_content_margin">32dp</dimen>
+    <dimen name="folder_width_gap">0dp</dimen>
+    <dimen name="folder_height_gap">0dp</dimen>
+    <dimen name="folder_editor_margin_right">46dp</dimen>
+    <dimen name="folder_content_padding">13dp</dimen>
+
+<!-- menu and theme settings -->
+    <dimen name="menu_icon_size">30dp</dimen>
+    <dimen name="menu_text_size">12sp</dimen>
+    <dimen name="menu_grid_spacing">10dp</dimen>
+    <dimen name="theme_preview_padding_Left">16dp</dimen>
+    <dimen name="theme_preview_padding_Top">15dp</dimen>
+    <dimen name="theme_preview_padding_Right">16dp</dimen>
+    <dimen name="theme_preview_padding_Bottom">60dp</dimen>        
+    <dimen name="theme_single_image_width">224dp</dimen>
+    <dimen name="theme_single_image_height">326dp</dimen>
+    <dimen name="theme_preview_marginleft">10dp</dimen>
+    <dimen name="theme_button_bg_height">50dp</dimen>
+    <dimen name="theme_gridlayout_paddingtop">20dp</dimen>
+    <dimen name="theme_button_width">86dp</dimen>
+    <dimen name="theme_button_height">35dp</dimen>
+    <dimen name="theme_button_horizotal_margin">6dp</dimen>
+    <dimen name="theme_button_left_margin">120dp</dimen>
+    <dimen name="profile_edit_text_width">270dp</dimen>
+    <dimen name="profile_dialog_button_topPadding">10dp</dimen>
+    <dimen name="profile_dialog_button_width">100dp</dimen>
+    <dimen name="profile_dialog_button_spacing">70dp</dimen>
+<!-- RK_ID: RK_HOME_POINT . AUT: zhanggx1 . DATE: 2011-12-19 . S -->
+<!-- RK_ID: TASK_TAB.  AUT: zhaoxy . DATE: 2012-08-13 . START-->
+    <dimen name="tab_indicator_paddingLeft">10dp</dimen> 
+    <dimen name="tab_indicator_paddingRight">10dp</dimen>
+<!-- RK_ID: TASK_TAB.  AUT: zhaoxy . DATE: 2012-08-13 . END-->
+    <dimen name="tab_indicator_paddingTop">0dp</dimen>
+    <dimen name="tab_indicator_paddingBottom">0dp</dimen> 
+    <dimen name="apps_wallpaper_width">320dp</dimen>
+    <dimen name="apps_wallpaper_height">460dp</dimen>
+    
+    <dimen name="home_point_width">10dp</dimen>
+    <dimen name="home_point_height">10dp</dimen>
+    <dimen name="home_point_gap">3dp</dimen>
+    <dimen name="home_point_text_size">11dp</dimen>
+    <dimen name="home_point_bottom_padding">72dp</dimen>
+    <dimen name="home_point_bottom_padding_apps">6dip</dimen>     
+    <dimen name="tab_content_padding_bottom">8dp</dimen>
+    <dimen name="tab_content_padding_top">0dp</dimen>
+    <dimen name="quick_indicator_up_margin_bottom">-12dip</dimen>
+    <dimen name="quick_indicator_down_margin_top">-1dip</dimen>
+
+<!-- RK_ID: CHANGE_FOLDER_SIZE.  AUT: yumina . DATE: 2012-10-25 . START-->
+    <dimen name="folder_icon_padding_top">6dp</dimen>
+    <dimen name="folder_preview_size">57dp</dimen>
+    <dimen name="folder_icon_drawable_padding">6dp</dimen>
+    <dimen name="folder_icon_gaps">1dp</dimen>
+    <dimen name="folder_icon_total_percent">78px</dimen>    
+    <dimen name="all_app_icon_padding_top">8dp</dimen>
+<!-- RK_ID: CHANGE_FOLDER_SIZE.  AUT: yumina . DATE: 2012-10-25 . END-->
+    
+    <!-- default value for theme -->
+    <dimen name="def__home_point_width">10dp</dimen>
+    <dimen name="def__home_point_height">10dp</dimen>
+    <dimen name="def__home_point_gap">3dp</dimen>
+    <dimen name="def__home_point_text_size">11dp</dimen>
+    <dimen name="def__home_point_bottom_padding">67dip</dimen>
+    <dimen name="def__home_point_bottom_padding_apps">6dip</dimen>     
+    <dimen name="def__tab_content_padding_bottom">8dp</dimen>
+    <dimen name="def__tab_content_padding_top">0dp</dimen>
+    <dimen name="def__quick_indicator_up_margin_bottom">-14dip</dimen>
+    <dimen name="def__quick_indicator_down_margin_top">-6dip</dimen>
+    <dimen name="def__folder_icon_padding_top">6dp</dimen>
+    <dimen name="def__folder_preview_size">61dp</dimen>
+    <dimen name="def__folder_icon_drawable_padding">6dp</dimen>
+    <dimen name="def__folder_icon_gaps">1dp</dimen>
+    <dimen name="def__folder_icon_total_percent">78px</dimen>    
+    <dimen name="def__all_app_icon_padding_top">8dp</dimen>
+<!-- RK_ID: RK_HOME_POINT . AUT: zhanggx1 . DATE: 2011-12-19 . E -->        
+
+<!-- RK_ID: POP DIALOG SIZE . AUT: xingqx . DATE: 2012-01-17 . S -->
+
+    <dimen name="quick_action_cell_width_no_padding">54dp</dimen>
+    <dimen name="quick_action_cell_width_with_padding">64dp</dimen>
+    <dimen name="quick_action_window_cell_spacing">8dp</dimen>
+    <dimen name="quick_action_window_bk_spacing">11dp</dimen>
+
+<!-- RK_ID: POP DIALOG SIZE . AUT: xingqx . DATE: 2012-01-17 . E -->
+
+    <!-- AUT: henryyu1986@163.com DATE: 2011-12-20 -->
+    <dimen name="tabs_bar_height">60dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. START-->
+    <dimen name="app_icon_texture_size">48dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. END-->
+
+    <dimen name="preview_screen_widthgap">20dp</dimen>
+    <dimen name="preview_screen_heightgap">20dp</dimen>
+    <dimen name="preview_cellwidth">121dp</dimen>
+    <dimen name="preview_cellheight">204dp</dimen>
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-10 START for quick action rename, zoom and so on -->
+    <dimen name="quick_rename_edit_margin">20dp</dimen>
+    <dimen name="quick_change_list_item_height">60dp</dimen>
+    <dimen name="quick_change_list_text_margin_left">10dp</dimen>
+    <dimen name="quick_letheme_preview_spinner_height">50dp</dimen>
+    <dimen name="quick_letheme_preview_spinner_width">160dp</dimen>
+    <dimen name="quick_letheme_grid_col_width">60dp</dimen>
+    <dimen name="quick_letheme_grid_spacing_padding">10dp</dimen>    
+    <dimen name="addshortcut_textview_padding">10dip</dimen>
+    <dimen name="workspace_cleanup_textview_padding">5dip</dimen>
+    <dimen name="quick_action_text_padding">4dp</dimen>
+    <dimen name="page_view_wave2_padding">24dp</dimen>
+    <dimen name="quick_action_height">78dp</dimen>
+    <dimen name="allapp_image_view_margin">7dp</dimen>
+    <dimen name="letheme_image_adapter_layout_width">48dp</dimen>
+    <dimen name="apps_customize_max_y_gap">36dp</dimen>
+    <dimen name="buttonbar_margin_bottom">0dp</dimen>
+    <dimen name="screen_host_widget_height">34dp</dimen>
+    <dimen name="screen_sliding_buffer_height">60dp</dimen>
+    <dimen name="screen_handle_padding_bottom">5dp</dimen>
+    <dimen name="screen_handle_height">41dp</dimen>
+    <dimen name="allapps_thumb_bg_padding">6dp</dimen>
+    <dimen name="allapps_thumb_top_padding">22dp</dimen>
+    <dimen name="allapps_thumb_h_gap">24dp</dimen>
+    <dimen name="delete_zone_height">43dp</dimen>
+    <dimen name="delete_zone_icon_padding_top">2dp</dimen>
+    <dimen name="snake_animation_padding">200dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. START-->
+    <dimen name="lenovo_style_icon_size">57dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. END-->
+    <!-- AUT: liuli liuli0120@use.com.cn DATE: 2012-01-10 END -->
+
+    <!-- ID: Lenovo gadget add-on. AUT: chengliang . DATE: 2012.01.11 . S -->
+    <dimen name="lotus_quick_alert_padding">13dp</dimen>
+    <dimen name="lotus_quick_alert_padding_top">4dp</dimen>
+    
+    <dimen name="lotus_lefamily_textview_width">92dp</dimen>
+    <dimen name="lotus_lefamily_textview_height">120dp</dimen>
+    <dimen name="lotus_lefamily_textview_left">8dp</dimen>
+    <dimen name="lotus_lefamily_textview_top">6dp</dimen>
+    <dimen name="lotus_lefamily_textview_right">8dp</dimen>
+    <dimen name="lotus_lefamily_textview_bottom">6dp</dimen>
+    <dimen name="lotus_lefamily_textview_textsize">18dp</dimen>
+        
+    <dimen name="app_imageview_margin_vertical">30dp</dimen>
+    <dimen name="app_imageview_margin_horizontal">30dp</dimen>
+    <dimen name="app_textview_width">72dp</dimen>
+    <dimen name="app_textview_margin_horizontal">31dp</dimen>
+    <dimen name="app_textview_margin_vertical">31dp</dimen>
+    <dimen name="weather_margin_vertical">4dp</dimen>
+    <dimen name="weather_margin_horizonal">15dp</dimen>
+    <dimen name="weather_info_pic_width">80dp</dimen>
+    <dimen name="weather_info_pic_height">68dp</dimen>
+    <dimen name="weather_info_textview_margin_vertical">60dp</dimen>
+    <dimen name="weather_info_textview_width">120dp</dimen>
+    <dimen name="weather_info_textview_height">20dp</dimen>
+    <dimen name="weather_textview_textsize">13dp</dimen>
+    <dimen name="weather_time_pic_width">145dp</dimen>
+    <dimen name="weather_time_pic_height">43dp</dimen>
+    <!-- ID: Lenovo gadget add-on. AUT: chengliang . DATE: 2012.01.11 . E -->
+    <!-- RK_ID: RK_THEME . AUT: zhanghong5 . DATE: 2011-02-03 . S-->
+    <dimen name="live_wallpaper_thumbnail_text_size">14dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_text_offset">12dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_width">75dip</dimen>
+    <dimen name="live_wallpaper_thumbnail_height">75dip</dimen>
+    <!-- RK_ID: RK_THEME . AUT: zhanghong5 . DATE: 2011-02-03 . E-->
+    <!-- RK_ID: RK_WIDGET . AUT: zhanggx1 . DATE: 2012-02-14 . S-->
+    <!-- change by xingqx old is (8,8,8,8) new is (0,0,0,0) -->
+    <dimen name="default_app_widget_padding_left">0dp</dimen>
+    <dimen name="default_app_widget_padding_right">0dp</dimen>
+    <dimen name="default_app_widget_padding_top">0dp</dimen>
+    <dimen name="default_app_widget_padding_bottom">0dp</dimen>
+     <!-- RK_ID: RK_WIDGET . AUT: zhanggx1 . DATE: 2012-02-14 . E-->
+     
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . S -->
+    <dimen name="preference_item_padding_side">8dip</dimen>
+    <dimen name="preference_item_padding_inner">8dip</dimen>    
+    <dimen name="preference_child_padding_side">8dip</dimen><!-- 16dip -->
+    <dimen name="preference_icon_minWidth">0dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. START-->
+    <dimen name="preference_widget_width">57dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. END-->
+    <dimen name="preference_fragment_padding_side">16dp</dimen>
+    
+    <!-- Default height of an action bar. -->
+    <dimen name="action_bar_default_height">48dip</dimen>
+    <dimen name="action_bar_title_text_size">20dp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <dimen name="action_bar_subtitle_text_size">16dp</dimen>
+    <dimen name="indicator_padding">4dp</dimen>
+    
+    <!-- AUT:zhaoxy . DATE:2012-03-02. START-->
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. START-->
+    <dimen name="icon_style_app_icon_size">57dp</dimen>
+    <!-- RK_ID: ICON_STYLE. AUT:zhaoxy . DATE:2012-06-13. END-->
+    <!-- AUT:zhaoxy . DATE:2012-03-02. END-->
+    <dimen name="icon_style_app_icon_gap">14dp</dimen>    
+    <!-- RK_ID: RK_LELAUNCHER_STYLE . AUT: zhanggx1 . DATE: 2012-02-20 . E -->
+    
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-20 . S -->
+    <dimen name="grid_layout_padding_left">10dp</dimen> 
+    <dimen name="grid_layout_padding_right">10dp</dimen>
+    <dimen name="grid_layout_padding_bottom">4dp</dimen>
+    <dimen name="grid_layout_padding_top">4dp</dimen>  
+    <dimen name="grid_layout_bottom_gap">0dp</dimen> 
+    <dimen name="grid_layout_item_width">10dp</dimen> 
+    <dimen name="letter_list_view_width">18dp</dimen> 
+    <dimen name="letter_list_view_padding_left">0dp</dimen>
+    <dimen name="letter_list_view_padding_top">8dp</dimen>
+    <dimen name="letter_list_view_padding_right">5dp</dimen>
+    <dimen name="letter_list_view_padding_bottom">4dp</dimen>
+    <dimen name="letter_list_view_text_size">16dp</dimen> 
+    <dimen name="apps_list_search_bar_height">40dp</dimen>
+    <dimen name="apps_list_alpha_padding_left">32dp</dimen>
+    <!-- RK_ID: RK_LIST_APP . AUT: zhanggx1 . DATE: 2012-06-20 . E -->
+
+<!-- CategoryMenu -->
+    <dimen name="cm_drawer_height">32dp</dimen>
+    <dimen name="cm_menu_height">96dp</dimen>
+    <dimen name="menu_add_row_height">84dp</dimen>
+    <dimen name="menu_row_height">63dp</dimen>
+    <dimen name="menu_row_paddingtop">7dp</dimen>
+    <dimen name="menu_add_row_paddingtop">9dp</dimen>
+    <dimen name="menu_row_horizontalSpacing">30dp</dimen>
+    <dimen name="menu_row_verticalSpacing">10dp</dimen>
+    <dimen name="menu_list_paddingleft">20dp</dimen>
+    <dimen name="menu_list_paddingright">20dp</dimen>
+    <dimen name="menu_list_paddingtop">5dp</dimen>
+    <dimen name="menu_list_paddingbottom">5dp</dimen>
+ 
+    <dimen name="apps_tab_widget_padding_right">90dp</dimen>
+    <dimen name="apps_list_alpha_padding_top">1dp</dimen>
+    <dimen name="apps_list_alpha_padding_bottom">1dp</dimen>
+    <dimen name="search_button_margin_left">5dp</dimen>
+    <dimen name="search_button_margin_right">5dp</dimen>
+    
+     <!-- 四叶草widget占格用最小宽度 -->
+    <dimen name="lotus_widget_span_min_width">286dp</dimen>
+    <!-- 四叶草widget占格用最小高度 -->
+    <dimen name="lotus_widget_span_min_height">214dp</dimen>
+
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . S -->
+    <dimen name="showwallpaper_notic_textsize">26dp</dimen>
+    <dimen name="showwallpaper_notic_textsize_en">18dp</dimen>
+        
+    <dimen name="showwallpaper_notic_height">100dp</dimen>
+    <dimen name="showwallpaper_notic_width">300dp</dimen>
+    <dimen name="show_wallpaper_cling_dismiss_bottom">16dp</dimen>
+    <!-- RK_ID: RK_MAGIC_GESTRUE . AUT: zhanglz1 . DATE: 2012-09-27 . E -->
+    
+    
+    <!-- RK_ID: SHORTCUT_TEXT_SIZE . AUT: GECN1 . DATE: 2012-12-23 . S -->
+    <dimen name="shortcut_text_size">14sp</dimen>
+    <dimen name="shortcut_dialog_title_size">18sp</dimen>
+    <dimen name="shortcut_dialog_bar_height">53dp</dimen>
+    <dimen name="shortcut_dialog_bar_min_height">53dp</dimen>
+    
+    <dimen name="shortcut_dialog_button_height">37dp</dimen>
+    <dimen name="shortcut_dialog_button_min_width">133dp</dimen>
+    <!-- RK_ID: SHORTCUT_TEXT_SIZE . AUT: GECN1 . DATE: 2012-12-23 . S -->
+     
+    <!-- add for listapp item text size -->
+    <dimen name="app_list_item_alpha_textsize">16sp</dimen>   
+    <!--  RK_ID: RK_TASKKILLBAR. AUT: liuli1 . DATE: 2012-11-30 . START  -->
+    <dimen name="progress_bar_gradient_radius">3dip</dimen>
+    <dimen name="task_kill_children_margin">8dp</dimen>
+    <dimen name="progress_bar_height">30dp</dimen>
+    <dimen name="task_kill_text_size">14sp</dimen>
+    <dimen name="task_kill_text_padding">15dp</dimen>
+    <dimen name="task_kill_bar_height">50dp</dimen>
+    <!--  RK_ID: RK_TASKKILLBAR. AUT: liuli1 . DATE: 2012-11-30 . END  -->
+    
+    <dimen name="apps_customize_tab_bar_ImageButtonWidth">45dp</dimen>
+    <dimen name="custom_menu_padding_top">7dip</dimen>
+    <dimen name="custom_menu_padding_bottom">0dip</dimen>
+    <dimen name="custom_menu_padding_left">10dip</dimen>
+    <dimen name="custom_menu_theme_padding_left">3dip</dimen>
+    <dimen name="custom_menu_theme_padding_top">10dip</dimen>
+    <dimen name="custom_menu_theme_width">38dip</dimen>
+    <dimen name="custom_menu_theme_height">61dip</dimen>
+    <dimen name="custom_menu_remove_mark_top">7dip</dimen>
+    <dimen name="custom_menu_remove_mark_right">7dip</dimen>
+    
+    <!-- custom_preference text size -->
+    <dimen name="custom_preference_title_textsize">18sp</dimen>
+    <dimen name="custom_preference_summy_textsize">12sp</dimen>
+    <dimen name="custom_preference_summy_title_textsize">14dp</dimen>
+
+    
+    <dimen name="theme_settings_button_textsize">14sp</dimen>
+     <!-- add for the width of the wallpaper popupwindow. AUT: shenchao-->
+    <dimen name="wallpaper_choose_popwindow_width">200dp</dimen>
+    <dimen name="wallpaper_choose_list_item_textsize">18sp</dimen>
+    
+    <!-- cm menu item -->
+    <dimen name="cm_menu_item_textsize">11dip</dimen>
+    
+    <!-- edit folder -->
+    <dimen name="user_folder_Editname_textsize">18sp</dimen>
+    <!-- dialog item -->
+    <dimen name="shortcut_dialog_button_textsize">14sp</dimen>
+    
+    <dimen name="button_bar_big_padding">38dp</dimen>
+    <dimen name="button_bar_small_padding">4dp</dimen>
+    <dimen name="custom_menu_indicator_padding_bottom">5dp</dimen>
+    <dimen name="indicator_text_size">18sp</dimen>
+    <dimen name="custom_menu_workspace_translation_y">33dp</dimen>
+    <dimen name="custom_menu_pageview_height">100dp</dimen>
+    <dimen name="custom_menu_pageview_padding">10dp</dimen>
+    <dimen name="custom_menu_add_icon_size">55dp</dimen>
+    <dimen name="custom_menu_wallpaper_width">60dp</dimen>
+    <dimen name="custom_menu_wallpaper_height">54dp</dimen>
+    <dimen name="custom_menu_wallpaper_padding_top">20dp</dimen>
+    <dimen name="custom_menu_wallpaper_padding_bottom">19dp</dimen>
+    <dimen name="custom_menu_tab_height">30dp</dimen>
+    
+        <dimen name="app_icon_hotseat_size">48dp</dimen>
+    <!-- from 2.0 define -->
+    <dimen name="icon_style_layout_margin">17dp</dimen>
+    <dimen name="shortcut_pick_item_textsize">16sp</dimen>
+    <integer name="hotseat_notify_textsize">16</integer>
+    <dimen name="sec_pref_widget_checkbox_width">57dp</dimen>
+   	<!--RK_ID:RK_FONT AUT:zhanglz1@lenovo.com DATE: 2013-02-21 S -->
+	<dimen name="shortcut_pick_item_height">64dp</dimen>
+   <dimen name="theme_preview_layout_width">95dp</dimen>
+    <dimen name="theme_preview_layout_height">155dp</dimen>
+	<dimen name="theme_preview_image_width">84dp</dimen>
+    <dimen name="theme_preview_image_height">125dp</dimen>
+
+
+<!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 S -->
+        <dimen name="install_dialog_btn_textsize">18sp</dimen>
+         <dimen name="install_dialog_message_textsize">14sp</dimen>
+         <dimen name="share_dialog_bar_with">120dp</dimen>
+         <dimen name="share_dialog_bar_height">40dp</dimen>
+         <dimen name="share_dialog_button_textsize">18sp</dimen>
+        <!--RK_ID:RK_RENAME_DIALOG_SHARE AUT:hubing3@lenovo.com DATE: 2013-03-04 E -->
+             <dimen name="remind_dialog_bar_height">40dp</dimen>
+    <dimen name="remind_dialog_bar_with">176dp</dimen>
+    <dimen name="remind_dialog_title1_textsize">24sp</dimen>
+     <dimen name="remind_dialog_title2_textsize">22sp</dimen>
+       <dimen name="remind_dialog_tips_textsize">18sp</dimen>
+         <dimen name="remind_dialog_license_textsize">16sp</dimen>
+       
+    <dimen name="remind_dialog_text_textsize">18sp</dimen>
+    <dimen name="remind_dialog_button_textsize">18sp</dimen>
+<dimen name="push_detail_title_icon_width">30dp</dimen>
+    	<dimen name="push_detail_title_icon_height">30dp</dimen>
+    <!-- XScreenMngView start -->
+    <dimen name="xscreen_mng_padding_left">5dp</dimen>
+    <dimen name="xscreen_mng_padding_top">4dp</dimen> <!--old is 10dp-->
+    <dimen name="xscreen_mng_padding_right">5dp</dimen>
+    <dimen name="xscreen_mng_padding_bottom">11dp</dimen> <!--old is 2dp-->
+    
+    <dimen name="xscreen_mng_width_gap">3dp</dimen>
+    <dimen name="xscreen_mng_height_gap">4dp</dimen><!--old is 8dp-->
+    
+    <dimen name="xscreen_mng_del_margin">8dip</dimen>
+    <dimen name="xscreen_mng_home_margin_bottom">8dip</dimen>
+    <dimen name="xscreen_mng_thumbnail_margin_top">8dip</dimen>
+    
+    <dimen name="xscreen_mng_drag_region_height">27dp</dimen><!--old is 0dp-->
+    <dimen name="xscreen_mng_drag_region_width">50dp</dimen>
+    
+    <dimen name="xscreen_mng_tab_text_size">15dp</dimen>
+    <dimen name="xscreen_mng_tab_gap">5dp</dimen>
+    <dimen name="xscreen_mng_tab_widget_padding_top">6dp</dimen>
+    <dimen name="xscreen_mng_tab_widget_padding_bottom">4dp</dimen>
+    
+    <!-- Widgets Tab -->
+    <dimen name="xscreen_mng_tab_widgets_padding_top">13dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_padding_left">4dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_padding_right">4dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_padding_bottom">21dp</dimen>    
+    <dimen name="xscreen_mng_tab_widgets_width_gap">4dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_height_gap">8dp</dimen>    
+    <dimen name="xscreen_mng_tab_widgets_image_padding">8dp</dimen>    
+    <dimen name="xscreen_mng_tab_widgets_text_size">12dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_text_padding_top">7dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_text_padding_horizontal">13dp</dimen>
+    <dimen name="xscreen_mng_tab_widgets_drawing_padding">5dp</dimen>
+    
+    <!-- Apps Tab -->
+    <dimen name="xscreen_mng_tab_apps_padding_top">11dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_padding_left">8dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_padding_right">8dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_padding_bottom">17dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_image_padding_top">5dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_image_padding_left">9dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_image_padding_right">9dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_image_padding_bottom">18dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_text_size">12dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_text_width_offset">8dp</dimen>
+    <dimen name="xscreen_mng_tab_apps_text_padding_bottom">3dp</dimen>
+    
+    <dimen name="xscreen_mng_tab_indicator_region_height">22dp</dimen>
+    
+    <dimen name="xscreen_mng_tab_widget_divider_height">26dp</dimen>
+    
+    <!-- Icon Package -->
+    <dimen name="xscreen_mng_icon_pkg_size">70dp</dimen>
+    <dimen name="xscreen_mng_icon_pkg_dlg_width">150dp</dimen>
+    <dimen name="xscreen_mng_icon_pkg_dlg_height">130dp</dimen>
+    <!-- XScreenMngView start -->
+    
+    <dimen name="menu_list_item_height">45dp</dimen>
+    <dimen name="menu_list_bottom">36dp</dimen>
+    <dimen name="shortcut_dialog_text_size">16sp</dimen>
+    <!-- FOLDERICON SHOW TIP TEXT SIZE AUTH:GECN1 DATE:2013-4-19 S -->
+    <dimen name="foldericon_addappsnums_tipsize">12sp</dimen>
+    <!-- FOLDERICON SHOW TIP TEXT SIZE AUTH:GECN1 DATE:2013-4-19 S -->
+    
+    <integer name="dialog_width_major">95</integer>
+          <dimen name="task_clear_shortcute_toast_right_length">160.0dip</dimen>
+    <dimen name="task_clear_shortcute_toast_left_length">160.0dip</dimen>
+    <dimen name="task_popup_vertical_offset">0.0dip</dimen>
+    <dimen name="task_popup_vertical_folder_offset">15.0dip</dimen>
+    <dimen name="task_popup_vertical_hotseat_offset">2.0dip</dimen>
+    
+        <dimen name="dialog_title_height">50dp</dimen>
+    
+    <dimen name="workspace_pageview_left_padding">0dp</dimen>
+    <dimen name="workspace_pageview_top_padding">0dp</dimen>
+        <dimen name="quick_action_height_add_for_pad">0dp</dimen>
+    <dimen name="workspace_indicator_top">0dp</dimen>
+    <dimen name="app_text_l_r_padding">0dp</dimen>
+    <dimen name="popupwindow_width">128px</dimen>
+    <dimen name="textview_background_offset">6px</dimen>
+    <dimen name="home_point_margin_top">0dp</dimen>
+    <dimen name="push_app_start_bar">12dp</dimen>
+    <dimen name="folder_cell_x_offset">0dp</dimen>
+    <dimen name="folder_cell_y_offset">12dp</dimen>
+    <dimen name="folder_kuang_padding_h">10dp</dimen>
+    <dimen name="folder_kuang_padding_v">10dp</dimen>
+    <dimen name="scale_offset">0dp</dimen>
+    <dimen name="folder_name_height">100dp</dimen>
+    <dimen name="folder_indicate_offset">0dp</dimen>
+      <dimen name="folder_shadow_Left">1dp</dimen> 
+	<dimen name="folder_shadow_Top">10dp</dimen>
+	<dimen name="weathet_widget_square_details_height">105dp</dimen>
+	<dimen name="weathet_widget_square_details_content_margin_top">4dp</dimen>  
+	
+	<dimen name="dialog_title_textview_margintop">10dp</dimen>  
+	<dimen name="lelist_preference_bottomtext_height">15dp</dimen>  
+	
+       <!-- for delete bar -->
+    <dimen name="uninstall_apps_dialog_height">174dp</dimen>
+    <dimen name="uninstall_apps_hint_height">76dp</dimen>
+    <dimen name="uninstall_apps_image_height">57dp</dimen>
+    <dimen name="uninstall_apps_view_padding_left">25dp</dimen>
+    <dimen name="uninstall_apps_image_padding_top">19dp</dimen>
+    <dimen name="uninstall_apps_text_padding_left">15dp</dimen>
+    <dimen name="uninstall_apps_text_padding_top">28dp</dimen>
+    <dimen name="uninstall_apps_text_padding_bottom">0dp</dimen>
+    <dimen name="uninstall_apps_msg_padding_top">13dp</dimen>
+    <dimen name="uninstall_apps_button_padding_top">20dp</dimen>
+    <dimen name="uninstall_apps_button_width">93dp</dimen>
+    <dimen name="uninstall_apps_button_height">43dp</dimen>
+    <dimen name="uninstall_apps_button_padding_left">124dp</dimen>
+    <dimen name="uninstall_text_max_size">17sp</dimen>
+    <dimen name="uninstall_text_min_size">13sp</dimen>
+    <dimen name="uninstall_shadow_height">7dp</dimen>
+    <dimen name="closed_folder_child_padding_h">0dp</dimen>
+    <dimen name="closed_folder_child_padding_v">0dp</dimen>
+     <!-- Workspace padding  update for the BLADEX-4118-->
+    <dimen name="workspace_left_padding_port">0dp</dimen>
+    <dimen name="workspace_left_padding_land">@dimen/android_qsb_bar_height</dimen>
+    <dimen name="workspace_right_padding_port">0dp</dimen>
+    <dimen name="workspace_right_padding_land">@dimen/android_button_bar_height</dimen>
+    <dimen name="workspace_top_padding_port">@dimen/android_qsb_bar_height_inset</dimen>
+    <dimen name="workspace_top_padding_land">0dp</dimen>
+    <dimen name="workspace_bottom_padding_port">@dimen/android_button_bar_height</dimen>
+    <dimen name="workspace_bottom_padding_land">0dp</dimen>
+    <!-- Workspace cell size -->
+    <dimen name="workspace_cell_width_land">106dp</dimen>
+    <dimen name="workspace_cell_width_port">80dp</dimen>
+    <dimen name="workspace_cell_height_land">74dp</dimen>
+    <dimen name="workspace_cell_height_port">100dp</dimen>
+    <dimen name="workspace_width_gap_land">0dp</dimen>
+    <dimen name="workspace_width_gap_port">0dp</dimen>
+    <dimen name="workspace_height_gap_land">0dp</dimen>
+    <dimen name="workspace_height_gap_port">0dp</dimen>
+    <!-- CellLayout padding -->
+    <dimen name="cell_layout_left_padding_port">0dp</dimen>
+    <dimen name="cell_layout_left_padding_land">0dp</dimen>
+    <dimen name="cell_layout_right_padding_port">0dp</dimen>
+    <dimen name="cell_layout_right_padding_land">0dp</dimen>
+    <dimen name="cell_layout_top_padding_port">6dp</dimen>
+    <dimen name="cell_layout_top_padding_land">0dp</dimen>
+    <dimen name="cell_layout_bottom_padding_port">0dp</dimen>
+    <dimen name="cell_layout_bottom_padding_land">0dp</dimen>
+    
+    <dimen name="android_qsb_bar_height_inset">34dp</dimen>
+    <dimen name="android_qsb_bar_height">40dp</dimen>
+    <dimen name="android_button_bar_height">62dip</dimen>
+    <dimen name="android_button_bar_height_plus_padding">70dp</dimen>
+    <!-- add for quick drag mode by sunzq3, begin -->
+    <dimen name="xpage_indicator_enter_gap">5dp</dimen>
+    <dimen name="xpage_indicator_enter_height">3dp</dimen>
+    <dimen name="xpage_indicator_enter_touch_height">35dp</dimen>
+    <dimen name="home_point_margin_bottom">0dp</dimen>
+    <dimen name="xpage_text_width">59dp</dimen>
+    <!-- add for quick drag mode by sunzq3, end -->
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* This files defines the strings that are not translateable 
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<string name="external_drop_widget_pick_format" translatable="false">%1$s (%2$d x %3$d)</string>
+
+ <!-- URL pointing to help text. If empty, no link to help will be created [DO NOT TRANSLATE] -->
+    <string name="help_url" translatable="false"></string>
+
+ 
+ <!-- The format string for default page scroll text [CHAR_LIMIT=none] -->
+    <string name="default_scroll_format" translatable="false">Page %1$d of %2$d</string>
+    <!-- The format string for Workspace page scroll text [CHAR_LIMIT=none] -->
+    <string name="workspace_scroll_format" translatable="false">Workspace %1$d of %2$d</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_apps_scroll_format" translatable="false">Apps page %1$d of %2$d</string>
+    <!-- The format string for AppsCustomize Apps page scroll text [CHAR_LIMIT=none] -->
+    <string name="apps_customize_widgets_scroll_format" translatable="false">Widgets page %1$d of %2$d</string>
+
+       <!-- 长度丈量用字串 -->
+    <string name="string_for_measure" translate="false"> </string>
+    <string name="component" translate="false">launcher</string>
+
+    <string name="reserved_profile_name_for_default_profile" translate="false">标准:Default Scene:標準:Standar:Стандарт:Chuẩn</string>
+
+
+    <string name="prefDefault_workspaceSlide" translatable="false">NONE</string>
+    <string name="pref_default_theme" translatable="false">DEFAULT THEME</string>
+
+  <string-array name="pref_slide_effect_values" translatable="false">
+        <item>NONE</item>
+        <!--<item><xliff:g>RANDOM</xliff:g></item> -->
+        <!--<item><xliff:g>SCALE</xliff:g></item>-->
+        <item>ROTATE</item>
+        <item>BULLDOZE</item>
+        <!--<item><xliff:g>BOUNCE</xliff:g></item>-->
+        <item>WINDMILL</item>
+        <item>CUBE</item>
+        <item>WAVE</item>
+        <!--<item><xliff:g>WAVE2</xliff:g></item>-->
+        <item>CYLINDER</item>
+        <!--<item><xliff:g>SPHERE</xliff:g></item>-->
+        <!--<item><xliff:g>CHARIOT</xliff:g></item>-->
+        <!--<item><xliff:g>SNAKE</xliff:g></item>-->
+        <!--<item><xliff:g>SWEEP</xliff:g></item>-->
+        <!--<item><xliff:g>WORM</xliff:g></item>-->
+    </string-array>
+
+ <string-array name="pref_app_slide_effect_values" translatable="false">
+        <item><xliff:g>NONE</xliff:g></item>
+        <item><xliff:g>RANDOM</xliff:g></item>
+        <item><xliff:g>SCALE</xliff:g></item>
+        <item><xliff:g>ROTATE</xliff:g></item>
+        <item><xliff:g>BULLDOZE</xliff:g></item>
+        <item><xliff:g>BOUNCE</xliff:g></item>
+        <item><xliff:g>WINDMILL</xliff:g></item>
+        <item><xliff:g>CUBE</xliff:g></item>
+        <item><xliff:g>WAVE</xliff:g></item>
+        <item><xliff:g>WAVE2</xliff:g></item>
+        <item><xliff:g>CYLINDER</xliff:g></item>
+        <item><xliff:g>SPHERE</xliff:g></item>
+        <item><xliff:g>CHARIOT</xliff:g></item>
+        <item><xliff:g>SNAKE</xliff:g></item>
+        <item><xliff:g>SWEEP</xliff:g></item>
+        <item><xliff:g>WORM</xliff:g></item>
+    </string-array>
+
+   <string-array name="pref_applist_effect_values" translatable="false">
+        <item><xliff:g>ZOOM</xliff:g></item>
+        <item><xliff:g>WINDMILL</xliff:g></item>
+        <item><xliff:g>FLIP</xliff:g></item>
+        <item><xliff:g>ALPHA</xliff:g></item>
+    </string-array>
+
+   <string name="prefDefault_applist" translatable="false">ZOOM</string>
+
+  <string name="prefDefault_folderStyle" translatable="false">ANDROID</string>
+  <string-array name="pref_folder_style_values" translatable="false">
+        <item><xliff:g>ANDROID</xliff:g></item>
+        <item><xliff:g>LEOS</xliff:g></item>
+    </string-array>
+
+  <string name="prefDefault_hotseatStyle" translatable="false">ANDROID</string>
+  <string-array name="pref_hotseat_style_values" translatable="false">
+        <item><xliff:g>ANDROID</xliff:g></item>
+        <item><xliff:g>LEOS</xliff:g></item>
+    </string-array>
+
+  <string name="prefDefault_webSite" translatable="false">APPSTORE</string>
+  <string-array name="pref_web_site_values" translatable="false">
+        <item><xliff:g>APPSTORE</xliff:g></item>
+        <item><xliff:g>APPCHINA</xliff:g></item>
+    </string-array>
+
+  <string-array name="pref_icon_edit_style_values" translatable="false">
+        <item><xliff:g>SCALE</xliff:g></item>
+        <item><xliff:g>ROTATE-Z</xliff:g></item>
+        <item><xliff:g>ALPHA</xliff:g></item>
+        <item><xliff:g>TRANSLATE</xliff:g></item>
+        <item><xliff:g>JUMP</xliff:g></item>
+    </string-array>
+
+  <string-array name="pref_icon_text_size_values" translatable="false">
+        <item><xliff:g>15</xliff:g></item>
+        <item><xliff:g>12</xliff:g></item>
+        <item><xliff:g>10</xliff:g></item>
+    </string-array>
+
+  <string name="prefDefault_icon_text_size" translatable="false">NORMAL</string>
+  <string name="prefDefault_icon_edit" translatable="false">SCALE</string>
+
+  <string-array name="pref_all_app_y_values" translatable="false">
+        <item><xliff:g>SPARSE</xliff:g></item>
+        <item><xliff:g>NORMAL</xliff:g></item>
+        <item><xliff:g>DENSE</xliff:g></item>
+    </string-array>
+
+  <string name="pref_all_app_y_default" translatable="false">NORMAL</string>
+  <string name="apps_customize_hawaii_scroll_format" translatable="false">Genius page %1$d of %2$d</string>
+  <string name="prefDefault_Timeout" translatable="false">"1000x60x60x24x7"</string>
+
+  <string-array name="pref_workspace_cleanup_timeout_values" translatable="false">
+        <item>"1000x60x60x24x7"</item>
+        <item>"1000x60x60x24x14"</item>
+        <item>"1000x60x60x24x21"</item>
+        <item>"1000x60x60x24x30"</item>
+        <item>"1000x60x60x24x60"</item>
+    </string-array>
+
+  <string name="prefDefault_Timing" translatable="false">"1000x60x60x24x7"</string>
+  <string-array name="pref_workspace_cleanup_timing_values" translatable="false">
+        <item>"1000x60x60x24x7"</item>
+        <item>"1000x60x60x24x14"</item>
+        <item>"1000x60x60x24x21"</item>
+        <item>"1000x60x60x24x30"</item>
+        <item>"1000x60x60x24x60"</item>
+    </string-array>
+
+ <string name="prefDefault_Method" translatable="false">"DELETE"</string>
+ <string-array name="pref_workspace_cleanup_method_values" translatable="false">
+        <item>"DELETE"</item>
+        <!-- <item>"MOVE_TO_FOLDER"</item> --> 
+    </string-array>
+
+ <string-array name="pref_screen_cellcount_values" translatable="false">
+        <item><xliff:g>4x4</xliff:g></item>
+        <item><xliff:g>5x4</xliff:g></item>
+    </string-array>
+
+ <string-array name="pref_icon_size_values" translatable="false">
+        <item><xliff:g>57</xliff:g></item>
+        <item><xliff:g>48</xliff:g></item>
+    </string-array>
+  <string name="prefDefault_icon_size" translatable="false">NORMAL</string>
+
+  <string-array name="tem_display_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="tem_display_values_default" translatable="false">"0"</string>
+
+  <string-array name="pref_gesture_values" translatable="false">
+        <item><xliff:g>"none"</xliff:g></item>
+        <item><xliff:g>"menu"</xliff:g></item>
+         <item><xliff:g>"recentApp"</xliff:g></item>
+          <item><xliff:g>"notification"</xliff:g></item>
+    </string-array>
+    <string name="pref_scroll_up_guesture_default" translatable="false">"menu"</string>
+    <string name="pref_scroll_down_guesture_default" translatable="false">"notification"</string>
+     <string name="pref_double_click_guesture_default" translatable="false">"none"</string>
+	 
+     <string name="pref_left_top_button_return_default" translatable="false">"Return"</string>
+     <string name="pref_left_top_button_return_to_preferences_desktop" translatable="false">"Return Back To Preferences"</string>
+     <string name="pref_left_top_button_return_to_more_settings_desktop" translatable="false">"Return Back To More settings"</string>
+     
+     <!--屏幕管理和屏幕添加页面的滚屏语句  -->
+     <string name="preview_page_scroll_format" translatable="false">Preview Page %1$d of %2$d</string>
+
+     <string name="pref_switchwidget_text" translatable="false">"     "</string>
+</resources>
